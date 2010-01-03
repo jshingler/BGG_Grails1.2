@@ -1,0 +1,154 @@
+{"bundle": {
+   "dateAdded": "2008-10-27 14:29:58.0",
+   "moduleName": "org.springframework.security.providers.cas",
+   "name": "Spring Security CAS Provider",
+   "notes": "",
+   "organisationName": "org.springframework.security",
+   "packageExports": [
+      {
+         "name": "org.springframework.security.providers.cas",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.cas.CasAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.cas.CasAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.cas.StatelessTicketCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.cas",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.cas.CasProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.cas.CasProcessingFilterEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.cas.ServiceProperties",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.cas.cache",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.cas.cache.EhCacheBasedTicketCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.cas.cache.NullStatelessTicketCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.userdetails",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.userdetails.checker",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.ui",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.providers",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.jasig.cas.client.validation",
+         "optional": false,
+         "versionRange": "[3.1.1, 4.0.0)"
+      },
+      {
+         "name": "org.jasig.cas.client.util",
+         "optional": false,
+         "versionRange": "[3.1.1, 4.0.0)"
+      },
+      {
+         "name": "org.jasig.cas.client.proxy",
+         "optional": false,
+         "versionRange": "[3.1.1, 4.0.0)"
+      },
+      {
+         "name": "org.jasig.cas.client.authentication",
+         "optional": false,
+         "versionRange": "[3.1.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache",
+         "optional": false,
+         "versionRange": "[1.4.1, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.security.providers.cas",
+   "version": "2.0.4.A"
+}}

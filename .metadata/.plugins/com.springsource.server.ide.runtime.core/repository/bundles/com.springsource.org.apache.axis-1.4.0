@@ -1,0 +1,3790 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:05:52.0",
+   "moduleName": "com.springsource.org.apache.axis",
+   "name": "Apache Web Services - Axis",
+   "notes": "",
+   "organisationName": "org.apache.axis",
+   "packageExports": [
+      {
+         "name": "org.apache.axis",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.MessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.HandlerIterationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.SimpleTargetedChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.EngineConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.SimpleChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.InternalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.TargetedChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisProperties$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisServiceConfigImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisProperties$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.Part",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.EngineConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.FaultableHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisServiceConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.WSDDEngineConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.SimpleTargetedChain$PivotIndicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.AxisFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.Chain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.SOAPPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.NoEndPointException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.wsdl.toJava",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaEnumTypeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaBuildFileWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.DuplicateFileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaSkelWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaHolderWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaGeneratorFactory$Writers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaDefinitionWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaDeployWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaStubWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaFaultWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaInterfaceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.GeneratedFileInfo$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.Emitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaUndeployWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.NamespaceSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaServiceIfaceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaTestCaseWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaServiceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaGeneratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaBeanHelperWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.FactoryProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaTypeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaImplWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.Emitter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaBeanFaultWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaBindingWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaGeneratorFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.GeneratedFileInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaClassWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaServiceImplWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaStubWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.toJava.JavaBeanWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.wsdl.symbolTable",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.ElementDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.Undefined",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.UndefinedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.ServiceEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.DefinedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.CollectionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.ContainedAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.SymTabEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.PortTypeEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.BackslashUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.MimeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.DefinedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.CollectionTE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.BaseTypeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.CollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.PortEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.SymbolTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.BindingEntry$OperationAttr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.ContainedEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.SchemaUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.TypeEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.FaultInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.UndefinedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.BindingEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.BaseType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.MessageEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.symbolTable.UndefinedDelegate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.wsdl.gen",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.wsdl.gen.NoopFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.WSDL2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.GeneratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.NoopFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.NoopGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.gen.Parser$WSDLRunnable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.wsdl.fromJava",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.wsdl.fromJava.Types$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.fromJava.Types",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.fromJava.Types$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.fromJava.Emitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.fromJava.Namespaces",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.wsdl",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.wsdl.SkeletonImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.Skeleton",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.SkeletonImpl$MetaInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.Java2WSDL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.wsdl.WSDL2Java",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.utils.cache",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.utils.cache.MethodCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.cache.ClassCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.cache.MethodCache$MethodKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.cache.JavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.cache.JavaMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.utils.bytecode",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.utils.bytecode.ClassReader$NameAndType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.bytecode.ChainedParamReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.bytecode.ParamNameExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.bytecode.ClassReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.bytecode.ParamReader$MethodInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.bytecode.ParamReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.utils",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.utils.ArrayUtil$ArrayInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/axis/utils/tcpmon.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.axis.utils.CLOptionDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.JavaUtils$ConvertCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.XMLUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ClassUtils$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$SOAPMonitorData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.XMLUtils$ParserErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$MyWindowAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.BeanUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ClasspathUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.NetworkUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.JavaUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.Admin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.JavaUtils$HolderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$ServiceFilterPanel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/axis/utils/tcpmon_ja.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.axis.utils.ClasspathUtils$JavaArchiveFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.CLUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.CLArgsParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.Options",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SessionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.WSDLUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ClassUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$LoginDlg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$HostnameField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$NumberField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.DefaultEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ClassUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.BeanUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.LockableHashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.XMLChar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$SlowLinkSimulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$BarThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ArrayUtil$NonConvertable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.IDKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$SocketWaiter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.CLOption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$SOAPMonitorTableModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ParserControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.URLHashSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.XMLUtils$ThreadLocalDocumentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$SocketRR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ArrayUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/axis/utils/tcpmon_ko.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.XMLUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$AdminPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.TeeOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ArrayUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$SOAPMonitorFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.BeanPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.Mapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$RestrictedTextField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.FieldPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.DefaultAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$SOAPMonitorPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.DOM2Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.ClasspathUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.JWSClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.IdentityHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.NSStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.tcpmon$RestrictedTextField$RestrictedDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.utils.SOAPMonitor$SOAPMonitorTextArea",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.transport.local",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.transport.local.LocalTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.local.LocalResponder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.local.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.local.LocalSender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.transport.mail",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.transport.mail.MailTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.mail.MailSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.mail.MailConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.mail.MailWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.mail.MailServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.mail.Handler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.types",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.types.NonNegativeInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NegativeInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Year",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Month",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NonNegativeInteger$BigIntegerRep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NonPositiveInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.UnsignedByte",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NMToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.IDRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Duration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Id",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.URI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.UnsignedLong",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.UnsignedInt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.PositiveInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.YearMonth",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NegativeInteger$BigIntegerRep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.MonthDay",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Notation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NMTokens",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.PositiveInteger$BigIntegerRep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.IDRefs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NonPositiveInteger$BigIntegerRep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NCName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Language",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.URI$MalformedURIException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Time",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Entities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.Day",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.HexBinary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.NormalizedString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.types.UnsignedShort",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.transport.jms",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicAsyncConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.QueueConnector$QueueSyncConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector$SyncConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector$SyncConnection$SendSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.InvokeTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.QueueConnector$QueueEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.Subscription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector$AsyncConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnectorManager$ShareableObjectPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnectorManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector$Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSTransport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnectorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.SimpleJMSListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicSubscription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector$AsyncConnection$ListenerSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.InvokeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicDestinationEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.SimpleJMSWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicSyncConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicAsyncConnection$TopicListenerSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSURLHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.QueueConnector$QueueAsyncConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.QueueConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.QueueConnector$QueueSyncConnection$QueueSendSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.MapUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnector$ConnectorSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSConnectorManager$ShareableObjectPool$ReferenceCountedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.TopicConnector$TopicSyncConnection$TopicSendSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.QueueConnector$QueueDestinationEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.jms.JMSTransport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.transport.java",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.transport.java.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.java.JavaSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.java.JavaTransport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.transport.http",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.transport.http.SocketHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AxisHttpSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.HTTPConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.FilterPrintWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.HTTPTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.ChunkedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.CommonsHTTPSender$GzipMessageRequestEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.ChunkedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.QSListHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.NonBlockingBufferedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AxisServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.FilterPrintWriter$NullOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AbstractQueryStringHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.HTTPSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.ServletEndpointContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.CommonsHTTPSender$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.SimpleAxisServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.QSWSDLHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AdminServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.CommonsHTTPSender$MessageRequestEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AxisHTTPSessionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AxisServletBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.SocketInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.AutoRegisterServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.QSHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.SimpleAxisWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.CommonsHTTPSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.transport.http.QSMethodHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.strategies",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.strategies.InvocationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.strategies.WSDLGenStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.soap",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.soap.SOAPConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.soap.SOAP11Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.soap.MessageFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.soap.SOAP12Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.soap.SOAPFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.soap.SOAPConnectionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.soap.SOAPConnectionImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.session",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.session.SimpleSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.session.Session",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.server",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.server.ParamList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.server.AxisServerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.server.Transport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.server.JNDIAxisServerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.server.DefaultAxisServerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.server.AxisServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/axis/server/server-config.wsdd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.security.simple",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.security.simple.SimpleSecurityProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.security.simple.SimpleAuthenticatedUser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.security.servlet",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.security.servlet.ServletAuthenticatedUser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.security.servlet.ServletSecurityProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.security",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.security.SecurityProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.security.AuthenticatedUser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.schema",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.schema.SchemaVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.schema.SchemaVersion2000",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.schema.SchemaVersion2001",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.schema.SchemaVersion1999",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.providers.java",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.providers.java.CORBAProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.java.JavaProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.java.MsgProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.java.EJBProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.java.RPCProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.java.JavaProvider$LockObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.java.RMIProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.providers",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.providers.BasicProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.providers.BSFProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.monitor",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.monitor.SOAPMonitorService$ConnectionThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.monitor.SOAPMonitorConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.monitor.SOAPMonitorService$ServerSocketThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.monitor.SOAPMonitorService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.message",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.message.SOAPHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.RPCParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SAXOutputter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPFaultElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPDocumentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.MimeHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.RPCHeaderParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.DetailEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.Detail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPFaultReasonBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.MessageWithAttachments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.CDATAImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.RPCHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.PrefixedQName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.MessageElement$QNameAttr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SAX2EventRecorder$objArrayVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.HeaderBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.NamedNodeMapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.BodyBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.EnvelopeBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.NodeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SAX2EventRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.NullAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPFaultBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.MessageElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.RPCParamTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.NodeListImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPFaultDetailsBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.InputStreamBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.RPCElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPBodyElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPFaultCodeBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.SOAPEnvelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.IDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.CommentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.message.EnvelopeHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.management.jmx",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.management.jmx.DeploymentAdministrator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.DeploymentQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.WSDDTransportWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.ServiceAdministrator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.ServiceAdministratorMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.WSDDServiceWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.DeploymentQueryMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.jmx.DeploymentAdministratorMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.management",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.management.ServiceAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.Registrar$ModelerBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.management.Registrar",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.i18n",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.i18n.ProjectResourceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.i18n.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.i18n.RB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.i18n.ProjectResourceBundle$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/axis/i18n/resource_ja.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/axis/i18n/resource.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.axis.i18n.ProjectResourceBundle$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.i18n.MessagesConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.i18n.MessageBundle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.holders",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.holders.UnsignedByteHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.SourceHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.YearHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.PositiveIntegerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.UnsignedShortHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.MimeMultipartHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.NormalizedStringHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.MonthHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.NonPositiveIntegerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.NonNegativeIntegerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.HexBinaryHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.YearMonthHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.OctetStreamHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.SchemaHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.UnsignedIntHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.NegativeIntegerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.DayHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.URIHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.ImageHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.TokenHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.DateHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.MonthDayHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.DurationHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.UnsignedLongHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.TimeHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.holders.DataHandlerHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.handlers.soap",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.handlers.soap.MustUnderstandChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.soap.SOAPService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.handlers.http",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.handlers.http.URLMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.http.HTTPActionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.http.HTTPAuthHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.handlers",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.handlers.SimpleAuthenticationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.SOAPMonitorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.HandlerChainImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.JWSHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.SimpleAuthorizationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.MD5AttachHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.SimpleSessionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.LogHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.LogMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.JAXRPCHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.DebugHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.HandlerInfoChainFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.EchoHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.handlers.BasicHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.enum",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.enum.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.enum.Style",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.enum.Use",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.encoding.ser.castor",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorEnumTypeSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorEnumTypeSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorEnumTypeDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.AxisContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.castor.CastorEnumTypeDeserializerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.encoding.ser",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.encoding.ser.EnumDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.PlainTextDataHandlerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.CalendarSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleListDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DateSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DocumentSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MapDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.QNameDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.Base64Deserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.TimeDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.VectorDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BaseFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BaseSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.CalendarDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.QNameSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MimeMultipartDataHandlerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MapSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BeanPropertyTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.CalendarDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DocumentDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.Base64SerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MimeMultipartDataHandlerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.Base64Serializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.HexSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleListDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleListSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ImageDataHandlerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleListSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.TimeDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.PlainTextDataHandlerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.JAFDataHandlerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.TimeSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DateDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.CalendarSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.JAFDataHandlerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ElementDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ArrayDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.EnumDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ElementSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.OctetStreamDataHandlerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.JAFDataHandlerSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.Base64DeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MapSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ElementDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.EnumSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ImageDataHandlerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BeanSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ArrayDeserializer$ArrayListExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.HexDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ElementSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.TimeSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SourceDataHandlerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SourceDataHandlerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.HexDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DocumentSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BeanSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MapDeserializer$ItemHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.OctetStreamDataHandlerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ArrayDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.ArraySerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BaseDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BeanDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.EnumSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.VectorSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.BeanDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.MapDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.SimpleDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DocumentDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.HexSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DateSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.VectorSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.QNameSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.VectorDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.DateDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.JAFDataHandlerDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ser.QNameDeserializerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.encoding",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.encoding.Callback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.SerializationContext$MultiRefItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DefaultSOAP12TypeMappingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.CallbackTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializationContext$LocalIDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TypeMappingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.XMLType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DefaultJAXRPC11TypeMappingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.SimpleValueSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DefaultTypeMappingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.MixedContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TypeMappingDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializationContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.Deserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializerTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TypeMappingImpl$Pair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.SerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TypeMappingRegistryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TypeMappingRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DefaultSOAPEncodingTypeMappingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.FieldTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.SimpleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TypeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializationContext$NullLexicalHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.MethodTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.SerializationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.ConstructorTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.AnyContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.Serializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.AttributeSerializationContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.DeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.encoding.TextSerializationContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.description",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.description.ParameterDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.AttributeDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.ElementDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.ServiceDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.JavaServiceDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.OperationDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.JavaServiceDesc$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.FieldDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.FaultDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.description.TypeDesc",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.deployment.wsdd.providers",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDJavaEJBProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDJavaCORBAProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDJavaMsgProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDJavaRPCProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDJavaRMIProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDComProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDBsfProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.providers.WSDDHandlerProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.deployment.wsdd",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDDeployment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDDocumentation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDJAXRPCHandlerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDFaultFlow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDRequestFlow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDUndeployment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDTypeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDNonFatalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDJAXRPCHandlerInfoChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDResponseFlow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDDeployableItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDArrayMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDGlobalConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDTypeMappingContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDBeanMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDTargetedChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.deployment.wsdd.WSDDChain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.constants",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.constants.Scope$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Use$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Style$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Style",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Enum$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Enum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Scope$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Use$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Use",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.constants.Style$Type",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.configuration",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.configuration.BasicServerConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.FileProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.DefaultEngineConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.SimpleProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.ServletEngineConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.EngineConfigurationFactoryFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.XMLStringProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.EngineConfigurationFactoryServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.DirProvider$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.DirProvider$DirFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.EngineConfigurationFactoryFinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.BasicClientConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.DirProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.EngineConfigurationFactoryDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.configuration.NullProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.uuid",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.uuid.FastUUIDGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.uuid.UUIDGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.uuid.SimpleUUIDGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.uuid.UUIDGenFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.threadpool",
+         "packageMembers": {
+            "name": "org.apache.axis.components.threadpool.ThreadPool",
+            "type": "CLASS"
+         },
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.script",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.script.ScriptFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.script.Script",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.script.BSF",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.net",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.net.TransportClientPropertiesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.SocketFactoryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.SunFakeTrustSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.DefaultCommonsHTTPClientProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.SunFakeTrustSocketFactory$FakeX509TrustManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.SunJSSESocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.DefaultSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.CommonsHTTPClientPropertiesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.SocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.DefaultHTTPSTransportClientProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.BooleanHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.TransportClientProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.CommonsHTTPClientProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.JSSESocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.SecureSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.net.DefaultHTTPTransportClientProperties",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.logger",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.logger.LogFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.logger.LogFactory$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.jms",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.jms.JNDIVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.jms.JMSVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.jms.BeanVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.jms.JMSVendorAdapterFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.encoding",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.encoding.XMLEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.encoding.UTF16Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.encoding.AbstractXMLEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.encoding.EncodedByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.encoding.DefaultXMLEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.encoding.UTF8Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.encoding.XMLEncoderFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.image",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.image.ImageIOFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.image.JimiIO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.image.MerlinIO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.image.JDK13IO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.image.ImageIO",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.components.compiler",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.components.compiler.Compiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.compiler.Jikes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.compiler.AbstractCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.compiler.CompilerError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.compiler.Javac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.compiler.CompilerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.components.compiler.Jikes$StreamPumper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.collections",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.collections.SequencedHashMap$OrderedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.collections.SequencedHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.collections.SequencedHashMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.collections.SequencedHashMap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.collections.LRUMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.collections.SequencedHashMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.collections.SequencedHashMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.client.async",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.client.async.Status$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.async.AsyncCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.async.IAsyncCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.async.AsyncResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.async.IAsyncResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.async.Status$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.async.Status",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.client",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.client.Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.Call$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.ServiceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.HappyClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.Call",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.Call$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.Service",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/axis/client/client-config.wsdd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.axis.client.AxisClientProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.Transport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.AxisClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.Service$HandlerRegistryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.client.AdminClient",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.axis.attachments",
+         "packageMembers": [
+            {
+               "name": "org.apache.axis.attachments.DimeBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.AttachmentPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.DimeMultiPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.MultiPartRelatedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.OctetStreamDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.DimeDelimitedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.MimeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.MultipartAttachmentStreams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.DynamicContentDataHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.SourceDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.OctetStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.IncomingAttachmentStreams$IncomingAttachmentInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.MimeMultipartDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.ManagedMemoryDataSource$Instream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.MultiPartDimeInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.ManagedMemoryDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.DimeTypeNameFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.Attachments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.DimeAttachmentStreams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.MultiPartInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.BoundaryDelimitedStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.IncomingAttachmentStreams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.PlainTextDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.AttachmentUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.AttachmentsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.axis.attachments.ImageDataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.CosNaming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.CORBA",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.net.smtp",
+         "optional": false,
+         "versionRange": "[1.4.1, 2.0.0)"
+      },
+      {
+         "name": "org.exolab.castor.xml",
+         "optional": true,
+         "versionRange": "[1.1.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.net.pop3",
+         "optional": false,
+         "versionRange": "[1.4.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.protocol",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.params",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.discovery.tools",
+         "optional": false,
+         "versionRange": "[0.4.0, 1.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.auth",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.methods",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.discovery.resource.names",
+         "optional": false,
+         "versionRange": "[0.4.0, 1.0.0)"
+      },
+      {
+         "name": "org.apache.commons.discovery.resource.classes",
+         "optional": false,
+         "versionRange": "[0.4.0, 1.0.0)"
+      },
+      {
+         "name": "org.apache.commons.discovery.resource",
+         "optional": false,
+         "versionRange": "[0.4.0, 1.0.0)"
+      },
+      {
+         "name": "org.apache.commons.discovery",
+         "optional": false,
+         "versionRange": "[0.4.0, 1.0.0)"
+      },
+      {
+         "name": "org.apache.bsf",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.soap",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc.soap",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc.server",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc.holders",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc.handler.soap",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc.handler",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc.encoding",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.rpc",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.wsdl.xml",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.factory",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions.soap",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions.mime",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions.http",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.table",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.plaf.basic",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.imageio.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.metadata",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.net.ssl.internal.ssl",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.net.ssl",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.jimi.core",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.ibm.wsdl.extensions.soap",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.axis",
+   "version": "1.4.0"
+}}

@@ -1,0 +1,693 @@
+{"bundle": {
+   "dateAdded": "2009-04-17 15:20:17.0",
+   "moduleName": "com.springsource.javax.persistence",
+   "name": "Java Persistence API",
+   "notes": "",
+   "organisationName": "javax.persistence",
+   "packageExports": [
+      {
+         "name": "javax.persistence.spi",
+         "packageMembers": [
+            {
+               "name": "javax.persistence.spi.PersistenceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.spi.LoadState",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.spi.PersistenceUnitTransactionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.spi.PersistenceProviderResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.spi.PersistenceProviderResolverHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.spi.ClassTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.spi.PersistenceUnitInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.Beta1"
+      },
+      {
+         "name": "javax.persistence",
+         "packageMembers": [
+            {
+               "name": "javax.persistence.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Id",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.SqlResultSetMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.JoinColumns",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.DiscriminatorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.SqlResultSetMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.LockModeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ExcludeSuperclassListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Access",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceUnits",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ElementCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.OrderBy",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EnumType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.NamedNativeQueries",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MappedSuperclass",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.NamedQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ValidationMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.GeneratedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.TemporalType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.QueryHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.AttributeOverride",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.NamedQueries",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EmbeddedId",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MapKeyJoinColumns",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityManagerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.SecondaryTables",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Embeddable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceContextType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.DiscriminatorValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.OneToOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ManyToOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.AssociationOverride",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Embedded",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Transient",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Caching",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.LockTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.OneToMany",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.CascadeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.AssociationOverrides",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PrePersist",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.FieldResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ColumnResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceContexts",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.UniqueConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.FlushModeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.AccessType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.FetchType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityExistsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Basic",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Cacheable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MapKeyJoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Persistence",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ManyToMany",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.ExcludeDefaultListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.InheritanceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.OptimisticLockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.NoResultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.GenerationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.QueryTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.NamedNativeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.NonUniqueResultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.SequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MapKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PostRemove",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PostPersist",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PostUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PreUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PostLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PrimaryKeyJoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MapKeyColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PreRemove",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Persistence$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.RollbackException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.IdClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.CollectionTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.JoinTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Inheritance",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.EntityTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.OrderColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PessimisticLockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.SecondaryTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Lob",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MappedById",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.JoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Temporal",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.TransactionRequiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.DiscriminatorColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.TableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.Enumerated",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.MapKeyClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PrimaryKeyJoinColumns",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.AttributeOverrides",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.PersistenceException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.Beta1"
+      },
+      {
+         "name": "javax.persistence.criteria",
+         "packageMembers": [
+            {
+               "name": "javax.persistence.criteria.QueryBuilder$Trimspec",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.AbstractCollectionJoin",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.FetchParent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Subquery",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Predicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.QueryBuilder$Case",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.From",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.JoinType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.CriteriaQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Join",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.AbstractQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.QueryBuilder$In",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Fetch",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.CollectionJoin",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.SetJoin",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.QueryBuilder$Coalesce",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.MapJoin",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Predicate$BooleanOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.QueryBuilder$SimpleCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Result",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Selection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Path",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.ListJoin",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.QueryBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.criteria.Root",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.Beta1"
+      },
+      {
+         "name": "javax.persistence.metamodel",
+         "packageMembers": [
+            {
+               "name": "javax.persistence.metamodel.Bindable$BindableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Embeddable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.AbstractCollection$CollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Basic",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Map",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.MappedSuperclass",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.AbstractCollection$Multiplicity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Type$PersistenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.TypesafeMetamodel",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Member",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.IdentifiableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Collection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Metamodel",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.ManagedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Bindable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Set",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.Attribute$Multiplicity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.persistence.metamodel.AbstractCollection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.Beta1"
+      }
+   ],
+   "packageImports": {
+      "name": "javax.sql",
+      "optional": false,
+      "versionRange": "[0.0.0, infinity)"
+   },
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.persistence",
+   "version": "2.0.0.Beta1"
+}}

@@ -1,0 +1,376 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:33:01.0",
+   "moduleName": "com.springsource.org.tuckey.web.filters.urlrewrite",
+   "name": "Url Rewrite Filter",
+   "notes": "",
+   "organisationName": "org.tuckey",
+   "packageExports": [
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.utils",
+         "packageMembers": [
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.NumberUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.RegexMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.RegexPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.StringMatchingPatternSyntaxException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.WildcardPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.FunctionReplacer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.StringMatchingPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.TypeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.ServerNameMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.WildcardMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.WildcardHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.StringMatchingMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.Log",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.utils.ModRewriteConfLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite",
+         "packageMembers": [
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriteServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.SetAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriteServlet$FilterChainWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.ConditionMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriteDocTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/conf-dist.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.ClassRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RuleExecutionOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriteServlet$ConfigWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.TypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.Condition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RewrittenUrl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.ConfHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.CatchElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RewrittenUrlClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.OutboundRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RunConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/build.number.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RewrittenOutboundUrl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriteFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.NormalRewrittenUrl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.Run",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.BackReferenceReplacer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.Runnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.NormalRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.VariableReplacer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.Conf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.UrlRewriteWrappedResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RuleBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.RuleChain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.test",
+         "packageMembers": [
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.test.UrlRewriteTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.test.MockRequestParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.test.MockRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.test.MockResponse",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.sample",
+         "packageMembers": [
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.sample.SampleMultiUrlRewriteFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.sample.SampleRewriteRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.sample.SampleRewriteMatch",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.functions",
+         "packageMembers": {
+            "name": "org.tuckey.web.filters.urlrewrite.functions.StringFunctions",
+            "type": "CLASS"
+         },
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.extend",
+         "packageMembers": [
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.extend.RewriteMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.tuckey.web.filters.urlrewrite.extend.RewriteRule",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.dtds",
+         "packageMembers": [
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite3.1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite2.0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite2.3.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite2.4.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite3.0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite2.5.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite1.0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/tuckey/web/filters/urlrewrite/dtds/urlrewrite2.6.dtd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.tuckey.web.filters.urlrewrite.doc",
+         "packageMembers": {
+            "name": "org/tuckey/web/filters/urlrewrite/doc/doc.css",
+            "type": "RESOURCE"
+         },
+         "version": "3.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.log4j",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.tuckey.web.filters.urlrewrite",
+   "version": "3.1.0"
+}}

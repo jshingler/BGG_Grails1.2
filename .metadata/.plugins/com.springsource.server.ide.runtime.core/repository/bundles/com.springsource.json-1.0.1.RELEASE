@@ -1,0 +1,329 @@
+{"bundle": {
+   "dateAdded": "2008-08-11 14:11:20.0",
+   "moduleName": "com.springsource.json",
+   "name": "SpringSource JSON Parser",
+   "notes": "",
+   "organisationName": "com.springsource.json",
+   "packageExports": [
+      {
+         "name": "com.springsource.json.parser",
+         "packageMembers": [
+            {
+               "name": "com.springsource.json.parser.CollectionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.JSONParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.ParserMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.JSONParserLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.LoggedJsonFormatParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.ScalarNodeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.AntlrJSONParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.ListNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.JSONParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.StandardJSONParserLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.LoggedJsonFormatTreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.InternalParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.MapNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.ScalarNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.LoggedJsonFormatLexer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      },
+      {
+         "name": "com.springsource.json.writer.xml",
+         "packageMembers": [
+            {
+               "name": "com.springsource.json.writer.xml.XmlToJSONConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.xml.JSONConverterException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      },
+      {
+         "name": "com.springsource.json.writer",
+         "packageMembers": [
+            {
+               "name": "com.springsource.json.writer.JSONObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONWriterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONObject$Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONTokener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONString",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.writer.JSONException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      },
+      {
+         "name": "com.springsource.json.validation",
+         "packageMembers": [
+            {
+               "name": "com.springsource.json.validation.JSONValidationProblem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.validation.VersionRangeFormatChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.validation.JSONValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.validation.FormatChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.validation.ValidationMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.validation.VersionFormatChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.validation.SchemaRegistry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      },
+      {
+         "name": "com.springsource.json.parser.internal",
+         "packageMembers": [
+            {
+               "name": "com.springsource.json.parser.internal.StandardMapNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.AbstractNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.StandardNumberNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.StandardListNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.StandardNullNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.StandardBooleanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.StandardStringNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.internal.AbstractScalarNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      },
+      {
+         "name": "com.springsource.json.parser.generated",
+         "packageMembers": [
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatTreeWalker$maplet_scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$number_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatTreeWalker$map_scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$maplet_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatTreeWalker$list_scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/springsource/json/parser/generated/JsonFormat__.g",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/springsource/json/parser/generated/JsonFormat.g",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$list_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$map_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$value_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$key_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/springsource/json/parser/generated/JsonFormatTreeWalker.tokens",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/springsource/json/parser/generated/JsonFormatTreeWalker.g",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatTreeWalker$number_scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$literal_return",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/springsource/json/parser/generated/JsonFormat.tokens",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatTreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.springsource.json.parser.generated.JsonFormatParser$objects_return",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.cli",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.antlr.runtime.tree",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      },
+      {
+         "name": "org.antlr.runtime",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.json",
+   "version": "1.0.1.RELEASE"
+}}

@@ -1,0 +1,313 @@
+{"bundle": {
+   "dateAdded": "2009-04-01 00:30:26.0",
+   "moduleName": "org.springframework.integration.xml",
+   "name": "Spring Integration XML Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.xml.splitter",
+         "packageMembers": {
+            "name": "org.springframework.integration.xml.splitter.XPathMessageSplitter",
+            "type": "CLASS"
+         },
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml.transformer",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.transformer.XsltPayloadTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.transformer.ResultToStringTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.transformer.XmlPayloadUnmarshallingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.transformer.SourceCreatingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.transformer.ResultToDocumentTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.transformer.XmlPayloadMarshallingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.transformer.ResultTransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.DefaultXmlPayloadConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.XmlPayloadConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml.source",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.source.DomSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.source.StringSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.source.SourceFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml.selector",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.selector.AbstractXPathMessageSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.selector.StringValueTestXPathMessageSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.selector.BooleanTestXPathMessageSelector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml.router",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.router.XmlPayloadValidatingRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.router.XmlValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.router.SchemaValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.router.XPathMultiChannelRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.router.XPathSingleChannelRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.router.XPathMultiChannelRouter$TextContentNodeMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.router.AbstractXPathRouter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml.result",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.result.StringResultFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.result.DomResultFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.result.ResultFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.xml.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.xml.config.XPathExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XmlMarshallingTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XPathSelectorParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XPathRouterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XmlUnmarshallingTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XmlNamespaceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XPathMessageSplitterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XmlPayloadValidatingRouterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.IntegrationXmlNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.xml.config.XsltPayloadTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/xml/config/spring-integration-xml-1.0.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.xml.validation",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.xml.xpath",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.oxm",
+         "optional": true,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.transformer",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.splitter",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.selector",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.router",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.xml",
+   "version": "1.0.2.RELEASE"
+}}

@@ -1,0 +1,325 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:30:19.0",
+   "moduleName": "com.springsource.javax.servlet.jsp",
+   "name": "Java JSP API",
+   "notes": "",
+   "organisationName": "javax.servlet",
+   "packageExports": [
+      {
+         "name": "javax.servlet.jsp",
+         "packageMembers": [
+            {
+               "name": "javax.servlet.jsp.JspWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.ErrorData",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.SkipPageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.HttpJspPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.PageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspEngineInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspTagException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.JspContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "packageMembers": [
+            {
+               "name": "javax.servlet.jsp.tagext.TagData",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagVariableInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.PageData",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.JspFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.JspTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.SimpleTagSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.BodyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.ValidationMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.BodyTagSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.Tag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagExtraInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagLibraryValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagFileInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.BodyContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.IterationTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.FunctionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TryCatchFinally",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagAttributeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.TagLibraryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.VariableInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.JspIdConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.SimpleTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.tagext.DynamicAttributes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.servlet.jsp.resources",
+         "packageMembers": [
+            {
+               "name": "javax/servlet/jsp/resources/jsp_2_0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/jspxml.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/jspxml.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/jsp_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.servlet.jsp.el",
+         "packageMembers": [
+            {
+               "name": "javax.servlet.jsp.el.ELParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.VariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeMap$ScopeEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ExpressionEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.FunctionMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ScopedAttributeELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ImplicitObjectELResolver$ScopeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.servlet.jsp.el.ELException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.el",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.servlet.jsp",
+   "version": "2.1.0"
+}}

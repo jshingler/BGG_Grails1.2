@@ -1,0 +1,177 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:59:34.0",
+   "moduleName": "com.springsource.org.apache.activemq.pool",
+   "name": "Apache ActiveMQ Pooled ConnectionFactory",
+   "notes": "",
+   "organisationName": "org.apache.activemq",
+   "packageExports": {
+      "name": "org.apache.activemq.pool",
+      "packageMembers": [
+         {
+            "name": "org.apache.activemq.pool.XaConnectionPool",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledTopicPublisher",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledSession",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.ConnectionKey",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.JcaPooledConnectionFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledConnectionFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledProducer",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledQueueSender",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.XaConnectionPool$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledConnectionFactoryBean",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.ActiveMQResourceManager$Recovery",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.ConnectionPool$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.SessionKey",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.ActiveMQResourceManager",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.SessionPool",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.XaConnectionPool$Synchronization",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.AmqJNDIPooledConnectionFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.PooledConnection",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.XaPooledConnectionFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.ConnectionPool",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.pool.JcaConnectionPool",
+            "type": "CLASS"
+         }
+      ],
+      "version": "5.2.0"
+   },
+   "packageImports": [
+      {
+         "name": "org.apache.commons.pool",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.pool.impl",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.geronimo.transaction.manager",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.util",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.transport",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.ra",
+         "optional": true,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.advisory",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.jndi",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.activemq.pool",
+   "version": "5.2.0"
+}}

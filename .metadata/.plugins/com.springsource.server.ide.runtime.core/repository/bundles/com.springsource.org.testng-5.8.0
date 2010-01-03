@@ -1,0 +1,1401 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:32:09.0",
+   "moduleName": "com.springsource.org.testng",
+   "name": "Next Generation Java Testing",
+   "notes": "",
+   "organisationName": "org.testng",
+   "packageExports": [
+      {
+         "name": "org.testng.v6",
+         "packageMembers": [
+            {
+               "name": "org.testng.v6.IRunGroupFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.Maps",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.AfterOperationSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.Lists",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.RunGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.TestPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.SuitePlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.v6.Sets",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.xml",
+         "packageMembers": [
+            {
+               "name": "org.testng.xml.TestNGContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite$CustomizedSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite$ExistingSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite$ClassListSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.XmlPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.ClassSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.XmlTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.SuiteGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.XmlSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite$MethodsSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.XmlClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.XmlMethodSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.xml.LaunchSuite$ClassesAndMethodsSuite",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "com.beust.testng",
+         "packageMembers": [
+            {
+               "name": "com.beust.testng.TestNG",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.beust.testng.TestNGAntTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.util",
+         "packageMembers": {
+            "name": "org.testng.util.RetryAnalyzerCount",
+            "type": "CLASS"
+         },
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.reporters.util",
+         "packageMembers": {
+            "name": "org.testng.reporters.util.StackTraceTools",
+            "type": "CLASS"
+         },
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.reporters",
+         "packageMembers": [
+            {
+               "name": "org.testng.reporters.TextReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.EmailableReporter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.DotTestListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.Tag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.TestHTMLReporter$NameComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.TestHTMLReporter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.JUnitXMLReporter2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.EmailableReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.XMLReporterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.EmailableReporter$TestSorter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.TestHTMLReporter$ConfigurationComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.XMLConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.XMLSuiteResultWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.XMLStringBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.TestHTMLReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.HtmlHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.JUnitXMLReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.ExitCodeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.XMLUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.SuiteHTMLReporter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.XMLReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.SuiteHTMLReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.reporters.FailedReporter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.remote.strprotocol",
+         "packageMembers": [
+            {
+               "name": "org.testng.remote.strprotocol.StringMessageSenderHelper$ReaderThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.IRemoteTestListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.MessageHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.IStringMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.TestMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.AbstractRemoteTestRunnerClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.SuiteMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.GenericMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.TestResultMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.RemoteMessageSenderTestListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.AbstractRemoteTestRunnerClient$ServerConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.IRemoteSuiteListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.IMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.strprotocol.StringMessageSenderHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.remote.adapter",
+         "packageMembers": [
+            {
+               "name": "org.testng.remote.adapter.RemoteResultListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.adapter.IWorkerApadter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.adapter.IMasterAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.adapter.DefaultWorkerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.adapter.DefaultMastertAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.log4testng",
+         "packageMembers": {
+            "name": "org.testng.log4testng.Logger",
+            "type": "CLASS"
+         },
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.remote",
+         "packageMembers": [
+            {
+               "name": "org.testng.remote.RemoteTestNG$DelegatingTestRunnerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.RemoteTestNG$RemoteSuiteListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.RemoteTestNG$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.SuiteDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.SuiteSlave",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.ConnectionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.RemoteWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.RemoteSuiteWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.remote.RemoteTestNG",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.log",
+         "packageMembers": {
+            "name": "org.testng.log.TextFormatter",
+            "type": "CLASS"
+         },
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.junit",
+         "packageMembers": [
+            {
+               "name": "org.testng.junit.INameFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitUtils$JUnitTestClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitUtils$JUnitTestMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitTestRunner$TestRunInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.IJUnitTestRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitTestRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitMethodFinder$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitDirectoryConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitMethodFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitTestConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitMethodFinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.junit.JUnitMethodFinder$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.internal.version",
+         "packageMembers": {
+            "name": "org.testng.internal.version.VersionInfo",
+            "type": "CLASS"
+         },
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.internal.thread",
+         "packageMembers": [
+            {
+               "name": "org.testng.internal.thread.FutureResultAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.IPooledExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ThreadExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.PooledExecutorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.IFutureResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ThreadUtil$ThreadFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ICountDown",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.TestNGThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.AtomicIntegerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ThreadUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.IAtomicInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.IThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.CountDownAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ExecutorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.ThreadTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.thread.IExecutor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.internal.remote",
+         "packageMembers": [
+            {
+               "name": "org.testng.internal.remote.SlavePool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.remote.SocketLinkedBlockingQueue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.internal.annotations",
+         "packageMembers": [
+            {
+               "name": "org.testng.internal.annotations.TestOrConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IParameterizable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.AfterSuiteAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAfterSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAfterTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.ITest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAfterGroups",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IExpectedExceptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.BaseAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.ParametersAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.FactoryAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.JDK15AnnotationFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IBeforeClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.AnnotationConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAfterClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAnnotationFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.ObjectFactoryAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.JDK15TagFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IBeforeSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.ConfigurationAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IBaseBeforeAfter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.BaseBeforeAfter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IBeforeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.DataProviderAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.BeforeSuiteAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.AnnotationHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.JDK14AnnotationFinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAfterMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.TestAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.JDK14AnnotationFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAnnotationTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.JDK14TagFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IAfterTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IDataProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.DefaultAnnotationTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.ExpectedExceptionsAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.ITestOrConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IBeforeGroups",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.annotations.IBeforeMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.internal",
+         "packageMembers": [
+            {
+               "name": "org.testng.internal.MethodInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.AnnotationTypeEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.MethodInstance$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.AnnotationDirectoryConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.BaseTestMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.IInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.MethodInheritance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Graph$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Tarjan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.BaseClassFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ITestResultNotifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestNGMethod$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ExtraOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestNGProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestMethodWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.IMethodWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.IResultListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.PackageUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.XmlMethodSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Parameters$MethodParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.InvokeMethodRunnable$TestNGRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.PackageUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.PropertyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ArrayIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ClassHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.SingleTestMethodWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Invoker$ParameterBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestNGMethodFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.InstanceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.MethodHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.NoOpTestClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Graph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.InvokedMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.PropertiesFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.BaseTestMethod$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ConfigurationMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ObjectFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.FactoryMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestNGClassFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ConfigurationGroupMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestNGMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.InvokeMethodRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.IConfigurationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.AnnotationTestConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.RunInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Invoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.TestResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.DefaultMethodSelectorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.MethodHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.Invoker$DataTestMethodWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.MethodSelectorDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.internal.ResultMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng.annotations",
+         "packageMembers": [
+            {
+               "name": "org.testng.annotations.AfterClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.AfterGroups",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.BeforeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.AfterSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.Optional",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.ExpectedExceptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.DataProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.BeforeClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.BeforeGroups",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.BeforeSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.BeforeMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.TestInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.AfterMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.annotations.AfterTest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      },
+      {
+         "name": "org.testng",
+         "packageMembers": [
+            {
+               "name": "org.testng.IHookCallBack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ISuiteResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteRunner$SuiteWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IExtraOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestNG$ExitCodeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IHookable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.FileAssert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestNGCommandLineArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IRetryAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IInstanceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IMethodInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ReporterConfig$Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestNG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.Reporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SkipException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.JUnitConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IResultMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ISuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestRunner$ConfigurationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ISuiteListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IMethodInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteRunner$DefaultTestRunnerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ClassMethodMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IMethodSelectorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ReporterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestMethodFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.AnnotationConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestNGException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestListenerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.JUnitConverterTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestRunnerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteRunState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestNGAntTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.Assert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestNGMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.AssertJUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestClassFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IMethodSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestRunner$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TimeBombSkipException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.TestRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.ITestNGListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.IClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.testng.SuiteRunner$ProxyTestRunnerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.8.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.types.selectors",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.bsf.util",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.bsf",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.plaf.basic",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.plaf",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.testng",
+   "version": "5.8.0"
+}}

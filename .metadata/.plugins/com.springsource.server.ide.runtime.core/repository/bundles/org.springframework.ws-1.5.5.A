@@ -1,0 +1,1924 @@
+{"bundle": {
+   "dateAdded": "2008-11-05 18:03:35.0",
+   "moduleName": "org.springframework.ws",
+   "name": "Spring Web Services Core",
+   "notes": "",
+   "organisationName": "org.springframework.ws",
+   "packageExports": [
+      {
+         "name": "org.springframework.ws.wsdl.wsdl11",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.ProviderBasedWsdl4jDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.Wsdl4jDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.Wsdl4jDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.SimpleWsdl11Definition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.DynamicWsdl11Definition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.Wsdl11DefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.Wsdl11Definition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.wsdl.wsdl11.builder",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.XsdBasedSoap12Wsdl4jDefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.AbstractBindingWsdl4jDefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.AbstractSoap11Wsdl4jDefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.XsdSchemaHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.XsdBasedSoap11Wsdl4jDefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.AbstractWsdl4jDefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.builder.AbstractSoap12Wsdl4jDefinitionBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.wsdl.wsdl11.provider",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.BindingsProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.Soap11Provider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.TypesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.PortTypesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.InliningXsdSchemaTypesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.SoapProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.SuffixBasedMessagesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.InliningXsdSchemaTypesProvider$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.DefaultConcretePartProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.AbstractPortTypesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.DefaultMessagesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.ImportsProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.SuffixBasedPortTypesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.MessagesProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.Soap12Provider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.wsdl11.provider.ServicesProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.WebServiceMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.FaultAwareWebServiceMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.NoEndpointFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.WebServiceMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.WebServiceMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.WebServiceException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.wsdl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.wsdl.WsdlDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.wsdl.WsdlDefinition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.support.TransportUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.support.EnumerationIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.http",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.http.HttpTransportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.WebServiceMessageReceiverHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.CommonsHttpConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.LastModifiedHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.HttpTransportConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.HttpUrlConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.MessageDispatcherServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.XsdSchemaHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/ws/transport/http/MessageDispatcherServlet.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.HttpServletConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.AbstractHttpWebServiceMessageSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.AbstractHttpSenderConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.CommonsHttpMessageSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.WsdlDefinitionHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.HttpUrlConnectionMessageSender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.transport",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.EndpointAwareWebServiceConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.TransportConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.WebServiceMessageSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractReceiverConnection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.WebServiceMessageReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.TransportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractReceiverConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractSenderConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractWebServiceConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.FaultAwareWebServiceConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractReceiverConnection$ResponseTransportOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.WebServiceConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.TransportInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractSenderConnection$ResponseTransportInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractReceiverConnection$RequestTransportInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.TransportOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.AbstractSenderConnection$RequestTransportOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.context.TransportContextHolder$TransportThreadLocal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.context.TransportContextHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.context.TransportContextHolder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.context.DefaultTransportContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.context.TransportContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.support.MarshallingUtils$MimeMessageContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.support.MarshallingUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.support.DefaultStrategiesHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.support.SoapUtils",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.soap12",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.soap12.Soap12Fault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.soap12.Soap12Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.soap12.Soap12Header",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.soap11",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.soap11.Soap11Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.soap11.Soap11Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.soap11.Soap11Fault",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server.endpoint.mapping",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.mapping.DelegatingSoapEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.mapping.SoapActionEndpointMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server.endpoint.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.interceptor.SoapEnvelopeLoggingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.interceptor.AbstractFaultCreatingValidatingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.interceptor.PayloadValidatingInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server.endpoint",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.AbstractFaultCreatingValidatingMarshallingPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.AbstractSoapFaultDefinitionExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.SoapFaultMappingExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.SoapFaultDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.SoapFaultDefinitionEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.SimpleSoapExceptionResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.server.SoapMessageDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/ws/soap/server/SoapMessageDispatcher.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.SoapEndpointInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.SoapEndpointInvocationChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.SoapEndpointMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.saaj.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.saaj.support.SaajContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.support.SaajXmlReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.support.SaajUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.saaj",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoap11Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapElementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapMessageCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapHeaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapFaultDetail$SaajSoapFaultDetailElementIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapFaultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.Saaj11Implementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoap11Fault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapFaultDetail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapFaultDetail$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapMessage$SaajAttachmentIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapHeader$SaajSoapHeaderElementIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapEnvelopeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapMessage$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.Saaj13Implementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapEnvelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoap12Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoap11Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajAttachment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoap12Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajAttachmentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoap12Fault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapBodyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.Saaj12Implementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.saaj.SaajSoapFaultDetailElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.client.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.client.core.SoapFaultMessageResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.client.core.SoapActionCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.client",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.client.SoapFaultClientException",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.axiom.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.axiom.support.AxiomUtils",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.axiom",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomAttachmentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapHeader$AxiomSoapHeaderElementIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapEnvelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.NonCachingPayload$DelegatingStreamWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapFaultDetail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap12Header$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.NonCachingPayload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap11Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapFaultDetail$AxiomSoapFaultDetailElementIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.NonCachingPayload$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap11Fault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapFaultDetail$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap11Header$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapFaultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.Payload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapMessage$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap12Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapMessage$AxiomAttachmentIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomAttachment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapHeaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap12Fault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapEnvelopeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapBodyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap12Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapElementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.CachingPayload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoap11Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapFaultDetailElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.axiom.AxiomSoapMessageCreationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing.version",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.addressing.version.AddressingVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.version.AbstractAddressingVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.version.Addressing200408",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.version.Addressing10",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing.server",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.addressing.server.AbstractActionEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.server.AbstractActionMethodEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.server.AddressingEndpointInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.server.SimpleActionEndpointMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing.messageid",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.addressing.messageid.UuidMessageIdStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.messageid.RandomGuid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.messageid.MessageIdStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.messageid.RandomGuidMessageIdStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.addressing.core.EndpointReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.core.MessageAddressingProperties",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing.client",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.addressing.client.ActionCallback",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.addressing.AddressingException",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.soap",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.SoapMessageCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapEnvelopeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapFaultDetail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapFaultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapVersion$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapHeaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapVersion$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapBodyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapEnvelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapFaultDetailElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.SoapElementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.AbstractSoapMessage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.server.endpoint.support.PayloadRootUtils",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.mapping",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.UriEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractMethodEndpointMapping$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractMethodEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.PayloadRootQNameEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractMapBasedEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.SimpleMethodEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractQNameEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractMethodEndpointMapping$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.XPathPayloadEndpointMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.interceptor.AbstractValidatingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.interceptor.EndpointInterceptorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.interceptor.PayloadTransformingInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.adapter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.MessageEndpointAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.PayloadEndpointAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.MessageMethodEndpointAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.PayloadMethodEndpointAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractXomPayloadEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractMarshallingPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractStaxEventPayloadEndpoint$ResponseCreatingEventWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractXomPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractJDomPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractLoggingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractStaxStreamPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractStaxEventPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractXomPayloadEndpoint$XomSourceCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.MessageEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractStaxPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractDomPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.PayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractStaxStreamPayloadEndpoint$ResponseCreatingStreamWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractXomPayloadEndpoint$StaxStreamConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractDom4jPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractValidatingMarshallingPayloadEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractEndpointExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractXomPayloadEndpoint$XomParsingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.MethodEndpoint$GenericToStringProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractStaxStreamPayloadEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.MethodEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.AbstractSaxPayloadEndpoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.server",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.EndpointInvocationChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.EndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/ws/server/MessageDispatcher.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ws.server.EndpointExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.MessageDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.EndpointInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.EndpointAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.pox.dom",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.pox.dom.DomPoxMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.pox.dom.DomPoxMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.pox.dom.DomPoxMessage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.pox",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.pox.PoxMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.pox.PoxMessage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.mime",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.mime.AbstractMimeMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.mime.MimeMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.mime.AbstractMimeMessage$InputStreamSourceDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.mime.Attachment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.mime.AttachmentException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.context.AbstractMessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.context.MessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.context.DefaultMessageContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.config",
+         "packageMembers": [
+            {
+               "name": "org/springframework/ws/config/web-services-1.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ws.config.MarshallingEndpointsBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.config.XPathEndpointsBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.config.WebServicesNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.client.support.destination",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.client.support.destination.DestinationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.support.destination.AbstractCachingDestinationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.support.destination.DestinationProvisionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.support.destination.Wsdl11DestinationProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.client.support.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.client.support.interceptor.WebServiceValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.support.interceptor.PayloadValidatingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.support.interceptor.AbstractValidatingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.support.interceptor.ClientInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.client.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.client.support.WebServiceAccessor",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.client.core.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.client.core.support.WebServiceGatewaySupport",
+            "type": "CLASS"
+         },
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.client.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceMessageExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$WebServiceMessageCallbackMessageExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceMessageCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.FaultMessageResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$SourceExtractorMessageExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.SourceExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/ws/client/core/WebServiceTemplate.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.SimpleFaultMessageResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.core.WebServiceTemplate$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      },
+      {
+         "name": "org.springframework.ws.client",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.client.WebServiceIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.WebServiceClientException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.WebServiceFaultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.WebServiceTransformerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.client.WebServiceTransportException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.5.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.ls",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.xml.xsd",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.xml.xpath",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.util",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.xml.namespace",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.xml.sax",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.xml.stream",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.xml.validation",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.validation",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.oxm.mime",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.oxm",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 1.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.jdom.input",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom.transform",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.jdom",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j.io",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.params",
+         "optional": true,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.methods",
+         "optional": true,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.auth",
+         "optional": true,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": true,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.soap.impl.builder",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.soap.impl.llom.soap12",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.soap.impl.llom.soap11",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.soap",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om.util",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om.impl",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om.ds",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.attachments",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "nu.xom.converters",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "nu.xom",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream.util",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.stream.events",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.soap",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.wsdl.xml",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.factory",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions.soap12",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions.soap",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions.schema",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl.extensions",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.wsdl",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.ws",
+   "version": "1.5.5.A"
+}}

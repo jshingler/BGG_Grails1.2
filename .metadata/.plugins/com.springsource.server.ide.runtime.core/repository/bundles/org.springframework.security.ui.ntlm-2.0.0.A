@@ -1,0 +1,162 @@
+{"bundle": {
+   "dateAdded": "2008-08-07 13:29:14.0",
+   "moduleName": "org.springframework.security.ui.ntlm",
+   "name": "Spring Security NTLM UI",
+   "notes": "",
+   "organisationName": "org.springframework.security",
+   "packageExports": [
+      {
+         "name": "org.springframework.security.ui.ntlm",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.ntlm.NtlmType2MessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ntlm.NtlmProcessingFilterEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ntlm.NtlmUsernamePasswordAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ntlm.NtlmProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ntlm.NtlmBaseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ntlm.NtlmBeginHandshakeException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.ui.ntlm.ldap.authenticator",
+         "packageMembers": {
+            "name": "org.springframework.security.ui.ntlm.ldap.authenticator.NtlmAwareLdapAuthenticator",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.util",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.ui",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers.ldap.authenticator",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers.anonymous",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.ldap",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.context",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.ldap.core",
+         "optional": true,
+         "versionRange": "[1.2.1.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ldap",
+         "optional": true,
+         "versionRange": "[1.2.1.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "jcifs.util",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "jcifs.smb",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "jcifs",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "jcifs.ntlmssp",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.security.ui.ntlm",
+   "version": "2.0.0.A"
+}}

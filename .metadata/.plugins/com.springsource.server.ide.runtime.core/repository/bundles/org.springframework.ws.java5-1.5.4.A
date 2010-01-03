@@ -1,0 +1,196 @@
+{"bundle": {
+   "dateAdded": "2008-10-22 09:46:22.0",
+   "moduleName": "org.springframework.ws.java5",
+   "name": "Spring Web Services Core (Java 5)",
+   "notes": "",
+   "organisationName": "org.springframework.ws",
+   "packageExports": [
+      {
+         "name": "org.springframework.ws.soap.addressing.server",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping",
+            "type": "CLASS"
+         },
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.addressing.server.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.addressing.server.annotation.Address",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.addressing.server.annotation.Action",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server.endpoint",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.server.endpoint.SoapFaultAnnotationExceptionResolver",
+            "type": "CLASS"
+         },
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server.endpoint.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.annotation.FaultCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.annotation.SoapFault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.server.endpoint.annotation.SoapAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.adapter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.GenericMarshallingMethodEndpointAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.adapter.XPathParamAnnotationMethodEndpointAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.server.endpoint.mapping",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.server.endpoint.mapping.SoapActionAnnotationMethodEndpointMapping",
+            "type": "CLASS"
+         },
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.mapping",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.PayloadRootAnnotationMethodEndpointMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.mapping.AbstractAnnotationMethodEndpointMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.4.A"
+      },
+      {
+         "name": "org.springframework.ws.server.endpoint.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.server.endpoint.annotation.PayloadRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.annotation.Endpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.server.endpoint.annotation.XPathParam",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.xml.namespace",
+         "optional": false,
+         "versionRange": "[1.5.4.A, 1.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.stereotype",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.oxm",
+         "optional": false,
+         "versionRange": "[1.5.4.A, 1.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.xpath",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.ws.java5",
+   "version": "1.5.4.A"
+}}

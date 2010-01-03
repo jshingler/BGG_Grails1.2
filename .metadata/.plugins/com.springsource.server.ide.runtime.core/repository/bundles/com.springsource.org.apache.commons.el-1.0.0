@@ -1,0 +1,330 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:12:02.0",
+   "moduleName": "com.springsource.org.apache.commons.el",
+   "name": "Apache Commons Expression Language",
+   "notes": "",
+   "organisationName": "org.apache.commons",
+   "packageExports": [
+      {
+         "name": "org.apache.commons.el.parser",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.el.parser.ELParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.ELParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.ELParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.parser.ELParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.commons.el",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.BeanInfoProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.OrOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.IntegerDivideOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.StringLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.NullLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.Literal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.GreaterThanOrEqualsOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.NotOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.MultiplyOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.UnaryOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.UnaryMinusOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/commons/el/Resources.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.commons.el.Coercions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.MinusOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ExpressionEvaluatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ExpressionString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.BeanInfoIndexedProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ValueSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ExpressionEvaluatorImpl$JSTLExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.FloatingPointLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.DivideOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.AndOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.NamedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ConditionalExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.FunctionInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.RelationalOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.LessThanOrEqualsOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.EqualsOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.GreaterThanOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/commons/el/ELParser.jj",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.commons.el.ModulusOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.UnaryOperatorExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.EqualityOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.BinaryOperatorExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ArithmeticOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.BeanInfoManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.PropertySuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/commons/el/Resources_ja.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.commons.el.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.BooleanLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.EmptyOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.PlusOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ComplexValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.LessThanOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.VariableResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ArraySuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.PrimitiveObjects",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.IntegerLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.BinaryOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.EnumeratedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.NotEqualsOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.el.ImplicitObjects$7",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.servlet.jsp.el",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.commons.el",
+   "version": "1.0.0"
+}}

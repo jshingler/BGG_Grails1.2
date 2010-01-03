@@ -1,0 +1,230 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:12:58.0",
+   "moduleName": "com.springsource.org.apache.xml.resolver",
+   "name": "Apache XML Commons Resolver",
+   "notes": "",
+   "organisationName": "org.apache.xml",
+   "packageExports": [
+      {
+         "name": "org.apache.env",
+         "packageMembers": [
+            {
+               "name": "org/apache/env/WhichJar.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/env/WhichFactory.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.xml.resolver.tools",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.resolver.tools.ResolvingParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.tools.ResolvingXMLFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.tools.CatalogResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.tools.ResolvingXMLReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.xml.resolver.helpers",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.resolver.helpers.BootstrapResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.helpers.PublicId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.helpers.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.helpers.FileURL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.helpers.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.xml.resolver.readers",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.resolver.readers.DOMCatalogParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.SAXParserHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.DOMCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.SAXCatalogParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.SAXCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.ExtendedXMLCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.TR9401CatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.CatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.TextCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.XCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.readers.OASISXMLCatalogReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.xml.resolver.etc",
+         "packageMembers": [
+            {
+               "name": "org/apache/xml/resolver/etc/catalog.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/xml/resolver/etc/catalog.rng",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/xml/resolver/etc/xcatalog.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/xml/resolver/etc/catalog.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.xml.resolver",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.resolver.CatalogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.Catalog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.CatalogException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.Resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.CatalogManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.xml.resolver.apps",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.resolver.apps.XParseError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.apps.resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.apps.xread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.resolver.apps.xparse",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.xml.resolver",
+   "version": "1.2.0"
+}}

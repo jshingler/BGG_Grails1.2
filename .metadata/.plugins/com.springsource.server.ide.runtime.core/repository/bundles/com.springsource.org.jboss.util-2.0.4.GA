@@ -1,0 +1,1601 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:51:58.0",
+   "moduleName": "com.springsource.org.jboss.util",
+   "name": "JBoss Common Utilities",
+   "notes": "",
+   "organisationName": "org.jboss.util",
+   "packageExports": [
+      {
+         "name": "org.jboss.net.protocol",
+         "packageMembers": [
+            {
+               "name": "org.jboss.net.protocol.URLLister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.DelegatingURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.URLListerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.URLListerBase$URLFilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.URLLister$URLFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.URLListerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.URLListerBase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.URLStreamHandlerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.xml.catalog.readers",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.xml.catalog.readers.TR9401CatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.TextCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.DOMCatalogParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.CatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.ExtendedXMLCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.XCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.SAXCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.DOMCatalogReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.SAXParserHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.SAXCatalogParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.readers.OASISXMLCatalogReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.xml.catalog.helpers",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.xml.catalog.helpers.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.helpers.PublicId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.helpers.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.helpers.BootstrapResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.xml.catalog",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.xml.catalog.Catalog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.CatalogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.CatalogManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.Resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.catalog.CatalogException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.xml",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.xml.DOMWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.JBossEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.DOMUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.XmlLoadable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.JBossErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.XmlHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.DOMUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.JBossEntityResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.xml.CatalogLocation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.timeout",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.timeout.TimeoutPriorityQueueImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutFactory$TimeoutWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutPriorityQueueImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.HashedTimeoutPriorityQueueImpl$InternalPriorityQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.Timeout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutPriorityQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.HashedTimeoutPriorityQueueImpl$TimeoutExtImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutFactory$TimeoutTargetImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.HashedTimeoutPriorityQueueImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.HashedTimeoutPriorityQueueImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutExt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.timeout.TimeoutPriorityQueueImpl$TimeoutExtImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.threadpool",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.threadpool.ThreadPoolFullException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.MinPooledExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.TaskStoppedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.ThreadPoolStoppedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicThreadPool$TimeoutMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.StartTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.TaskWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicTaskWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicThreadPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.ThreadPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.Task",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicThreadPool$TimeoutInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.RunnableTaskWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.ThreadPoolMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicThreadPool$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicThreadPool$ThreadPoolThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BlockingMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.threadpool.BasicThreadPoolMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.stream",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.stream.MarshalledValueInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.NotifyingBufferedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.MarshalledValueOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.NotifyingBufferedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.StreamListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.Streams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.IMarshalledValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.stream.CRLFPrintWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.state.xml",
+         "packageMembers": {
+            "name": "org.jboss.util.state.xml.StateMachineParser",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.state",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.state.State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.state.StateMachine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.state.Transition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.state.IllegalTransitionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.property.jmx",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.property.jmx.SystemPropertyClassValueMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.jmx.SystemPropertyClassValue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.propertyeditor",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.propertyeditor.IntArrayEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.TextPropertyEditorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.DocumentEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.ByteArrayEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.PropertyEditors$Initialize",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.ElementEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.ClassArrayEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.DoubleEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.DateEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.IntegerEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.BigDecimalEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.URLEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.CharacterEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.URIEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.StringEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.PropertyEditors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.FloatEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.PropertiesEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.BooleanEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.LongEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.ClassEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.ByteEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.DateEditor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.ShortEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.InetAddressEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.StringArrayEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.FileEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.propertyeditor.BlockingModeEditor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.property",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.property.PropertyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.Property$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.BoundPropertyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.MethodBoundPropertyListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyGroup$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.FilePropertyReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.BoundPropertyListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyGroup$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.DefaultPropertyReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.FieldBoundPropertyListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.property.PropertyError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.platform",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.platform.PID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.platform.Java",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.naming",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.naming.ENCThreadLocalKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.naming.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.naming.ReadOnlyContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.naming.NonSerializableFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.loading",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.loading.ContextClassLoader$NewInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.ContextClassLoaderSwitcher$SwitchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.DelegatingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.ContextClassLoaderSwitcher$NewInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.Translator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.ContextClassLoaderSwitcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.Translatable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.ContextClassLoaderSwitcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.ContextClassLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.loading.ContextClassLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.id",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.id.VMID$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.id.VMID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.id.ID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.id.UID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.id.SerialVersion$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.id.SerialVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.id.GUID",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.graph",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.graph.Graph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.VisitorEX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.Vertex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.DFSVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.Graph$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.Edge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.graph.Graph$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.file",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.file.ArchiveBrowser$Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.FileSuffixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.FilePrefixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.FilenameSuffixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.FilenamePrefixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.JarStreamBrowser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.JarUtils$JarInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.JarArchiveBrowser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.FileProtocolArchiveBrowserFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.ClassFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.DirectoryArchiveBrowser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.JarProtocolArchiveBrowserFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.ArchiveBrowserFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.ArchiveBrowser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.Files",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.file.JarUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.deadlock",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.deadlock.ApplicationDeadlockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.deadlock.Resource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.deadlock.DeadlockDetector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util.collection",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.collection.Iterators$SyncEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$SimpleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.ReverseListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CachedCollection$MyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators$ImmutableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CachedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators$EmptyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.ListQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.SoftSet$ComparableSoftReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.ListSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators$Enum2Iterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.LazyList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CachedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CollectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.LazySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CompoundIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.LazyMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.SoftValueHashMap$SoftValueRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.EmptyCollectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakClassCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CollectionsUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.AbstractQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CollectionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.CompoundKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.FullCollectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.ArrayIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators$SyncIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Queue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakValueHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakValueHashMap$WeakValueRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.SoftSet$ComparableSoftReferenceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.SoftSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.Iterators$Iter2Enumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.SerializableEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.WeakIdentityHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.collection.SoftValueHashMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.util",
+         "packageMembers": [
+            {
+               "name": "org.jboss.util.TimedCachePolicy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Semaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Semaphore$Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LRUCachePolicy$LRUList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.HashCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.MethodHashing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SoftObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Classes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NestedThrowable$Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LongCounter$Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimerQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Strings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Throwables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WaitSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.AbstractNestedThrowable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LongCounter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LongCounter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WaitSync",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LongCounter$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WeakObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimedCachePolicy$DefaultTimedEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.StopWatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.CachePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SysPropertyActions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LRUCachePolicy$LRUCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SysPropertyActions$SysProps$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.StringPropertyReplacer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Counter$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LRUCachePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.ThrowableHandler$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NestedSQLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.ThrowableHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SynchronizedCachePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WorkerQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NullArgumentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.StopWatch$Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.JBossStringBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Counter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.StopWatch$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Objects",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimedCachePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NestedThrowable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WorkerQueue$JobItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NotImplementedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.PrettyString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SysPropertyActions$SysProps$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NoSuchMethodException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimerTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Strings$Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WorkerQueue$QueueLoop",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimedCachePolicy$TimedEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SysPropertyActions$SysProps$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Primitives",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Heap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Counter$Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimedCachePolicy$ResolutionTimer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.JBossObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.UnreachableStatementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.ThrowableListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.LongCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NestedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.SysPropertyActions$SysProps",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Base64$OutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.UnexpectedThrowable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.FieldInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Classes$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.TimerQueue$TimerTaskLoop",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.JBossInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Base64$InputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Executable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.WorkerQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.Counter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NestedError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.PrettyString$Appendable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.EmptyStringException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.util.NestedRuntimeException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.net.ssl",
+         "packageMembers": {
+            "name": "org.jboss.net.ssl.SSLSocketFactoryBuilder",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.net.sockets",
+         "packageMembers": [
+            {
+               "name": "org.jboss.net.sockets.TimeoutServerSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.RMIMultiSocketServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.RMIMultiSocketClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.TimeoutClientSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.MethodHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.RMIMultiSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.DefaultSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.TimeoutServerSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.DefaultClientSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.TimeoutSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.RMIMultiSocketHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.QueuedClientSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.sockets.InterruptableInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.net.protocol.resource",
+         "packageMembers": [
+            {
+               "name": "org.jboss.net.protocol.resource.ResourceURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.resource.Handler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.net.protocol.njar",
+         "packageMembers": {
+            "name": "org.jboss.net.protocol.njar.Handler",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.net.protocol.http",
+         "packageMembers": {
+            "name": "org.jboss.net.protocol.http.DavURLLister",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.GA"
+      },
+      {
+         "name": "org.jboss.net.protocol.file",
+         "packageMembers": [
+            {
+               "name": "org.jboss.net.protocol.file.FileURLLister$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.file.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.file.FileURLLister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.net.protocol.file.FileURLConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.GA"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.jboss.logging",
+         "optional": true,
+         "versionRange": "[2.0.4.GA, 3.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.webdav.lib",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": true,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "EDU.oswego.cs.dl.util.concurrent",
+         "optional": false,
+         "versionRange": "[1.3.4, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.jboss.util",
+   "version": "2.0.4.GA"
+}}

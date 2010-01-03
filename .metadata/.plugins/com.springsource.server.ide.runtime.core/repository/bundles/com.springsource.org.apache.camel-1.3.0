@@ -1,0 +1,2586 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:54:19.0",
+   "moduleName": "com.springsource.org.apache.camel",
+   "name": "Apache Camel Core POJO Based Router",
+   "notes": "",
+   "organisationName": "org.apache.camel",
+   "packageExports": [
+      {
+         "name": "org.apache.camel.view",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.view.GraphGeneratorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.view.NodeData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.view.XmlGraphGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.view.RouteDotGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.CamelContextAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.InvalidTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Endpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ExchangeTimedOutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.FailedToCreateProducerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Predicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.RuntimeExchangeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.RuntimeCamelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.NoSuchLanguageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.NoSuchEndpointException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.AlreadyStoppedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.RuntimeTransformException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Headers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.InvalidPayloadException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Exchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Route",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Producer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ExchangePattern$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.AsyncProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.NoTypeConversionAvailableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.InvalidPayloadRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ResolveEndpointFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.NoSuchPropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.AsyncCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Body",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.RuntimeExpressionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.OutHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.MessageDriven",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.NoSuchBeanException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Component",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Consumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Service",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.PollingConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelExchangeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.NoSuchHeaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.EndpointInject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Processor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.CamelTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ExchangePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.InvalidHeaderTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ExpectedBodyTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.Properties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.TypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.ProducerTemplate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor.loadbalancer",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.loadbalancer.StickyLoadBalancer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.RoundRobinLoadBalancer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.TopicLoadBalancer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.RandomLoadBalancer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.QueueLoadBalancer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.LoadBalancerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.LoadBalancerConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.loadbalancer.LoadBalancer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor.validation",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.validation.SchemaValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.validation.DefaultValidationErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.validation.ValidatingProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.validation.NoXmlBodyValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.validation.ValidatorErrorHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.spi",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.spi.TypeConverterAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.LifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.Policy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.DataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.ComponentResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.UnitOfWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.Registry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.Synchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.Language",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.ExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.Injector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.BrowsableEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.NamespaceAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.InstrumentationAgent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.ExchangeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.Provider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.spi.LanguageResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.util.ResolverUtil$AnnotatedWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ReportingTypeConverterLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.TimeoutMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ExpressionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.UuidGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.CollectionStringBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ResolverUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.URISupport$CompositeData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ServiceHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ReportingTypeConverterLoader$TypeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ExchangeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ReportingTypeConverterLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ResolverUtil$IsA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.AsyncProcessorHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.AsyncProcessorHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.EndpointHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.PackageHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ObjectHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.NoFactoryAvailableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ProducerCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.LRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.Time",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.CamelContextHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.DefaultTimeoutMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.CollectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ExpressionComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.TimeoutMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.IOHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ResolverUtil$Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.UnsafeUriCharactersEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.IntrospectionSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.FactoryFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ReportingTypeConverterRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.ExpressionListComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.URISupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.util.jndi",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.util.jndi.JndiContext$LocalNamingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.jndi.JndiContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.jndi.JndiContext$ListEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.jndi.JndiContext$ListBindingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.jndi.JndiContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.util.jndi.CamelInitialContextFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor.resequencer",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.resequencer.Timeout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.ElementComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.SequenceElementComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.TimeoutHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.SequenceSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.SequenceSender$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.ExpressionResultComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.DefaultExchangeComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.resequencer.ResequencerEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.interceptor.StreamCachingInterceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.interceptor.StreamCachingInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor.idempotent",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.idempotent.MessageIdRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.idempotent.NoMessageIdException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.idempotent.MemoryMessageIdRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.idempotent.IdempotentConsumer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.MulticastProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.MulticastProcessor$ProcessorExchangePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ThreadProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.MulticastProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.TryProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ThreadProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ThrowFaultProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.RedeliveryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.RoutingSlip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.MulticastProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DelegateAsyncProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.MarshalProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ErrorHandlerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Interceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Logger$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.MulticastProcessor$ProcessCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.SendProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ThreadProcessor$ProcessCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DeadLetterChannel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ThreadProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Aggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.LoggingErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Pipeline",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DeadLetterChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Pipeline$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.BatchProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.StreamResequencer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.UnitOfWorkProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Resequencer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ThroughputLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DelayProcessorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Splitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.RecipientList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DelegateProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.CompositeProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.LoggingLevel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.CatchProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.FilterProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.UnmarshalProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.UnitOfWorkProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DeadLetterChannel$RedeliveryData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Delayer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.Throttler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.DeadLetterChannel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ConvertBodyProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.LoggingErrorHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ProceedProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.ChoiceProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.processor.aggregate",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.processor.aggregate.AggregationCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.aggregate.UseLatestAggregationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.aggregate.AggregationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.processor.aggregate.PredicateAggregationCollection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.model.loadbalancer",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.model.loadbalancer.StickyLoadBalanceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.loadbalancer.RoundRobinLoadBalanceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.loadbalancer.TopicLoadBalanceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.loadbalancer.package-info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.loadbalancer.LoadBalancerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.loadbalancer.RandomLoadBalanceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/camel/model/loadbalancer/jaxb.index",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.model.language",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.model.language.OgnlExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/camel/model/language/jaxb.index",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.camel.model.language.XPathExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.GroovyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.HeaderExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.ELExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.JXPathExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.JavaScriptExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.LanguageExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.ExpressionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.XQueryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.RubyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.SimpleExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.NamespaceAwareExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.package-info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.PythonExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.SqlExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.PhpExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.language.MethodCallExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.model.dataformat",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.model.dataformat.package-info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.JaxbDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.DataFormatType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.ArtixDSContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.XMLBeansDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.ArtixDSDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/camel/model/dataformat/jaxb.index",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.SerializationDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.XStreamDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.CsvDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.dataformat.StringDataFormat",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.model.config",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.model.config.BatchResequencerConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/camel/model/config/jaxb.index",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.camel.model.config.package-info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.config.StreamResequencerConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.model",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.model.NodeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RecipientListType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.AggregatorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.OtherwiseType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ResequencerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.MarshalType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.Block",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ProcessorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.DelayerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.CompletedPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ThrottlerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RouteContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.PolicyRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.MulticastType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.InterceptorRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RoutingSlipType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.SplitterType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.OutputType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ProcessorType$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RouteBuilderRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.InterceptType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.FilterType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RouteType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ThreadType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RoutesType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.CatchType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.RedeliveryPolicyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.UnmarshalType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.FromType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.LoadBalanceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.WhenType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.IdentifiedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.IdempotentConsumerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ResequencerType$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ServiceActivationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ProcessorRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.BeanRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ThrowFaultType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.InterceptorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.AggregatorType$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ToType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.package-info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ExceptionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ChoiceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.FinallyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.model.ProceedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/camel/model/jaxb.index",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.camel.model.TryType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.management",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.management.InstrumentationAgentImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.InstrumentationLifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.PerformanceCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.ManagedService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.ManagedEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.ObjectNameEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.ManagedRoute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.InstrumentationAgentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.CamelNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.management.InstrumentationProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.language.simple",
+         "packageMembers": {
+            "name": "org.apache.camel.language.simple.SimpleLanguage",
+            "type": "CLASS"
+         },
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.language.bean",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.language.bean.BeanLanguage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.bean.RuntimeBeanExpressionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.bean.BeanExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.language",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.language.LanguageExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.Simple",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.Bean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.ExpressionEvaluationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.NamespacePrefix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.XPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.LanguageAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.language.IllegalSyntaxException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.impl.converter",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.impl.converter.AnnotationTypeConverterLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.ToStringTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.StaticMethodTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.AsyncProcessorTypeConverter$ProcessorToAsynProcessorBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.AsyncProcessorTypeConverter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.DefaultTypeConverter$TypeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.DefaultTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.AsyncProcessorTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.ArrayTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.EnumTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.TypeConverterLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.InstanceMethodTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.PropertyEditorTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.converter.TypeConverterRegistry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.impl",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.impl.DefaultCamelContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ProcessorPollingConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ProcessorEndpoint$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultExchangeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.RouteContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultLifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.JndiRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ProcessorEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultPollingEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.EventDrivenPollingConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultComponentResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ScheduledPollEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ProcessorEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.NoRouteBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ScheduledPollConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.LoggingExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultLanguageResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DelegateLifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultScheduledPollConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.PredicateSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.NoPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultUnitOfWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.StringDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ReflectionInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ExpressionSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultComponent$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.MessageSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.ServiceSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.EventDrivenConsumerRoute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.BinaryPredicateSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.PollingConsumerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.DefaultExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.CachingInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.impl.SerializationDataFormat",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.converter.stream",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.converter.stream.StreamCacheConverter$InputStreamCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.stream.StreamCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.stream.StreamCacheConverter$StreamSourceCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.stream.StreamCacheConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.converter.jaxp",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.converter.jaxp.StaxConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.jaxp.BytesSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.jaxp.StringSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.jaxp.XmlConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.jaxp.DomConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.converter",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.converter.NIOConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.ObjectConverter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.ObjectConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.IOConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.HasAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.converter.CollectionConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.vm",
+         "packageMembers": {
+            "name": "org.apache.camel.component.vm.VmComponent",
+            "type": "CLASS"
+         },
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.timer",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.timer.TimerEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.timer.TimerComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.timer.TimerConsumer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.timer.TimerConsumer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.seda",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.seda.SedaConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.seda.ListPollingConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.seda.CollectionProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.seda.SedaEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.seda.SedaConsumer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.seda.QueueComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.seda.SedaComponent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.ref",
+         "packageMembers": {
+            "name": "org.apache.camel.component.ref.RefComponent",
+            "type": "CLASS"
+         },
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.mock",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.AssertionClause$PredicateValueBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.AssertionClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.mock.MockEndpoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.log",
+         "packageMembers": {
+            "name": "org.apache.camel.component.log.LogComponent",
+            "type": "CLASS"
+         },
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.list",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.list.ListEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.list.ListEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.list.ListComponent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.jmx",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.jmx.JMXComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.jmx.JMXEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.jmx.JMXExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.jmx.JMXConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.jmx.JMXMessage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.file.strategy",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.file.strategy.FileRenamer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.strategy.RenameFileProcessStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.strategy.FileProcessStrategySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.strategy.DeleteFileProcessStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.strategy.NoOpFileProcessStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.strategy.FileProcessStrategyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.strategy.DefaultFileRenamer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.file",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.file.FileConsumer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileProcessStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileConsumer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.file.FileEndpoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.direct",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.direct.DirectComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.direct.DirectProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.direct.DirectEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.direct.DirectEndpoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.dataset",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.dataset.DataSetConsumer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.dataset.DataSetSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.dataset.DataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.dataset.SimpleDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.dataset.DataSetConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.dataset.DataSetEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.dataset.DataSetComponent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.component.bean",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.component.bean.ConstantBeanHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.DefaultAnnotationExpressionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.MethodBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.XPathAnnotationExpressionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.CamelInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.MethodInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.MethodInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.MethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.AmbiguousMethodCallException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.RegistryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.AnnotationExpressionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.BeanProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.BeanComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.BeanExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.DefaultParameterMappingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.MethodInfo$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.NoBeanAvailableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.BeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.ParameterInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.ProxyHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.ParameterMappingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.BeanInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.component.bean.BeanHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.builder.xml",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.builder.xml.XPathLanguage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XPathBuilder$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XPathBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.DomResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.DefaultNamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.StringResultHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XPathBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.InvalidXPathExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XPathBuilder$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.ResultHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.StreamResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XPathBuilder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XPathBuilder$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.MessageVariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.StreamResultHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.StringResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.XsltBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.ResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.xml.DomResultHandlerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "org.apache.camel.builder",
+         "packageMembers": [
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.NoErrorHandlerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.BuilderSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.Builder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.RouteBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.DataFormatClause$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ConstantProcessorBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ErrorHandlerBuilderSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.LoggingErrorHandlerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.DataFormatClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.DeadLetterChannelBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.DeadLetterChannelBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.DataFormatClause$Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ExpressionBuilder$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ProcessorBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ErrorHandlerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.PredicateBuilder$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.camel.builder.ValueBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.jmx.export.metadata",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jmx.export.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jmx.export.assembler",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.xpath",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.validation",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.bind.annotation",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.remote",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.monitor",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.modelmbean",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.camel",
+   "version": "1.3.0"
+}}

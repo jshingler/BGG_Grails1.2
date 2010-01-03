@@ -1,0 +1,1363 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:17:21.0",
+   "moduleName": "com.springsource.oracle.sqlj.runtime",
+   "name": "Oracle SQLJ Runtime",
+   "notes": "",
+   "organisationName": "com.oracle.sqlj",
+   "packageExports": [
+      {
+         "name": "oracle.jpub.reflect",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.reflect.RClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.RObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.RField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.RMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.RConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.ServerSideException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.Server",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.Descriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.reflect.Client",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.runtime.ref",
+         "packageMembers": [
+            {
+               "name": "sqlj.runtime.ref.ResultSetIterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.ConnectionContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.ProfileGroup$ConnectedGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.ScrollableResultSetIterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.DefaultContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.ProfileGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.JdbcRTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.OraRTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.ProfileGroup$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ref.OraDrvRTResultSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.runtime.profile.ref",
+         "packageMembers": [
+            {
+               "name": "sqlj.runtime.profile.ref.CachedStatementProfileHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedDynamicProfileHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTStatementJDBCPrepared",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedDynamicProfileWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.TransactionControlProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.DynamicProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.PositionedProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.PositionedProfile$PositionedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.DynamicProfileWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.PositionedProfile$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ParamRegProfile$ParamRegCachedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.TransactionControlProfile$CommitStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.IterConvertProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.LRUObjectPool$LRUNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTResultSetWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedDynamicProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTStatementWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.PositionedProfile$PosTypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ProfileDataImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.UntypedSelectProfile$UntypedSelectStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ObjectPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.TransactionControlProfile$SetTransactionStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTStatementJDBCBase$Command",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.UntypedSelectProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.JDBCProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTStatementJDBCBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedStatementProfileWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.TransactionControlProfile$RollbackStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedStatementWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.StatementCacheProfile$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTResultSetJDBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.Flushable",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.UntypedSelectProfile$UntypedSelectCachedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.StatementCacheProfile$HeadNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.TypeInfoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.EntryInfoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTStatementJDBCCallable",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.StatementCacheProfile$DataNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.PositionedProfile$PosEntryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.StatementCacheCustomization$HashKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.SharedProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.IterConvertProfile$IterConvertStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedStatementProfileHelper$CachedStatementHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ExecuteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.StatementCacheProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.CachedStatementProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.LRUObjectPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ProfileWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ProfileImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.LocalStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ClientDataSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.SharedProfile$Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.ParamRegProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.RTStatementJDBCBase$JDBCBatchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ref.StatementCacheCustomization",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.runtime.profile",
+         "packageMembers": [
+            {
+               "name": "sqlj.runtime.profile.SetTransactionDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.RTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ProfileData",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.BatchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ConnectedProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.Profile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.RTStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.TypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.EntryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.SerializedProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.DefaultLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.Customization",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.Profile$ObjectInputStreamWithLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.ScrollableResultSetDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.runtime.error",
+         "packageMembers": [
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsCause",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsCause",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsCause",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.Errors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsCause",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileRefErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.ProfileErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeRefErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.error.RuntimeErrorsText_iw",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.runtime",
+         "packageMembers": [
+            {
+               "name": "sqlj.runtime.BinaryStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ForUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ScrollableResultSetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.StreamWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.CharacterStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.RuntimeContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.PositionedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ExecutionContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.Scrollable",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.SQLNullException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ExecutionContext$StatementStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ResultSetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.AsciiStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ExecutionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.NamedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ConnectionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.UnicodeStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.DefaultRuntime",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ExecutionContext$OracleContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.ExecutionContext$StatementFrame",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.runtime.sqlmonitor",
+         "packageMembers": {
+            "name": "oracle.sqlj.runtime.sqlmonitor.SQLMonitor",
+            "type": "CLASS"
+         },
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.runtime.error",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsCause",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.error.OraCustomizationErrorsText",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.runtime",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.runtime.OraEntryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraProfileData",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraIterClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraCustomization",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraCachedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraORADataClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraTypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.NcharUnicodeStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.NcharCharacterStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraSerializableClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraRTStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraIterConvertStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$26",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraConsts",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraTypeClosureImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$27",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraSQLDataClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraRTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraCustomization$OraClientDataSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraRTStatement$OraBatchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.NcharAsciiStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraDynamicClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraTypeClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.Oracle",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraRTStatement$Command",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraPLSQLIndexTableClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraCustomDatumClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraCustomization$OraStatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.OraClosureFactory$22",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sql",
+         "packageMembers": [
+            {
+               "name": "oracle.sql.NCHAR",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sql.SimpleXMLType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sql.NCLOB",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sql.NString",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      }
+   ],
+   "packageImports": {
+      "name": "sqlj.util.io",
+      "optional": false,
+      "versionRange": "[10.2.0.0, 11.0.0)"
+   },
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.oracle.sqlj.runtime",
+   "version": "10.2.0.0"
+}}

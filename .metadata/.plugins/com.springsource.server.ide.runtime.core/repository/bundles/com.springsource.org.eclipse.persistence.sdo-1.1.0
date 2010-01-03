@@ -1,0 +1,623 @@
+{"bundle": {
+   "dateAdded": "2009-04-23 10:21:47.0",
+   "moduleName": "com.springsource.org.eclipse.persistence.sdo",
+   "name": "EclipseLink SDO",
+   "notes": "",
+   "organisationName": "org.eclipse.persistence",
+   "packageExports": [
+      {
+         "name": "org.eclipse.persistence.sdo",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.ValueStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDODataGraph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDODataObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOChangeSummary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOXMLDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOSequence$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOResolvable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.DefaultValueStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOSetting",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.SDOExternalizableDelegator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.types",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOTypeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDODataObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOWrapperType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDODataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOChangeSummaryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOXMLHelperLoadOptionsType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOPropertyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.types.SDOOpenSequencedType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.helper.metadata",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.helper.metadata.QNameTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.metadata.TypeStringConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.metadata.NamespaceURITransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.helper.jaxb",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.helper.jaxb.JAXBHelperContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.jaxb.JAXBDataFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.jaxb.JAXBXMLHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.jaxb.JAXBListWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.jaxb.JAXBValueStore",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.helper.extension",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.helper.extension.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.extension.XPathHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.extension.SDOUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.extension.OPStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.extension.XPathHelper$QueryPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.extension.XPathExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.helper.delegates",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDODataFactoryDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.AbstractHelperDelegator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDODataFactoryDelegator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDOXSDHelperDelegator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDOXSDHelperDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDOXMLHelperDelegator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDOXMLHelperDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDOTypeHelperDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.delegates.SDOTypeHelperDelegator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.helper",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOHelperContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOXMLHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDODataFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.AttributeMimeTypePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOCSUnmarshalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOMarshalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.DefaultSchemaResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.XPathEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOFragmentMappingAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOTypesGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.CodeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOClassGeneratorListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOTypesGenerator$NonContainmentReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOHelperContext$MyNotificationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.ClassBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOClassGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOUnmappedContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOUnmarshalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.InstanceClassConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDODataHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOCopyHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOXSDHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOSchemaGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOTypeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOMethodAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOTypesGenerator$GlobalRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SchemaLocationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.DataObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.ListWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.DefaultSchemaLocationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SDOEqualityHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.FileCodeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SchemaResolverWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.SchemaResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.helper.DynamicClassWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.sdo.dataobjects",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.sdo.dataobjects.OpenSequencedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.sdo.dataobjects.OpenSequencedTypeImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.eclipse.persistence.oxm.schema",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.eclipse.persistence.sessions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.xml",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.unmapped",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.sequenced",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.record",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.platform",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.mappings.nullpolicy",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.mappings.converters",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.mappings",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.mappings.transformers",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.mappings.foundation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.mappings.converters",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.mappings",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.logging",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.jaxb",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.sessions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.security",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.queries",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm.schema.model",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm.schema",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm.record",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.localization",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.helper",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.descriptors",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.databaseaccess",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.exceptions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.descriptors",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.datatype",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.bind",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "commonj.sdo.impl",
+         "optional": true,
+         "versionRange": "[2.1.1, 3.0.0)"
+      },
+      {
+         "name": "commonj.sdo.helper",
+         "optional": true,
+         "versionRange": "[2.1.1, 3.0.0)"
+      },
+      {
+         "name": "commonj.sdo",
+         "optional": true,
+         "versionRange": "[2.1.1, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.eclipse.persistence.sdo",
+   "version": "1.1.0"
+}}

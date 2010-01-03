@@ -1,0 +1,1741 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:01:54.0",
+   "moduleName": "com.springsource.org.aspectj.matcher",
+   "name": "AspectJ Matcher",
+   "notes": "",
+   "organisationName": "org.aspectj",
+   "packageExports": [
+      {
+         "name": "org.aspectj.bridge",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.bridge.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessageHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IProgressListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.SourceLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.WeaveMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.AbortException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessageHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.ISourceLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.CountingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessage$Kind$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.WeaveMessage$WeaveMessageKind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.ICommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$KindSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.ReflectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.CountingMessageHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.CountingMessageHandler$IntHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessage$Kind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$IMessageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessage$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.MessageUtil$1HandlerPrintStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.ILifecycleAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.IMessageHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "testdata",
+         "packageMembers": [
+            {
+               "name": "testdata.SomeAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "testdata.AnnotatedClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "testdata.MethodLevelAnnotation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.weaver.tools",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.weaver.tools.DefaultMatchingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.StandardPointcutParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.PointcutDesignatorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.PointcutPrimitive",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.Traceable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.PointcutParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.ShadowMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.ISupportsMessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.AbstractTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.WeavingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.GeneratedClassHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.CommonsTraceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.UnsupportedPointcutPrimitiveException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.JoinPointMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.DefaultTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.StandardPointcutExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.MatchingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.StandardPointcutParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.DefaultTraceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.TypePatternMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.ContextBasedMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.Trace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.CommonsTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.PointcutParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.PointcutParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.PointcutExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.FuzzyBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.tools.TraceFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.weaver.reflect",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionWorld$ReflectionWorldException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionBasedReferenceTypeDelegateFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionWorld$ExceptionBasedMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionWorld$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ShadowMatchImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionVar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionShadow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.Java14GenericSignatureInformationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionFastMatchInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.GenericSignatureInformationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.AnnotationFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionBasedReferenceTypeDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionWorld",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ShadowMatchImpl$RuntimeTestEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.PointcutParameterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.IReflectionWorld",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.JoinPointMatchImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.StandardShadowMatchImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.StandardShadowMatchImpl$RuntimeTestEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.StandardShadow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.reflect.ReflectionBasedResolvedMemberImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.weaver.patterns",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.weaver.patterns.WildTypePattern$VerifyBoundsForTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.BindingAnnotationFieldTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.IVerificationRequired",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerClause$Kind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerFromSuper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclareParents",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclareAnnotation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ThisOrTargetPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.NotTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ITokenSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ExactAnnotationFieldTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AndTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AnyAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ThrowsPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ExactTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.HasMemberTypePatternFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.SignaturePattern$TypePatternVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.HandlerPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.Bindings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ScopeWithTypeVariables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AnnotationPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerTypeWithin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerThisOrTargetPointcutVisitor$TypePatternMayBe",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ThisOrTargetAnnotationPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.BindingPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.Pointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PointcutRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ExposedState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AnnotationPatternList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypePatternList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AnyWithAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.EllipsisAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.WithinAnnotationPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclareAnnotation$Kind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.IScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.SimpleScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.Pointcut$State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.FormalBinding$ImplicitFormalBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.BasicTokenSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PointcutEvaluationExpenseComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.OrAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.BindingAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.CflowPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.KindedPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.HasThisTypePatternTriedToSneakInSomeGenericOrParameterizedTypePatternMatchingStuffAnywhereVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.EllipsisTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ModifiersPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PatternNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.WithinCodeAnnotationPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerThisOrTargetPointcutVisitor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ConcreteCflowPointcut$Slot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.IfPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.HasMemberTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypeVariablePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclareErrorOrWarning",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclareAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.WildTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.NameBindingPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerClause$KindAnnotationPrefix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclarePrecedence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AnyTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AndAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.OrTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.BasicToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypePattern$MatchKind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AbstractPatternNodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.Pointcut$MatchesNothingPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ExactAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.NoTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.WildAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ConcreteCflowPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.WithinPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.SignaturePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.AndPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ArgsAnnotationPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypeVariablePatternList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PatternParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.FastMatchInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ArgsPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerThisOrTargetPointcutVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.NotAnnotationTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.OrPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerCflow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.BindingTypePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.FormalBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.DeclareSoft",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypePatternQuestions$Question",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.WithincodePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ReferencePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.NotPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.IToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.TypePatternQuestions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.IfPointcut$IfTruePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.Declare",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.NamePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PerSingleton",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.ParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.IfPointcut$IfFalsePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.patterns.PatternNodeVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.weaver.internal.tools",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.weaver.internal.tools.PointcutExpressionImpl$HasPossibleDynamicContentVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.PointcutExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.MatchingContextBasedTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.TypePatternMatcherImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.PointcutExpressionImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.PointcutExpressionImpl$Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.StandardPointcutExpressionImpl$Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.PointcutDesignatorHandlerBasedPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.StandardPointcutExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.StandardPointcutExpressionImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.internal.tools.StandardPointcutExpressionImpl$HasPossibleDynamicContentVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.weaver.ast",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.weaver.ast.And",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Var",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.FieldGet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Instanceof",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Expr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Literal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.CallExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Not",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.FieldGetCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.HasAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.ASTNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.IExprVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.ITestVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Or",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ast.Call",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.weaver",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.weaver.CustomMungerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.MissingResolvedTypeWithKnownSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.SimpleAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/aspectj/weaver/weaver-messages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.StandardAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Shadow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.World$AspectPrecedenceCalculator$PrecedenceCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$MethodDeclarationLineNumberAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Advice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$Aspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Dump$IVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$PrivilegedAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AbstractAnnotationAJ",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.SourceContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$WeaverVersionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.StaticJoinPointFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Shadow$Kind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.TypeVariableReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ReferenceTypeDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.WildcardedUnresolvedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Dump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.NewFieldTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.TemporaryTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ClassAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Lint$Kind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.NewConstructorTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.TypeVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedPointcutDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.CrosscuttingMembersSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedTypeMunger$Kind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$Missing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.BoundedReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.JoinPointSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.BCException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$DeclareAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$EffectiveSignatureAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.VersionedDataInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IClassFileProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Dump$INode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IWeavingSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AdviceKind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$TypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotationNameValuePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.BindingScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.MemberKind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ArrayAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.TypeVariableDeclaringElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IClassWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.PrivilegedAccessMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/aspectj/weaver/XlintDefault.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.aspectj.weaver.World$AspectPrecedenceCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.EnumAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.CrosscuttingMembers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ShadowMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjcMemberMaker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.WeakClassLoaderReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.PerObjectInterfaceTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.PoliceExtensionUse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.WeaverStateInfo$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.NameMangler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.JoinPointSignatureIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.MethodDelegateTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$PointcutDeclarationAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$AdviceAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.World",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.TypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotationAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$WeaverState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.NewMethodTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$Getter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.LintMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.TypeVariableReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Dump$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$3$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ExposeTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$AjSynthetic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IHasSourceLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.MethodDelegateTypeMunger$FieldHostTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.SourceContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Member",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.NewParentTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.UnresolvedTypeVariableReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ConcreteTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ISourceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.MemberImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IUnwovenClassFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.MissingResolvedTypeWithKnownSignature$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$Primitive",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotatedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedMemberImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IEclipseSourceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.GeneratedReferenceTypeDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ResolvedType$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.UnresolvedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Checker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ArrayReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotationTargetKind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.WeaverStateInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.WeaverMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AbstractReferenceTypeDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.BoundedReferenceType$ReferenceTypeReferenceTypeDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotationOnTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.ICrossReferenceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AnnotationAJ",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.SignatureUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IWeaveRequestor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.UnresolvedType$TypeKind",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.AjAttribute$SourceContextAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IntMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.IHasPosition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Position",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.PerTypeWithinTargetTypeMunger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Iterators$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.Lint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.JoinPointSignatureIterator$SearchPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.weaver.World$TypeMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.bridge.context",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.bridge.context.ContextFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.CompilationAndWeavingContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.CompilationAndWeavingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.PinpointingMessageHandler$MessageIssued",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.PinpointingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.CompilationAndWeavingContext$DefaultFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.CompilationAndWeavingContext$ContextStackEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.PinpointingMessageHandler$PinpointedMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.PinpointingMessageHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.CompilationAndWeavingContext$ContextTokenImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.bridge.context.ContextToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      },
+      {
+         "name": "org.aspectj.util",
+         "packageMembers": [
+            {
+               "name": "org.aspectj.util.GenericSignature$SimpleClassTypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignatureParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.LangUtil$StringChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FuzzyBoolean$NoFuzzyBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$TypeArgument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.LangUtil$ProcessController$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$ClassTypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$TypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$FieldTypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FuzzyBoolean$NeverFuzzyBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.UtilClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$MethodTypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.IStructureModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.PartialOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FuzzyBoolean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FuzzyBoolean$YesFuzzyBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.PartialOrder$PartialComparable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.LangUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$TypeVariableSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$ClassSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.LangUtil$ProcessController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$ArrayTypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$Pipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.TypeSafeEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.PartialOrder$Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FuzzyBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$FormalTypeParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.PartialOrder$SortObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.LangUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FuzzyBoolean$MaybeFuzzyBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.GenericSignature$BaseTypeSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.Reflection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.FileUtil$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.aspectj.util.LangUtil$ProcessController$Thrown",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.3.RELEASE"
+      }
+   ],
+   "packageImports": {
+      "name": "org.apache.commons.logging",
+      "optional": false,
+      "versionRange": "[1.1.1, 2.0.0)"
+   },
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.aspectj.matcher",
+   "version": "1.6.3.RELEASE"
+}}

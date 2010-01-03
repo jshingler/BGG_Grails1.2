@@ -1,0 +1,731 @@
+{"bundle": {
+   "dateAdded": "2009-05-14 16:27:53.0",
+   "moduleName": "com.springsource.org.codehaus.jackson.mapper",
+   "name": "Jackson JSON mapper",
+   "notes": "",
+   "organisationName": "org.codehaus.jackson",
+   "packageExports": [
+      {
+         "name": "org.codehaus.jackson.map",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jackson.map.DeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.SerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.MappingJsonFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.SerializationConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ObjectMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.KeyDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.DeserializationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.DeserializationProblemHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.JsonSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.DeserializerProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.JsonMappingException$Reference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ClassIntrospector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.SerializerProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.DeserializationConfig$Feature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.JsonSerializable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ResolvableSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.DeserializationConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.TreeMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.SerializationConfig$Feature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.JsonMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ResolvableDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.TreeMapper$DupFields",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.JsonDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.BeanDescription",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.codehaus.jackson.node",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jackson.node.MissingNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.BaseJsonNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.POJONode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ContainerNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.DecimalNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.IntNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ContainerNode$NoStringsIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.LongNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.DoubleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ObjectNode$NoFieldsIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.BooleanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.JsonNodeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.NumericNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.NullNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ArrayNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ContainerNode$NoNodesIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.TextNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.BinaryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ValueNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.ObjectNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.node.BigIntegerNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.codehaus.jackson.map.ser",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$LongArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$UtilDateSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$DoubleSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.CustomSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$StringSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.StdSerializerProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$NumberSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$IntegerSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$IterableSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$IteratorSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$IndexedListSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$FloatArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BeanSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ToStringSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$FloatSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$ObjectArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$ByteArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$BooleanArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ReadOnlyClassToSerializerMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$IntArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$CalendarSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$CharArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BeanSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.StdSerializerProvider$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$DoubleArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$CollectionSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$LongSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$IntLikeSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.JsonValueSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$StringLikeSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$SqlDateSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$SqlTimeSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$SerializableSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.SerializerCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.FailingSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.StdKeySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$EnumMapSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$NullSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$MapSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$ShortArraySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ContainerSerializers$EnumSetSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$BooleanSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$ClassSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BeanPropertyWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.BasicSerializerFactory$EnumSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.ser.ArraySerializers$StringArraySerializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.codehaus.jackson.map.deser",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jackson.map.deser.JsonNodeDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$CharacterDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$IntegerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$ClassDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$ByteDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$IntKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BeanDeserializer$NumberConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$StringCtorKeyDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.DateDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.SettableBeanProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$PrimitiveOrWrapperDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$SqlDateDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BasicDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.CustomDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$IntDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.FromStringDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BeanDeserializer$ConstructorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$DoubleKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$BooleanDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.EnumSetDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$StringFactoryKeyDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$ShortDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BeanDeserializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BeanDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$FloatDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.UntypedObjectDeserializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$BoolKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$StackTraceElementDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$LongKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$StringDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$ByteDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.FromStringDeserializer$URIDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.SettableAnyProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$NumberDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.UntypedObjectDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$BigIntegerDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.FromStringDeserializer$CurrencyDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$ByteKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$LongDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.EnumResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.EnumMapDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$DoubleDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.FromStringDeserializer$UUIDDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ThrowableDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializerProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BeanDeserializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$DoubleDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$StringDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.FromStringDeserializer$URLDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.JsonNodeDeserializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$ShortDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$FloatDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$EnumKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$LongDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.BeanDeserializer$StringConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$CharKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.MapDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.CollectionDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.ArrayDeserializers$CharDeser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$CalendarDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$BigDecimalDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdDeserializer$BooleanDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$ShortKD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.EnumDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jackson.map.deser.StdKeyDeserializer$FloatKD",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.codehaus.jackson.io",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.0]"
+      },
+      {
+         "name": "org.codehaus.jackson.type",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.0]"
+      },
+      {
+         "name": "org.codehaus.jackson.util",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.0]"
+      },
+      {
+         "name": "org.codehaus.jackson",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.0]"
+      },
+      {
+         "name": "org.codehaus.jackson.annotate",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.0]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.codehaus.jackson.mapper",
+   "version": "1.0.0"
+}}

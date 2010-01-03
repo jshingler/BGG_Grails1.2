@@ -1,0 +1,592 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:06:03.0",
+   "moduleName": "com.springsource.org.jmock",
+   "name": "jMock - A Lightweight Mock Object Library for Java",
+   "notes": "",
+   "organisationName": "org.jmock",
+   "packageExports": [
+      {
+         "name": "org.jmock",
+         "packageMembers": [
+            {
+               "name": "org/jmock/States.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.Expectations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.Mockery$MockObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.States",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/Sequence.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/Expectations.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.Mockery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/Mockery.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.syntax",
+         "packageMembers": [
+            {
+               "name": "org.jmock.syntax.ParametersClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.syntax.StatesClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/syntax/StatesClause.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.syntax.ArgumentConstraintPhrases",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/syntax/MethodClause.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.syntax.MethodClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/syntax/ArgumentConstraintPhrases.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.syntax.CardinalityClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/syntax/CardinalityClause.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.syntax.ActionClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/syntax/ReceiverClause.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/syntax/ActionClause.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.syntax.ReceiverClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/syntax/ParametersClause.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.lib.legacy",
+         "packageMembers": [
+            {
+               "name": "org.jmock.lib.legacy.ClassImposteriser$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.legacy.ClassImposteriser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.legacy.ClassImposteriser$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.legacy.ClassImposteriser$ClassWithSuperclassToWorkAroundCglibBug",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.legacy.ClassImposteriser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/lib/legacy/ClassImposteriser.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.legacy.ClassImposteriser$4",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.lib.action",
+         "packageMembers": [
+            {
+               "name": "org/jmock/lib/action/CustomAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/lib/action/ReturnIteratorAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.action.VoidAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.action.CustomAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/lib/action/ReturnValueAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/lib/action/VoidAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.action.DoAllAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/lib/action/ActionSequence.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.action.ActionSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.action.ReturnValueAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/lib/action/ThrowAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/lib/action/DoAllAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.action.ReturnIteratorAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.action.ThrowAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.lib",
+         "packageMembers": [
+            {
+               "name": "org/jmock/lib/AssertionErrorTranslator.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/lib/LastWordNamingScheme.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/lib/CamelCaseNamingScheme.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.AssertionErrorTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/lib/RetroNamingScheme.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.lib.JavaReflectionImposteriser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.JavaReflectionImposteriser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.CamelCaseNamingScheme",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.IdentityExpectationErrorTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.LastWordNamingScheme",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.lib.RetroNamingScheme",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/lib/JavaReflectionImposteriser.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/lib/IdentityExpectationErrorTranslator.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.internal.matcher",
+         "packageMembers": [
+            {
+               "name": "org/jmock/internal/matcher/MethodMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.matcher.ParametersMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.matcher.MockObjectMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.matcher.MethodNameMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/matcher/MockObjectMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.matcher.MethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/matcher/MethodNameMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/matcher/ParametersMatcher.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.internal",
+         "packageMembers": [
+            {
+               "name": "org/jmock/internal/StateMachine.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.InvocationExpectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.StateMachine$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.ReturnDefaultValueAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.StateMachine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/CaptureControl.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/ReturnDefaultValueAction.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/SearchingClassLoader.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/InStateOrderingConstraint.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/InvocationDiverter.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.ChangeStateSideEffect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/ChangeStateSideEffect.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.InvocationDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.ExpectationCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.Cardinality",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/StatePredicate.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/ExpectationBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.SideEffect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/InvocationDispatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.CaptureControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/ProxiedObjectIdentity.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.ExpectationCapture",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.SearchingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/OrderingConstraint.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.NamedSequence$InSequenceOrderingConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.InStateOrderingConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.StateMachine$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/Cardinality.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/State.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/NamedSequence.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/SideEffect.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/InvocationExpectationBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/internal/InvocationExpectation.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.ExpectationBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.StatePredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.InvocationExpectationBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.NamedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.internal.InvocationDiverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/ExpectationCapture.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.ProxiedObjectIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/internal/ExpectationCollector.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.internal.OrderingConstraint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.jmock.api",
+         "packageMembers": [
+            {
+               "name": "org/jmock/api/Expectation.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.api.MockObjectNamingScheme",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.ExpectationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.ExpectationErrorTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.Invocation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/api/Invokable.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/api/Invocation.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.api.Expectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.Invocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.Invokable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.Imposteriser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.api.Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/api/ExpectationErrorTranslator.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/api/MockObjectNamingScheme.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/api/Action.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/api/Imposteriser.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/api/ExpectationError.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.4.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.objenesis",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.hamcrest.core",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.hamcrest.collection",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.hamcrest",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.core",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.jmock",
+   "version": "2.4.0"
+}}

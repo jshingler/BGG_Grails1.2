@@ -1,0 +1,295 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:53:19.0",
+   "moduleName": "com.springsource.org.apache.webdav.lib",
+   "name": "Apache Slide WebDAV Library",
+   "notes": "",
+   "organisationName": "org.apache.webdav",
+   "packageExports": [
+      {
+         "name": "org.apache.webdav.lib",
+         "packageMembers": [
+            {
+               "name": "org.apache.webdav.lib.WebdavResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.WebdavState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.BaseProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.Lock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.WebdavException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.WebdavFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.Ace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.WebdavResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.WebdavSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.Privilege",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.PropertyName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.ResponseEntity",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0"
+      },
+      {
+         "name": "org.apache.webdav.lib.properties",
+         "packageMembers": [
+            {
+               "name": "org.apache.webdav.lib.properties.LockDiscoveryProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.LockEntryProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.GetLastModifiedProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.OwnerProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.GetContentLengthProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.PrincipalCollectionSetProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.CurrentUserPrivilegeSetProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.SupportedLockProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.ResourceTypeProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.properties.AclProperty",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0"
+      },
+      {
+         "name": "org.apache.webdav.lib.methods",
+         "packageMembers": [
+            {
+               "name": "org.apache.webdav.lib.methods.AclMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.SearchMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.CheckoutMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.MkWorkspaceMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.LockMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.RebindMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.UncheckoutMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.MkcolMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.CopyMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.DepthSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.ReportMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.XMLResponseMethodBase$OptionsResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.PropPatchMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.XMLResponseMethodBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.UpdateMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.BindMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.UnbindMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.PropFindMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.XMLResponseMethodBase$SingleResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.UnlockMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.HttpRequestBodyMethodBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.LabelMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.MoveMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.XMLResponseMethodBase$ResponseWithinMultistatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.PropPatchMethod$Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.VersionControlMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.PropertyBodyHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.XMLResponseMethodBase$Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.DeleteMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.AclReportMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.CheckinMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.OptionsMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.webdav.lib.methods.PropPatchMethod$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.util",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.protocol",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.methods",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.org.apache.webdav.lib",
+   "version": "2.0.0"
+}}

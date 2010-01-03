@@ -1,0 +1,452 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:13:00.0",
+   "moduleName": "com.springsource.org.objectweb.jotm",
+   "name": "Java Open Transaction Manager",
+   "notes": "",
+   "organisationName": "org.objectweb.jotm",
+   "packageExports": [
+      {
+         "name": "org.objectweb.jotm",
+         "packageMembers": [
+            {
+               "name": "org.objectweb.jotm.Log",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.RecoverRmInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.HeuristicMixed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.UserTransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Terminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TimerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.ControlImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TimerEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Clock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.HeuristicHazard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.NotPreparedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.HeuristicCommit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.InactiveException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Batch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Control",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.StatusHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionRecoveryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.JotmRecovery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TimerEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TraceTimer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TxxidRecovered",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.SLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TxRecovered",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TraceTm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Jotm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionRecovery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.XAResourceHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Current",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionRecoveryImpl$xaReplayListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionResourceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Resource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Xid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.RemoteSynchro",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.XATerminatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.XidImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.HeuristicRollback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.ResourceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.InternalTransactionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.Coordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.JavaXidImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionRecoveryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.TransactionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.SubCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.abortXAResourceXid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.RmRegistration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.RecoveryCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.commitXAResourceXid",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.10"
+      },
+      {
+         "name": "org.objectweb.transaction.jta",
+         "packageMembers": [
+            {
+               "name": "org.objectweb.transaction.jta.TMService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.transaction.jta.ResourceManagerEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.transaction.jta.TransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.transaction.jta.ResourceManagerEventListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.10"
+      },
+      {
+         "name": "org.objectweb.jotm.ots",
+         "packageMembers": [
+            {
+               "name": "org.objectweb.jotm.ots.OTSORBInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.ots.OTSClientTransactionInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.ots.OTSInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.ots.OTSServerTransactionInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.10"
+      },
+      {
+         "name": "org.objectweb.jotm.jta.rmi",
+         "packageMembers": [
+            {
+               "name": "org.objectweb.jotm.jta.rmi.JTAServerTransactionInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.jta.rmi.JTAInterceptorInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.jta.rmi.JTATransactionServiceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.jta.rmi.JTAClientTransactionInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.10"
+      },
+      {
+         "name": "org.objectweb.jotm.jta.jeremie",
+         "packageMembers": [
+            {
+               "name": "org.objectweb.jotm.jta.jeremie.TSHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.jta.jeremie.JotmTransactionSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.jta.jeremie.TSHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.objectweb.jotm.jta.jeremie.JotmTransactionReceiver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.10"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.omg.CosTransactions",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.DynamicAny",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.DynamicAny.DynAnyFactoryPackage",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.IOP",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.IOP.CodecFactoryPackage",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.PortableInterceptor",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.PortableInterceptor.ORBInitInfoPackage",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.omg.CORBA",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.jonathan.resources.api",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.jonathan.libs.kernel",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.jonathan.presentation.api",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.jonathan.helpers",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.howl.log.xa",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.objectweb.jeremie.services.handler.api",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.jonathan.apis.kernel",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.howl.log",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.objectweb.carol.util.configuration",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.carol.rmi.exception",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.carol.rmi.jrmp.interceptor",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.cli",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.rmi.CORBA",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.resource.spi",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.objectweb.jotm",
+   "version": "2.0.10"
+}}

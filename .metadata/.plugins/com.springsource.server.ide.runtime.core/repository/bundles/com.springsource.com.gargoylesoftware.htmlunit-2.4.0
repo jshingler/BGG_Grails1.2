@@ -1,0 +1,2123 @@
+{"bundle": {
+   "dateAdded": "2009-04-08 12:27:54.0",
+   "moduleName": "com.springsource.com.gargoylesoftware.htmlunit",
+   "name": "HTMLUnit",
+   "notes": "",
+   "organisationName": "net.sourceforge.htmlunit",
+   "packageExports": [
+      {
+         "name": "com.gargoylesoftware.htmlunit.xml",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.xml.XmlUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.xml.XmlUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.xml.XmlPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.xml.XmlElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.xml.XmlAttr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.xml.XmlUtil$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.CookieManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebResponseData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.IncorrectnessListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.DefaultCssErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebWindowNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.PageCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ProxyConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ThreadedRefreshHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ScriptResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebWindowImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.BrowserVersionFeatures",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.Cache$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.HttpWebConnection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebWindow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ThreadManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ObjectInstantiationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.StatusHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.TextUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.DefaultPageCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebClient$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.HttpWebConnection$FilePartPageCharSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.PromptHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.JavaScriptBackgroundJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.FormEncodingType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.StringWebResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.PluginConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.AjaxController",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ScriptException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.MockWebConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebClient$BinaryWebResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.DialogWindow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.PluginConfiguration$MimeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.SilentCssErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.BrowserVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.KeyDataPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebWindowAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebWindowListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.JavaScriptPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.SubmitMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ThreadedRefreshHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.RefreshHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebWindowEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.OnbeforeunloadHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ElementNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.TextPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.DefaultCredentialsProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebAssert",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.HttpMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.UnexpectedPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ConfirmHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ImmediateRefreshHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.HttpWebConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.TopLevelWindow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebRequestSettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.CollectingAlertHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ScriptPreProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebResponseImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ThreadManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.SgmlPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.Page",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.AlertHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WaitingRefreshHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.WebClient$CurrentWindowTracker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.util",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.FalsifyingWebConnection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.DebuggingWebConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.WebConnectionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.UrlUtils$Url",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.UrlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.MapWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.FalsifyingWebConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.util.WebResponseWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.ssl",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.ssl.InsecureTrustManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.ssl.InsecureSSLProtocolSocketFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.protocol.javascript",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.javascript.JavaScriptURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.javascript.Handler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.protocol.data",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.data.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.data.DataURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.data.DataUrlDecoder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.protocol.about",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.about.AboutURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.protocol.about.Handler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.javascript.regexp",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.regexp.HtmlUnitRegExpProxy$RegExpData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.regexp.HtmlUnitRegExpProxy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.javascript.host",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.MimeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.UIEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLFormElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.DOMImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLEmbedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDocument$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDivElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTableSectionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTableCellElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.History",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLLabelElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLHeadingElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLUListElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLObjectElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDocument$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Attr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLHttpRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLWBRElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLHtmlElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLParamElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLHRElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLMapElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLMetaElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLQuoteElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.DocumentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSRuleList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.ActiveXObjectImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Selection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.ActiveXObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLIsIndexElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.BoxObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.EventHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSStyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLFieldSetElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CharacterDataImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLHttpRequest$NetworkErrorWebResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSStyleDeclaration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLCollection$DomHtmlAttributeChangeListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLStyleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLLinkElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLInsElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTableCaptionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLBaseElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSStyleDeclaration$Shorthand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLHttpRequest$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLOptionsCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLScriptElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Plugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLFrameElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSStyleRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLImageElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSStyleDeclaration$StyleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.NodeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Window",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLBRElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.EventListenersContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLOListElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLBodyElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.WindowProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Event",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.MimeTypeArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLLegendElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.EventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Location",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLAppletElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Document",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XSLTProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.ComputedCSSStyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLElement$ProxyDomNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLParagraphElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLSpanElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLFrameSetElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Screen",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Window$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDelElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.RowContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLDOMParseError",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTextAreaElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.TextRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLFontElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Stylesheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLCollectionTags",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.CSSRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.EventNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLLIElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.MouseEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLOptionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.TreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XPathResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLUnknownElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTableRowElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLHttpRequest$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.FormField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.EventListenersContainer$Handlers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Location$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLPreElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XPathNSResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLOptGroupElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLInputElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLButtonElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.StyleSheetList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLIFrameElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Navigator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.PluginArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDocument$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.ActiveXObjectImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTitleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.PopupPseudoWebWindow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLAreaElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDListElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLAnchorElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLElement$DownloadBehaviorDownloader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLHttpRequest$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLBaseFontElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Window$DomHtmlAttributeChangeListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLCanvasElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLImageElement$ImageOnLoadAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.TextRectangle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.DOMParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLDirectoryElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLFormElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLImageElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLTableColElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.SimpleArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.Popup",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLHeadElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLSelectElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XSLTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLElement$DownloadBehaviorDownloader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.DocumentFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.HTMLMenuElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.host.XMLAttr",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.javascript.configuration",
+         "packageMembers": [
+            {
+               "name": "com/gargoylesoftware/htmlunit/javascript/configuration/JavaScriptConfiguration.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/gargoylesoftware/htmlunit/javascript/configuration/FF2.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.configuration.JavaScriptConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.configuration.ClassConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/gargoylesoftware/htmlunit/javascript/configuration/JavaScriptConfiguration.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/gargoylesoftware/htmlunit/javascript/configuration/IE7.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/gargoylesoftware/htmlunit/javascript/configuration/IE6.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.configuration.ClassConfiguration$PropertyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.configuration.ClassConfiguration$FunctionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/gargoylesoftware/htmlunit/javascript/configuration/FF3.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.configuration.ClassConfiguration$BrowserInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.configuration.ClassConfiguration$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.javascript",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.SimpleScriptable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.ScriptableWithFallbackGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.HtmlUnitWrapFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.StrictErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.PostponedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.NamedNodeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.SimpleScriptableProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.TimeoutError",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.SimpleScriptable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.ScriptableWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.MethodWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.IEConditionalCompilationScriptPreProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.DebuggerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.javascript.DebugFrameImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.html.xpath",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.xpath.XPathUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.xpath.HtmlUnitPrefixResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.xpath.XPathAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.xpath.XPathUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.xpath.LowerCaseFunction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.html.applets",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.applets.AppletClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.applets.AppletContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.applets.AppletStubImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.html",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTitle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHeading6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlDivision",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlAttributeChangeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlSpan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlIsIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlWordBreak",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomCData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.TableRowGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.SubmittableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNode$ChildIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.NonSerializable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlAttr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlCanvas",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlCenter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlDeletedText",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlParagraph",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlBaseFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlCaption",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlLink",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.NamedAttrNodeMapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlRadioButtonInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableRow$CellIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlInlineQuotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.ClickableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNode$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlImage$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlElement$ChildElementsIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLScannerForIE$ContentScannerForIE",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableColumnGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlLegend",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.UnknownElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNodeList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.Util$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTextInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlDefinitionTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTable$RowIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlPage$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlMeta",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.FrameWindow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlDefinitionDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlButton",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlListItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlFieldSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlDefinitionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.NodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlInlineFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableDataCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlOrderedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlPasswordInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlFileInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlEmbed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.Util$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DefaultElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlOption",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.Util$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHeading2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomCharacterData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHeading1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomDocumentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableFooter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.BaseFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlCheckBoxInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlImage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLParserListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlBlockQuote",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlOptionGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlSubmitInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHeading4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomChangeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHiddenInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomDocumentFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.Util$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomAttr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.BaseFrame$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlArea",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlInsertedText",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlAnchor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHead",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.InputElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNodeList$DomHtmlAttributeChangeListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DisabledElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomChangeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.SimpleRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHeading5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLScannerForIE",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLParserListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNode$DescendantElementsIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlUnorderedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlSelect",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlImageInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlPreformattedText",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHorizontalRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlButtonInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlMenu",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomText",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.StyledElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.IEConditionalCommentExpressionEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHeading3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.IElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNamespaceNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlElement$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlUnknownElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlNoFrames",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlNoScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableHeaderCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlAttributeChangeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTextArea",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlTableColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlHtml",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlScript$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlApplet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlLabel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlBidirectionalOverride",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlBreak",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.DomNode$DomNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlResetInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.html.HtmlFrameSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "com.gargoylesoftware.htmlunit.attachment",
+         "packageMembers": [
+            {
+               "name": "com.gargoylesoftware.htmlunit.attachment.AttachmentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.attachment.CollectingAttachmentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.gargoylesoftware.htmlunit.attachment.Attachment",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.css.sac",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.css",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.ranges",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.mozilla.javascript.regexp",
+         "optional": false,
+         "versionRange": "[1.7.0.R2, 2.0.0)"
+      },
+      {
+         "name": "org.mozilla.javascript.debug",
+         "optional": false,
+         "versionRange": "[1.7.0.R2, 2.0.0)"
+      },
+      {
+         "name": "org.cyberneko.html",
+         "optional": false,
+         "versionRange": "[1.9.11, 2.0.0)"
+      },
+      {
+         "name": "org.mozilla.javascript",
+         "optional": false,
+         "versionRange": "[1.7.0.R2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xpath.objects",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xpath.functions",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xpath.compiler",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xpath",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xml.utils",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xml.serialize",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.xni.parser",
+         "optional": false,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.xni",
+         "optional": false,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.util",
+         "optional": false,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.parsers",
+         "optional": false,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xalan.res",
+         "optional": false,
+         "versionRange": "[2.4.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging.impl",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.math",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.io",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.util",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.params",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.protocol",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.methods.multipart",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.methods",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.cookie",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.auth",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.map",
+         "optional": false,
+         "versionRange": "[3.2.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.functors",
+         "optional": false,
+         "versionRange": "[3.2.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec.net",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec.binary",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.steadystate.css.dom",
+         "optional": false,
+         "versionRange": "[0.9.5, 1.0.0)"
+      },
+      {
+         "name": "com.steadystate.css.parser",
+         "optional": false,
+         "versionRange": "[0.9.5, 1.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.gargoylesoftware.htmlunit",
+   "version": "2.4.0"
+}}

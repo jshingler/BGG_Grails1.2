@@ -1,0 +1,5380 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:16:43.0",
+   "moduleName": "com.springsource.oracle.sqlj.translator",
+   "name": "Oracle SQLJ Translator",
+   "notes": "",
+   "organisationName": "com.oracle.sqlj",
+   "packageExports": [
+      {
+         "name": "oracle.aurora.sqljdecl",
+         "packageMembers": [
+            {
+               "name": "oracle.aurora.sqljdecl.SqljDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.JJSqljDeclCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.SqljDeclTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.SqljDecl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.UCode_UCodeESC_CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.aurora.sqljdecl.SqljDeclConstants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.util.io",
+         "packageMembers": [
+            {
+               "name": "sqlj.util.io.UCode_CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.ErrorLogger$SortedVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.UCodeEscape",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.ErrorLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.StringWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.OracleOutputStreamWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.AAAindex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.io.StringCharStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.util",
+         "packageMembers": [
+            {
+               "name": "sqlj.util.AAAindex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ExpressionMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.BlockClassResolver$Window",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.BlockClassResolver$BlockInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.SQLJParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ExpressionDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.LValueDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.UnitClassResolver$ClassNameResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.DefaultParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.BlockClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.UnitClassResolver$ExplicitEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.FieldAccessDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.UnitClassResolver$ImplicitEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.TranslationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.UnitClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.SQLJClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.OutputContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.TypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.BlockClassResolver$Snapshot",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.DefaultExpressionMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ClassNameResolverWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.BlockDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.UnitDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ClassNameResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.Disposable$Disposer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.Parselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.Disposable",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.JavaParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ArrayAccessDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.NestedClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ParseContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.util.ClassResolverWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.translator",
+         "packageMembers": [
+            {
+               "name": "sqlj.translator.ClassPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.TranslationUnitFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.Translator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.TranslationUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.ClassPathEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.Translator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.ClassFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.FileTranslationUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.ClassResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.translator.SqljInitializationError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.tools",
+         "packageMembers": [
+            {
+               "name": "sqlj.tools.ClassMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.SourceMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.ClassMapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.Timing",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.SqljOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.Sqlj$Invoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.LogMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.ClassMapper$ClassBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.ClassMapper$LineTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.AAAIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.tools.Sqlj",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.syntax",
+         "packageMembers": [
+            {
+               "name": "sqlj.syntax.IntoBindExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.ClassElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.ContextElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.SqljParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.BindExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.Elem",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.SqljParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.JSParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.CommentWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.ReturnBindExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.SqljParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.AAAindex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.ExecElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.JJSqljParserCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.SQLUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.DirectBindExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.SqljParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.syntax.CursorElem",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.semantics.sql",
+         "packageMembers": [
+            {
+               "name": "sqlj.semantics.sql.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.WNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SimpleCheckerImpl$ColumnEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.CheckerOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SimpleCheckerImpl$Cleanup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLMisc",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLUtilTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SimpleCheckerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.JJSQLParserCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLTokenizer$SQLTokenImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.AAAindex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLUtilTokenManager$TokenEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.sql.SQLParserTokenManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.runtime.profile.util",
+         "packageMembers": [
+            {
+               "name": "sqlj.runtime.profile.util.SQLCheckerCustomizerBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$AuditedRTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfileCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditorInstallerBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfilePrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.StatementCacheCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$JarProfiles$JarEntryIOContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$ManifestData$Section",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$AuditedCachedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$Log",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfileCustomizerEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfileIOContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditorInstaller$AuditedCustomization$AuditID",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerPropertyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$AuditedRTCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfilePrinter$StringLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.DataCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$CachedDynamic",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$JarIOContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$Dynamic",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarnessBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$CachedStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$JarFileClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.SQLCheckerCustomizer$EntriesOfProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$AuditedRTStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$AuditedRTStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.SQLOperationImplProfileBased$HostItemImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditorInstaller$AuditedCustomization",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditorInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$BeanEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.Auditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfilePrinter$SilentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$JarProfiles",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$FileIOContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$AuditedCachedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.SQLOperationImplProfileBased",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$AuditedRTCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$Dynamic",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.StatementCacheCustomizerBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$CachedDynamic",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$ManifestData",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfilePrinter$PrintLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile12$CachedStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.CustomizerHarness$ManifestData$LineBreakFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.SQLCheckerCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.AuditedProfile$AuditedRTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.PrintWriterAuditor$Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.ProfilePrinterBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.PrintWriterAuditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.runtime.profile.util.SerProfileToClass",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.semantics",
+         "packageMembers": [
+            {
+               "name": "sqlj.semantics.TypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.ClassAnalysis",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.OfflineCheckerBuilder$MiniTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SemanticAnalyzerFactory$TaggedOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SQLOperationImpl$HostItemImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.BaseAnalysis",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.ConnectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.OfflineCheckerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SQLCheckerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SQLOperationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SemanticAnalyzerFactory$Cleanup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.ContextAnalysis",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SemanticAnalyzerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.AnalysisCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.ExecAnalysis",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.OfflineCheckerBuilder$ArgumentItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.SemanticAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.CheckerWithTypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.ConnectionManager$Cleanup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.CursorAnalysis",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.JdbcChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.OfflineChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.semantics.AAAindex",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.mesg",
+         "packageMembers": [
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ConfigDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.MessageStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.MessageEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorDefaults_oracle",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj/mesg/version.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticDefaults_oracle_80",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.MessageEncoder$Html",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.MessageEncoder$Default",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticDefaults_oracle",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.MessageEncoder$Plain",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.Config",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CacheCustomizerErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.OptionDescText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavaVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticDefaults_oracle_73",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CodegenErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SerProfileToClassErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SemanticOptionsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SyntaxErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorOptionsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.JavacErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.SQLCheckerCustomizerErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.TranslatorErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.AuditorInstallerErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.ProfilePrinterErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.mesg.CustomizerHarnessErrorsText_fr",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.framework.options",
+         "packageMembers": [
+            {
+               "name": "sqlj.framework.options.PropertyListImpl$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.HasOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.PropertyListImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.OptionGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.AAAindex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.OptionInfoArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.InvalidOptionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.ConnectionFactory$GetPassword",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.PropertyList",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.PropertyListImpl$StatusEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.options.ConnectionFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.javac",
+         "packageMembers": [
+            {
+               "name": "sqlj.javac.PrefixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaField",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserImplTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTTypeDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTVariableDeclarator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.UnitDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTSqljClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.BooleanLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.NameNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.FloatingPointLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JJTJavaParserImplState",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.IncrementOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.RMSqljNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.BracketedExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTInterfaceDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTLocalVariableDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSubTokenManager$StringParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ErrorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.UnaryOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ArrayAccessExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSubTokenManager$TokenManagerParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ArithmeticOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTCompilationUnit$RMSqljRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTFormalParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTForStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTUnmodifiedInterfaceDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SimpleNameNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.LiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.AdditionAssignmentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.LinefeedFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SignOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.DottedThisClassNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.NullLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.AdditionOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.EqualityOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.CopyOut",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTCompilationUnit$RMSqljContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.RelationalOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.NewPrimitiveNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ErrorDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ErrorConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ThisClassNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTConstructorDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ComplementOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTSqljExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SimpleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ShiftAssignmentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JJJavaParserImplCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTInterfaceMemberDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSubTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTBlockInterfaceDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SuperClassNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSub$ParseContextWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserImplConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ClassExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSubTokenManager$PositionedParselet$ModifiedContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTType",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.CastOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTVariableDeclaratorId",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.DottedNameNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.FakeParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.FieldAccessExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.BooleanOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTBlockClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.NewArrayOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ShiftOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.AssignmentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSubTokenManager$PositionedParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.BinaryOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTNestedClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTSqljNestedClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.IntegerLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.BitwiseAssignmentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTSwitchBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTSqljStatementExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.TernaryOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTMethodDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.InstanceofOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.NewObjectNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.BitwiseOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.StringLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTFormalParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ParseContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ImportDeclarationNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SymTabEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ArgumentListNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ResultTypeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTUnmodifiedClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.MethodInvocationNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SimpleTypeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.CharacterLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.SqljTypeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTVariableInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTCompilationUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ASTNestedInterfaceDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.NegationOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserSubTokenManager$Copying",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.JavaParserImplTreeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.javac.ArithmeticAssignmentNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.framework.ide",
+         "packageMembers": [
+            {
+               "name": "sqlj.framework.ide.Options",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationByteInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.IDETranslationUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.Translator",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationOptionsQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationCharInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.TranslationLogWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ide.DefaultClassResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.framework.error",
+         "packageMembers": [
+            {
+               "name": "sqlj.framework.error.Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.ErrorLogWithLineNum",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.ErrorLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.Warning",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.LogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.AAAindex",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.JSError",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.error.Position",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.framework.codegen",
+         "packageMembers": [
+            {
+               "name": "sqlj.framework.codegen.CodeGeneratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.codegen.CodeGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.framework.checker",
+         "packageMembers": [
+            {
+               "name": "sqlj.framework.checker.SQLToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.TypeMapImpl$ClassNameResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.TypeMapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.SQLOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.HostItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.SQLTypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.SQLChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.SimpleChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.TypeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.checker.SQLCheckerEditor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.framework",
+         "packageMembers": [
+            {
+               "name": "sqlj.framework.DefaultInnerClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$ConstructorWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.TranslationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$MemberWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$NullClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$ArrayWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.InnerClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ClassResolver$SystemClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.ClassFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$ClassWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$FieldWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$InvalidClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSClass$MethodWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.JSField",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.framework.AAAindex",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.codegen.engine",
+         "packageMembers": [
+            {
+               "name": "sqlj.codegen.engine.ClassDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.TypeDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.FunctionCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.DocComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.InterfaceDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.IndentationWriter$IndentationFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ChainedExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ExprStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.StreamableVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ObjectStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.IndentationWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.Initializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ClassInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.StatementBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.Modifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.CallthruMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.StatementGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.IfStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.NewCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.CastExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ObjectExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.FieldDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ReturnStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.SynchronizedBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.NewArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.CodegenException",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.ArrayInit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.BodyDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.NamedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.Streamable",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.AssignmentStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.BaseMethodDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.engine.StreamableObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "sqlj.codegen",
+         "packageMembers": [
+            {
+               "name": "sqlj.codegen.IteratorMetaData$Exception",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.BaseCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ExecStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JSClassType$Factory$ElemFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ProfileDecl$EntryInit",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.IteratorMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.SelectIntoStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$BasicTempDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.AttributeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JSClassType$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ElemJSClass$WithField",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorJSClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JavaToSQLMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorJSClass$ElemMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JavaToSQLMap$MapClassResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorJSClass$JSClassMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ProfileKeysDecl$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ResultSetIntoGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ParseletFactory$ContextParseletImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.NameBindCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.IntoGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$TempDeclFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CodeGeneratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JSClassType$Factory$SystemFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$ParseletExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ElemJSClass$JSMethodImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorJSClass$CreateMethodsCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JDBCGetCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.UpdateExecStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.UnitInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ElemJSClass$JSConstructorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ExecCodegen$CodegenParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ExecCodegen$ProfileParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$TempDeclImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ContextJSClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ElemJSClass$JSMemberImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.QueryExecStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$ParseletExpression$OutputContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.FetchIntoStmt$FetchIntoGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ProfileKeysJSClass$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorJSClass$BindExprMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.FetchIntoStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ProfileKeysJSClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ExecCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ParseletFactory$ExecParseletImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ElemJSClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$ArrayTempDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TypedExpression$FieldTempDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.PosBindCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ContextCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ExecCodegen$ContextParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ContextDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorJSClass$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ProfileDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.TempDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ParseletFactory$CursorParseletImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.CursorCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ProfileKeysDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ParseletFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JSClassType",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.JDBCSetStmt",
+               "type": "CLASS"
+            },
+            {
+               "name": "sqlj.codegen.ParseletFactory$ParseletImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.runtime.util",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.runtime.util.OraJavaStructTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraBasicTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraCustomizerBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraSQLDataTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraCompatibility$CompatDescPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraCustomDatumTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.ProfileTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.ProfileTypeDescriptor$TypeEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraCompatibility",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraIterTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraORADataTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraSerializableTypeCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraTypeCustomizerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.runtime.util.OraCustomizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.mesg",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OraCustomizerErrorsText_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.mesg.OracleErrorsText_ar",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.codegen.engine",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$PlsqlIndexTableUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$NcharStreamUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGParselet$CGOutputContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$InvalidUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$ErrorUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$StreamUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGClassElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$SQLDataUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$IteratorUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGExecElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGParselet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$BigDecimalUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$NStringUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.Unparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$SimpleUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$ORADataUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$ObjectUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$NCharObjectUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$CustomDatumUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGDottedAccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGIterElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$SerializationUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$UnparserWithMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$PrimObjectUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGUnparser$FixedCHARUnparser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGCondExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGCast",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.engine.CGString",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.codegen",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.codegen.Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.FetchCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.OracleJDBCCodeGenFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.CodeGenFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.SelectIntoStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.QueryStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.JDBCCodeGenFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.ExecStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.TransactionStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.IterConvStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.IterCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.codegen.ExecCodegen",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.checker.parser",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.checker.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.OracleOfflineParseConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.OracleOfflineParse",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.JJOracleOfflineParseCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.parser.OracleOfflineParseTokenManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.sqlj.checker",
+         "packageMembers": [
+            {
+               "name": "oracle.sqlj.checker.Oracle8TypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleOTTCustomDatum",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle8To7TypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleOptimizations",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleSQLCateg",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleSimpleCheckerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle80OfflineChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleSimpleCheckerImpl$OraCleanup",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleSQLCateg$SplitId",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleSQLParse",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleColumnDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle8To7OfflineChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle8To7JdbcChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleSimpleCheckerImpl$VectorRTResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle7JdbcChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle8JdbcChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.JdbcVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle80TypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle7OfflineChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle80JdbcChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleTypeHierarchy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle7TypeProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.OracleTypeMapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.sqlj.checker.Oracle8OfflineChecker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.util",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.util.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.util.RunSql",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.util.Orderable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.util.PasswordEnter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.util.JavaUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.util.JarUtil$FileFilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.util.JarUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.sqlrefl.viewcache",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.PlsqlElemHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllTypeMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.UserArguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.MethodInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllMethodResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.RowtypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.SequencedInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.PlsqlElemInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.FieldInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.ViewRowFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.ViewCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.PlsqlTypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllMethodParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllCollTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.ParamInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.ResultInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.ElemInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllArguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.ViewRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllTypeAttrs",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.RowsCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.viewcache.AllObjects",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.sqlrefl",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.sqlrefl.OracleTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlTypeWithMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.CursorMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.PlsqlMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.LangName",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlPackageType$ParamInfoValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.QueryMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlToplevelType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Method",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Accessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlStmtMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Modifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlTypeWithFields",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlTableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlSqljType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlName",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.PlsqlRecordType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlPackageType$ResultInfoValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.JavaArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Field",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlReflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.JavaBaseType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlOpaqueType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Map",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Member",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SerializableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.DMLMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlRefType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlCollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.JavaType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.Constructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.PlsqlIndexTableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlStmtType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlPackageType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.JavaName",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.PlsqlCursorMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.PlsqlTableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.sqlrefl.SqlPackageType$InfoValues",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.queue",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.queue.TopicWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.QueueWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.TopicTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.AQType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.Topic",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.AQTypeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.QueueTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.queue.Queue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.javarefl",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.javarefl.SqlJavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.SimpleJavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.Resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.ClassFileResolver$ClassFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.JavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.JavaClassFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.JavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.ClassFileResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.JavaBaseClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.javarefl.JavaArrayClass",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.publish",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.publish.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.Publisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.MethodSignatureFilter$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JdbcMethodWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JavaTypeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.IntypeParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlTypeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlPackageWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlOpaqueWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlRefWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqljConnectionWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.StyleMap$LNRStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.CustomAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JdbcConnectionWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.ConnectionWriterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.MethodWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.StyleMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqljMethodWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.MethodTypeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.OpaqueAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JavaAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.ConnectionWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JavaOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.MethodFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.MethodModeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlObjectWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.StyleMapEntry$MyHashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlInterfaceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.IntypeParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.CustomInterfaceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.ArrayAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.InterfaceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlStmtWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JavaPublisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.StyleMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.SqlArrayWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.JavaMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.IntypeParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.MethodSignatureFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.publish.AbstractMethodWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.mesg",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/jpub/mesg/webservices10.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/jpub/mesg/webservices9.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/jpub/mesg/jpub.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_ro",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/jpub/mesg/accessor.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.OutputStreamMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_iw",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_th",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/jpub/mesg/proxywsdl.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle/jpub/mesg/webservices.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_da",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_fi",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_pt",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.AbstractMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/jpub/mesg/webservices-common.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_ar",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.MessagesText",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.mesg.JPubMessagesText_fr",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.java",
+         "packageMembers": {
+            "name": "oracle.jpub.java.Main",
+            "type": "CLASS"
+         },
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.j2j",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.j2j.JavaMethodWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.OutReturnSqlMethodRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.J2JRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.OutHolderSqlMethodRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.SqlMethodRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.ParamMethodRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.J2JParamMethodRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.JavaMethodRewriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.j2j.AbstractSqlMethodRewriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub.genproxy",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.genproxy.Resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.ClassFileResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.DbResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPMethodWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.WriteFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.SConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.GenProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPStruct",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.ClassFileResolver$ClassFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JavaProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPSerializable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPMethodHelperWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.PlsqlProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPWriterContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.SClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.JSPArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.genproxy.SMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      },
+      {
+         "name": "oracle.jpub",
+         "packageMembers": [
+            {
+               "name": "oracle.jpub.JPubException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.Konnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.LFInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.Options",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.JpubErrorLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.JpubErrorLog$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.Doit",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.jpub.Main",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.2.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "sqlj.runtime.ref",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "sqlj.runtime.profile.ref",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "sqlj.runtime.profile",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "sqlj.runtime.error",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "sqlj.runtime",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "oracle.sqlj.runtime.sqlmonitor",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "oracle.sqlj.runtime",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "oracle.sql",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "oracle.jpub.runtime",
+         "optional": false,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.jpub.reflect",
+         "optional": false,
+         "versionRange": "[10.2.0.0, 11.0.0)"
+      },
+      {
+         "name": "oracle.jdbc.driver",
+         "optional": false,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.jdbc",
+         "optional": false,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.oracle.sqlj.translator",
+   "version": "10.2.0.0"
+}}

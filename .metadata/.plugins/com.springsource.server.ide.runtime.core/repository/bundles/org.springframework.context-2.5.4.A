@@ -1,0 +1,2025 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:42:19.0",
+   "moduleName": "org.springframework.context",
+   "name": "Spring Context",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.ConfigurableApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ResourceLoaderAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationEventPublisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.MessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.HierarchicalMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.NoSuchMessageException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.MessageSourceAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationContextAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationContextException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.MessageSourceResolvable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.Lifecycle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.ApplicationEventPublisherAware",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.validation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.validation.MapBindingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.ObjectError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.DirectFieldBindingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.DefaultMessageCodesResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.DataBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.AbstractBindingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.Errors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.BindingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.DefaultBindingErrorProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.BindingResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.BindingErrorProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.Validator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.ValidationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.BindingResultUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.BeanPropertyBindingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.FieldError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.BindException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.AbstractErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.MessageCodesResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.validation.AbstractPropertyBindingResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ui.context.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ui.context.support.ResourceBundleThemeSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.context.support.DelegatingThemeSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.context.support.UiApplicationContextUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.context.support.SimpleTheme",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ui.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ui.context.ThemeSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.context.Theme",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.context.HierarchicalThemeSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.stereotype",
+         "packageMembers": [
+            {
+               "name": "org.springframework.stereotype.Component",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.stereotype.Service",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.stereotype.Controller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.stereotype.Repository",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ui",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ui.ModelMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.ExtendedModelMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.Model",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scripting.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scripting.support.StaticScriptSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.support.RefreshableScriptTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.support.ScriptFactoryPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.support.ResourceScriptSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scripting.jruby",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scripting.jruby.JRubyScriptUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.jruby.JRubyScriptUtils$JRubyExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.jruby.JRubyScriptUtils$RubyObjectInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.jruby.JRubyScriptFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scripting.config",
+         "packageMembers": [
+            {
+               "name": "org/springframework/scripting/config/spring-lang-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.scripting.config.ScriptingDefaultsParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/scripting/config/spring-lang-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.scripting.config.LangNamespaceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.config.ScriptBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.config.LangNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scripting.groovy",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scripting.groovy.GroovyScriptFactory$CachedResultHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.groovy.GroovyObjectCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.groovy.GroovyScriptFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scripting.bsh",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scripting.bsh.BshScriptUtils$BshObjectInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.bsh.BshScriptFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.bsh.BshScriptUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.bsh.BshScriptUtils$BshExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.bsh.BshScriptUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scripting",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scripting.ScriptCompilationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.ScriptSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scripting.ScriptFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scheduling.timer",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.timer.TimerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.timer.MethodInvokingTimerTaskFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.timer.ScheduledTimerTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.timer.TimerTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.timer.DelegatingTimerTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scheduling.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.support.MethodInvokingRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.support.DelegatingExceptionProofRunnable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scheduling.backportconcurrent",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.backportconcurrent.ScheduledExecutorTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.backportconcurrent.ScheduledExecutorFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.backportconcurrent.CustomizableThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.backportconcurrent.ThreadPoolTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.backportconcurrent.ConcurrentTaskExecutor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scheduling.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.concurrent.ConcurrentTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.concurrent.ScheduledExecutorTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.concurrent.CustomizableThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.remoting",
+         "packageMembers": [
+            {
+               "name": "org.springframework.remoting.RemoteProxyFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.RemoteConnectFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.RemoteInvocationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.RemoteAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.RemoteLookupFailureException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.remoting.rmi",
+         "packageMembers": [
+            {
+               "name": "org.springframework.remoting.rmi.RmiInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiInvocationWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiClientInterceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiInvocationWrapper_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi._RmiInvocationHandler_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiClientInterceptor$DummyURLStreamHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiInvocationWrapper_Skel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiRegistryFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.JndiRmiClientInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiClientInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/remoting/rmi/RmiInvocationWrapperRTD.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiServiceExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi._RmiInvocationWrapper_Tie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.JndiRmiServiceExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.CodebaseAwareObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiBasedExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.rmi.RmiClientInterceptorUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.remoting.soap",
+         "packageMembers": {
+            "name": "org.springframework.remoting.soap.SoapFaultException",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.remoting.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationTraceInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemotingSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.DefaultRemoteInvocationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.SimpleHttpServerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationBasedExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.DefaultRemoteInvocationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.UrlBasedRemoteAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.remoting.support.RemoteInvocationBasedAccessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.scheduling",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.SchedulingTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.SchedulingAwareRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.SchedulingException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jndi",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jndi.JndiTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiLookupFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiObjectFactoryBean$JndiObjectProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiLocatorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.TypeMismatchNamingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiObjectTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiTemplateEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiObjectLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jndi.JndiObjectFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jndi.support",
+         "packageMembers": {
+            "name": "org.springframework.jndi.support.SimpleJndiBeanFactory",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.support.ObjectNameManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.NotificationListenerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.ConnectorServerFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.MBeanServerConnectionFactoryBean$MBeanServerConnectionLazyInitTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.ConnectorServerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.JmxUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.JmxUtils$MXBeanChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.WebLogicMBeanServerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.MBeanServerConnectionFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.MBeanServerConnectionFactoryBean$JMXConnectorLazyInitTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.WebLogicJndiMBeanServerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.MBeanRegistrationSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.MBeanServerConnectionFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.support.MBeanServerFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.export.notification",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.export.notification.UnableToSendNotificationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.notification.NotificationPublisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.notification.ModelMBeanNotificationPublisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.notification.NotificationPublisherAware",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.export.naming",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.export.naming.MetadataNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.naming.KeyNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.naming.ObjectNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.naming.IdentityNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.naming.SelfNaming",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.export.metadata",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.export.metadata.JmxMetadataUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.ManagedNotification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.ManagedOperationParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.JmxAttributeSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.ManagedOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.AttributesJmxAttributeSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.ManagedAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.AbstractJmxAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.ManagedResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.metadata.InvalidMetadataException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.export.assembler",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.export.assembler.MethodNameBasedMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.AutodetectCapableMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.SimpleReflectiveMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.MBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.InterfaceBasedMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.AbstractMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.AbstractReflectiveMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.AbstractConfigurableMBeanInfoAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.assembler.MethodExclusionMBeanInfoAssembler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.export.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedOperationParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.AnnotationMBeanExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedNotification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedOperationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedNotifications",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.annotation.ManagedAttribute",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.export",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.export.MBeanExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.SpringModelMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.UnableToRegisterMBeanException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.NotificationListenerBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExporter$NotificationPublisherAwareLazyTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExporter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExporterListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExporter$AutodetectCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExportOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.export.MBeanExporter$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx.access",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.access.MBeanProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.MBeanClientInterceptor$MethodCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.MBeanClientInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.InvocationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.NotificationListenerRegistrar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.MBeanInfoRetrievalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.ConnectorDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.access.InvalidInvocationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.jmx",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jmx.JmxException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jmx.MBeanServerNotFoundException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.instrument.classloading.weblogic",
+         "packageMembers": [
+            {
+               "name": "org.springframework.instrument.classloading.weblogic.WebLogicClassPreProcessorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.weblogic.WebLogicClassLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.instrument.classloading.oc4j",
+         "packageMembers": [
+            {
+               "name": "org.springframework.instrument.classloading.oc4j.OC4JLoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.oc4j.OC4JClassPreprocessorAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.instrument.classloading.glassfish",
+         "packageMembers": [
+            {
+               "name": "org.springframework.instrument.classloading.glassfish.ClassTransformerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.glassfish.GlassFishLoadTimeWeaver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.instrument.classloading",
+         "packageMembers": [
+            {
+               "name": "org.springframework.instrument.classloading.ResourceOverridingShadowingClassLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.ReflectiveLoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.ResourceOverridingShadowingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.SimpleThrowawayClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.SimpleInstrumentableClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.ShadowingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.SimpleLoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.WeavingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver$InstrumentationAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.LoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver$FilteringClassFileTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ejb.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ejb.support.AbstractStatelessSessionBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.AbstractEnterpriseBean$BeanFactoryReferenceReleaseListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.SmartSessionBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.AbstractJmsMessageDrivenBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.AbstractEnterpriseBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.AbstractMessageDrivenBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.AbstractSessionBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.support.AbstractStatefulSessionBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ejb.interceptor",
+         "packageMembers": {
+            "name": "org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ejb.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ejb.config.LocalStatelessSessionBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.config.AbstractJndiLocatingBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/ejb/config/spring-jee-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ejb.config.JeeNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.config.RemoteStatelessSessionBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/ejb/config/spring-jee-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.ejb.config.JndiLookupBeanDefinitionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.ejb.access",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.access.LocalSlsbInvokerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ejb.access.EjbAccessException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.weaving",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.weaving.LoadTimeWeaverAwareProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.weaving.LoadTimeWeaverAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.weaving.DefaultContextLoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.weaving.AspectJWeavingEnabler$AspectJClassBypassingClassFileTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.weaving.AspectJWeavingEnabler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.support.ClassPathXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ContextTypeMatchClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.FileSystemXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ApplicationObjectSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.MessageSourceResourceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.GenericApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractApplicationContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractRefreshableApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.DefaultMessageSourceResolvable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.StaticApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ReloadableResourceBundleMessageSource$PropertiesHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractRefreshableConfigApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ResourceBundleMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ContextTypeMatchClassLoader$ContextOverridingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ResourceMapFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ReloadableResourceBundleMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.StaticMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.MessageSourceAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.DelegatingMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.AbstractApplicationContext$BeanPostProcessorChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.support.ApplicationContextAwareProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.i18n",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.i18n.LocaleContextHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.i18n.LocaleContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.i18n.SimpleLocaleContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.event",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.event.EventPublicationInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.ApplicationEventMulticaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.AbstractApplicationEventMulticaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.ContextStartedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.SimpleApplicationEventMulticaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.ContextRefreshedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.SourceFilteringListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.SimpleApplicationEventMulticaster$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.ContextClosedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.ApplicationContextEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.event.ContextStoppedEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.config",
+         "packageMembers": [
+            {
+               "name": "org/springframework/context/config/spring-context-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.context.config.AbstractPropertyLoadingBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.LoadTimeWeaverBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.MBeanExportBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.ContextNamespaceHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.ContextNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.SpringConfiguredBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.PropertyPlaceholderBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.PropertyOverrideBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.config.MBeanServerBeanDefinitionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.annotation.AnnotationBeanNameGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ScopeMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ScopeMetadataResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ScopedProxyMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.AnnotationConfigUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$EjbRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ScannedGenericBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.AnnotationConfigBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ComponentScanBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceDependencyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ClassPathBeanDefinitionScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$WebServiceRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.FilterType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.ClassPathBeanDefinitionScanner$ScopedProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.annotation.AnnotationScopeMetadataResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.context.access",
+         "packageMembers": [
+            {
+               "name": "org.springframework.context.access.ContextJndiBeanFactoryLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.access.ContextBeanFactoryReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.access.ContextSingletonBeanFactoryLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.context.access.DefaultLocatorFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.orm.jpa.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.metadata",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.instrument",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.type.classreading",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.type.filter",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.type",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.task.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop.target",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop.target.dynamic",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.access",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop.scope",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.omg.CORBA_2_3.portable",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.omg.CORBA.portable",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jruby.runtime.builtin",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.omg.CORBA",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jruby.runtime",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.jruby.javasupport",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.jruby.exceptions",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.jruby.ast",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.jruby",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.groovy.control",
+         "optional": true,
+         "versionRange": "[1.5.1, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.loadtime",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "oracle.classloader.util",
+         "optional": true,
+         "versionRange": "[10.1.3.1, 10.2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.core",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.asm",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.ws",
+         "optional": true,
+         "versionRange": "[2.1.1, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.rmi.CORBA",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence.spi",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.remote",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.openmbean",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.modelmbean",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.interceptor",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      },
+      {
+         "name": "javax.ejb",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      },
+      {
+         "name": "javax.annotation",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "groovy.lang",
+         "optional": true,
+         "versionRange": "[1.5.1, 2.0.0)"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      },
+      {
+         "name": "com.sun.enterprise.loader",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.net.httpserver",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "bsh",
+         "optional": true,
+         "versionRange": "[2.0.0.b4, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.context",
+   "version": "2.5.4.A"
+}}

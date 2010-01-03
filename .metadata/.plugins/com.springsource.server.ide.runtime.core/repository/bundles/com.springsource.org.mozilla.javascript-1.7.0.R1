@@ -1,0 +1,1224 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:10:05.0",
+   "moduleName": "com.springsource.org.mozilla.javascript",
+   "name": "Rhino: JavaScript for Java",
+   "notes": "",
+   "organisationName": "org.mozilla.javascript",
+   "packageExports": [
+      {
+         "name": "org.mozilla.classfile",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.classfile.ClassFileWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.ExceptionTableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.ConstantPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.ClassFileWriter$ClassFileFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.ClassFileMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.FieldOrMethodRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.ClassFileField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.classfile.ByteCode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.xmlimpl",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XMLObjectImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XMLName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XMLCtor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Filter$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Filter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Filter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XMLWithScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlProcessor$RhinoSAXErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XMLLibImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.QName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XMLList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Filter$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Filter$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$QName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xmlimpl.XmlNode$Namespace",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.xml.impl.xmlbeans",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLList$AnnotationList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XML$NamespaceDeclarations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLCtor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLLibImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XML$XScriptAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.NamespaceHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.QName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLObjectImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.XMLWithScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.impl.xmlbeans.LogicalEquality",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.xml",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.xml.XMLLib$Factory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.XMLLib$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.XMLLib",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.xml.XMLObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.tools.shell",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.tools.shell.Global$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.Runner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.ShellContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.Environment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.Main$IProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JSConsole$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.ConsoleTextArea",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JavaPolicySecurity$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JSConsole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.PipeThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.ConsoleWrite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JSConsole$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JavaPolicySecurity$ContextPermissions$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JavaPolicySecurity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JavaPolicySecurity$Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.ConsoleWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.Global",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JavaPolicySecurity$ContextPermissions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.JavaPolicySecurity$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.SecurityProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.shell.QuitAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.tools.resources",
+         "packageMembers": {
+            "name": "org/mozilla/javascript/tools/resources/Messages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.tools.jsc",
+         "packageMembers": {
+            "name": "org.mozilla.javascript.tools.jsc.Main",
+            "type": "CLASS"
+         },
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.tools.idswitch",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.tools.idswitch.FileBody$ReplaceItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.idswitch.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.idswitch.SwitchGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.idswitch.IdValuePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.idswitch.CodePrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.tools.idswitch.FileBody",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.tools",
+         "packageMembers": {
+            "name": "org.mozilla.javascript.tools.ToolErrorReporter",
+            "type": "CLASS"
+         },
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.serialize",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.serialize.ScriptableOutputStream$PendingLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.serialize.ScriptableOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.serialize.ScriptableInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.resources",
+         "packageMembers": [
+            {
+               "name": "org/mozilla/javascript/resources/Messages_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/mozilla/javascript/resources/Messages.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.regexp",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.regexp.SubString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.NativeRegExpCtor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.RENode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.RECharSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.REBackTrackData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.REProgState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.NativeRegExp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.RegExpImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.REGlobalData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.RECompiled",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.GlobData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.regexp.CompilerState",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.optimizer",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.optimizer.Optimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.Block",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.OptRuntime$GeneratorState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.Codegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.OptFunctionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.OptRuntime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.Block$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.Block$FatBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.OptTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.ClassCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.OptRuntime$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.BodyCodegen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.BodyCodegen$FinallyReturnPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.optimizer.DataFlowBitSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.jdk15",
+         "packageMembers": {
+            "name": "org.mozilla.javascript.jdk15.VMBridge_jdk15",
+            "type": "CLASS"
+         },
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.jdk13",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.jdk13.VMBridge_jdk13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.jdk13.VMBridge_jdk13$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.jdk11",
+         "packageMembers": {
+            "name": "org.mozilla.javascript.jdk11.VMBridge_jdk11",
+            "type": "CLASS"
+         },
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.Parser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.WrapFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.InterpreterData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.GeneratedClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.EvaluatorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ConstProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecurityUtilities$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.FunctionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ImporterTopLevel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.UintMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Arguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.DefiningClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ClassCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptOrFnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.FunctionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ContextFactory$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeIterator$WrappedJavaIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$NumberNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ErrorReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptableObject$Slot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Script",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Decompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptRuntime$IdEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$Symbol",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Context$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaMembers$MethodSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.RhinoException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NotAFunctionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaAdapter$JavaAdapterSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.InterfaceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.BeanProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Kit$ComplexKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.RegExpProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.LazilyLoadedCtor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$PropListItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Interpreter$CallFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeGenerator$CloseGeneratorAction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecureCaller$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.DefaultErrorReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecureCaller$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeGenerator$CloseGeneratorAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ObjToIntMap$Iterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.UniqueTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ClassDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.CompilerEnvirons",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Synchronizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptRuntime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecurityUtilities$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptRuntime$NoSuchMethodShim",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Undefined",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.IdFunctionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NodeTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeGlobal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Ref",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.RhinoException$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.VMBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Interpreter$GeneratorState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.InterpretedFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaTopPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PolicySecurityController$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Interpreter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PolicySecurityController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ObjArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecurityController$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ObjToIntMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.IdScriptableObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeMath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptableObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.MemberBox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Kit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PolicySecurityController$SecureCaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ContextAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.WrappedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Parser$ParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Callable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.TokenStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.RefCallable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.FieldAndMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecureCaller$SecureClassLoaderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.InterfaceAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecurityController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaAdapter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.BaseFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PolicySecurityController$Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecurityUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptRuntime$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaScriptException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Interpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Delegator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeGenerator$GeneratorClosedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Scriptable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.IRFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecureCaller$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Interpreter$ContinuationJump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PolicySecurityController$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SecureCaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.IdFunctionCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Evaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$StringNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.SpecialRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.Node$Jump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.PolicySecurityController$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaMembers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeIterator$StopIteration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.EcmaError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.IdScriptableObject$PrototypeValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ScriptableObject$GetterSlot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.DToA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.JavaAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.NativeJavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.ClassShutter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.debug",
+         "packageMembers": [
+            {
+               "name": "org.mozilla.javascript.debug.Debugger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.debug.DebugFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.debug.DebuggableScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mozilla.javascript.debug.DebuggableObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0.R1"
+      },
+      {
+         "name": "org.mozilla.javascript.continuations",
+         "packageMembers": {
+            "name": "org.mozilla.javascript.continuations.Continuation",
+            "type": "CLASS"
+         },
+         "version": "1.7.0.R1"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.xmlbeans",
+         "optional": true,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.filechooser",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.mozilla.javascript",
+   "version": "1.7.0.R1"
+}}

@@ -1,0 +1,721 @@
+{"bundle": {
+   "dateAdded": "2009-05-26 13:46:17.0",
+   "moduleName": "com.springsource.ch.qos.logback.classic",
+   "name": "LogBack Classic",
+   "notes": "",
+   "organisationName": "ch.qos.logback",
+   "packageExports": [
+      {
+         "name": "ch.qos.logback.classic",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.ViewStatusMessagesServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.PatternLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.BasicConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.ClassicGlobal",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.LoggerContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.Level",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "org.slf4j.impl",
+         "packageMembers": [
+            {
+               "name": "org.slf4j.impl.StaticMDCBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.slf4j.impl.CopyOnInheritThreadLocal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.slf4j.impl.StaticMarkerBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.slf4j.impl.StaticLoggerBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.slf4j.impl.LogbackMDCAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.util",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.util.StatusListenerConfigHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.util.ContextInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.util.JNDIUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.util.LoggerStatusPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.util.DefaultNestedComponentRules",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.util.LevelToSyslogSeverity",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.turbo",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.turbo.TurboFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.LRUMessageCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.MatchingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.MDCValueLevelPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.DynamicThresholdFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.MarkerFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.DuplicateMessageFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.turbo.MDCFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.spi",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.spi.ClassPackagingData",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.StackTraceElementProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggerContextRemoteView",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.PlatformInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.CallerData",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.TurboFilterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.ThrowableDataPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggingEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggerContextAwareBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.ThrowableProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.PackagingDataCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggerContextAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggerContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.STEUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.ThrowableToDataPointArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.ThrowableDataPoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggerRemoteView",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.ThrowableDataPoint$ThrowableDataPointType",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.spi.LoggerComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.sift",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.sift.AppenderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.sift.MDCBasedDiscriminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.sift.SiftAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.sift.SiftingJoranConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.sift.SiftingAppender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.pattern",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.pattern.MethodOfCallerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ThrowableProxyConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.LineSeparatorConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ClassOfCallerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.MessageConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.EnsureExceptionHandling",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.LRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.NamedConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.SyslogStartConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ClassNameOnlyAbbreviator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ThreadConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.DateConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ThrowableHandlingConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.LoggerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.FileOfCallerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ClassicConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.MDCConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.LineOfCallerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.NopThrowableInformationConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.LevelConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.Abbreviator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.MarkerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.CallerDataConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ExtendedThrowableProxyConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.TargetLengthBasedClassNameAbbreviator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.RelativeTimeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.pattern.ContextNameConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.selector",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.selector.DefaultContextSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.selector.ContextSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.selector.ContextJNDISelector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.selector.servlet",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.net",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.net.JMSQueueAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.SyslogAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.SocketAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.JMSQueueSink",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.JMSTopicAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.SimpleSocketServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.SMTPAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.JMSTopicSink",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.SocketAcceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.net.SocketNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.log4j",
+         "packageMembers": {
+            "name": "ch.qos.logback.classic.log4j.XMLLayout",
+            "type": "CLASS"
+         },
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.joran.action",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.joran.action.JMXConfiguratorAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.EvaluatorAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.ConsolePluginAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.ConfigurationAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.ContextNameAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.RootLoggerAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.LoggerAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.joran.action.LevelAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.joran",
+         "packageMembers": {
+            "name": "ch.qos.logback.classic.joran.JoranConfigurator",
+            "type": "CLASS"
+         },
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.jmx",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.jmx.JMXConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.jmx.MBeanUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.html",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.html.HTMLLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.html.UrlCssBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.html.DefaultThrowableRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.html.DefaultCssBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.db",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.db.DBAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.db.DBHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.filter",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.filter.ThresholdFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.filter.LevelFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.classic.boolex",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.classic.boolex.JaninoEventEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.classic.boolex.OnErrorEvaluator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.slf4j.spi",
+         "optional": false,
+         "versionRange": "[1.5.6, 2.0.0)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.slf4j.helpers",
+         "optional": false,
+         "versionRange": "[1.5.6, 2.0.0)"
+      },
+      {
+         "name": "org.slf4j",
+         "optional": false,
+         "versionRange": "[1.5.6, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "ch.qos.logback.core.util",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.status",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.spi",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.sift",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.rolling.helper",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.rolling",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.pattern",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.net",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.joran.spi",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.joran.event",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.joran.action",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.joran",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.html",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.boolex",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.helpers",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.filter",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core.db",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      },
+      {
+         "name": "ch.qos.logback.core",
+         "optional": false,
+         "versionRange": "[0.9.15, 0.9.15]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.ch.qos.logback.classic",
+   "version": "0.9.15"
+}}

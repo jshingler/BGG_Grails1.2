@@ -1,0 +1,582 @@
+{"bundle": {
+   "dateAdded": "2009-05-27 14:58:21.0",
+   "moduleName": "com.springsource.org.logicalcobwebs.proxool",
+   "name": "Proxool JDBC connection pool",
+   "notes": "",
+   "organisationName": "org.logicalcobwebs",
+   "packageExports": [
+      {
+         "name": "org.logicalcobwebs.proxool.util",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.proxool.util.FastArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.util.ListenerContainerIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.util.FastArrayList$SubList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.util.FastArrayList$ListIter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.util.FastArrayList$SubList$SubListIter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.util.AbstractListenerContainer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.concurrent.WriterPreferenceReadWriteLock$ReaderLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.ReaderPreferenceReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.Puttable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.WriterPreferenceReadWriteLock$Signaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.Channel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FutureResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTask$Par2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTask$Par",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.WriterPreferenceReadWriteLock$WriterLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FutureResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.DefaultChannelCapacity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.Takable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.Callable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTask$Wrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.LinkedNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTask$Seq2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.ReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTaskRunnerGroup$InvokableFJTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTaskRunnerGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.SynchronizedInt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.WriterPreferenceReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTaskRunner$VolatileTaskRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.SynchronizedVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.TimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.LinkedQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTaskRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.FJTask$Seq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.concurrent.BoundedChannel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.resources",
+         "packageMembers": [
+            {
+               "name": "org/logicalcobwebs/proxool/resources/attributeDescriptions.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.resources.ResourceNamesIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/logicalcobwebs/proxool/resources/jmx.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.admin.jmx",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.proxool.admin.jmx.ConnectionPoolMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.jmx.ProxoolJMXHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.admin.jndi",
+         "packageMembers": {
+            "name": "org.logicalcobwebs.proxool.admin.jndi.ProxoolJNDIHelper",
+            "type": "CLASS"
+         },
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.admin.servlet",
+         "packageMembers": {
+            "name": "org.logicalcobwebs.proxool.admin.servlet.AdminServlet",
+            "type": "CLASS"
+         },
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.proxy",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.proxool.proxy.InvokerFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.proxy.MethodMapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.configuration",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.proxool.configuration.JAXPConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.configuration.XMLConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.configuration.PropertyConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.configuration.AvalonConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/logicalcobwebs/proxool/configuration/proxool.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.configuration.ServletConfigurator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionBuilderIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.DefaultConnectionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.FatalSQLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.CompositeProxoolListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxyFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.Prototyper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxoolListenerIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.CompositeConfigurationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionInfoIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.StateListenerIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.HouseKeeperThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionPoolDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxyDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.PrototyperController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionPoolDefinitionIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxoolFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.PrototyperThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.FatalRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.CompositeConnectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionValidatorIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.DefaultConnectionValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.WrappedConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionPoolStatisticsIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionResetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxyConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConfigurationListenerIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.FormatHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionListenerIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionPoolManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.FatalSqlExceptionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ShutdownHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.HouseKeeperController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxoolConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxoolException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxyConnectionIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.HouseKeeper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.AbstractProxyStatement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ProxoolDriver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.ConnectionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.AbstractProxyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.CompositeStateListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.admin",
+         "packageMembers": [
+            {
+               "name": "org.logicalcobwebs.proxool.admin.Statistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.StatisticsLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.StatisticsIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.StatsRoller$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.SnapshotIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.Snapshot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.StatsRoller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.StatisticsListenerIF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.CompositeStatisticsListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.logicalcobwebs.proxool.admin.Admin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.logicalcobwebs.cglib.proxy",
+         "optional": false,
+         "versionRange": "[0.9.1, 0.9.1]"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.0.4, 2.0.0)"
+      },
+      {
+         "name": "org.logicalcobwebs.cglib.core",
+         "optional": false,
+         "versionRange": "[0.9.1, 0.9.1]"
+      },
+      {
+         "name": "org.apache.avalon.framework.component",
+         "optional": true,
+         "versionRange": "[4.1.3, 4.1.3]"
+      },
+      {
+         "name": "org.apache.avalon.framework.thread",
+         "optional": true,
+         "versionRange": "[4.1.3, 4.1.3]"
+      },
+      {
+         "name": "org.apache.avalon.framework.configuration",
+         "optional": true,
+         "versionRange": "[4.1.3, 4.1.3]"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.avalon.framework.activity",
+         "optional": true,
+         "versionRange": "[4.1.3, 4.1.3]"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.logicalcobwebs.proxool",
+   "version": "0.9.1"
+}}

@@ -1,0 +1,382 @@
+{"bundle": {
+   "dateAdded": "2008-10-21 18:15:11.0",
+   "moduleName": "org.springframework.osgi.extender",
+   "name": "Spring DM Extender",
+   "notes": "",
+   "organisationName": "org.springframework.osgi",
+   "packageExports": [
+      {
+         "name": "org.springframework.osgi.extender",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.OsgiBeanFactoryPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.OsgiApplicationContextCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.OsgiServiceDependencyFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.support.scanning",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.support.scanning.ConfigurationScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.support.scanning.DefaultConfigurationScanner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.support.internal",
+         "packageMembers": {
+            "name": "org.springframework.osgi.extender.support.internal.ConfigUtils",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.support.ConditionalApplicationContextCreator$BundleContextFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.support.ConditionalApplicationContextCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.support.DefaultOsgiApplicationContextCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.support.ApplicationContextConfiguration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.internal.util.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$SimpleTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$MonitoredRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.Counter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.internal.dependencies.startup",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.ContextExecutorStateAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyServiceManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$WatchDogTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyServiceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.MandatoryServiceDependency",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.MandatoryServiceDependency$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$CompleteRefreshTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.MandatoryImporterDependencyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.ContextState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyServiceManager$DependencyServiceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.internal.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.internal.support.OsgiAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.support.NamespaceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.support.NamespacePlugins",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.support.NamespacePlugins$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.support.ExtenderConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.support.NamespacePlugins$Plugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.support.OsgiBeanFactoryPostProcessorAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.internal.dependencies.shutdown",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.shutdown.ServiceDependencySorter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.shutdown.ComparatorServiceDependencySorter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.dependencies.shutdown.BundleDependencyComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.event",
+         "packageMembers": {
+            "name": "org.springframework.osgi.extender.event.BootstrappingDependencyEvent",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.springframework.osgi.extender.internal.activator",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ListListenerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener$NamespaceBundleLister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener$BaseListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.ContextLoaderListener$ContextBundleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.activator.SpringTypeCompatibilityChecker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.scheduling.timer",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.util",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.service.importer.support",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.service.importer.event",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.service.importer",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.io.internal.resolver",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.context",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.context.event",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.context.support",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.enums",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.event",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.osgi.service.packageadmin",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.osgi.framework",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.osgi.extender",
+   "version": "1.1.0"
+}}

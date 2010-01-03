@@ -1,0 +1,585 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:25:20.0",
+   "moduleName": "com.springsource.com.sun.syndication",
+   "name": "ROME: RSS/Atom syndication and publishing tools",
+   "notes": "",
+   "organisationName": "com.sun.syndication",
+   "packageExports": [
+      {
+         "name": "com.sun.syndication",
+         "packageMembers": {
+            "name": "com/sun/syndication/rome.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.io.impl",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.io.impl.RSS091NetscapeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS20wNSParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.BaseWireFeedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.Atom10Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.Atom03Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS091NetscapeParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.Atom10Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.SyModuleParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.PropertiesLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS092Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS10Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.DateParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS090Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS091UserlandParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.FeedParsers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.PluginManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS093Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.DCModuleParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS10Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.SyModuleGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.ModuleGenerators",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.FeedGenerators",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS090Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS092Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.XmlFixerReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS094Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.Atom03Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.ModuleParsers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS093Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.BaseWireFeedParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS094Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS20Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS20Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.DCModuleGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.impl.RSS091UserlandGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.io",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.io.XmlReaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.WireFeedParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.WireFeedOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.SyndFeedOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.FeedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.DelegatingModuleParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.WireFeedInput$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.WireFeedInput$EmptyEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.XmlReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.DelegatingModuleGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.SAXBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.SyndFeedInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.WireFeedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.ModuleParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.WireFeedInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.ModuleGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.io.ParsingFeedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.synd.impl",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS093",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS091Userland",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.URINormalizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForAtom10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS092",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS091Netscape",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS090",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForAtom03",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.Converters",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS20",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.impl.ConverterForRSS094",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.synd",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.synd.SyndPersonImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndLinkImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndFeed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndPerson",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndCategoryListFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndImageImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndCategory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndEnclosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndLink",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndContentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndFeedImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndCategoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndEnclosureImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndImage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndEntryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.synd.SyndContent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.rss",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.rss.Image",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Enclosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.TextInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Source",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Content",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Cloud",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Description",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Channel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Category",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.rss.Guid",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.module.impl",
+         "packageMembers": {
+            "name": "com.sun.syndication.feed.module.impl.ModuleUtils",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.module",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.module.DCModule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.ModuleImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.Extendable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.DCSubjectImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.Module",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.SyModuleImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.DCModuleImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.SyModule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.module.DCSubject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.impl",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.impl.ObjectBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.impl.EqualsBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.impl.CopyFromHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.impl.CloneableBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.impl.ToStringBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.impl.ToStringBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.impl.BeanIntrospector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed.atom",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.atom.Person",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.atom.Content",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.atom.Link",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.atom.Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.atom.Feed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.atom.Category",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.atom.Entry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      },
+      {
+         "name": "com.sun.syndication.feed",
+         "packageMembers": [
+            {
+               "name": "com.sun.syndication.feed.WireFeed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.syndication.feed.CopyFrom",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RC1"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jdom.output",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom.input",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.sun.syndication",
+   "version": "1.0.0.RC1"
+}}

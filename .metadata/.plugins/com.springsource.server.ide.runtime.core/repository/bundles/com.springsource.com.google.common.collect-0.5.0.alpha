@@ -1,0 +1,1464 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:19:19.0",
+   "moduleName": "com.springsource.com.google.common.collect",
+   "name": "Google Collections Library",
+   "notes": "",
+   "organisationName": "com.google.collect",
+   "packageExports": [
+      {
+         "name": "com.google.common.base",
+         "packageMembers": [
+            {
+               "name": "com.google.common.base.FinalizableReferenceQueue$LazyInstanceHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$MemoizingSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$SupplierComposition",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$AlwaysTruePredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$CyclicDependencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$FunctionForMapNoDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$CompositionPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.ReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Preconditions",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.FinalizablePhantomReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Join$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$AlwaysFalsePredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.FinalizableSoftReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$ToStringFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Join",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$NotNullPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$HashCodeFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$IsEqualToPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$AndPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$NotPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.FinalizableReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Join$JoinException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$InPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$SerializableFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$OrPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$MemoizationState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$FunctionComposition",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Supplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$ConstantFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Nullable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$SupplierOfInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.FinalizableWeakReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Objects",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$IsNullPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.FinalizableReferenceQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$ForMapWithDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates$IsSameAsPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$PredicateFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Predicates",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Functions$IdentityFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.Suppliers$SerializableSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.base.FinalizableReferenceQueue$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.5.0.alpha"
+      },
+      {
+         "name": "com.google.common.collect",
+         "packageMembers": [
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedSortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedAsMapEntries$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PeekingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableList$RegularImmutableList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$UnmodifiableAsMapValues$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$MultisetView",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$TransformingNaturalOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$AsMapIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedAsMapValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedHashMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$NullHandlingOrdering",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Lists$TransformingSequentialList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap$AsMapEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$MultisetView$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.SerializableComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$ShortArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedHashMultimap$SetDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Sets",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$MultisetEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$MultisetEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedAsMapEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$ByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.EnumBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$4$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$IntegerArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.TreeMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.HashBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedAsMapValues$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableList$EmptyImmutableList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$ValueSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$ValueSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$SortedMapKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$ReferenceStrategy$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$FrequencyOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.HashMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Lists",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Lists$TransformingRandomAccessList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$LongArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.TreeMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractRemovableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$SimpleClassToInstanceMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedHashMultimap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet$SingletonImmutableSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ClassMapConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardListMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedAsMapEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$WrappedList$WrappedListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedAsMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$SetMultiset$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$ReferenceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$DuplicateValueException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Lists$TwoPlusArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Sets$EmptySortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMultiset$MultisetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$UnmodifiableAsMapEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap$AsMapEntries$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$UnmodifiableBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.EnumHashBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.HashMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$SetMultiset$EntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$PeekingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$SortedSetDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedSortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ObjectArrays",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ConcurrentMultiset$EntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingConcurrentMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$ImmutableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet$EmptyImmutableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractIterator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$SetMultiset$ElementSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$UnmodifiableMultimap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingSortedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractIterator$State",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$3$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$MultisetView$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedBiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$DummyReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$CharacterArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet$SerializedForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.BiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ConcurrentMultiset$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableMapBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedAsMapValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$Entries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$WeakValueReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$ReferenceStrategy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ClassToInstanceMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedHashMultimap$SetDecorator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$NodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMultiset$ElementSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$SetDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Sets$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$WrappedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Ordering",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$SetMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ListMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedRandomAccessList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMultiset$ElementSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$SortedKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$UnmodifiableMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.EnumMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$MapBasedMultisetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ArrayListMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multiset$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.SortedSetMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$UnmodifiableEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$MultisetView$2$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$EntryIterator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$WrappedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ClassConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$RandomAccessWrappedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$WrappedSortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$EntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$DistinctKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$CompoundOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$6$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardSortedSetMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedAsMapValues$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMultisetEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$AsMapEntries$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedAsMapEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$NotNullMapConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$EntrySet$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Ordering$ReverseOrdering",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ConcurrentMultiset$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingSortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$EntrySet$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardSetMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$AsMapEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$TransformingOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$NotNullConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedHashMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet$RegularImmutableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$KeySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Lists$TransformingSequentialList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedMultimap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet$SingletonImmutableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$WeakKeyReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Sets$SetFromMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardBiMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$ReferenceStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multisets$EmptyMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$MultisetKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$MultisetView$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedMultimap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$ListMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ConcurrentMultiset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedAsMapEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$WrappedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableBiMapBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$EntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$SoftValueReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$UnmodifiableAsMapValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$AsMapEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$MapBasedElementSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$10$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$ListDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$SoftKeyReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap$AsMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ForwardingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$4$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractIterable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Constraints$ConstrainedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap$AsMapEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ReferenceMap$InternalReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$UnmodifiableEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedRandomAccessList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$14$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$InverseConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$MultisetView$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.TreeMultiset$SortedMapBasedElementSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$KeySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$BooleanArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$IncomparableValueException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableMapBuilder$ImmutableHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.SetMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$UnmodifiableAsMapEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMapBasedMultiset$MapBasedElementSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$6$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$DoubleArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$AsMapEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Comparators$GivenOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$ValueForKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableMultimapBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.SortedArraySet$SubSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Ordering$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableList$RegularImmutableList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.AbstractMultiset$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Multimaps$MapMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Lists$OnePlusArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.SortedArraySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.ImmutableSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Maps$UnmodifiableEntries",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays$FloatArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.PrimitiveArrays",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.StandardMultimap$WrappedCollection$WrappedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.LinkedListMultimap$MultisetView",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Synchronized$SynchronizedMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.MapConstraints$ConstrainedEntries$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterators$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.common.collect.Iterables$6$1$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.5.0.alpha"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.google.common.collect",
+   "version": "0.5.0.alpha"
+}}

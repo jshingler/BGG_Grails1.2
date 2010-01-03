@@ -1,0 +1,4610 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:09:41.0",
+   "moduleName": "com.springsource.com.db4o.java5",
+   "name": "DB40 for Java5",
+   "notes": "",
+   "organisationName": "com.db4o",
+   "packageExports": [
+      {
+         "name": "com.db4o",
+         "packageMembers": [
+            {
+               "name": "com.db4o.StaticField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.TransactionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.BlobTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P1HashElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.DTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.BlobStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.User",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P1Collection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2Collections",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2HashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2ListElementIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.MetaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Deploy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Rename",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2LinkedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.TransactionAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ObjectSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2HashMap$MapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Tuning",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Internal4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ObjectServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P1Object",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.CorruptionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.MetaField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2HashMapIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.SocketSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P2HashMapKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ReplicationRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.PBootRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Db4o",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.Db4oVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.StaticClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.MetaIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.P1ListElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.types",
+         "packageMembers": [
+            {
+               "name": "com.db4o.types.Db4oCollections",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.Db4oCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.SecondClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.TransientClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.Blob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.Db4oMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.Db4oType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.Db4oList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.types.Unversioned",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.typehandlers",
+         "packageMembers": [
+            {
+               "name": "com.db4o.typehandlers.EmbeddedTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.typehandlers.TypeHandlerPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.typehandlers.SingleClassTypeHandlerPredicate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.ta",
+         "packageMembers": [
+            {
+               "name": "com.db4o.ta.NotTransparentActivationEnabled",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentPersistenceSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport$TADiagnosticProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.RollbackStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.Activatable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransactionalActivator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ta.TransparentActivationSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.replication",
+         "packageMembers": [
+            {
+               "name": "com.db4o.replication.ReplicationConflictHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.replication.ReplicationProcess",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.reflect",
+         "packageMembers": [
+            {
+               "name": "com.db4o.reflect.ReflectArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectClassPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectorUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectClassByRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.Reflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.ReflectField",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.reflect.core",
+         "packageMembers": {
+            "name": "com.db4o.reflect.core.AbstractReflectArray",
+            "type": "CLASS"
+         },
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.reflect.generic",
+         "packageMembers": [
+            {
+               "name": "com.db4o.reflect.generic.GenericReflector$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericVirtualField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericArrayClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericClassBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericReflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericArrayReflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.ReflectClassBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.CollectionUpdateDepthEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.KnownClassesRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.generic.GenericObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.reflect.jdk",
+         "packageMembers": [
+            {
+               "name": "com.db4o.reflect.jdk.JdkReflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JdkField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JdkArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JavaReflectClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JdkMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JdkLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.ClassLoaderJdkLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JdkConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.jdk.JdkClass",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.reflect.self",
+         "packageMembers": [
+            {
+               "name": "com.db4o.reflect.self.SelfReflectionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.ClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfReflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfReflectable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.FieldInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.reflect.self.SelfConstructor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.query",
+         "packageMembers": [
+            {
+               "name": "com.db4o.query.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.Candidate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.PredicatePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.Constraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.Evaluation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.JdkComparatorWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.QueryComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.query.Predicate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.marshall",
+         "packageMembers": [
+            {
+               "name": "com.db4o.marshall.WriteBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.marshall.ReadContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.marshall.WriteContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.marshall.ReservedBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.marshall.ReadBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.marshall.Context",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.messaging",
+         "packageMembers": [
+            {
+               "name": "com.db4o.messaging.MessageSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.messaging.MessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.messaging.MessageRecipient",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.io",
+         "packageMembers": [
+            {
+               "name": "com.db4o.io.VanillaIoAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.IoAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.RandomAccessFileAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.SymbianIoAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.MemoryIoAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.CachedIoAdapter$Page",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.CachedIoAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.NonFlushingIoAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.io.IoAdapterWindow",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.slots",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.slots.SlotChange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.slots.Slot",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.slots.Pointer4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.slots.ReferencedSlot",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.replication",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.replication.Db4oReplicationReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.replication.Db4oReplicationReferenceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.replication.MigrationConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.query.result",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.query.result.IdListQueryResult$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.SnapShotQueryResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.IdListQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.SnapShotQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.AbstractQueryResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.HybridQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.AbstractLateQueryResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.StatefulQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.IdListQueryResult$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.IdTreeQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.AbstractLateQueryResult$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.IdListQueryResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.QueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.LazyQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.AbstractQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.LazyQueryResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.AbstractLateQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.result.SnapShotQueryResult$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.query.processor",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.Orderable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConJoin",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEStringCmp",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConUnconditional",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QESmaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEAbstract",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCon$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConstraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidate$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEStartsWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCon$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$CreateCandidateCollectionResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEGreater",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEContains",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEMulti",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConEvaluation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$TreeIntBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QEEndsWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$5$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$5$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QENot",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConEvaluation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QPending",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QQueryBase$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QConObject$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCon",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QCandidates$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.processor.QE",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.query",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.query.NativeQueryHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.Db4oEnhancedFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.PredicateEvaluation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.ObjectSetFacade$1JDKIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.Db4oQueryExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.ObjectSetFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.NQOptimizationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.query.Db4oNQOptimizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.marshall",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.marshall.AbstractReadContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.MarshallingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ClassMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.RawFieldSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.MarshallerFamily",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.UnmarshallingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ClassMarshaller2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.RawClassSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.PrimitiveMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.PrimitiveMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.MarshallerFamily$FamilyVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.InternalReadContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.FieldMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ArrayMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.MarshallingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ClassMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ClassMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ArrayMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.UntypedMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.SlotFormatCurrent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.PrimitiveMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.QueryingReadContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.UntypedMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.FieldMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.SlotFormat0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.StringMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.MarshallingConstants0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.UntypedMarshaller0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller$TraverseFieldCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ArrayMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.StringMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.SlotFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.StringMarshaller1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.AbstractReadContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.MarshallingContextState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller0$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectMarshaller1$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.FieldListInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.FieldMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.ObjectHeaderAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.marshall.SlotFormat2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.mapping",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.mapping.MappedIDPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.mapping.MappingNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.mapping.DefragmentServices",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.mapping.MappedIDPairHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.mapping.MappedIDPairHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.mapping.IdSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.mapping.IDMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.freespace",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.freespace.AbstractFreespaceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.RamFreespaceManager$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.BTreeFreespaceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.FreespaceBTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.RamFreespaceManager$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.AbstractFreespaceManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.FreespaceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.FreeSlotNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.SlotHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.FreespaceVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.AbstractFreespaceManager$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.LengthKeySlotHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.RamFreespaceManager$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.AddressKeySlotHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.LengthKeySlotHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.AbstractFreespaceManager$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.FreespaceManagerIx",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.RamFreespaceManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.RamFreespaceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.freespace.AddressKeySlotHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.handlers",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.handlers.DoubleHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.LongHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.IntHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.BooleanHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.DateHandlerBase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ShortHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ArrayHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.LongHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.CharHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.LongHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.IntHandler$PreparedIntComparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.NetTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.PrimitiveHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.TypeHandlerPredicatePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.MultidimensionalArrayHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.VariableLengthTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ShortHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.StringHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.DoubleHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.DateHandlerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.DateHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ByteHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler$TraverseFieldCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FloatHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.StringHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.BooleanHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.MultidimensionalArrayHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.HandlerVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ArrayHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ShortHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.DoubleHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FloatHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.StringHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.DateHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ArrayHandler2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.CharHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.IntHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.TypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FirstClassObjectHandler$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.StringBufferHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.NetType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.PlainObjectHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.FloatHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ByteHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.ArrayHandler$ReflectArrayIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.handlers.net",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.handlers.net.NetSByte",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.net.NetSimpleTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.net.NetDecimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.net.NetUInt",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.net.NetDateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.net.NetULong",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.handlers.net.NetUShort",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.fieldindex",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.fieldindex.FieldIndexProcessorResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.FieldIndexProcessorResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedNodeBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedNodeCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.OrIndexedLeaf",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.AndIndexedLeaf",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.FieldIndexProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedNodeWithRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedPathIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.IndexedLeaf",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.JoinedLeaf",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldindex.QEBitmap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.fileheader",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.fileheader.TimerFileLockDisabled",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fileheader.TimerFileLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fileheader.FileHeader0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fileheader.FileHeader1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fileheader.FileHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fileheader.TimerFileLockEnabled",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fileheader.FileHeaderVariablePart1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.fieldhandlers",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.fieldhandlers.UntypedMultidimensionalArrayFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldhandlers.UntypedArrayFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.fieldhandlers.FieldHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.events",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.events.EventRegistryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.events.Event4Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.events.EventRegistryImpl$CommittedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.events.EventPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.diagnostic",
+         "packageMembers": {
+            "name": "com.db4o.internal.diagnostic.DiagnosticProcessor",
+            "type": "CLASS"
+         },
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.cs.messages",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.cs.messages.MWriteUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSetFetch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MWriteUpdateDeleteMembers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MDeleteBlobFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSetFinalized",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MOK",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MReadBytes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MsgD",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MPing",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MProcessDeletes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MClose",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MGetAll",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MClassMetadataIdForName",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MWriteNew",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MGetClasses",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSetIndexOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MsgBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MError",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MReadObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MIDList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MPong",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommittedInfo$ObjectInfoEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommittedInfo$FrozenObjectInfoEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MClassNameForID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MSetSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MLoginOK",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MQueryExecute",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MGetInternalIDs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MWriteBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSetGetId",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.ClientSideTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommit",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MGetThreadID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCreateClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MUserMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSetReset",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.Msg",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.ClientSideMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommitSystemTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.ServerSideMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MUserMessage$MessageContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MRaiseVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MWriteBatchedMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MReleaseSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MUserMessage$UserMessagePayload",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MTaDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MUserMessage$MessageContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MReadBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MReadMultipleObjects",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MSwitchToFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MClassMeta",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MUseTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectSetSize",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MUserMessage$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MessageDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommittedInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MObjectByUuid",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCloseSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MTaIsDeleted",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MsgQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MClassID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MsgObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommittedInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MLogin",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MSwitchToMainFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommittedInfo$InternalIDEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MRollback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MCommittedCallBackRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MFailed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MIsAlive",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.messages.MPrefetchIDs",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.cs",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.cs.ClientHeartbeat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.LazyClientIdIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientServerPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientTransactionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientTransactionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientQueryResultIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.PrefetchingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.LazyClientQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientTransaction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ServerMessageDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.QueryResultIteratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.CommittedCallbacksDispatcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ServerMessageDispatcherImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.DebugCS",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ObjectServerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientTransaction$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientObjectContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.CommittedCallbacksDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClassInfoHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.LazyClientObjectSetStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientTransactionPool$ContainerCount",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.SingleMessagePrefetchingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientMessageDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.FieldInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientMessageDispatcherImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.BroadcastFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.BlobProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cs.ClientObjectContainer$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.convert.conversions",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.convert.conversions.CommonConversions",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.convert.conversions.ClassIndexesToBTrees_5_5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.convert.conversions.FieldIndexesToBTrees_5_7",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.convert",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.convert.Conversion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.convert.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.convert.ConversionStage$ClassCollectionAvailableStage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.convert.ConversionStage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.convert.ConversionStage$SystemUpStage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.collections",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.collections.PersistentCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.collections.PersistentList",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.cluster",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.cluster.ClusterQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cluster.ClusterQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cluster.ClusterConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cluster.ClusterConstraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.cluster.ClusterQueryResult$ClusterQueryResultIntIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.classindex",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.ClassIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.ClassIndexClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.AbstractClassIndexStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.BTreeClassIndexStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.ClassIndexStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy$TransactionState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.OldClassIndexStrategy$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.classindex.BTreeClassIndexStrategy$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.callbacks",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.callbacks.Callbacks",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.callbacks.NullCallbacks",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.btree.algebra",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeUnionIntersect",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeUnionUnion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeUnionOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeSingleUnion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeSingleOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeRangeSingleIntersect",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.algebra.BTreeAlgebra",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.btree",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeUnion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.FieldIndexKeyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeNodeSearchResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeAdd",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRemove",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.FieldIndexKeyHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$5$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.AbstractBTreeRangeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeCancelledRemoval",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeUnion$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeSingle$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeUnion$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangePointerIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.SearchTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.Searcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRangeSingle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.FieldIndexKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreeRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTree$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.btree.BTreePatch",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal.activation",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.activation.UnknownActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.DescendingActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.ActivationDepthProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.LegacyActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.ActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.ActivationDepthImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.LegacyActivationDepthProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.ActivationMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.FixedActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.NonDescendingActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.FullActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.activation.TransparentActivationDepthProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.internal",
+         "packageMembers": [
+            {
+               "name": "com.db4o.internal.LocalTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.MarshallingBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.JDKReflect",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeInt$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TranslatedFieldMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeIntObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Config4Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalObjectContainer$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.DeleteContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.CallbackObjectInfoCollections",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ExternalObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Config4Field",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.CanHoldAnythingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IntMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalObjectContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.StatefulBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IntMatcher$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ConfigBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IDGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IntMatcher$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReflectPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.NullTransactionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.JDK",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ByteArrayBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SerializedGraph",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ShutDownRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.VirtualFieldMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FieldMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FieldMetadata$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Indexable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Config4Abstract",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FrozenObjectInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IoAdaptedObjectContainer$XByteFreespaceFiller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransactionObjectCarrier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LatinStringIO",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SharedIndexedFields",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceSystemRegistry$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.VirtualAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.HandlerVersionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Config4Class",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.UUIDFieldMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LazyObjectReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SlotCopyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.BufferContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceQueue4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ActiveObjectReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadataRepository$ClassIDIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Exceptions4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FieldMetadataState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Db4oTypeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.VersionFieldMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Readable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransactionParticipant",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.WriteContextInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.UntypedFieldHandler0",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Const4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PendingClassInits",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalObjectContainer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FieldIndexException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.HandlerVersionRegistry$HandlerVersionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.DefragmentContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TypeHandlerCloneContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PersistentIntegerArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FieldMetadata$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SlotChangeCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.EventDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceSystemRegistry$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IllegalComparisonException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.MarshallingBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.BuiltinTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.UntypedFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransportObjectContainer$KnownObjectIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.CascadingTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectInfoCollectionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadataRepository$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.HardObjectReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TypeHandler4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.JDK_5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Comparable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Platform4$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.InternalObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeStringObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.InMemoryObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PersistentBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PartialObjectContainer$PendingSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PartialObjectContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.HashcodeReferenceSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PreparedArrayContainsComparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.DefragmentContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectReference$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.JDK_1_3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceSystemRegistry$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.BlobImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.UUIDFieldMetadata$DatabaseIdentityIDAndUUID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransactionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.WeakReferenceCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Transaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.EmbeddedClientObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReadWriteable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.NullFieldMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeString",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.DeleteInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadataRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.UntypedFieldHandler2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Persistent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SecondClassTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PartialObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.CommittedCallbackDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.HandlerRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.StoredFieldImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.NullableArrayHandling",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReadsObjectIds",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LockedTree$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Serializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeInt$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadataIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PrimitiveFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.FirstClassHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SystemData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TreeInt",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$PreparedComparisonImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IoAdaptedObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PartialObjectContainer$PendingActivation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReflectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceSystemRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassMetadata$FieldMetadataIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IDHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransportObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransactionalReferenceSystem$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectContainerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.TransactionalReferenceSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.StoredClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.UnicodeStringIO",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectContainerSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Handlers4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Reflection4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectContainerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReadWriteBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.PartialEmbeddedClientObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.DeleteContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.JDK_1_2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ReferenceSystemRegistry$ReferenceSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Platform4$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IntMatcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.CompositeTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ObjectReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Platform4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.JDK_1_4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.IndexableTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LockedTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Transaction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.Null$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.ClassIndexException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.SystemInfoFileImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.internal.LocalTransaction$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.foundation.network",
+         "packageMembers": [
+            {
+               "name": "com.db4o.foundation.network.BlockingByteChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.BlockingByteChannel$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.BlockingByteChannel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.ServerSocket4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.BlockingByteChannel$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.Socket4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.BlockingByteChannel$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.BlockingByteChannel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.network.NetworkSocket",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.foundation.io",
+         "packageMembers": [
+            {
+               "name": "com.db4o.foundation.io.Path4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.io.Directory4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.io.File4",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.foundation",
+         "packageMembers": [
+            {
+               "name": "com.db4o.foundation.IntArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterable4Adaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Collection4Iterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BitMap4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.SingleValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.AutoStopWatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Cool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Visitor4Dispatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Algorithms4$Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ConditionalBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.InvalidIteratorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.PrimitiveCodec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Closure4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.KeySpecHashtable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.DynamicVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.StopWatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.TreeKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IndexedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.EnumerateIterator$Tuple",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.CompositeIterator4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.DeepClone",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Lock4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BooleanByRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.TimeStampIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Stack4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntArrayByRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.FlatteningIterator$IteratorStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.HashtableByteArrayEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ArgumentNullException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Arrays4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.TreeObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.TernaryBool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.DynamicVariable$ThreadSlot",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.JdkCollectionIterable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.SimpleTimer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.PreparedComparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.List4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.FilteredIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Function4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.NonblockingQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.No4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ArrayFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntIterator4Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.CompositeIterable4$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.SignatureGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.SortedCollection4$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueueStoppedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.CompositeIterable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.NoDuplicatesQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.TreeNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Tree$ByRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Algorithms4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.EnumerateIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.DynamicVariable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Comparison4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.StackTracer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.PersistentTimeStampIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Coercion4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.NotImplementedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntObjectVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ShallowClone",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.StackTracer$TracingOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ChainedRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.FunctionApplicationIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterator4Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntByRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Entry4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Hashtable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.SortedCollection4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.HashtableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.JdkCollectionIterator4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.KeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Collection4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterator4JdkIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Tree",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.NonblockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.AbstractTreeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.HashtableIntEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.SynchronizedHashtable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Hashtable4$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterator4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntIterator4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Hashtable4$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ArrayIterator4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Visitor4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.NotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Iterators$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.BlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Queue4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.Predicate4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.QuickSortable4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.MappingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.IntIterator4Adaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.FlatteningIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.ObjectByRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.foundation.HashtableObjectEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.ext",
+         "packageMembers": [
+            {
+               "name": "com.db4o.ext.StoredClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Db4oUnexpectedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Db4oCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.DatabaseReadOnlyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ObjectCallbacks",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Db4oIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ExtObjectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ObjectNotStorableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ExtClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.BackupInProgressException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ObjectInfoCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.DatabaseMaximumSizeReachedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.StoredField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.OldFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.InvalidSlotException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.InvalidIDException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Db4oException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ExtObjectSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.VirtualField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ObjectInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ExtObjectServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.InvalidPasswordException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.DatabaseFileLockedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.ExtDb4o",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Db4oUUID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.DatabaseClosedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.MemoryFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.Db4oDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.IncompatibleFileFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.ext.SystemInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.events",
+         "packageMembers": [
+            {
+               "name": "com.db4o.events.EventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.CancellableObjectEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.Event4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.ObjectContainerEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.QueryEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.EventRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.TransactionalEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.CommitEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.ClassEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.EventRegistryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.CancellableEventArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.EventListener4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.events.ObjectEventArgs",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.diagnostic",
+         "packageMembers": [
+            {
+               "name": "com.db4o.diagnostic.DiagnosticConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.Diagnostic",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.ClassHasNoFields",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.LoadedFromClassIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.NativeQueryOptimizerNotLoaded",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DeletionFailed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DiagnosticToConsole",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DiagnosticListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DescendIntoTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.NativeQueryNotOptimized",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DiagnosticBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.UpdateDepthGreaterOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DefragmentRecommendation$DefragmentRecommendationReason",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.diagnostic.DefragmentRecommendation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.defragment",
+         "packageMembers": [
+            {
+               "name": "com.db4o.defragment.Defragment$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.SecondPassCommand$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.Defragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.AbstractContextIDMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.PassCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.SecondPassCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.SecondPassCommand$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.BTreeIDMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.Defragment$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.SecondPassCommand$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentConfig$NullFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.Defragment$NullListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.AvailableClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentServicesImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentServicesImpl$DbSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentServicesImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.BTreeIDMapping$BTreeSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.ContextIDMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.FirstPassCommand$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.FirstPassCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.TreeIDMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.StoredClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.defragment.DefragmentServicesImpl$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.constraints",
+         "packageMembers": [
+            {
+               "name": "com.db4o.constraints.UniqueFieldValueConstraint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.constraints.UniqueFieldValueConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.constraints.UniqueFieldValueConstraintViolationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.constraints.ConstraintViolationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.config.annotations.reflect",
+         "packageMembers": [
+            {
+               "name": "com.db4o.config.annotations.reflect.NoArgsFieldConfiguratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.ConfigurationIntrospector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.IndexedConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.UpdatedDepthConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.CalledConstructorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.StoredTransientFieldsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.ClassConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.StoredTransientFieldsConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.PersistedStaticFieldValuesConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.Db4oConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.PersistedStaticFieldValuesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.MaximumActivationDepthFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.NoArgsClassConfiguratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.MaximumActivationDepthConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.MinimumActivationDepthConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.IndexedFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.FieldConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.GeneratedVersionNumbersConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.MinimumActivationDepthFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.GeneratedUUIDsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.GeneratedUUIDsConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.GeneratedVersionNumbersFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.QueryEvaluationOffConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.CalledConstructorConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.UpdatedDepthFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.reflect.Db4oConfiguratorFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.config.annotations",
+         "packageMembers": [
+            {
+               "name": "com.db4o.config.annotations.GeneratedUUIDs",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.GeneratedVersionNumbers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.UpdatedDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.PersistedStaticFieldValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.QueryEvaluationOff",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.MaximumActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.MinimumActivationDepth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.CalledConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.StoredTransientFields",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.annotations.Indexed",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.config",
+         "packageMembers": [
+            {
+               "name": "com.db4o.config.ConfigScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.NativeSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.GlobalOnlyConfigException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ConfigurationItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TypeAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.PlainSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TSerializable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ClientServerConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.THashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ObjectAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ObjectConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ObjectClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TTreeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TSerializable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ObjectTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.WildcardAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TTransient",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TTreeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.Alias",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.TClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.ObjectField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.FreespaceConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.DotnetSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.Compare",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.QueryConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.QueryEvaluationMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.WildcardAlias$WildcardPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.config.FreespaceFiller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.collections.facades",
+         "packageMembers": [
+            {
+               "name": "com.db4o.collections.facades.FastListCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.facades.CachedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.facades.ArrayListFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.facades.FastList",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.collections",
+         "packageMembers": [
+            {
+               "name": "com.db4o.collections.AbstractList4$ArrayList4Iterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.MapEntry4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.AbstractList4$ArrayList4IndexIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.ArrayList4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.AbstractList4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.SubArrayList4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.collections.ArrayMap4",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.cluster",
+         "packageMembers": {
+            "name": "com.db4o.cluster.Cluster",
+            "type": "CLASS"
+         },
+         "version": "7.2.54.11278"
+      },
+      {
+         "name": "com.db4o.activation",
+         "packageMembers": [
+            {
+               "name": "com.db4o.activation.ActivationPurpose",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.db4o.activation.Activator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "7.2.54.11278"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.db4o.java5",
+   "version": "7.2.54.11278"
+}}

@@ -1,0 +1,1111 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:35:07.0",
+   "moduleName": "com.springsource.javax.mail",
+   "name": "Java Mail",
+   "notes": "",
+   "organisationName": "javax.mail",
+   "packageExports": [
+      {
+         "name": "com.sun.mail.handlers",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.handlers.text_plain",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.handlers.text_html",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.handlers.image_jpeg",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.handlers.image_gif",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.handlers.multipart_mixed",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.handlers.message_rfc822",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.handlers.text_xml",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "javax.mail.util",
+         "packageMembers": [
+            {
+               "name": "javax.mail.util.SharedFileInputStream$SharedFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.util.ByteArrayDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.util.SharedFileInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.util.SharedByteArrayInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "javax.mail.search",
+         "packageMembers": [
+            {
+               "name": "javax.mail.search.FromStringTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.DateTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.ReceivedDateTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.AddressStringTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.ComparisonTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.MessageIDTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.RecipientTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.StringTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.RecipientStringTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.HeaderTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.IntegerComparisonTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.NotTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.AndTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.FromTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.SizeTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.SearchTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.AddressTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.FlagTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.MessageNumberTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.SentDateTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.OrTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.SearchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.BodyTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.search.SubjectTerm",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "javax.mail.internet",
+         "packageMembers": [
+            {
+               "name": "javax.mail.internet.MimeMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimePart",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.PreencodedMimeBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.NewsAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.HeaderTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.UniqueValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimePartDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.SharedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.InternetHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimeMessage$RecipientType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.InternetHeaders$matchEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.InternetAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.AddressException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ParameterList$Value",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MailDateParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ContentDisposition",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.InternetHeaders$InternetHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.AsciiOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.HeaderTokenizer$Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ParameterList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.ParameterList$ParamEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimeBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimeMultipart",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MailDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimeUtility$1NullInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.CachedDataHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.internet.MimeUtility",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "javax.mail.event",
+         "packageMembers": [
+            {
+               "name": "javax.mail.event.TransportEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.TransportListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.FolderAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.MessageChangedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.ConnectionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.ConnectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.TransportAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.MessageChangedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.ConnectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.StoreListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.FolderListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.MessageCountListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.MailEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.MessageCountEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.FolderEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.MessageCountAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.event.StoreEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "javax.mail",
+         "packageMembers": [
+            {
+               "name": "javax.mail.Session$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Folder$TerminatorEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.NoSuchProviderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Provider$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.FolderClosedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.ReadOnlyFolderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Flags",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.MessagingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.MessageAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Provider",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Flags$Flag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Multipart",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Service",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.QuotaAwareStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Part",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Address",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Folder",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.PasswordAuthentication",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Authenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Store",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Service$TerminatorEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Transport",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Quota$Resource",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.UIDFolder$FetchProfileItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.EventQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.StoreClosedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.StreamLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.FolderNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.MessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Message$RecipientType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.FetchProfile$Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.URLName",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.AuthenticationFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.BodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.IllegalWriteException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.SendFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.EventQueue$QueueElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.UIDFolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.MultipartDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.FetchProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Session$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.MessageRemovedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.MethodNotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.mail.Quota",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "com.sun.mail.util",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.util.UUDecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.TraceInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.BEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.QEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.UUEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.BASE64DecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.QPEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.BASE64EncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.SocketFetcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.CRLFOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.QDecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.LineInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.LineOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.QPDecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.SocketFetcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.TraceOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.util.ASCIIUtility",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "com.sun.mail.smtp",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.smtp.SMTPSSLTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.DigestMD5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.SMTPTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.SMTPAddressFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.SMTPMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.SMTPAddressSucceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.SMTPSendFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.smtp.SMTPOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "com.sun.mail.pop3",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.pop3.SharedByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.POP3SSLStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.DefaultFolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.Protocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.POP3Store",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.POP3Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.pop3.POP3Folder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "com.sun.mail.imap.protocol",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.imap.protocol.RFC822SIZE",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.ENVELOPE",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.IMAPResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.IMAPSaslAuthenticator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.BASE64MailboxDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.BASE64MailboxEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.BODY",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.SearchSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.FetchResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.BODYSTRUCTURE",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.IMAPSaslAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.UIDSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.FLAGS",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.MailboxInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.SaslAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.RFC822DATA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.MessageSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.INTERNALDATE",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.Namespaces$Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.UID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.IMAPAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.ListInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.protocol.IMAPProtocol",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "com.sun.mail.imap",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.imap.DefaultFolder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPNestedMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.Rights$Right",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.DefaultFolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.ACL",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.AppendUID",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPSSLStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.MessageLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.Utility",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.LengthCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPMessage$1FetchProfileCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.DefaultFolder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPMultipartDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$ProtocolCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.Rights",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$FetchProfileItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPStore$ConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.Utility$Condition",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.imap.IMAPFolder$14",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "com.sun.mail.iap",
+         "packageMembers": [
+            {
+               "name": "com.sun.mail.iap.BadCommandException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.ResponseHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.Argument",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.CommandFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.ConnectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.ProtocolException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.LiteralException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.Literal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.ParsingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.ByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.ResponseInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.AString",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.Atom",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.mail.iap.Protocol",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.security.auth.callback",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.sasl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.mail",
+   "version": "1.4.0"
+}}

@@ -1,0 +1,1754 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:30:03.0",
+   "moduleName": "com.springsource.org.mvel",
+   "name": "MVFlex Expression Language",
+   "notes": "",
+   "organisationName": "org.codehaus.mvel",
+   "packageExports": [
+      {
+         "name": "org.mvel",
+         "packageMembers": [
+            {
+               "name": "org.mvel.CompiledExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.MVELTemplateRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.NodeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.SetAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ASTLinkedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.PropertyVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.Soundex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.AccessorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.TemplateRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.BlankLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.Unit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.PreProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.TemplateInterpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ErrorDetail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ExecutableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ASTIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.MacroProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ConversionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.TemplateCompiler$IncludeRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.AbstractParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.MVEL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.UnresolveablePropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.PropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.MVELRuntime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.Accessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ExpressionCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.TemplateCompiler$IncludeRefParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.CompiledSetExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.DataConversion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.EndWithValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ASTArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.TemplateCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ForeachContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ExecutableAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ExecutableLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.MVELInterpretedRuntime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.Macro",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.PropertyAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.DataTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.Operator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.OptimizationFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ASTNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.CompileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ImmutableElementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.MVELSH",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.util",
+         "packageMembers": [
+            {
+               "name": "org.mvel.util.FastList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.StackElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.FastExecutionStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.Stack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.FastList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.MethodStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.FastListTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.ArrayTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.ParseTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.ExecutionStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.ThisLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.CollectionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.ReflectionUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.StringAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.CompilerTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.util.PropertyTools",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.tests.perftests",
+         "packageMembers": [
+            {
+               "name": "org.mvel.tests.perftests.ELComparisons$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.ELComparisons",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.SimplePerfTests$Foo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.NullOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.ELComparisons$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.SimpleTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.PerfTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.SimplePerfTests$Base",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.InlineCollectionsPerformance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.SimplePerfTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.ELComparisons$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.SimplePerfTests$Bar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.CompiledPerformanceTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.ELComparisons$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.NativeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.ParserPerformanceTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.perftests.JSPMapVariableResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.tests.main.res",
+         "packageMembers": [
+            {
+               "name": "org.mvel.tests.main.res.RuleBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.PDFFieldUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.Cheese",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.Base",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.RuleBaseImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.WorkingMemoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.PojoStatic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.Foo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.FactHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.DefaultKnowledgeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.Bar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.MyEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.WorkingMemory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.AStatic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.TestInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.KnowledgeHelperFixer$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.Thing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.res.DerivedClass",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.tests",
+         "packageMembers": [
+            {
+               "name": "org.mvel.tests.DebuggerTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.DebuggerTests$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.AccessorBMModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.DebuggerTests$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.tests.main",
+         "packageMembers": [
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Address",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$ClassA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.TemplateConfidenceTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$Recipient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Model",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$ClassB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.FailureTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Bean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$TestRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$MiscTestClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.UtilsTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.TemplateConfidenceTests$TestInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Drools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.PropertyAccessUnitTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$EmailMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.TemplateConfidenceTests$Page",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Person",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.TemplateConfidenceTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$MyBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$POJO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$TargetClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.KnowledgeHelperFixerTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$Recipients",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.TemplateConfidenceTests$Folder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.AbstractTest$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.tests.main.CoreConfidenceTests$16",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.optimizers.impl.refl.collection",
+         "packageMembers": [
+            {
+               "name": "org.mvel.optimizers.impl.refl.collection.ExprValueAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.collection.ArrayCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.collection.ListCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.collection.MapCreator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.optimizers.impl.refl",
+         "packageMembers": [
+            {
+               "name": "org.mvel.optimizers.impl.refl.MethodAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.MapAccessorNest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ArrayAccessorNest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.SetterAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.DynamicSetterAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.IndexedCharSeqAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.DynamicFieldAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.IndexedCharSeqAccessorNest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ConstructorAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ListAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.StaticReferenceAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ThisValueAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.MapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.Fold",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ListAccessorNest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.StaticVarAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.BaseAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.FieldAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ArrayLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.Union",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ArrayAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.GetterAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.VariableAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.impl.refl.ReflectiveAccessorOptimizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.optimizers.impl.asm",
+         "packageMembers": {
+            "name": "org.mvel.optimizers.impl.asm.ASMAccessorOptimizer",
+            "type": "CLASS"
+         },
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.optimizers",
+         "packageMembers": [
+            {
+               "name": "org.mvel.optimizers.OptimizerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.OptimizerHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.AbstractOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.AccessorOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.optimizers.OptimizationNotSupported",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.math",
+         "packageMembers": [
+            {
+               "name": "org.mvel.math.MathProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.math.IEEEFloatingPointMath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.math.JDK14CompatabilityMath",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.integration.impl",
+         "packageMembers": [
+            {
+               "name": "org.mvel.integration.impl.ItemResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.SimpleValueResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.MapVariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.BaseVariableResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.StaticMethodImportResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.MapVariableResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.ClassImportResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.ItemResolverFactory$ItemResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.TypeInjectionResolverFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.ClassImportResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.DefaultLocalVariableResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.StaticMethodImportResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.TypeInjectionResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.impl.LocalVariableResolverFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.integration",
+         "packageMembers": [
+            {
+               "name": "org.mvel.integration.VariableResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.VariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.ResolverTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.integration.Interceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.debug",
+         "packageMembers": [
+            {
+               "name": "org.mvel.debug.Debugger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.debug.Frame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.debug.DebuggerContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.debug.DebugTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.debug.DebugTools$DecompileContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.conversion",
+         "packageMembers": [
+            {
+               "name": "org.mvel.conversion.PrimIntArrayCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntArrayCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.PrimArrayHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ObjectCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ByteCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.PrimIntArrayCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ArrayCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ByteCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntArrayCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharArrayCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharArrayCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.PrimIntArrayCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.UnitConversion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ArrayCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.PrimArrayHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.StringCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.StringArrayCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.StringArrayCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.PrimIntArrayCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ByteCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.PrimArrayHandler$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ByteCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.LongCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ArrayCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigDecimalCH$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntegerCH$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ShortCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.FloatCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.ArrayCH$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.DoubleCH$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharCH$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BigIntegerCH$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.IntArrayCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.CharCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.conversion.BooleanCH$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.ast.cache",
+         "packageMembers": {
+            "name": "org.mvel.ast.cache.CachedListAccessor",
+            "type": "CLASS"
+         },
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.ast",
+         "packageMembers": [
+            {
+               "name": "org.mvel.ast.VarPropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.IfNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.LineLabel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.ContextDeepPropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.WhileNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.BlockNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.Union",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.PreFixIncNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.Substatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.AssertNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.TypeCast",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.NewObjectNode$NewObjectArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.ReturnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.PropertyASTNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.InlineCollectionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.NewObjectNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.WithNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.VariableDeepPropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.ThisValNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.And",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.AssignAdd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.WithNode$ParmValuePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.TypedVarNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.Or",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.PostFixIncNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.AssignMult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.AssignmentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.Assignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.PreFixDecNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.EndOfStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.LiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.RegExMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.NewObjectNode$ArraySize",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.AssignDiv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.ForEachNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.NestedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.ThisValDeepPropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.AssignSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.ImportNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.PostFixDecNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.LiteralDeepPropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.BinaryOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.StaticImportNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.InterceptorWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.ast.DeepAssignmentNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      },
+      {
+         "name": "org.mvel.asm",
+         "packageMembers": [
+            {
+               "name": "org.mvel.asm.Opcodes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Label",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.MethodAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Edge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.AnnotationVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.ClassAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.ClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.FieldVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.FieldWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.ClassReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Frame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.MethodVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.MethodWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.ByteVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.AnnotationWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/mvel/asm/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.mvel.asm.ClassWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.mvel.asm.Attribute",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.21"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "ognl",
+         "optional": true,
+         "versionRange": "[2.6.9, 3.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.el",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.org.mvel",
+   "version": "1.2.21"
+}}

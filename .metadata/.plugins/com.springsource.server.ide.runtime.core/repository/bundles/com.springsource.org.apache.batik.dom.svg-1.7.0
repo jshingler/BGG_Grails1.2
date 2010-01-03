@@ -1,0 +1,1997 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:53:46.0",
+   "moduleName": "com.springsource.org.apache.batik.dom.svg",
+   "name": "Apache Batik SVG DOM",
+   "notes": "",
+   "organisationName": "org.apache.batik",
+   "packageExports": [
+      {
+         "name": "org.apache.batik.dom.anim",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.dom.anim.AnimationTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.anim.AnimationTargetListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.anim.AnimatableElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.dom.svg12",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMMultiImageElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowRegionBreakElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMHandlerGroupElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$MultiImageElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMHandlerElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMContentElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowParaElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowParaElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowRootElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowRegionBreakElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12OMDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowLineElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowRootElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMWheelEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowRegionExcludeElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowDivElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.Global",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$SolidColorElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMSolidColorElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowRegionExcludeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLEventSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLShadowTreeElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLXBLElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$SubImageElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLTemplateElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMSubImageElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLDefinitionElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowDivElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$SubImageRefElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMShadowTreeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLImportElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowSpanElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGGlobal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLContentElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMDefinitionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$HandlerElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowLineElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMShadowTreeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMXBLElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.BindableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowRegionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMImportElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMFlowSpanElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$XBLHandlerGroupElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVG12DOMImplementation$FlowRegionElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.SVGOMSubImageRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg12.XBLOMTemplateElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.dom.svg",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$RectElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGPathContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMMPathElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$PolygonElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGAnimatedLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRadialGradientElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEImageElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$TextElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEDistantLightElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.LiveAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGList$ListBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEDiffuseLightingElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FontFaceUriElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPoints",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.ListHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegLinetoVerticalItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEColorMatrixElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTextContentSupport$SVGTextPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMGlyphElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AltGlyphElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGLocatableSupport$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFilterPrimitiveStandardAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMEllipseElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMMatrix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeDiffuseLightingElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedNumberList$BaseSVGNumberList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$PresentationAttributeColorValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMStyleElement$DOMCharacterDataModifiedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$DescElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFontFaceSrcElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGPathSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$MarkerElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPreserveAspectRatio$PreserveAspectRatioParserHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$MpathElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEComponentTransferElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAngle$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$ClipPathElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeSpecularLightingElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FilterElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGLocatableSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRectElement$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument$DOMSubtreeModifiedListenerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeFuncRElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTextContentElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeTurbulenceElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AnimateMotionElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPoints$BaseSVGPointList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$EllipseElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFontFaceElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMCursorElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMForeignObjectElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedRect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGLength$DefaultContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPoints$AnimSVGPointList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeConvolveMatrixElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMUseShadowRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMUseElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMStyleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFESpecularLightingElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$TitleElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMMaskElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeOffsetElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNormPathSegList$NormalizedPathSegListBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGPointShapeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMVKernElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDescElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGTransformList$TransformListBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$HkernElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPreserveAspectRatio",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPointList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGAnimatedLength$BaseSVGLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAltGlyphDefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeCompositeElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$SvgElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDefsElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FePointLightElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGURIReferenceGraphicsElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$PolylineElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedRect$AnimSVGRect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGPathSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMToBeImplementedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMGlyphRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEMergeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDefinitionSrcElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$UseElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFECompositeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMCircleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegCurvetoQuadraticSmoothItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMImageElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FontFaceFormatElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedTransformList$BaseSVGTransformList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSVGElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEBlendElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNumberList$SVGNumberItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAngle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$RadialGradientElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedTransformList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFontFaceUriElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMLineElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDocumentFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPointList$SVGPointItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGMatrix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGZoomAndPanSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEFuncGElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$GlyphElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSetElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPatternElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTestsSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.TraitInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedMarkerOrientValue$AnimatedAngle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTSpanElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegMovetoLinetoItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSVGElement$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFilterElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$LinearGradientElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNumberList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTextContentSupport$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMStopElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGAnimatedLength$AnimSVGLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$StyleElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimationElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.TraitAccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FontFaceNameElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGAnimationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFontFaceFormatElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTextContentSupport$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$TextPathElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMHKernElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$GlyphRefElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGMotionAnimatableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$ForeignObjectElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAltGlyphElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$ScriptElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegArcItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEGaussianBlurElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGAnimationTargetContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNormPathSegList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNumberList$NumberListBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedRect$BaseSVGRect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimateMotionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeComponentTransferElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStyleSheetProcessingInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTextContentElement$1$SVGTextLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEFuncBElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEConvolveMatrixElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTitleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEFuncAElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$MissingGlyphElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.IdContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedMarkerOrientValue$BaseSVGAngle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTextContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRectElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AnimatedAttributeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMViewElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEPointLightElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimateElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPathData$AnimSVGPathSegList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSVGElement$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeFuncAElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$TrefElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMElement$UnitContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPathData$NormalizedBaseSVGPathSegList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegCurvetoQuadraticItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTransform$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AnimateColorElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeTileElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$ImageElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AltGlyphDefElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$StyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPolygonElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTextContentSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGLengthList$SVGLengthItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeDisplacementMapElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEOffsetElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEMergeNodeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMGradientElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$DefinitionSrcElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$PresentationAttributeValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AnimatedLiveAttributeValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$SymbolElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAltGlyphItemElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGLengthList$LengthListBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGTransformList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeSpotLightElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRadialGradientElement$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeMorphologyElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument$DOMAttrModifiedListenerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimateColorElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument$DOMNodeRemovedListenerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument$DOMNodeInsertedListenerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTextPositioningElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEDisplacementMapElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGAnimatedPathDataSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeMergeNodeElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.LiveAttributeValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGTextContentSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$ViewElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPathData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeFuncGElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMScriptElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeBlendElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPolylineElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGLocatableSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMGElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegCurvetoCubicItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPreserveAspectRatio$AnimSVGPARValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMColorProfileElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSwitchElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument$AnimAttrListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTextElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEMorphologyElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGTransform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEFuncRElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGLengthList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AnimateTransformElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeFloodElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTransform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSVGElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegCurvetoCubicSmoothItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPreserveAspectRatio$BaseSVGPARValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGPathSegConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AltGlyphItemElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGLocatableSupport$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$ColorProfileElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$LineElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedPathData$BaseSVGPathSegList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFontElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRectElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$VkernElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegLinetoHorizontalItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFEFloodElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$SVGPathSegItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGTransformList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$SetElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedNumberList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$OverrideStyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedTransformList$AnimSVGTransformList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimateTransformElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNormPathSegList$SVGPathSegGenericItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedMarkerOrientValue$AnimSVGAngle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGGraphicsElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMMarkerElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeColorMatrixElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeGaussianBlurElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPreserveAspectRatio",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDescriptiveElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedMarkerOrientValue$AnimatedEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedLengthList$AnimSVGLengthList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGURIReferenceTextPositioningElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractElement$ExtendedNamedNodeHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeImageElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeFuncBElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMMissingGlyphElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$DefsElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$MetadataElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$PathElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$MaskElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$PresentationAttributePaintValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMPathElement$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMDocument$DOMCharacterDataModifiedListenerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRadialGradientElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFESpotLightElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FontFaceSrcElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFontFaceNameElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFETileElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FontElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedMarkerOrientValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPathSegList$PathSegListBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGTransformList$SVGTransformItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeMergeElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMClipPathElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMURIReferenceElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedLengthList$BaseSVGLengthList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$TspanElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMLinearGradientElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AttributeInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.ExtendedTraitAccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedNumberList$AnimSVGNumberList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$PatternElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SAXSVGDocumentFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGSVGContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$StopElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMRect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$AnimateElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$CircleElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$SwitchElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedRect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGStylableElement$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGAnimatedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FontFaceElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMComponentTransferFunctionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMMetadataElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGLocatableSupport$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTextContentElement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMAnimatedLengthList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMSymbolElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$GElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMTextPathElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGOMFETurbulenceElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$CursorElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.SVGDOMImplementation$FeDistantLightElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.dom.svg.AbstractSVGPointList$PointsListBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.dom.svg.resources",
+         "packageMembers": [
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-xlink-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-model.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-basic-structure.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-image.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-text.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg12-flat.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-basic-font.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-font.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-extresources-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg10.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-style.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-tiny-attribs.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-structure.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-framework.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-opacity-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-marker.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-basic-graphics-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-tiny.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-animevents-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-basic-clip.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-paint-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-shape.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-gradient.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-qname.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-mask.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-docevents-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-basic-flat.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-basic-filter.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-hyperlink.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-graphics-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-tiny-flat.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-container-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/UserAgentStyleSheet.css",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/Messages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-extensibility.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-script.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-basic-attribs.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-filter.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-datatypes.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/dtdids.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-core-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-animation.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-profile.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-viewport-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-tiny-model.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-graphevents-attrib.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-view.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-basic.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-clip.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-conditional.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-cursor.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-basic-text.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg-pattern.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-attribs.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-flat.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/batik/dom/svg/resources/svg11-basic-model.mod",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.7.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.views",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.svg",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.events",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.stylesheets",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.smil",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.css",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.css.sac",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.batik.util",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.parser",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.i18n",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.ext.awt.geom",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.dom.xbl",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.dom.util",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.dom.events",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.dom",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.css.parser",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value.svg",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.css.engine",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.css.dom",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.anim.values",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.batik.dom.svg",
+   "version": "1.7.0"
+}}

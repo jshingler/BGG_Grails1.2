@@ -1,0 +1,1609 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:32:58.0",
+   "moduleName": "com.springsource.org.apache.bcel",
+   "name": "Apache Byte Code Engineering Library",
+   "notes": "",
+   "organisationName": "org.apache.bcel",
+   "packageExports": [
+      {
+         "name": "org.apache.bcel",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.Repository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.ExceptionConstants$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.ExceptionConstants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.verifier.structurals",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.verifier.structurals.ControlFlowGraph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Pass3bVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.UninitializedObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.InstructionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.LocalVariables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.ExecutionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Pass3bVerifier$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Subroutine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.InstConstraintVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Subroutines",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.ExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.ExceptionHandlers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.OperandStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.GenericArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Pass3bVerifier$InstructionContextQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.structurals.Frame",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.verifier.statics",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass2Verifier$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass3aVerifier$InstOperandConstraintVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.LocalVariablesInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass3aVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.StringRepresentation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass2Verifier$FAMRAV_Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.IntList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.LocalVariableInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass1Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass2Verifier$InnerClassDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.DOUBLE_Upper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.Pass2Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.statics.LONG_Upper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.verifier.exc",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.verifier.exc.StaticCodeConstraintException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.StructuralCodeConstraintException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.VerificationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.VerifierConstraintViolatedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.Utility",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.LoadingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.InvalidMethodException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.LinkingConstraintException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.StaticCodeInstructionOperandConstraintException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.AssertionViolatedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.ClassConstraintException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.StaticCodeInstructionConstraintException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.exc.CodeConstraintException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.verifier",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.verifier.GraphicalVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.NativeVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifyDialog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierFactoryObserver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.TransitiveHull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierFactoryListModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.PassVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifyDialog$IvjEventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifierAppFrame$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerifyDialog$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.verifier.VerificationResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.util.ClassPath$ClassFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.InstructionFinder$CodeConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.BCELFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath$Dir$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ByteSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath$Zip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.Class2HTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.Repository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.BCELComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ConstantHTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.CodeHTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath$Dir",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.MethodHTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.InstructionFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ByteSequence$ByteArrayStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.JavaWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.SyntheticRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassLoaderRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.AttributeHTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath$Zip$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.BCELifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.util.ClassPath$PathEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.generic",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.generic.LDC2_W",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FieldObserver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ClassGen$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.PUTFIELD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ICMPGE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ArrayInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.RET",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.PushInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.EmptyVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LRETURN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DCMPL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.SASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.D2F",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LCMP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LSHL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DUP2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.INEG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ICONST",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LADD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.VariableLengthInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ArithmeticInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MethodGen$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.INSTANCEOF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.I2B",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ICMPGT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFGE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MONITOREXIT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.StackProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.INVOKESTATIC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ISHL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.JsrInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ANEWARRAY",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IndexedInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.CPInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.CompoundInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IOR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.POP2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ReturnaddressType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.StackConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MethodObserver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFNULL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ACMPNE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFLE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ExceptionThrower",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FREM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionListObserver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.I2F",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Type$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Type$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BranchHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.L2I",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.F2D",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IAND",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DUP2_X1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LAND",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.PUSH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DSUB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFLT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IXOR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.SALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ISTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.StoreInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.INVOKEINTERFACE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LSHR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.CALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FDIV",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BIPUSH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IfInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LineNumberGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LoadInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IDIV",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.SWAP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Instruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DUP_X1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.AALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.I2D",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FMUL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.TargetLostException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.GOTO_W",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InvokeInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FLOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.GETSTATIC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FieldInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFGT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.TABLESWITCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FCONST",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.INVOKESPECIAL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFEQ",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.GotoInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.JSR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LNEG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MONITORENTER",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ICMPNE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DDIV",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ARETURN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FSTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FieldGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.CASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.I2S",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.NEW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.CodeExceptionGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BREAKPOINT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.NOP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IMPDEP2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DMUL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DREM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LREM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MethodGen$BranchTarget",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ConstantPoolGen$Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ILOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MULTIANEWARRAY",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.GOTO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LMUL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFNE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FSUB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.I2C",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FADD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.D2I",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.AllocationInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ConversionInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.RETURN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IUSHR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LDIV",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LOR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LDC_W",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LDC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DNEG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ICMPLT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DLOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LocalVariableGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DCONST",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.NamedAndTyped",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LSTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FieldGen$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ReturnInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FieldOrMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.POP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.L2D",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionComparator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.F2L",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LOOKUPSWITCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.SWITCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IRETURN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DCMPG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LocalVariableInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ATHROW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.NEWARRAY",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Select",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.TypedInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ClassObserver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LCONST",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ClassGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IFNONNULL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ICMPEQ",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ISUB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LoadClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IREM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LSUB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IMUL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DUP2_X2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LXOR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DRETURN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.GETFIELD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DSTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BranchInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LLOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Type$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IADD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ClassGenException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ACONST_NULL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LUSHR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ICMPLE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.SIPUSH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionFactory$MethodObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DADD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionConstants$Clinit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.LASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ALOAD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ISHR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MethodGen$BranchStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.StackInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DUP_X2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FRETURN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.PUTSTATIC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FNEG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ARRAYLENGTH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FCMPL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.CHECKCAST",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.L2F",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.PopInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.InstructionTargeter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.D2L",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.JSR_W",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.F2I",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.UnconditionalBranch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ConstantPushInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FCMPG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.INVOKEVIRTUAL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.DUP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.BasicType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.MethodGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IINC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.FieldGenOrMethodGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IMPDEP1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.AASTORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.IF_ACMPEQ",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.ConstantPoolGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.generic.I2L",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      },
+      {
+         "name": "org.apache.bcel.classfile",
+         "packageMembers": [
+            {
+               "name": "org.apache.bcel.classfile.ConstantPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Utility$JavaWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ExceptionTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Utility$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.InnerClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantUtf8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Constant$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Method",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.StackMapType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.DescendingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.SourceFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Synthetic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.JavaClass$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantDouble",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.LocalVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantLong",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Code",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.StackMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.AccessFlags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.FieldOrMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantCP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.InnerClasses",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.PMGClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantInterfaceMethodref",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Signature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Method$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.LocalVariableTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Deprecated",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.LineNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Constant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Field$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.LineNumberTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantMethodref",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantFieldref",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.EmptyVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.StackMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Signature$MyByteArrayInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ClassFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.AttributeReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Unknown",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Utility$JavaReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ConstantNameAndType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Field",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.CodeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.JavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.ClassParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bcel.classfile.Utility",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.swing.event",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.bcel",
+   "version": "5.2.0"
+}}

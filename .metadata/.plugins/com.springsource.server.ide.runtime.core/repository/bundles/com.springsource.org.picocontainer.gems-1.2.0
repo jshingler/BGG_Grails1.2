@@ -1,0 +1,253 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:07:48.0",
+   "moduleName": "com.springsource.org.picocontainer.gems",
+   "name": "PicoContainer Gems",
+   "notes": "",
+   "organisationName": "org.picocontainer",
+   "packageExports": [
+      {
+         "name": "org.picocontainer.gems.adapters",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.gems.adapters.AssimilatingComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.StaticFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.PoolingComponentAdapter$DefaultContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.ThreadLocalComponentAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.ThreadLocalReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.AssimilatingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.HotSwappingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.HotSwappingComponentAdapter$ImplementationHidingReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.PoolException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.ThreadLocalComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.PoolingComponentAdapter$LifecycleResetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.ThreadLocalComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.ThreadLocalComponentAdapter$ThreadLocalInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.HotSwappingComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.StaticFactoryComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.PoolingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.adapters.PoolingComponentAdapter$Context",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.gems.util",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.gems.util.ConstructableProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.util.PicoMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.util.PicoMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.util.Multicaster",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.gems.monitors",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.gems.monitors.Log4JComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.monitors.CommonsLoggingComponentMonitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.gems.lifecycle",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.gems.lifecycle.ReflectionLifecycleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.lifecycle.ReflectionLifecycleStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.gems.constraints",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.gems.constraints.IsType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.IsExactType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.IsKeyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.Or",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.CollectionConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.Not",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.Anything",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.IsKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.AbstractConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.gems.constraints.And",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.picocontainer.defaults",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.picocontainer.monitors",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.picocontainer",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.log4j",
+         "optional": true,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.toys.pool",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.toys.nullobject",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.toys.multicast",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.toys.hotswap",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.toys.delegate",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.kit",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy.factory",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.proxy",
+         "optional": false,
+         "versionRange": "[0.2.1, 1.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.picocontainer.gems",
+   "version": "1.2.0"
+}}

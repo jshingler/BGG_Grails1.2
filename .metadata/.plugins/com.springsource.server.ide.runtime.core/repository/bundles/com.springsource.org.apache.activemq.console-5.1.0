@@ -1,0 +1,240 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:57:39.0",
+   "moduleName": "com.springsource.org.apache.activemq.console",
+   "name": "Apache ActiveMQ Management Console",
+   "notes": "",
+   "organisationName": "org.apache.activemq",
+   "packageExports": [
+      {
+         "name": "org.apache.activemq.console",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.console.Main$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.CommandContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.ConsoleCommandHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      },
+      {
+         "name": "org.apache.activemq.console.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.console.util.JmxMBeansUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.util.SimpleConsole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.util.AmqMessagesUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      },
+      {
+         "name": "org.apache.activemq.console.formatter",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.console.formatter.OutputFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.formatter.CommandShellOutputFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      },
+      {
+         "name": "org.apache.activemq.console.filter",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.console.filter.MBeansObjectNameQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.ResultTransformFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.MapTransformFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.MessagesQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.AbstractQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.MBeansRegExQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.WildcardTransformFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.RegExQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.WildcardToMsgSelectorTransformFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.PropertiesViewFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.AmqMessagesQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.MBeansAttributeQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.QueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.WildcardToRegExTransformFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.StubQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.filter.GroupPropertiesViewFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      },
+      {
+         "name": "org.apache.activemq.console.command",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.console.command.ShellCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.AmqBrowseCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.StartCommand$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.AbstractCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.AbstractJmxCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.QueryCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.AbstractAmqCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.PurgeCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.ListCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.ShutdownCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.BrowseCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.Command",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.BstatCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.console.command.StartCommand",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.activemq.command",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.broker.util",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.broker",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "javax.management.remote",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.openmbean",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.activemq.console",
+   "version": "5.1.0"
+}}

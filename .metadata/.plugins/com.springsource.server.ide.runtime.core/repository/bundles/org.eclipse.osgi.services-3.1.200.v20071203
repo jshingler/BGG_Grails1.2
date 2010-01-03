@@ -1,0 +1,383 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:38:25.0",
+   "moduleName": "org.eclipse.osgi.services",
+   "name": "osgiServices",
+   "notes": "",
+   "organisationName": "org.eclipse.osgi",
+   "packageExports": [
+      {
+         "name": "org.osgi.service.useradmin",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.useradmin.UserAdminPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.Authorization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.Group",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.UserAdminPermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.UserAdminListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.UserAdminEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.Role",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.UserAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.useradmin.User",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.wireadmin",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.wireadmin.Wire",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.WireConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.Consumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.WireAdminEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.WirePermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.Envelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.BasicEnvelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.WirePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.WireAdminListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.Producer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.wireadmin.WireAdmin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.upnp",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.upnp.UPnPLocalStateVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPStateVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPDevice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.upnp.UPnPIcon",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.cm",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.cm.ConfigurationPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationPermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationPermissionCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ManagedService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ManagedServiceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.provisioning",
+         "packageMembers": {
+            "name": "org.osgi.service.provisioning.ProvisioningService",
+            "type": "CLASS"
+         },
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.log",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.log.LogService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.log.LogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.log.LogListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.log.LogReaderService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.metatype",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.metatype.MetaTypeProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.metatype.AttributeDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.metatype.MetaTypeService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.metatype.ObjectClassDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.metatype.MetaTypeInformation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.io",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.io.ConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.io.ConnectorService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.http",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.http.NamespaceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.http.HttpContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.http.HttpService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.event",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.event.EventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.event.TopicPermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.event.EventAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.event.Event",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.event.TopicPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.event.EventConstants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.device",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.device.Match",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.device.Driver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.device.Device",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.device.DriverSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.device.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.device.DriverLocator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      },
+      {
+         "name": "org.osgi.service.component",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.component.ComponentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.component.ComponentFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.component.ComponentInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.component.ComponentConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.component.ComponentContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.200.v20071203"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.osgi.framework",
+         "optional": false,
+         "versionRange": "[1.2.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.eclipse.osgi.services",
+   "version": "3.1.200.v20071203"
+}}

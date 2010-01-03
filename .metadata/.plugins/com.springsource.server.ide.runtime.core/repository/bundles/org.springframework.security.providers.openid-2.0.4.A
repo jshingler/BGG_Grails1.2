@@ -1,0 +1,141 @@
+{"bundle": {
+   "dateAdded": "2008-10-27 15:00:30.0",
+   "moduleName": "org.springframework.security.providers.openid",
+   "name": "Spring Security OpenID Provider",
+   "notes": "",
+   "organisationName": "org.springframework.security",
+   "packageExports": [
+      {
+         "name": "org.springframework.security.ui.openid.consumers",
+         "packageMembers": {
+            "name": "org.springframework.security.ui.openid.consumers.OpenID4JavaConsumer",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.openid",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.openid.OpenIDAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.openid.OpenIDAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.openid.OpenIDAuthenticationStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.openid.AuthenticationCancelledException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.openid",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.openid.OpenIDAuthenticationRequiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.openid.OpenIDConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.openid.OpenIDAuthenticationProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.openid.OpenIDConsumerException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.ui.rememberme",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.userdetails",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.ui",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.providers",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security.context",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.security",
+         "optional": false,
+         "versionRange": "[2.0.4.A, 2.0.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.openid4java.message",
+         "optional": false,
+         "versionRange": "[0.9.3, 1.0.0)"
+      },
+      {
+         "name": "org.openid4java.discovery",
+         "optional": false,
+         "versionRange": "[0.9.3, 1.0.0)"
+      },
+      {
+         "name": "org.openid4java.consumer",
+         "optional": false,
+         "versionRange": "[0.9.3, 1.0.0)"
+      },
+      {
+         "name": "org.openid4java.association",
+         "optional": false,
+         "versionRange": "[0.9.3, 1.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.security.providers.openid",
+   "version": "2.0.4.A"
+}}

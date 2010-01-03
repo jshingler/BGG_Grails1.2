@@ -1,0 +1,2554 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:07:51.0",
+   "moduleName": "com.springsource.org.apache.catalina",
+   "name": "Apache Tomcat Catalina",
+   "notes": "",
+   "organisationName": "org.apache.catalina",
+   "packageExports": [
+      {
+         "name": "org.apache",
+         "packageMembers": [
+            {
+               "name": "org.apache.AnnotationProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.PeriodicEventListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.naming.resources.jndi",
+         "packageMembers": {
+            "name": "org.apache.naming.resources.jndi.Handler",
+            "type": "CLASS"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.naming.resources",
+         "packageMembers": [
+            {
+               "name": "org.apache.naming.resources.BaseDirContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.Resource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/naming/resources/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.naming.resources.FileDirContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.WARDirContext$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.DirContextURLStreamHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.FileDirContext$FileResourceAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.FileDirContext$FileResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.ResourceAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.WARDirContext$WARResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.CacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.WARDirContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.DirContextURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.ImmutableNameNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.DirContextURLStreamHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.VirtualDirContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.ResourceCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.RecyclableNamingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.resources.ProxyDirContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.naming.java",
+         "packageMembers": {
+            "name": "org.apache.naming.java.javaURLContextFactory",
+            "type": "CLASS"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.naming.factory",
+         "packageMembers": [
+            {
+               "name": "org.apache.naming.factory.MailSessionFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.ResourceLinkFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.OpenEjbFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.ResourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.SendMailFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.MailSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.MailSessionFactory$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.ResourceEnvFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.EjbFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.SendMailFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.BeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.factory.TransactionFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.valves",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$RemoteAddrElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$ThreadNameElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$SessionAttributeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$CookieElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$MethodElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.JDBCAccessLogValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$ByteSentElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/valves/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$UserElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.RemoteHostValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$TimeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$DateAndTimeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$AccessLogElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.Constants$AccessLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$ServletContextElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$StringElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.FastCommonAccessLogValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$RequestHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$ElapsedTimeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$RequestElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ErrorReportValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$ProtocolElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$ResponseHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.CometConnectionManagerValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$SessionIdElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.PersistentValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.RemoteAddrValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$ResponseHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$DateElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$HostElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$LocalAddrElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$PatternTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$LocalServerNameElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.WebdavFixValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$CookieElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/valves/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.valves.SSLValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$RequestAttributeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$RequestAttributeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$HeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.SemaphoreValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$QueryElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$RequestParameterElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$ResponseAllHeaderElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$LocalPortElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.RequestDumperValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$LogicalUserNameElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$RequestURIElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ExtendedAccessLogValve$SessionAttributeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.AccessLogValve$HttpStatusCodeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.RequestFilterValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.valves.ValveBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.naming",
+         "packageMembers": [
+            {
+               "name": "org.apache.naming.EjbRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.JndiPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NamingService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NamingEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.ContextAccessController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.HandlerRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NamingContextEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.ContextBindings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.ResourceLinkRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NamingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.ResourceEnvRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.ServiceRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.ResourceRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.SelectorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NameParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/naming/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.naming.TransactionRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.StringManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NamingContextBindingsEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.naming.NamingServiceMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.util",
+         "packageMembers": [
+            {
+               "name": "org/apache/catalina/util/CharsetMapperDefault.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.util.DefaultAnnotationProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.Extension",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/util/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.util.Strftime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.URL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.IOTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.DateTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.ParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/util/ServerInfo.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.util.CharsetMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.HexUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.FastDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.MD5Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.DOMWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.Enumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.StringManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.SchemaResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.XMLWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.RequestUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.ServerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.LifecycleSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.ExtensionValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.ResourceSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.TomcatCSS",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.StringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.MIME2Java",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.CustomObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.URLEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.InstanceSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.Queue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.util.ManifestResource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.startup",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.startup.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.HomesUserDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ClassLoaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ClusterRuleSetFactory$DefaultClusterRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.CallMethodMultiRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.LifecycleListenerRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.EngineConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.Tool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ContextRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.IgnoreAnnotationsRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ContextConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.UserConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetPublicIdRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.Embedded",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/startup/Authenticators.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.startup.Catalina",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.WebRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.EngineRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetSessionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetAllPropertiesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetNextNamingRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.WebAnnotationSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.HostConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ClusterRuleSetFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.Bootstrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.PasswdUserDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SoapHeaderRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.TldRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.CallParamMultiRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/startup/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.startup.UserDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.NamingRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.DigesterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ContextConfig$ContextErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetParentClassLoaderRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ConnectorCreateRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.WrapperCreateRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetDistributableRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.Catalina$CatalinaShutdownHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ExpandWar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.CopyParentClassLoaderRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.TldConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.ServiceQnameRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetJspConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/startup/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetContextPropertiesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.HostConfig$DeployedApplication",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetAuthConstraintRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/startup/catalina.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.startup.CatalinaProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SecurityRoleRefCreateRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.SetLoginConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.startup.HostRuleSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.users",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.users.AbstractUser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/users/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/catalina/users/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryRoleCreationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryUserCreationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryUser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryGroupCreationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryRole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryUserDatabaseFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.MemoryUserDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.AbstractRole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.users.AbstractGroup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.ssi",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.ssi.SSIServletExternalResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIServletExternalResolver$ServletContextAndPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIInclude",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSICommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIExec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIExternalResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$StringNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIConditional",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$OppNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIFlastmod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSISet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$NotNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIFsize",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIServletRequestUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$OrNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIEcho",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIStopProcessingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ResponseIncludeWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIPrintenv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$GreaterThanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$EqualNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ByteArrayServletOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$LessThanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIMediator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$AndNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.ExpressionParseTree$CompareNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ssi.SSIConditionalState",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.session",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.session.ManagerBase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardSessionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.ManagerBase$PrivilegedSetRandomFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.FileStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManagerBase$PrivilegedStoreRemove",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StoreBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardManager$PrivilegedDoLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.ManagerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManagerBase$PrivilegedStoreClear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManagerBase$PrivilegedStoreSave",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManagerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManagerBase$PrivilegedStoreKeys",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/session/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardSession$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.PersistentManagerBase$PrivilegedStoreLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardManager$PrivilegedDoUnload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.JDBCStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.session.StandardSessionFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/session/LocalStrings.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.servlets",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.servlets.WebdavStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.WebdavServlet$LockInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.CGIServlet$CGIEnvironment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.InvokerHttpRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.InvokerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.CGIServlet$HTTPHeaderInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.WebdavServlet$WebdavResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.CGIServlet$CGIRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.WebdavServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.CGIServlet$CGIRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/servlets/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.servlets.CGIServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.DefaultServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.servlets.DefaultServlet$Range",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.security",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.security.SecurityConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/security/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.security.SecurityUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.security.SecurityClassLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.security.SecurityUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.realm",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.realm.JAASCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.RealmBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/realm/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.realm.JNDIRealm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.MemoryRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.RealmBase$AllRolesMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.MemoryRealm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.MemoryUserRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.GenericPrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/realm/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.realm.UserDatabaseRealm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.JDBCRealm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.JAASMemoryLoginModule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.JAASRealm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.User",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.realm.DataSourceRealm",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.mbeans",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.mbeans.GlobalResourcesLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.ContextEnvironmentMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.MemoryUserDatabaseMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.StandardHostMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.ConnectorMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.ServerLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.MBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.ClassNameMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.ContextResourceMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.StandardContextMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.MBeanUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.RoleMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.StandardServerMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.NamingResourcesMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.UserMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.StandardEngineMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/mbeans/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.DefaultContextMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.GroupMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.StandardServiceMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.mbeans.ContextResourceLinkMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.manager.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.manager.util.BaseSessionComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.util.SessionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.util.ReverseComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.manager.host",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.manager.host.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.host.HTMLHostManagerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/manager/host/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.manager.host.HostManagerServlet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.manager",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.manager.StatusTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/manager/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.manager.JspHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.StatusManagerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.JMXProxyServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.ManagerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.manager.HTMLManagerServlet$6",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.loader",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.loader.StandardClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.loader.StandardClassLoaderMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/loader/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.loader.WebappClassLoader$PrivilegedFindResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/loader/LocaStrings_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.loader.WebappClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/loader/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.loader.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.loader.Reloader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.loader.VirtualWebappLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.loader.WebappClassLoader$PrivilegedGetClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.loader.WebappLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.loader.ResourceEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.deploy",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.deploy.NamingResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextResourceEnvRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ErrorPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/deploy/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextEjb",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextLocalEjb",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.SecurityRoleRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ResourceBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.SecurityConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ApplicationParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextEnvironment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.ContextResourceLink",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.FilterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.MessageDestination",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.LoginConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.FilterDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.SecurityCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.deploy.MessageDestinationRef",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.core",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.core.ApplicationDispatcher$PrivilegedForward",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.NamingContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationContextFacade$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationHttpRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.DummyRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.JasperListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardThreadExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationFilterChain$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationDispatcher$State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/core/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardContextValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationFilterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationFilterChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardWrapperFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationFilterChain$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.AprLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardHost",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardThreadExecutor$TaskThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardPipeline",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationHttpResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardWrapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/core/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardHostValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationContextFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardEngineValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationHttpRequest$AttributeNamesEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/core/RestrictedFilters.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationDispatcher$PrivilegedInclude",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardThreadExecutor$TaskQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ContainerBase$PrivilegedAddChild",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardWrapperValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.StandardServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/core/RestrictedServlets.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationContext$DispatchData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ContainerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.DummyRequest$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.DummyResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.core.ApplicationFilterFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.authenticator",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.authenticator.SSLAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.SingleSignOn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.SavedRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.NonLoginAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.AuthenticatorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.BasicAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.SingleSignOnEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/authenticator/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.FormAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/authenticator/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.authenticator.DigestAuthenticator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.connector",
+         "packageMembers": [
+            {
+               "name": "org/apache/catalina/connector/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.connector.Response$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CometEventImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.Response$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetLocalePrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetRequestDispatcherPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.Connector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetCookiesPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteInputStream$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.ResponseFacade$DateHeaderPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetHeadersPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.MapperListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteInputStream$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/connector/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetParameterPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetAttributePrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.OutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetCharacterEncodingPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.Response$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetLocalesPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.InputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.InputBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetParameterNamesPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.ClientAbortException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.OutputBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteInputStream$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyotePrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.ResponseFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.ResponseFacade$SetContentTypePrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteInputStream$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.ResponseFacade$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetHeaderNamesPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.CoyoteInputStream$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetParameterValuePrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetSessionPrivilegedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.connector.RequestFacade$GetParameterMapPrivilegedAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.ContainerEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.User",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Lifecycle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.LifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.InstanceEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Valve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.CometEvent$EventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.CometEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.CometEvent$EventSubType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ServerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Server",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.SessionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.Service",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Manager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Container",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.UserDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Pipeline",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Host",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.LifecycleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.CometProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Cluster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ContainerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Group",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.LifecycleEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.CometFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ContainerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.InstanceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Contained",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Globals",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Realm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Role",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Authenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.CometFilterChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.SessionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.Store",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.tomcat.util.net",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.res",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tomcat.util.modeler.modules",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.modeler",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.log",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.buf",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.digester",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.http",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.http.mapper",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util.http.fileupload",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.util",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.tomcat.jni",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.juli.logging",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.coyote",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "javax.xml.ws",
+         "optional": false,
+         "versionRange": "[2.1.1, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.security.auth.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.login",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.callback",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.modelmbean",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.ejb",
+         "optional": false,
+         "versionRange": "[3.0.0, 4.0.0)"
+      },
+      {
+         "name": "javax.annotation",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.annotation.security",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.catalina",
+   "version": "6.0.18"
+}}

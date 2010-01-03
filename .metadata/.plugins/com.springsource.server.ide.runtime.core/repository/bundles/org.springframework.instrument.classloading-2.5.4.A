@@ -1,0 +1,33 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:47:14.0",
+   "moduleName": "org.springframework.instrument.classloading",
+   "name": "Spring Instrument Classloading",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.instrument.classloading",
+         "packageMembers": {
+            "name": "org.springframework.instrument.classloading.WeavingTransformer",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.instrument.classloading.tomcat",
+         "packageMembers": {
+            "name": "org.springframework.instrument.classloading.tomcat.TomcatInstrumentableClassLoader",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      }
+   ],
+   "packageImports": {
+      "name": "org.apache.catalina.loader",
+      "optional": false,
+      "versionRange": "[6.0.16, 7.0.0)"
+   },
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.instrument.classloading",
+   "version": "2.5.4.A"
+}}

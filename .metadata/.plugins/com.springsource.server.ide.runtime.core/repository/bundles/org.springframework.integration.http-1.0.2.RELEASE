@@ -1,0 +1,230 @@
+{"bundle": {
+   "dateAdded": "2009-04-01 00:31:02.0",
+   "moduleName": "org.springframework.integration.http",
+   "name": "Spring Integration HTTP Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.http",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.http.HttpHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.HttpRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.HttpOutboundEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.OutboundRequestMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.SimpleHttpRequestExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.DataBindingInboundRequestMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.HttpResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.HttpRequestExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.AbstractHttpRequestExecutor$DefaultHttpResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.HttpInboundEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.DefaultOutboundRequestMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.DefaultOutboundRequestMapper$DefaultHttpRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.InboundRequestMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.AbstractHttpRequestExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.CommonsHttpRequestExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.ResponseStatusCodeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.DefaultInboundRequestMapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.http.config",
+         "packageMembers": [
+            {
+               "name": "org/springframework/integration/http/config/spring-integration-http-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.http.config.HttpOutboundGatewayParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.config.HttpNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.http.config.HttpInboundEndpointParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.servlet.handler",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.bind",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.bind.support",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context.request",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.handler",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.gateway",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.context.i18n",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.methods",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.params",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": false,
+         "versionRange": "[3.1.0, 4.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.http",
+   "version": "1.0.2.RELEASE"
+}}

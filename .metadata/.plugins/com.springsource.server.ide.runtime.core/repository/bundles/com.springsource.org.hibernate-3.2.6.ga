@@ -1,0 +1,6138 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:54:57.0",
+   "moduleName": "com.springsource.org.hibernate",
+   "name": "JBoss Hibernate Object-Relational Mapper",
+   "notes": "",
+   "organisationName": "org.hibernate",
+   "packageExports": [
+      {
+         "name": "org.hibernate.usertype",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.usertype.LoggableUserType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.usertype.UserType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.usertype.CompositeUserType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.usertype.EnhancedUserType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.usertype.UserVersionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.usertype.UserCollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.usertype.ParameterizedType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.util",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.util.LazyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.ReflectHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.NamedGeneratedKeysHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.XMLHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.SimpleMRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.SerializationHelper$CustomObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.IdentityMap$IdentityKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.JDBCExceptionReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.ConfigHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.EqualsHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.NamingHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.XMLHelper$ErrorLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.MarkerObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.ExternalSessionFactoryConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.SoftLimitMRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.PropertiesHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.StringHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.GetGeneratedKeysHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.JoinedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.ComparableComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.CollectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.Cloneable$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.SerializationHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.EmptyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.ArrayHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.Cloneable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.IdentityMap$IdentityMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.FastHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.FilterHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.Cloneable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.JTAHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.BytesHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.CalendarComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.DTDEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.IdentityMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.LinkedHashCollectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.SingletonIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.IdentitySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.IdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.util.IdentityMap$KeyIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.NonUniqueResultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.PersistentObjectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ConnectionReleaseMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.TransactionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.NonUniqueObjectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.PropertyNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ReplicationMode$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.TransientObjectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.StaleStateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.SessionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.UnresolvableObjectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Interceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ScrollMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ObjectDeletedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.InstantiationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.CallbackException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.EmptyInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/hibernate/hibernate-configuration-3.0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.hibernate.FetchMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.SQLQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ObjectNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.AssertionFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.CacheMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.QueryParameterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ReplicationMode$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Criteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.MappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.StatelessSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.JDBCException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.StaleObjectStateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ReplicationMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.EntityMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.QueryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Transaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.InvalidMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.HibernateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/hibernate/hibernate-mapping-3.0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.hibernate.DuplicateMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ReplicationMode$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.TypeMismatchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Hibernate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.PropertyValueException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.LazyInitializationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.FlushMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.WrongClassException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.SessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.MappingNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.PropertyAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ScrollableResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ReplicationMode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.LockMode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.type",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.type.VersionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SortedSetType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ForeignKeyDirection$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AdaptedImmutableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SpecialOneToOneType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.TimeZoneType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CustomCollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.StringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AbstractBynaryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.MetaType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CalendarType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.IdentifierBagType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.TimestampType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.TextType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CharacterArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.DbTimestampType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ImmutableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AbstractCharArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.LongType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.DateType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.OneToOneType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ListType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.BigDecimalType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AbstractComponentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.DiscriminatorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.WrapperBinaryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SortedMapType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.BooleanType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AnyType$ObjectTypeCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.TrueFalseType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.BlobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.TypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.MutableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CharArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ForeignKeyDirection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ByteType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ComponentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.EmbeddedComponentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.BinaryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.DoubleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AnyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.LocaleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.PrimitiveType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ClassType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AbstractType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.IdentifierType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CalendarDateType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CompositeCustomType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SerializableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.MapType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.BigIntegerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.TimeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.OrderedMapType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.NullableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.IntegerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.FloatType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CharBooleanType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SetType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.OrderedSetType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.YesNoType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.BagType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AssociationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ManyToOneType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.LiteralType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ClobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CurrencyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ForeignKeyDirection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CustomType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.ShortType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CharacterType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.EntityType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SerializationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tuple.entity",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tuple.entity.EntityMetamodel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.entity.EntityEntityModeToTuplizerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.entity.DynamicMapEntityTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.entity.AbstractEntityTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.entity.EntityTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.entity.PojoEntityTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.entity.Dom4jEntityTuplizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tuple.component",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tuple.component.ComponentMetamodel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.PojoComponentTuplizer$ProxiedInstantiator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.ComponentEntityModeToTuplizerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.PojoComponentTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.DynamicMapComponentTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.ComponentTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.AbstractComponentTuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.component.Dom4jComponentTuplizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tuple",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tuple.EntityModeToTuplizerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.PropertyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.Instantiator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.PojoInstantiator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.StandardProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.ElementWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.Dom4jInstantiator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.IdentifierProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.VersionProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.Tuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tuple.DynamicMapInstantiator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.transform",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.transform.AliasToBeanConstructorResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.RootEntityResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.ToListResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.PassThroughResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.Transformers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.DistinctRootEntityResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.AliasToEntityMapResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.AliasToBeanResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.ResultTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transform.DistinctRootEntityResultTransformer$Identity",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.transaction",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.transaction.TransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.CMTTransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WeblogicTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JOnASTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.SunONETransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.TransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.OC4JTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.ResinTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JOTMTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.CMTTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.OrionTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JDBCTransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JTATransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JNDITransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JRun4TransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WebSphereExtendedJTATransactionLookup$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.TransactionFactory$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.BESTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WebSphereExtendedJTATransactionLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WebSphereExtendedJTATransactionLookup$TransactionManagerAdapter$TransactionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JTATransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.TransactionManagerLookupFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.CacheSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.TransactionFactoryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WebSphereTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WebSphereExtendedJTATransactionLookup$TransactionManagerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.WebSphereExtendedJTATransactionLookup$TransactionManagerAdapter$TransactionAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JDBCTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.transaction.JBossTransactionManagerLookup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tool.instrument.javassist",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tool.instrument.javassist.InstrumentTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.javassist.InstrumentTask$CustomClassDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tool.instrument.cglib",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tool.instrument.cglib.InstrumentTask$CustomClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.cglib.InstrumentTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tool.instrument",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask$Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask$CustomFieldFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask$ZipEntryHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask$ZipFileProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.instrument.BasicInstrumentationTask$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.tool.hbm2ddl",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SchemaUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SuppliedConnectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.DatabaseMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SchemaExportTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.TableMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.ConnectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SchemaUpdateTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SchemaValidatorTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.ForeignKeyMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.IndexMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.ColumnMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SchemaValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.tool.hbm2ddl.SchemaExport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.stat",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.stat.StatisticsImplementor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.SessionStatisticsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.SecondLevelCacheStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.QueryStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.Statistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.EntityStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.SessionStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.CollectionStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.StatisticsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.stat.CategorizedStatistics",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.sql",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.sql.HSQLCaseFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Template",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.ANSICaseFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Insert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.DerbyCaseFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.CacheJoinFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.CaseFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.OracleJoinFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.QueryJoinFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.ConditionFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Select",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.DisjunctionFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.SimpleSelect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.JoinFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.SelectFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Alias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.MckoiCaseFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Sybase11JoinFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.InFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Delete",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.ForUpdateFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.ANSIJoinFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.InsertSelect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.Update",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.DecodeCaseFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.sql.QuerySelect",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.secure",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.secure.JACCPermissions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPermissions$PolicyContextActions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPermissions$PolicyContextActions$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPreLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPreUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.HibernatePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPermissions$SetContextID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPreDeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPreInsertEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCSecurityListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPermissions$PolicyContextActions$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.secure.JACCPermissions$PolicyContextActions$1$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.proxy.pojo.javassist",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.proxy.pojo.javassist.JavassistProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.pojo.javassist.SerializableProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.proxy.pojo.cglib",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.proxy.pojo.cglib.CGLIBProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.pojo.cglib.SerializableProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.pojo.cglib.CGLIBLazyInitializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.pojo.cglib.CGLIBLazyInitializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.proxy.map",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.proxy.map.MapProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.map.MapProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.map.MapLazyInitializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.proxy.pojo",
+         "packageMembers": {
+            "name": "org.hibernate.proxy.pojo.BasicLazyInitializer",
+            "type": "CLASS"
+         },
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.proxy.dom4j",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.proxy.dom4j.Dom4jLazyInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.dom4j.Dom4jProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.dom4j.Dom4jProxy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.proxy",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.proxy.HibernateProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.HibernateProxyHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.EntityNotFoundDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.LazyInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.ProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.proxy.AbstractLazyInitializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.property",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.property.ChainedPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.NoopAccessor$NoopSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.MapAccessor$MapSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BasicPropertyAccessor$BasicSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BackrefPropertyAccessor$BackrefGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$AttributeGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.EmbeddedPropertyAccessor$EmbeddedSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.EmbeddedPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BackrefPropertyAccessor$BackrefSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.MapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BasicPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$TextSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Setter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.DirectPropertyAccessor$DirectGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BasicPropertyAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BackrefPropertyAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$ElementGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.PropertyAccessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$AttributeSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.NoopAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.NoopAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.PropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.NoopAccessor$NoopGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$ElementSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.MapAccessor$MapGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.IndexPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BasicPropertyAccessor$BasicGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$TextGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Getter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.DirectPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$ElementAttributeGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$ElementAttributeSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$Dom4jGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.DirectPropertyAccessor$DirectSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.IndexPropertyAccessor$IndexGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.IndexPropertyAccessor$IndexSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.BackrefPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.EmbeddedPropertyAccessor$EmbeddedGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.property.Dom4jAccessor$Dom4jSetter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.pretty",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.pretty.MessageHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.pretty.DDLFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.pretty.Printer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.pretty.Formatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.persister.entity",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.persister.entity.UnionSubclassEntityPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.PropertyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.AbstractEntityPersister$InclusionChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.Loadable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.Lockable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.Queryable$Declarer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.AbstractEntityPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.JoinedSubclassEntityPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.BasicEntityPropertyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.EntityPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.NamedQueryLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.AbstractEntityPersister$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.AbstractEntityPersister$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.AbstractEntityPersister$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.AbstractPropertyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.UniqueKeyLoadable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.OuterJoinLoadable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.SQLLoadable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.SingleTableEntityPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.Queryable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.entity.Joinable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.persister.collection",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.persister.collection.ElementPropertyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.CollectionPropertyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.BasicCollectionPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.SQLLoadableCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.NamedQueryCollectionInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.AbstractCollectionPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.CompositeElementPropertyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.CollectionPropertyNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.CollectionPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.OneToManyPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.persister.collection.QueryableCollection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.persister",
+         "packageMembers": {
+            "name": "org.hibernate.persister.PersisterFactory",
+            "type": "CLASS"
+         },
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.param",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.param.CollectionFilterKeyParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.AbstractExplicitParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.NamedParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.PositionalParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.ParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.ExplicitParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.VersionTypeSeedParameterSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.param.DynamicFilterParameterSpecification",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.metadata",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.metadata.CollectionMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.metadata.ClassMetadata",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.mapping",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.mapping.TypeDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Any",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.ManyToOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.DenormalizedTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.IndexedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.PrimitiveArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Subclass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Filterable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.AbstractAuxiliaryDatabaseObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Component",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Collection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.PersistentClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Selectable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.KeyValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.UnionSubclass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.IdentifierCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.JoinedSubclass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.MetaAttributable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.IndexBackref",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.SimpleAuxiliaryDatabaseObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.UniqueKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.ForeignKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.TableOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Map",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Fetchable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.ToOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Array",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Backref",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Formula",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Join",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.RelationalModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.List",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.PersistentClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.PrimaryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.MetaAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.PropertyGeneration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Bag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.OneToMany",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.DependantValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.RootClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.OneToOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.ValueVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.IdentifierBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.SingleTableSubclass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Table$ForeignKeyKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Value",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.AuxiliaryDatabaseObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.SimpleValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.mapping.Set",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.lob",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.lob.ClobImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.lob.ReaderInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.lob.SerializableClob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.lob.BlobImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.lob.SerializableBlob",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader.hql",
+         "packageMembers": {
+            "name": "org.hibernate.loader.hql.QueryLoader",
+            "type": "CLASS"
+         },
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader.entity",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.loader.entity.CascadeEntityJoinWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.UniqueEntityLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.EntityJoinWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.EntityLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.CascadeEntityLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.BatchingEntityLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.CollectionElementLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.entity.AbstractEntityLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader.custom.sql",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLQueryReturnProcessor$ResultAliasContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLCustomQuery$ParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLQueryReturnProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLQueryParser$ParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLQueryParser$ParameterSubstitutionRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLQueryParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.sql.SQLCustomQuery",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader.custom",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.loader.custom.NonScalarReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomLoader$ScalarResultColumnProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.FetchReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.ColumnCollectionAliases",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.RootReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomLoader$ResultColumnProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.ScalarReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomLoader$ResultRowProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.Return",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomLoader$NonScalarResultColumnProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.EntityFetchReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CustomLoader$Metadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CollectionFetchReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.custom.CollectionReturn",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader.criteria",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.loader.criteria.CriteriaLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.criteria.CriteriaQueryTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.criteria.CriteriaJoinWalker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader.collection",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.loader.collection.BatchingCollectionInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.BasicCollectionLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.OneToManyJoinWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.SubselectOneToManyLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.SubselectCollectionLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.CollectionJoinWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.CollectionLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.OneToManyLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.CollectionInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.collection.BasicCollectionJoinWalker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.loader",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.loader.EntityAliases",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.ColumnEntityAliases",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.OuterJoinableAssociation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.BasicLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.DefaultEntityAliases",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.JoinWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.OuterJoinLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.JoinWalker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.AbstractEntityJoinWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.GeneratedCollectionAliases",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.JoinWalker$AssociationKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.loader.CollectionAliases",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.jmx",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.jmx.HibernateServiceMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jmx.StatisticsServiceMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jmx.HibernateService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jmx.StatisticsService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jmx.SessionFactoryStub",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.jdbc",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.jdbc.BorrowedConnectionProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.Expectations$BasicExpectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.AbstractBatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.BatchingBatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.ColumnNameCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.ConnectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.JDBCContext$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.Expectations$BasicParamExpectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.BatchingBatcherFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.Expectations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.Expectations$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.ConnectionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.Batcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.BatchFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.NonBatchingBatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.Expectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.NonBatchingBatcherFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.TooManyRowsAffectedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.ResultSetWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.BatcherFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.ConnectionManager$Callback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.JDBCContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.jdbc.BatchedTooManyRowsAffectedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.intercept.javassist",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.intercept.javassist.JavassistHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.intercept.javassist.FieldInterceptorImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.intercept.cglib",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.intercept.cglib.CGLIBHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.intercept.cglib.FieldInterceptorImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.intercept",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.intercept.LazyPropertyInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.intercept.FieldInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.intercept.FieldInterceptionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.intercept.AbstractFieldInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.intercept.LazyPropertyInitializer$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.impl",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.impl.AbstractScrollableResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.FilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.IteratorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.ScrollableResultsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.AbstractQueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.AbstractSessionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.SessionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.CollectionFilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.FetchingScrollableResultsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.CriteriaImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.SessionFactoryObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.SessionFactoryObjectFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.CriteriaImpl$OrderEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.SQLQueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.StatelessSessionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.SessionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.CriteriaImpl$Subcriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.QueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.SessionFactoryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.CriteriaImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.impl.CriteriaImpl$CriterionEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.id.insert",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.id.insert.Binder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.insert.InsertSelectIdentityInsert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.insert.InsertGeneratedIdentifierDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.insert.IdentifierGeneratingInsert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.insert.AbstractSelectingDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.insert.AbstractReturningDelegate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.id.enhanced",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.id.enhanced.DatabaseStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.Optimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.OptimizerFactory$HiLoOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.SequenceStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.SequenceStructure$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.TableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.TableStructure$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.TableStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.TableGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.AccessCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.OptimizerFactory$OptimizerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.OptimizerFactory$NoopOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.SequenceStyleGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.OptimizerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.enhanced.OptimizerFactory$PooledOptimizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.id",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.id.IncrementGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.MultipleHiLoPerTableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.Assigned",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.PostInsertIdentityPersister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentifierGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.AbstractUUIDGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.ForeignGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.PersistentIdentifierGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SequenceIdentityGenerator$Delegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentifierGeneratorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.PostInsertIdentifierGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SequenceHiLoGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.UUIDHexGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.TableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentifierGenerationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.TableHiLoGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentityGenerator$BasicDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SelectGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SequenceIdentityGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.GUIDGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentityGenerator$InsertSelectDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SequenceIdentityGenerator$NoCommentsInsert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SelectGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentityGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.AbstractPostInsertGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.SelectGenerator$SelectGeneratorDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentifierGeneratorFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.id.IdentifierGeneratorFactory$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql.classic",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.classic.GroupByParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.OrderByParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.PathExpressionParser$CollectionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.SelectParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.QueryTranslatorImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.ClauseParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.FromPathExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.QueryTranslatorImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.WhereParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.QueryTranslatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.PathExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.PreprocessingParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.ClassicQueryTranslatorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.FromParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.ParserHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.HavingParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.classic.SelectPathExpressionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql.ast.util",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.ast.util.PathHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.NodeTraverser$VisitationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.LiteralProcessor$ApproximateDecimalFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.AliasGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTUtil$FilterPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.LiteralProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.LiteralProcessor$ExactDecimalFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.NodeTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.LiteralProcessor$DecimalFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ColumnHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.SyntheticAndFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTUtil$IncludePredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.JoinProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.JoinProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.LiteralProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.SessionFactoryHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTUtil$CollectingNodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.util.ASTParentsFirstIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql.ast.tree",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.ast.tree.CollectionFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.UnaryArithmeticNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.UnaryOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.IdentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.HqlSqlWalkerNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.ResolvableNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.LiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.UnaryLogicOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.ExpectedTypeAwareNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.DotNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AbstractStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SelectExpressionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.InitializeableNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AssignmentSpecification$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AggregateNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.InsertStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SelectExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.IsNotNullLogicOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AbstractRestrictableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.OperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromClause$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AbstractNullnessCheckNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.DisplayableNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.ImpliedFromElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.IntoClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.BetweenOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.UpdateStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SelectExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.DotNode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.BinaryOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromClause$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.ConstructorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AbstractSelectExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.BinaryLogicOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.IsNullLogicOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.PathNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.InLogicOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SqlFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.Case2Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.BooleanLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.AssignmentSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromClause$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromElementType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.DeleteStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.DotNode$IllegalCollectionDereferenceExceptionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.CountNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.BinaryArithmeticOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.QueryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.CaseNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SessionFactoryAwareNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SelectClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromClause$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.JavaConstantNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.IndexNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.MethodNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.RestrictableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.ParameterNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.SqlNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.FromReferenceNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.tree.OrderByClause",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql.ast.exec",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.ast.exec.StatementExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.exec.MultiTableDeleteExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.exec.AbstractStatementExecutor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.exec.MultiTableUpdateExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.exec.AbstractStatementExecutor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.exec.BasicExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.exec.AbstractStatementExecutor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql.ast",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.ast.QueryTranslatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlSqlWalker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ErrorReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ParameterTranslationsImpl$1NamedParamTempHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlSqlWalker$WithClauseVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlASTFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ParameterTranslationsImpl$ParameterInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.QuerySyntaxException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ParameterTranslationsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ASTQueryTranslatorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.QueryTranslatorImpl$JavaConstantConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.SqlASTFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ParseErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.SqlGenerator$FunctionArguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.SqlGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.SqlGenerator$DefaultWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.SqlGenerator$SqlWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlSqlWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.HqlLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.InvalidWithClauseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.ErrorCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.DetailedSemanticException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.ast.InvalidPathException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql.antlr",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.antlr.SqlGeneratorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.antlr.HqlBaseLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.antlr.HqlSqlBaseWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.antlr.HqlBaseParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.antlr.SqlTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.antlr.HqlTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.antlr.HqlSqlTokenTypes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.hql",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.hql.ParameterTranslations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.QueryExecutionRequestException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.CollectionSubqueryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.QueryTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.QueryTranslatorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.CollectionProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.NameGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.FilterTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.QuerySplitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.hql.HolderInstantiator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.exception",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.exception.CacheSQLStateConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.GenericJDBCException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.SQLGrammarException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.DataException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.JDBCExceptionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.TemplatedViolatedConstraintNameExtracter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.JDBCConnectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.NestableDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.NestableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.SQLExceptionConverterFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.SQLExceptionConverterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.ExceptionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.LockAcquisitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.SQLExceptionConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.ViolatedConstraintNameExtracter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.SQLStateConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.Nestable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.ConstraintViolationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.exception.NestableRuntimeException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.event.def",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.event.def.OnUpdateVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.FlushVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultDirtyCheckEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultPostLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultFlushEntityEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.ProxyVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.EvictVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultDeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultRefreshEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultSaveEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DirtyCollectionSearchVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.AbstractReassociateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.ReattachVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.AbstractFlushingEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultAutoFlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultPersistEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultPreLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.OnLockVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultLockEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultEvictEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultReplicateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultSaveOrUpdateCopyEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.WrapVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.AbstractVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.AbstractLockUpgradeEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultSaveOrUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultPersistOnFlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.AbstractSaveEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultInitializeCollectionEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultMergeEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.OnReplicateVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.def.DefaultFlushEventListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.event",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.event.PostCollectionUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.ReplicateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostDeleteEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostInsertEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostDeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreInsertEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.DirtyCheckEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreCollectionUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.LoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.Initializable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.EventListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.AutoFlushEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.LoadEventListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreCollectionUpdateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostInsertEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.FlushEntityEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.MergeEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.FlushEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.AbstractEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostUpdateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.EvictEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostLoadEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.LoadEventListener$LoadType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.InitializeCollectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PersistEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.LockEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.LoadEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.RefreshEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.RefreshEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreDeleteEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostCollectionUpdateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.SaveOrUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.EventSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.DeleteEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.ReplicateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.EvictEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PersistEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.MergeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.LockEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.InitializeCollectionEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.AutoFlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostCollectionRemoveEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreCollectionRecreateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostCollectionRecreateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.DirtyCheckEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.AbstractCollectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.FlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostCollectionRemoveEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreLoadEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PostCollectionRecreateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreCollectionRemoveEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreDeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.FlushEntityEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreCollectionRecreateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.DeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreInsertEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreCollectionRemoveEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.PreUpdateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.event.SaveOrUpdateEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.engine.transaction",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.engine.transaction.Isolater$JdbcDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.transaction.Isolater$Delegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.transaction.Isolater$JtaDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.transaction.Isolater",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.transaction.IsolatedWork",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.engine.query.sql",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQueryCollectionReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQueryRootReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQueryJoinReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQuerySpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQueryNonScalarReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQueryReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.sql.NativeSQLQueryScalarReturn",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.engine.query",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.engine.query.HQLQueryPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.ReturnMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.ParameterMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.NamedParameterDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.ParameterParser$Recognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.QueryPlanCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.FilterQueryPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.ParamLocationRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.OrdinalParameterDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.ParamLocationRecognizer$NamedParameterDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.NativeSQLQueryPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.QueryPlanCache$FilterQueryPlanKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.ParameterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.QueryMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.query.QueryPlanCache$HQLQueryPlanKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.engine.loading",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.engine.loading.LoadContexts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.loading.LoadingCollectionEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.loading.CollectionLoadContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.loading.EntityLoadContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.engine",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.engine.CascadeStyle$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.SessionImplementor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.NamedSQLQueryDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ExecuteUpdateResultCheckStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.PersistenceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.JoinSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.Collections",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.VersionValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.IdentifierValue$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.JoinSequence$Selector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ParameterBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.TransactionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ResultSetMappingDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.UnsavedValueFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.JoinHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.StatefulPersistenceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ValueInclusion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.Cascade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.IdentifierValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.IdentifierValue$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.RowSelection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.IdentifierValue$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.JoinSequence$Join",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.VersionValue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.EntityUniqueKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.VersionValue$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.SessionFactoryImplementor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.NamedQueryDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.SubselectFetch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.EntityKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.IdentifierValue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.VersionValue$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.AssociationKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ForeignKeys$Nullifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.TwoPhaseLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ForeignKeys",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.Mapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.TypedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CollectionEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CollectionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ActionQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.QueryParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$MultipleCascadeStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.BatchFetchQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.HibernateIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ActionQueue$InsertActionSorter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadingAction$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.FilterDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.CascadeStyle$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.TransactionHelper$1Work",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.EntityEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.Versioning",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.Nullability",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.ParameterBinder$NamedParameterSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.dialect.lock",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.dialect.lock.SelectLockingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.lock.LockingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.lock.UpdateLockingStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.dialect",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.dialect.SQLServerDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Cache71Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Dialect$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MySQLInnoDBDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.HSQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DialectFactory$DatabaseDialectMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.TimesTenDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DerbyDialect$DerbyTrimFunctionEmulation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Oracle9iDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.SybaseDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.IngresDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.PostgreSQLDialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Oracle9Dialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.HSQLDialect$ReadUncommittedLockingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.TypeNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.RDMSOS2200Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DialectFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DB2390Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.InterbaseDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.HSQLDialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Oracle8iDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DB2400Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MySQL5Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MySQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Oracle9Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.PostgreSQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.SAPDBDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Dialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Dialect$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MySQL5InnoDBDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DerbyDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.ProgressDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.PointbaseDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Cache71Dialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MimerSQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.TeradataDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Oracle10gDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MySQLMyISAMDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.SybaseAnywhereDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DB2Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.InformixDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Oracle8iDialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.H2Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.InformixDialect$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DataDirectOracle9Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Dialect$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.FrontBaseDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.OracleDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DialectFactory$VersionInsensitiveMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.MckoiDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.FirebirdDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.DialectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.Sybase11Dialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.JDataStoreDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.H2Dialect$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.dialect.function",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.dialect.function.StandardSQLFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.PositionSubstringFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.ClassicCountFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.CharIndexFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.NvlFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.SQLFunctionTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.ClassicAvgFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.ConvertFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.VarArgsSQLFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.ConditionalParenthesisFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.NoArgSQLFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.AnsiTrimEmulationFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.SQLFunctionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.CastFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.StandardJDBCEscapeFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.SQLFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.dialect.function.ClassicSumFunction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.criterion",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.criterion.PropertySubqueryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Example$NotNullOrZeroPropertySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Example$NotNullPropertySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Projections",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Conjunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.EmptyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SQLProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.MatchMode$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.IdentifierEqExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Projection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.ProjectionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.MatchMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.AggregateProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.BetweenExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SimpleExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.IlikeExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.NotNullExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SimpleSubqueryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.PropertyProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.LogicalExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SimpleProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.MatchMode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Restrictions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SQLCriterion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.PropertyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Example",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.AliasedProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.IdentifierProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Junction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SizeExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.CountProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.NaturalIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.InExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Example$AllPropertySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Criterion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.LikeExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Distinct",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Subqueries",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Disjunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.CriteriaSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.MatchMode$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.ExistsSubqueryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.NotEmptyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.RowCountProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.AvgProjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.Example$PropertySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.CriteriaQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.AbstractEmptinessExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.MatchMode$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.NullExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.SubqueryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.DetachedCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.criterion.NotExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.context",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.context.ThreadLocalSessionContext$CleanupSynch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.context.ManagedSessionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.context.CurrentSessionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.context.JTASessionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.context.ThreadLocalSessionContext$TransactionProtectionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.context.JTASessionContext$CleanupSynch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.context.ThreadLocalSessionContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.connection",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.connection.C3P0ConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.connection.ConnectionProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.connection.DatasourceConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.connection.ProxoolConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.connection.UserSuppliedConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.connection.ConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.connection.DriverManagerConnectionProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.collection",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.collection.PersistentMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSet$SimpleAdd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMap$EntryIteratorProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList$SimpleAdd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMap$Clear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSet$Clear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSortedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSortedMap$SortedSubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentArrayHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentIdentifierBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentIndexedElementHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList$Clear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList$Set",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList$Add",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentBag$Clear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSet$SimpleRemove",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection$SetProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMap$MapEntryProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentBag$SimpleAdd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection$ListIteratorProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection$DelayedOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMap$Remove",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMap$EntrySetProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList$SimpleRemove",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection$IteratorProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentListElementHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentSortedSet$SubSetProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentList$Remove",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentElementHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMap$Put",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.AbstractPersistentCollection$ListProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentIndexedElementHolder$IndexedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.collection.PersistentMapElementHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.classic",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.classic.Validatable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.classic.ValidationFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.classic.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.classic.Lifecycle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.cfg",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.ExtendsQueueEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Environment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Settings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Configuration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Mappings$PropertyReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$MapSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$ListSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$ManyToOneSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.SecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.ResultSetMappingSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.NamedSQLQuerySecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.DefaultNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.QuerySecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Mappings$ColumnNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.CollectionSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Mappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Mappings$TableDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$CollectionType$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.NamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.ImprovedNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$EntityElementHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.SettingsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.HbmBinder$IdentifierCollectionSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.ResultSetMappingBinder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.cache.entry",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.cache.entry.StructuredMapCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.entry.CacheEntryStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.entry.StructuredCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.entry.CollectionCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.entry.CacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.entry.UnstructuredCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.entry.StructuredCollectionCacheEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.cache",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.cache.ReadWriteCache$Lock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.TreeCacheProvider$TransactionManagerLookupAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.JndiBoundTreeCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.SwarmCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.CacheConcurrencyStrategy$SoftLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticTreeCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.EhCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.TransactionalCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.SwarmCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.NonstrictReadWriteCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.QueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticTreeCache$CircumventChecksDataVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.TreeCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.CacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.AbstractJndiBoundCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticTreeCacheProvider$TransactionManagerLookupAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OSCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.Timestamper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.FilterKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticTreeCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.ReadWriteCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.HashtableCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.ReadWriteCache$Lockable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.CacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.CacheConcurrencyStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.UpdateTimestampsCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.ReadOnlyCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.QueryCacheFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.StandardQueryCacheFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.StandardQueryCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticTreeCache$DataVersionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.HashtableCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.NoCachingEnabledException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.QueryCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.TreeCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.NoCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.EhCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.CacheException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticTreeCache$NonLockingDataVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.ReadWriteCache$Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OptimisticCacheSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.OSCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cache.CacheFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.bytecode.util",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.bytecode.util.FieldFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.util.BasicClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.util.ClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.util.ClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.util.ByteCodeHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.bytecode.javassist",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.bytecode.javassist.ReflectionOptimizerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.FieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.FieldFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.JavassistClassTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.FieldHandled",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.BulkAccessorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.FieldTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.ProxyFactoryFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.BulkAccessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.AccessOptimizerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.TransformingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.BytecodeProviderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.BulkAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.ProxyFactoryFactoryImpl$PassThroughHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.ProxyFactoryFactoryImpl$BasicProxyFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.FastClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.InstantiationOptimizerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.JavassistClassTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.javassist.ProxyFactoryFactoryImpl$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.bytecode.cglib",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.bytecode.cglib.ProxyFactoryFactoryImpl$BasicProxyFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.ReflectionOptimizerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.InstantiationOptimizerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.ProxyFactoryFactoryImpl$PassThroughInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.BytecodeProviderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.CglibClassTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.AccessOptimizerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.ProxyFactoryFactoryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.CglibClassTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.cglib.ProxyFactoryFactoryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.bytecode",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.bytecode.ReflectionOptimizer$InstantiationOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.ReflectionOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.ProxyFactoryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.ClassTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.ReflectionOptimizer$AccessOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.InstrumentedClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.AbstractClassTransformerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.BytecodeProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.bytecode.BasicProxyFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      },
+      {
+         "name": "org.hibernate.action",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.action.EntityInsertAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.EntityAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.BulkOperationCleanupAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.EntityIdentityInsertAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.DelayedPostInsertIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.CollectionUpdateAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.Executable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.EntityUpdateAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.CollectionRemoveAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.CollectionRecreateAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.CollectionAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.action.EntityDeleteAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.6.ga"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.asm.attrs",
+         "optional": false,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.objectweb.asm",
+         "optional": false,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool.configuration",
+         "optional": true,
+         "versionRange": "[0.8.3, 0.9.0)"
+      },
+      {
+         "name": "org.logicalcobwebs.proxool",
+         "optional": true,
+         "versionRange": "[0.8.3, 0.9.0)"
+      },
+      {
+         "name": "org.jboss.cache.lock",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "org.jboss.cache.config",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "org.jboss.cache.optimistic",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "org.jboss.cache",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j.io",
+         "optional": false,
+         "versionRange": "[1.6.1, 1.7.0)"
+      },
+      {
+         "name": "org.dom4j",
+         "optional": false,
+         "versionRange": "[1.6.1, 1.7.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "net.sf.swarmcache",
+         "optional": true,
+         "versionRange": "[1.0.0.RC2a, 1.1.0)"
+      },
+      {
+         "name": "net.sf.cglib.transform.impl",
+         "optional": false,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "net.sf.ehcache",
+         "optional": true,
+         "versionRange": "[1.2.3, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.transform",
+         "optional": false,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "net.sf.cglib.reflect",
+         "optional": false,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": false,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "net.sf.cglib.core",
+         "optional": false,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "net.sf.cglib.beans",
+         "optional": false,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.jacc",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javassist.util.proxy",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "javassist.bytecode",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "javassist",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "com.opensymphony.oscache.general",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "com.opensymphony.oscache.base",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "com.mchange.v2.c3p0",
+         "optional": true,
+         "versionRange": "[0.9.1, 0.9.2)"
+      },
+      {
+         "name": "antlr.collections.impl",
+         "optional": false,
+         "versionRange": "[2.7.6, 3.0.0)"
+      },
+      {
+         "name": "antlr.collections",
+         "optional": false,
+         "versionRange": "[2.7.6, 3.0.0)"
+      },
+      {
+         "name": "antlr",
+         "optional": false,
+         "versionRange": "[2.7.6, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.hibernate",
+   "version": "3.2.6.ga"
+}}

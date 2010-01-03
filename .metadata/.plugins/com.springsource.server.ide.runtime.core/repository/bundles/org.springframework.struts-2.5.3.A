@@ -1,0 +1,211 @@
+{"bundle": {
+   "dateAdded": "2008-04-29 15:25:44.0",
+   "moduleName": "org.springframework.web.struts",
+   "name": "Spring Web Struts",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.web.servlet.view.tiles",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.tiles.ComponentControllerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles.TilesView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles.TilesConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles.TilesJstlView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.3.A"
+      },
+      {
+         "name": "org.springframework.web.struts",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.struts.DelegatingRequestProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.DelegatingTilesRequestProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.ActionServletAwareProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.SpringBindingActionForm$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.SpringBindingActionForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.AutowiringTilesRequestProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.MappingDispatchActionSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.ContextLoaderPlugIn$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.DelegatingActionProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.SpringBindingActionForm$SpringBindingAwarePropertyUtilsBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.ContextLoaderPlugIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.LookupDispatchActionSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.DelegatingActionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.ActionSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.AutowiringRequestProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.struts.DispatchActionSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.3.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.web.servlet.support",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.web.servlet.view",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.web.util",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.validation",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.apache.struts.util",
+         "optional": false,
+         "versionRange": "[1.2.9, 2.0.0)"
+      },
+      {
+         "name": "org.apache.struts.tiles",
+         "optional": false,
+         "versionRange": "[1.2.9, 2.0.0)"
+      },
+      {
+         "name": "org.apache.struts.config",
+         "optional": false,
+         "versionRange": "[1.2.9, 2.0.0)"
+      },
+      {
+         "name": "org.apache.struts.actions",
+         "optional": false,
+         "versionRange": "[1.2.9, 2.0.0)"
+      },
+      {
+         "name": "org.apache.struts.action",
+         "optional": false,
+         "versionRange": "[1.2.9, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.struts",
+   "version": "2.5.3.A"
+}}

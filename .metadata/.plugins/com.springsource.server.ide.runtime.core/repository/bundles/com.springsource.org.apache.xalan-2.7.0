@@ -1,0 +1,5209 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:33:30.0",
+   "moduleName": "com.springsource.org.apache.xalan",
+   "name": "Apache Xalan XSLT Support",
+   "notes": "",
+   "organisationName": "org.apache.xalan",
+   "packageExports": [
+      {
+         "name": "java_cup.runtime",
+         "packageMembers": [
+            {
+               "name": "java_cup.runtime.lr_parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "java_cup.runtime.Symbol",
+               "type": "CLASS"
+            },
+            {
+               "name": "java_cup.runtime.Scanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "java_cup.runtime.virtual_parse_stack",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.res",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_en",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.res.XPATHErrorResources_ko",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.patterns",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.patterns.UnionPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.StepPattern$PredOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.ContextMatchStepPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.FunctionPattern$FunctionOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.FunctionPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.UnionPattern$UnionPathPartOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.NodeTestFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.StepPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.patterns.NodeTest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.operations",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.operations.Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.VariableSafeAbsRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Div",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Variable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.NotEquals",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Gte",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.And",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Bool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Operation$LeftExprOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Minus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.UnaryOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Or",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Equals",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.String",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Gt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Plus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Lt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Mod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Number",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Mult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Neg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Quo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.operations.Lte",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.objects",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.objects.XRTreeFrag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.Comparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.LessThanOrEqualComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XMLStringFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.DTMXRTreeFrag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XRTreeFragSelectWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.LessThanComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XStringForChars",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.NotEqualComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XBooleanStatic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.EqualComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.GreaterThanComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.GreaterThanOrEqualComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XNodeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XNodeSetForDOM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.objects.XStringForFSB",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.jaxp",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.jaxp.XPathImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.jaxp.XPathFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.jaxp.JAXPVariableStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.jaxp.JAXPExtensionsProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.jaxp.JAXPPrefixResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.jaxp.XPathExpressionImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.functions",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.functions.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncPosition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncNormalizeSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncTranslate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncConcat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncDoclocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncGenerateId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FunctionMultiArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncCeiling",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncCount",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncSystemProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncFalse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncStringLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncExtFunctionAvailable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FunctionOneArg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncFloor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncLocalPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.Function3Args",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.WrongNumberArgsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncExtElementAvailable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncUnparsedEntityURI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncSubstringBefore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncContains",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncStartsWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncExtFunction$ArgExtOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.Function2Args$Arg1Owner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncSum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncSubstring",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncRound",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FunctionMultiArgs$ArgMultiOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncExtFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncQname",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncNamespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncLang",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.Function2Args",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.Function3Args$Arg2Owner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncCurrent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FunctionDef1Arg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncLast",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.functions.FuncSubstringAfter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.domapi",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.domapi.XPathResultImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.domapi.XPathNSResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.domapi.XPathEvaluatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.domapi.XPathEvaluatorImpl$DummyPrefixResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.domapi.XPathNamespaceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.domapi.XPathStylesheetDOM3Exception",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.domapi.XPathExpressionImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.compiler",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.compiler.FunctionTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.Lexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.XPathParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.XPathDumper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.OpMapVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.OpMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.Compiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.OpCodes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.PsuedoNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.compiler.Keywords",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath.axes",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.axes.LocPathIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.OneStepIteratorForward",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.OneStepIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.WalkerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.FilterExprIterator$filterExprOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.UnionPathIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.NodeSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.ReverseAxesWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.PredicatedNodeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.FilterExprIteratorSimple$filterExprOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.PathComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.UnionChildIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.BasicTestIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.FilterExprIteratorSimple",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.HasPositionalPredChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.RTFIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.FilterExprWalker$filterExprOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.SubContextList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.PredicatedNodeTest$PredOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.UnionPathIterator$iterOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.DescendantIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.SelfIteratorNoPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.WalkingIteratorSorted",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.ContextNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.IteratorPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.WalkingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.FilterExprWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.MatchPatternIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.ChildTestIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.ChildIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.AttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.AxesWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.axes.FilterExprIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xpath",
+         "packageMembers": [
+            {
+               "name": "org.apache.xpath.ExpressionOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.Arg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.CachedXPathAPI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathContext$XPathExpressionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathAPI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.FoundIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathVisitable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.NodeSetDTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.NodeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.ExtensionsProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.VariableStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.WhitespaceStrippingElementMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.ExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathProcessorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.XPathVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.SourceTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xpath.SourceTreeManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.utils.res",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.utils.res.IntArrayWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.LongArrayWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResourceBundleBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.CharArrayWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_cy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_en",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_hy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_ja_JP_HI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_el",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_ka",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_ja_JP_HA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_he",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_ja_JP_A",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.StringArrayWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResources_ja_JP_I",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.res.XResourceBundle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.serializer.utils",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.serializer.utils.URI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_en",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.URI$MalformedURIException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.MsgKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.StringToIntTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.AttList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.BoolStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.WrappedRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.DOM2Helper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SystemIDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.utils.SerializerMessages_ca",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.utils",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.utils.ThreadControllerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SAXSourceLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLCharacterRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StylesheetPIHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StringToStringTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StringToIntTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.UnImplNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StringBufferPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.QName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.BoolStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.DOMBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.FastStringBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.DOMOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.NameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.NSInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.NodeVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.RawCharacterHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ObjectVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ThreadControllerWrapper$ThreadController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SuballocatedByteVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.TreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.PrefixResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XML11Char",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StringToStringTableVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.Context2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.DefaultErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.Hashtree2Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ObjectStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLStringFactoryDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.MutableAttrListImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ElemDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SuballocatedIntVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLStringFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLStringDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.LocaleUtility",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.DOM2Helper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SystemIDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ListingErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLChar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.NamespaceSupport2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.PrefixResolverDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.URI$MalformedURIException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.URI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.WrappedRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.PrefixForUriEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SerializableLocatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StopParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.ObjectPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.DOMHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StringVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.AttList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.IntStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.IntVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.StringComparable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.NodeConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.WrongParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.utils.XMLReaderManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.serializer",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.serializer.Encodings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SerializerTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToXMLStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/XMLEntities.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.CharInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.DOMSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/HTMLEntities.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/Encodings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.WriterToUTF8Buffered",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToStream$WritertoStringBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.TransformStateSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.EncodingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.AttributesImplSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToXMLSAXHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SerializationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ExtendedLexicalHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.EmptySerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToTextStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToSAXHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.OutputPropertiesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.EncodingInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToStream$BoolStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToHTMLStream$Trie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.Method",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.EncodingInfo$InEncoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToTextSAXHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/output_html.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.ElemDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.NamespaceMappings$MappingRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/output_text.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToHTMLStream$Trie$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.TreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.NamespaceMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.OutputPropertiesFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToHTMLStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SerializerConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/output_unknown.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.SerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.WriterChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToUnknownStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.EncodingInfo$EncodingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.CharInfo$CharKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.XSLOutputAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ElemContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ToHTMLSAXHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.OutputPropertyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.WriterToASCI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.ExtendedContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SerializerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SerializerTraceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.serializer.CharInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xml/serializer/output_xml.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xml.serializer.Serializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.res",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_en",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.res.XMLErrorResources_hu",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.dtm.ref.sax2dtm",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedSingletonIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$FollowingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedDescendantIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$PrecedingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedRootIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedFollowingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedFollowingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$FollowingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$AncestorIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedAncestorIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedPrecedingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedChildrenIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$DescendantIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2RTFDTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$AttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$ChildrenIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$ParentIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$PrecedingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2$TypedPrecedingSiblingIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.dtm.ref.dom2dtm",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.dtm.ref.dom2dtm.DOM2DTMdefaultNamespaceDeclarationNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.dom2dtm.DOM2DTM$CharacterNodeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.dom2dtm.DOM2DTM",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.dtm.ref",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$AllFromNodeTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$PrecedingTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$NamespaceDeclsTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$AncestorIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedFollowingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNamedNodeMap$DTMException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$ParentTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.CoroutineParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$AttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.NodeLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$NamespaceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$IndexedDTMAxisTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedNamespaceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$FollowingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMSafeStringPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$PrecedingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$FollowingTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$InternalAxisIteratorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.IncrementalSAXSource_Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$DescendantOrSelfFromRootTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDocumentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$AncestorTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedPrecedingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ChunkedIntArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$NamespaceAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$DescendantFromRootTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$SelfTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$SingletonIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$AllFromRootTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$PrecedingSiblingTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$DescendantOrSelfTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$NamespaceChildrenIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.CustomStringPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$DescendantTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMTreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedChildrenIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedDescendantIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.CoroutineManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMChildIterNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.IncrementalSAXSource_Filter$StopException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.IncrementalSAXSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$PrecedingAndAncestorTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.IncrementalSAXSource_Xerces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMManagerDefault",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$NthDescendantIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$AttributeTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedRootIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$AncestorOrSelfTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$RootIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$ParentIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$ChildrenIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedPrecedingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$NamespaceTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ExpandedNameTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNamedNodeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$ChildTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ExtendedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$RootTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMAxisIteratorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.EmptyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers$FollowingSiblingTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedSingletonIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$DescendantIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMStringPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$PrecedingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedAncestorIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ChunkedIntArray$ChunksVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseTraversers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$TypedFollowingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMAxisIterNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNodeListBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNodeProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMNodeProxy$DTMNodeProxyImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.DTMDefaultBaseIterators$FollowingSiblingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ref.ExpandedNameTable$HashEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xml.dtm",
+         "packageMembers": [
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMAxisIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMDOMException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.Axis",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMAxisTraverser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.DTMWSFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xml.dtm.SecuritySupport12$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.util",
+         "packageMembers": {
+            "name": "org.apache.xalan.xsltc.util.IntegerArray",
+            "type": "CLASS"
+         },
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.trax",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TransformerHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TemplatesHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.DOM2TO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TransformerFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SmartTransformerFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TrAXFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TransformerFactoryImpl$PIParamWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SAX2DOM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TemplatesImpl$TransletClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.DOM2SAX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TemplatesImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.XSLTCSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TransformerImpl$MessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.OutputSettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TemplatesImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TransformerFactoryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.trax.TransformerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.runtime.output",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.runtime.output.OutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.output.StringOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.output.TransletOutputHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.output.WriterOutputBuffer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.runtime",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.runtime.StringValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Hashtable$HashtableEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.MessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.AbstractTranslet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.AttributeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Hashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Operators",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.BasisLibrary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.BasisLibrary$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.CallFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.HashtableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.runtime.ErrorMessages_hu",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.dom",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.dom.MatchingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.ClonedNodeListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.DOMAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SimpleResultTreeImpl$SingletonIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.NodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.CachedNodeListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SAXImpl$NamespaceChildrenIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SingletonIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.KeyIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.DOMBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SingleNodeCounter$DefaultSingleNodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.CurrentNodeListFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.MultiDOM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.UnionIterator$LookAheadIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.AdaptiveResultTreeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SAXImpl$NamespaceAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SortingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.CurrentNodeListIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.MultipleNodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.LoadDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SimpleResultTreeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.StepIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.FilteredStepIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.MultiDOM$AxisIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SAXImpl$NodeValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.EmptyFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.CollatorFactoryBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SingleNodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.BitArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.MultipleNodeCounter$DefaultMultipleNodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.FilterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.DupFilterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.MultiDOM$NodeValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SAXImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.NthIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.AnyNodeCounter$DefaultAnyNodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.DocumentCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.UnionIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SAXImpl$NamespaceWildcardIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.AbsoluteIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.XSLTCDTMManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.NodeSortRecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SimpleResultTreeImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.ExtendedSAX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.DocumentCache$CachedDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SAXImpl$TypedNamespaceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SortSettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SimpleResultTreeImpl$SimpleIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.NodeSortRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.StripWhitespaceFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.DOMWSFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.AnyNodeCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.ForwardPositionIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.dom.NodeIteratorBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.compiler.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.MethodType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.StringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.BooleanType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.AttributeSetMethodGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ResultTreeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NumberType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.IntType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NodeSortRecordFactGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ClassGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.VoidType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.TypeCheckError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NodeCounterGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.RtMethodGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_no",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.FilterGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.RealType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.StringStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.MethodGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SlotAllocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NamedMethodGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.MultiHashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NodeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.TestGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NodeSortRecordGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.CompareGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.MatchGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ErrorMessages_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.NodeSetType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.util.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.compiler",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.WithParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.TransletOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Fallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.IntExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.KeyCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Pattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LogicalExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Param",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FormatNumberCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.DecimalFormatting",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.UnresolvedRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.UseAttributeSets",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FilterParentPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Output",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.TestSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.If",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ProcessingInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.XPathParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ParentLocationPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AttributeValueTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ValueOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ContainsCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CastCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.PositionCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.RelativeLocationPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Step",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SymbolTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CompilerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Include",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NameBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Sort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.StringLengthCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SimpleAttributeValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.GenerateIdCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.IdPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Mode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.UnsupportedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Template",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FunctionAvailableCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NumberCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.EqualityExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Whitespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FunctionCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CopyOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ApplyImports",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LocalNameCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NotCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CUP$XPathParser$actions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ApplyTemplates",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LiteralExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ElementAvailableCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.VariableRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SyntaxTreeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Variable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Predicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AttributeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.BooleanCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AncestorPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Number",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LocationPathPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.IllegalCharException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.RelativePathPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NamespaceUriCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.UnparsedEntityUriCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Import",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CastExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CurrentCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AlternativePattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Stylesheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FunctionCall$JavaType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AbsolutePathPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.UnionPathExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.UnaryOpExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.BooleanExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.TopLevelElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CeilingCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Closure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.XSLTC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ProcessingInstructionPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LiteralElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.StringCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ArgumentList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.XslElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Instruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.VariableRefBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.IdKeyPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.DocumentCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.RoundCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ParameterRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.StepPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ParentPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.When",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AbsoluteLocationPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ForEach",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.RelationalExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.XPathLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Whitespace$WhitespaceRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FloorCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NameCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.StartsWithCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.XslAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.VariableBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.sym",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.CallTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.KeyPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.RealExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.BinOpExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ConcatCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.AttributeValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.QName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FlowList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FilterExpr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Copy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.FilteredAbsoluteLocationPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LastCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Otherwise",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LangCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.LiteralAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NamespaceAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.NodeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.compiler.Choose",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.cmdline.getopt",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.getopt.GetOpt$Option",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.getopt.MissingOptArgException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.getopt.IllegalArgumentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.getopt.GetOptsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.getopt.GetOpt$OptionMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.getopt.GetOpt",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xslt",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xslt.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.Process",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.EnvironmentCheck",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xslt.SecuritySupport12$8",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.TransletException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.DOM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.DOMEnhancedForDTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.StripFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.Translet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.ProcessorVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.CollatorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.DOMCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.NodeIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.xsltc.cmdline",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.Transform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.Compile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.xsltc.cmdline.SecuritySupport12$6",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.trace",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.trace.ExtensionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.EndSelectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.TraceListenerEx2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.TraceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.TraceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.SelectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.GenerateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.TracerEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.TraceListenerEx3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.TraceListenerEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.trace.PrintTraceListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.transformer",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.transformer.Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformerIdentityImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.KeyRefIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.KeyTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TrAXFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.CountersTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.KeyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformerHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformSnapshot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.XSLInfiniteLoopException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TreeWalker2Result",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.NodeSortKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.ClonerToResultTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.KeyTable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.NodeSorter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.MsgMgr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.StackGuard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformerClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.NumeratorFormatter$NumberFormatStringTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.ResultNameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.SerializerSwitcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.NodeSorter$NodeCompareElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.QueuedEvents",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformSnapshotImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.TransformState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.XalanProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.NumeratorFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.DecimalToRoman",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.transformer.XalanTransformState",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.templates",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.templates.ElemParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemWhen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemUse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemUnknown",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.AVT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.StylesheetRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.OutputProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemLiteralResult$Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemAttributeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.AVTPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.RedundentExprEliminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.XMLNSDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemForEach",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemLiteralResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.AVTPartXPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemWithParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemOtherwise",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.TemplateList$TemplateWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemCopyOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemValueOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemCallTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemApplyTemplates",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.AVTPartSimple",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.FuncKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.TemplateList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemExtensionCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemPI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemEmpty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemNumber$NumberFormatStringTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemFallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.VarNameCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemLiteralResult$LiteralElementAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemChoose",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.TemplateList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.Stylesheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.RedundentExprEliminator$MultistepExprHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.XUnresolvedVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemApplyImport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemIf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.WhiteSpaceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.NamespaceAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemSort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemExtensionDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.AbsPathChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemCopy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.XSLTVisitable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.FuncFormatNumb",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemExtensionScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.KeyDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.XUnresolvedVariableSimple",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.TemplateSubPatternAssociation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemLiteralResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.FuncDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.XSLTVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemExsltFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemTemplateElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemExsltFuncResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemVariablePsuedo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.StylesheetRoot$ComposeState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.DecimalFormatProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemNumber$MyPrefixResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.StylesheetComposed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.templates.ElemTextLiteral",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.serialize",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.serialize.SerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.serialize.DOMSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.serialize.SerializerFactory$SerializerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.serialize.SerializerFactory$DOMSerializerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.serialize.SerializerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.serialize.Serializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.res",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_ko",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_ca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_en",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_hu",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_cs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_sv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/xalan/res/XSLTInfo.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_sk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_ja",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.res.XSLTErrorResources_pl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.processor",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.processor.ProcessorTemplateElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.XSLTSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorGlobalVariableDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorExsltFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorPreserveSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorNamespaceAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.XSLTElementDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorStylesheetElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorOutputElem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.XSLTElementProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorStripSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorInclude",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorAttributeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorUnknown",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.TransformerFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorLRE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorDecimalFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.XSLProcessorVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorGlobalParamDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.StylesheetHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorImport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorExsltFuncResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorCharacters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.WhitespaceInfoPaths",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.XSLTAttributeDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorStylesheetDoc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.processor.ProcessorText",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.lib.sql",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.lib.sql.ConnectionPoolManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.ConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.PooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.XConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SQLQueryParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.QueryParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.DefaultConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SQLErrorDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SQLDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.JNDIConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.DTMDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.ObjectArray$_ObjectArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.ObjectArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.DTMDocument$CharacterNodeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.sql.SecuritySupport12$8",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.lib",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.lib.Extensions$DocumentHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.NodeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltDynamic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.Extensions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.Redirect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltSets",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.PipeDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltStrings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltCommon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltStrings$DocumentHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltMath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltDatetime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.lib.ExsltBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.extensions",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionsTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionHandlerGeneral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.XSLProcessorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionHandlerJavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionHandlerJava",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ObjectFactory$ConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExpressionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.MethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.XPathFunctionResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionNamespaceContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionNamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionNamespaceSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionHandlerJavaPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExpressionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.MethodResolver$ConversionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.XPathFunctionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionHandlerExsltFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.ExtensionNamespacesManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.extensions.SecuritySupport12$8",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan.client",
+         "packageMembers": [
+            {
+               "name": "org.apache.xalan.client.XSLTProcessorApplet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xalan.client.XSLTProcessorApplet$TrustedAgent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.7.0"
+      },
+      {
+         "name": "org.apache.xalan",
+         "packageMembers": {
+            "name": "org.apache.xalan.Version",
+            "type": "CLASS"
+         },
+         "version": "2.7.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.xpath",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.events",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.xml.serialize",
+         "optional": false,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.parsers",
+         "optional": false,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.bcel.util",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.bcel.generic",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.bcel.classfile",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "javax.xml.xpath",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.xalan",
+   "version": "2.7.0"
+}}

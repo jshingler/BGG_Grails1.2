@@ -1,0 +1,1363 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:31:48.0",
+   "moduleName": "com.springsource.org.dbunit",
+   "name": "The DbUnit Database Testing Framework",
+   "notes": "",
+   "organisationName": "org.dbunit",
+   "packageExports": [
+      {
+         "name": "org.dbunit",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.IDatabaseTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.Assertion$ColumnComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.Assertion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.JdbcDatabaseTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.JndiBasedDBTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DataSourceDatabaseTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DefaultDatabaseTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.Assertion$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.AbstractDatabaseTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.JdbcBasedDBTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DatabaseUnitRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DBTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.PropertiesBasedJdbcDatabaseTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DatabaseUnitException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DataSourceBasedDBTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.DatabaseTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.JndiDatabaseTester",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.util.xml",
+         "packageMembers": {
+            "name": "org.dbunit.util.xml.XmlWriter",
+            "type": "CLASS"
+         },
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.util.search",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.util.search.AbstractExcludeNodesSearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.IEdge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.DepthFirstSearch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.SearchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.ISearchAlgorithm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.ISearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.AbstractNodesFilterSearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.AbstractIncludeNodesSearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.search.Edge",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.util",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.util.FileAsserts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.Base64$InputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.Base64$OutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.SQLHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.CollectionsHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.util.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.util.concurrent.TimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Slot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.SynchronousChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.SynchronizedInt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.BoundedChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Channel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Semaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Takable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.PropertyChangeMulticaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.SemaphoreControlledChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.SynchronizedVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.BoundedBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.BoundedLinkedQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.LinkedNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.LinkedQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.SynchronousChannel$Queue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.DefaultChannelCapacity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.util.concurrent.Puttable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.operation",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.operation.TransactionOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.OperationData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.RefreshOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.InsertOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.CloseConnectionOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.DatabaseOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.AbstractBatchOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.AbstractOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.DeleteOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.TruncateTableOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.RefreshOperation$UpdateRowOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.RefreshOperation$RowExistOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.RefreshOperation$InsertRowOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.DeleteAllOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.UpdateOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.ExclusiveTransactionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.CompositeOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.DatabaseOperation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.RefreshOperation$RowOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.operation.DatabaseOperation$DummyOperation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.ext.oracle",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.ext.oracle.OracleNClobDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.oracle.OracleClobDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.oracle.OracleDataTypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.oracle.OracleConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.oracle.OracleBlobDataType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.ext.mysql",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.ext.mysql.MySqlDataTypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.mysql.MySqlConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.ext.mssql",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.ext.mssql.MsSqlDataTypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.mssql.InsertIdentityOperation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.mssql.InsertIdentityOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.mssql.MsSqlConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.ext.hsqldb",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.ext.hsqldb.HsqldbConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.hsqldb.HsqldbDataTypeFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.ext.db2",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.ext.db2.Db2Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ext.db2.Db2DataTypeFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.xml",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdWriter$ContentModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatXmlProducer$FlatDtdHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdWriter$ChoiceModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.XmlDataSetWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatXmlWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatXmlProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdWriter$SequenceModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.XmlProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/dbunit/dataset/xml/dataset.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatXmlDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.XmlDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.xml.FlatDtdProducer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.stream",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.stream.StreamingIterator$AsynchronousConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.IDataSetConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.StreamingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.StreamingIterator$StreamingTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.DefaultConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.StreamingDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.DataSetProducerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.stream.IDataSetProducer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.filter",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.filter.IColumnFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.SequenceTableFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.AbstractTableFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.DefaultTableFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.DefaultColumnFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.SequenceTableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.PatternMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.IncludeTableFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.ExcludeTableFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.AbstractTableFilter$FilterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.filter.ITableFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.excel",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.excel.XlsDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.excel.XlsTable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.datatype",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.datatype.DataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.AbstractDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.TypeCastException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.FloatDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.BinaryStreamDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.BooleanDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.StringDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.BlobDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.LongDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.DefaultDataTypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.DoubleDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.UnknownDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.BytesDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.DateDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.TimestampDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.NumberDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.TimeDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.IntegerDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.ClobDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.DataTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.datatype.IDataTypeFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.csv.handlers",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.csv.handlers.AbstractPipelineComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.SeparatorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.IsAlnumHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.PipelineException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.UnquotedFieldAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.NoHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.Helper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.AbstractPipelineComponent$ACCEPT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.SeparatorHandler$ENDPIECE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.IsAlnumHandler$UNQUOTE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.QuoteHandler$UNQUOTE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.EscapeHandler$ESCAPE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.TransparentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.EscapeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.EnforceHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.IsAlnumHandler$QUOTE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.AllHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.QuoteHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.Pipeline",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.PipelineComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.UnquotedFieldAssembler$ASSEMBLE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.AbstractPipelineComponent$IGNORE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.AllHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.QuoteHandler$QUOTE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.WhitespacesHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.EscapeHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.LineEndHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.EnforceHandler$ENFORCE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.handlers.EnforceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset.csv",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.csv.CsvProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.IllegalInputCharacterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvURLProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.IllegalCharacterSeen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvURLDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.csv.CsvDataSetWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.dataset",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.dataset.SortedTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CaseInsensitiveDataSet$CaseInsensitiveIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ReplacementDataSet$ReplacementIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ForwardOnlyDataSet$ForwardOnlyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.SortedDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CompositeDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.Column$Nullable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.NoSuchColumnException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.SortedDataSet$SortedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ForwardOnlyTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ReplacementDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.DefaultDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ITable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.DefaultTableMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ITableMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.AbstractDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.RowOutOfBoundsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ReplacementTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.LowerCaseDataSet$LowerCaseIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.LowerCaseTableMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.FilteredDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ITableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.Column$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.DefaultTableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CaseInsensitiveDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.AbstractTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.NoSuchTableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.NoPrimaryKeyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CachedDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.DataSetUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.SortedTable$RowComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.LowerCaseDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.AbstractTableMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.NoColumnsFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CompositeTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.DefaultTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.FilteredTableMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.ForwardOnlyDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CachedTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.SortedTable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.CaseInsensitiveTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.IDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.dataset.DataSetException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.database.statement",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.database.statement.CompoundStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.IStatementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.AbstractStatementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.IBatchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.IPreparedBatchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.SimplePreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.BatchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.SimpleStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.AutomaticPreparedBatchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.BatchStatementDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.AbstractPreparedBatchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.PreparedBatchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.StatementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.PreparedStatementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.statement.AbstractBatchStatement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.database.search",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.database.search.AbstractMetaDataBasedSearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.ImportedKeysSearchCallbackFilteredByPKs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.ImportedAndExportedKeysSearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.ImportedAndExportedKeysSearchCallbackFilteredByPKs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.ForeignKeyRelationshipEdge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.ImportedKeysSearchCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.FKRelationshipEdge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.search.TablesDependencyHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.ant",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.ant.DbUnitTaskStep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.Compare",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.Export",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.DbUnitTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.QuerySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.ant.AbstractStep",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "org.dbunit.database",
+         "packageMembers": [
+            {
+               "name": "org.dbunit.database.DatabaseSequenceFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.PrimaryKeyFilter$FilterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseTableMetaData$PrimaryKeyData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.PrimaryKeyFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.ScrollableResultSetTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.AbstractResultSetTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.QueryTableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.AbstractDatabaseConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.CachedResultSetTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseTableIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.QueryDataSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.ForwardOnlyResultSetTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.ForwardOnlyResultSetTableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseDataSourceConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.IResultSetTableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.PrimaryKeyFilteredTableWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.QueryDataSet$TableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.CachedResultSetTableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.IDatabaseConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.CyclicTablesDependencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.AmbiguousTableNameException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.IResultSetTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dbunit.database.DatabaseTableMetaData",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.poi.hssf.usermodel",
+         "optional": true,
+         "versionRange": "[3.0.2.FINAL, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.set",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": false,
+         "versionRange": "[3.8.2, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.dbunit",
+   "version": "2.2.0"
+}}

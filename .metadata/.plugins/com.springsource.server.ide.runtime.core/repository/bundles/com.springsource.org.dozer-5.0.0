@@ -1,0 +1,602 @@
+{"bundle": {
+   "dateAdded": "2009-03-23 16:07:05.0",
+   "moduleName": "com.springsource.org.dozer",
+   "name": "Dozer Java Bean Mapping Framework",
+   "notes": "",
+   "organisationName": "net.sourceforge.dozer",
+   "packageExports": [
+      {
+         "name": "org.dozer",
+         "packageMembers": [
+            {
+               "name": "org.dozer.DozerBeanMapperSingletonWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.MappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.MappingProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.DozerEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.BeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.DozerInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.ConfigurableCustomConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.CustomConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.Mapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.CustomFieldMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.DozerBeanMapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.util",
+         "packageMembers": [
+            {
+               "name": "org.dozer.util.ReflectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.CollectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.LogMsgFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.MappingUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.MappingValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.InitLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.DozerConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.util.ResourceLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.spring",
+         "packageMembers": {
+            "name": "org.dozer.spring.DozerBeanMapperFactoryBean",
+            "type": "CLASS"
+         },
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.stats",
+         "packageMembers": [
+            {
+               "name": "org.dozer.stats.StatisticsManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.stats.Statistic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.stats.StatisticType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.stats.StatisticEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.stats.GlobalStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.stats.StatisticsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.stats.StatisticsInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.propertydescriptor",
+         "packageMembers": [
+            {
+               "name": "org.dozer.propertydescriptor.MapPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.PropertyDescriptorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.SelfPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.FieldPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.CustomGetSetPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.AbstractPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.DozerPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.XmlBeanPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.DeepHierarchyElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.GetterSetterPropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.propertydescriptor.JavaBeanPropertyDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.loader.xml",
+         "packageMembers": [
+            {
+               "name": "org.dozer.loader.xml.XMLParserFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.xml.XMLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.xml.DozerResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.xml.XMLParserFactory$DozerDefaultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.xml.XMLParserFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.xml.MappingFileReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.loader.dsl",
+         "packageMembers": {
+            "name": "org.dozer.loader.dsl.Dummy",
+            "type": "CLASS"
+         },
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.loader.annotation",
+         "packageMembers": {
+            "name": "org.dozer.loader.annotation.Dummy",
+            "type": "CLASS"
+         },
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.loader",
+         "packageMembers": [
+            {
+               "name": "org.dozer.loader.LoadMappingsResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.MappingsParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.loader.CustomMappingsLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.jmx",
+         "packageMembers": [
+            {
+               "name": "org.dozer.jmx.DozerStatisticsController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.jmx.DozerStatisticsControllerMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.jmx.DozerAdminController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.jmx.DozerAdminControllerMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.fieldmap",
+         "packageMembers": [
+            {
+               "name": "org.dozer.fieldmap.MapFieldMap$PrepareTargetObjectResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.GenericFieldMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.FieldMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.DozerField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.MapFieldMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.HintContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.ExcludeFieldMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.fieldmap.CustomGetSetMethodFieldMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.factory",
+         "packageMembers": [
+            {
+               "name": "org.dozer.factory.JAXBBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.factory.DestBeanCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.factory.XMLBeanFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.event",
+         "packageMembers": [
+            {
+               "name": "org.dozer.event.EventManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.event.DozerEventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.event.DozerEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.event.DozerEventManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.event.DozerEventManager$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.converters",
+         "packageMembers": [
+            {
+               "name": "org.dozer.converters.ConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.DateFormatContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.CustomConverterContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.CustomConverterDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.StringConstructorConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.LongConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.CustomConverterBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.PrimitiveOrWrapperConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.CalendarConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.StringConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.DateConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.converters.IntegerConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.config",
+         "packageMembers": [
+            {
+               "name": "org.dozer.config.PropertyConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.config.GlobalSettings",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.classmap",
+         "packageMembers": [
+            {
+               "name": "org.dozer.classmap.DozerClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.CopyByReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.ClassMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.ClassMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.CopyByReferenceContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.ClassMapKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.AllowedExceptionContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.MappingFileData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.ClassMapBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.classmap.RelationshipType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      },
+      {
+         "name": "org.dozer.cache",
+         "packageMembers": [
+            {
+               "name": "org.dozer.cache.CacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.CacheKeyFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.CacheKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.CacheKeyFactory$CacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.DozerCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.CacheManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.DozerCacheType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.dozer.cache.DozerCacheManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.set",
+         "optional": false,
+         "versionRange": "[3.2.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.map",
+         "optional": false,
+         "versionRange": "[3.2.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils.converters",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.datatype",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.dozer",
+   "version": "5.0.0"
+}}

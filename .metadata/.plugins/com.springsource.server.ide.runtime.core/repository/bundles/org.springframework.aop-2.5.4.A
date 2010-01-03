@@ -1,0 +1,1264 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:30:56.0",
+   "moduleName": "org.springframework.aop",
+   "name": "Spring AOP",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.aop",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.TrueClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.TruePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.TargetClassAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.AfterAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.AfterReturningAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.Advisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.TargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.BeforeAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.PointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.IntroductionAwareMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.ProxyMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.Pointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.MethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.IntroductionInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.IntroductionAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.IntroductionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.MethodBeforeAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.ThrowsAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.TrueMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.RawTargetAccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.DynamicIntroductionAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.SpringProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.ClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.AopInvocationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.target.dynamic",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.target.dynamic.Refreshable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.dynamic.AbstractRefreshableTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.dynamic.BeanFactoryRefreshableTargetSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.support.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.support.annotation.AnnotationClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.annotation.AnnotationMatchingPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.annotation.AnnotationMethodMatcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.target",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.target.AbstractBeanFactoryBasedTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.CommonsPoolTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.AbstractLazyCreationTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.SimpleBeanTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.ThreadLocalTargetSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.LazyInitTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.ThreadLocalTargetSourceStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.HotSwappableTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.EmptyTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.SingletonTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.PrototypeTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.AbstractPoolingTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.AbstractPrototypeBasedTargetSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.PoolingConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.target.ThreadLocalTargetSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.support.MethodMatchers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.IntroductionInfoSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.AbstractGenericPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DefaultPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.JdkRegexpMethodPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.MethodMatchers$UnionMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.StaticMethodMatcherPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DefaultIntroductionAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.MethodMatchers$IntersectionMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.NameMatchMethodPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.ClassFilters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DynamicMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.AbstractRegexpMethodPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.AbstractExpressionPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.RegexpMethodPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DelegatingIntroductionInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.Pointcuts$SetterPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.RegexpMethodPointcutAdvisor$SerializableMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.Pointcuts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.StaticMethodMatcherPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.AbstractBeanFactoryPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.RootClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.ComposablePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DelegatePerTargetObjectIntroductionInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.AopUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.MethodMatchers$ClassFilterAwareUnionMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.ExpressionPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.ClassFilters$UnionClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.RegexpMethodPointcutAdvisor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.NameMatchMethodPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.ClassFilters$IntersectionClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.Pointcuts$GetterPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.StaticMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.ControlFlowPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.AbstractPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.support.DynamicMethodMatcherPointcut",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.scope",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.scope.DefaultScopedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.scope.ScopedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.scope.ScopedProxyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.scope.ScopedProxyFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.interceptor.ExposeInvocationInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.ExposeInvocationInterceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.DebugInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.PerformanceMonitorInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.ExposeBeanNameAdvisors$ExposeBeanNameIntroduction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.ExposeBeanNameAdvisors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.AbstractMonitoringInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.ExposeBeanNameAdvisors$ExposeBeanNameInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.ConcurrencyThrottleInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.CustomizableTraceInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.SimpleTraceInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.AbstractTraceInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.interceptor.ClassLoaderAnalyzerInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.framework.autoproxy.target",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.framework.autoproxy.target.QuickTargetSourceCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.target.AbstractBeanFactoryBasedTargetSourceCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.target.LazyInitTargetSourceCreator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.framework.autoproxy",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator$BeanFactoryAdvisorRetrievalHelperAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.ProxyCreationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.AutoProxyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.autoproxy.TargetSourceCreator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.framework.adapter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.framework.adapter.UnknownAdviceTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.AdvisorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.MethodBeforeAdviceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.ThrowsAdviceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.DefaultAdvisorAdapterRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.AfterReturningAdviceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.AdvisorAdapterRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.GlobalAdvisorAdapterRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.AdvisorAdapterRegistrationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.framework.AbstractSingletonProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$StaticDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$SerializableNoOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.ProxyFactoryBean$PrototypePlaceholderAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$StaticUnadvisedInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.ReflectiveMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$ProxyCallbackFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AdvisedSupportListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.JdkDynamicAopProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.ProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$StaticUnadvisedExposedInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AopProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AopInfrastructureBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$EqualsInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$HashCodeInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$DynamicUnadvisedExposedInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Advised",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.DefaultAopProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AopProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AopProxyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AdvisedSupport$MethodCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$AdvisedDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.ProxyConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.ProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.ProxyCreatorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AopConfigException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$FixedChainStaticTargetInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.InterceptorAndDynamicMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.DefaultAopProxyFactory$CglibProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AopContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AdvisorChainFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.AdvisedSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.Cglib2AopProxy$DynamicUnadvisedInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.framework.DefaultAdvisorChainFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.config.AopNamespaceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AdvisorEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AspectJAutoProxyBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AopNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.SimpleBeanFactoryAwareAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AspectEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.MethodLocatingFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AdviceEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.PointcutEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AopConfigUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/aop/config/spring-aop-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.aop.config.ScopedProxyBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AbstractInterceptorDrivenBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/aop/config/spring-aop-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.aop.config.AdvisorComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.AspectComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.ConfigBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.PointcutComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.config.SpringConfiguredBeanDefinitionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.aspectj.autoproxy",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator$PartiallyComparableAdvisorHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.autoproxy.AspectJPrecedenceComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.aspectj.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory$AspectJAnnotationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.BeanFactoryAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.LazySingletonAspectInstanceFactoryDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.SingletonMetadataAwareAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.NotAnAtAspectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.BeanFactoryAspectJAdvisorsBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory$AspectJAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.SimpleMetadataAwareAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory$AspectJAnnotationParameterNameDiscoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AspectMetadata$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory$SyntheticInstantiationAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory$SyntheticInstantiationAdvisor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.MetadataAwareAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.PrototypeAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl$PerTargetInstantiationModelPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AspectMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AspectJProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator$BeanFactoryAspectJAdvisorsBuilderAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.aop.aspectj",
+         "packageMembers": [
+            {
+               "name": "org.springframework.aop.aspectj.AspectJPrecedenceInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.InstantiationModelAwarePointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJWeaverMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAroundAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJExpressionPointcut$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJProxyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.DeclareParentsAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.SingletonAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker$TestVisitorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAfterReturningAdvice$GenericTypeMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAfterThrowingAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAfterAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJPointcutAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint$MethodSignatureImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AbstractAspectJAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJExpressionPointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJExpressionPointcut$BeanNameContextMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverer$PointcutBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAfterReturningAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker$SubtypeSensitiveVarTypeTestVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint$SourceLocationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.DeclareParentsAdvisor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.TypePatternClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker$TargetInstanceOfResidueTestVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker$ThisInstanceOfResidueTestVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJExpressionPointcut$BeanNamePointcutDesignatorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAopUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJMethodBeforeAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.SimpleAspectInstanceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.RuntimeTestWalker$InstanceOfResidueTestVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AbstractAspectJAdvice$AdviceExcludingMethodMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverer$AmbiguousBindingException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.aspectj.weaver.internal.tools",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.patterns",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.reflect",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.tools",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.aspectj.weaver",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.ast",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.util",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.runtime.internal",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang.reflect",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang.annotation",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.bridge",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.pool.impl",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.pool",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.transform.impl",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.core",
+         "optional": true,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "com.jamonapi",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.aop",
+   "version": "2.5.4.A"
+}}

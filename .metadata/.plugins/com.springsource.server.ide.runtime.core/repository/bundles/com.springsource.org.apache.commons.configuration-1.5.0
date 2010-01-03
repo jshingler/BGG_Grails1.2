@@ -1,0 +1,841 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:11:29.0",
+   "moduleName": "com.springsource.org.apache.commons.configuration",
+   "name": "Apache Commons Configuration",
+   "notes": "",
+   "organisationName": "org.apache.commons",
+   "packageExports": [
+      {
+         "name": "org.apache.commons.configuration.reloading",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.reloading.FileChangedReloadingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.reloading.ManagedReloadingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.reloading.InvariantReloadingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.reloading.ReloadingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.reloading.ManagedReloadingStrategyMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.tree",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.tree.ExpressionEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.ConfigurationNodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.NodeAddData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.DefaultConfigurationNode$SubNodes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.ViewNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.DefaultConfigurationKey$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.DefaultConfigurationNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.ConfigurationNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.ConfigurationNodeVisitorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.UnionCombiner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.DefaultExpressionEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.OverrideCombiner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.DefaultConfigurationKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.NodeCombiner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.tree.xpath",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.tree.xpath.ConfigurationNodePointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.xpath.ConfigurationNodePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.xpath.ConfigurationNodeIteratorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.xpath.XPathExpressionEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.xpath.ConfigurationNodeIteratorAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.tree.xpath.ConfigurationNodeIteratorChildren",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.web",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.web.ServletConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.web.BaseWebConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.web.ServletFilterConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.web.ServletRequestConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.web.AppletConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.web.ServletContextConfiguration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.PropertiesConfiguration$PropertiesWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$PropertyListConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.SubsetConfiguration$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLConfiguration$XMLBuilderVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractConfiguration$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.EnvironmentConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.CombinedConfiguration$ConfigData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DatabaseConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$ConfigurationBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$DigesterConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$ConfigurationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.PropertiesConfigurationLayout$PropertyLayoutData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.StrictConfigurationComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationMap$ConfigurationSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$PropertiesConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfigurationXMLReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$AdditionalConfigurationData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationXMLReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$JNDIConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$XMLConfigurationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DataConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$ConfigurationBuilderProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.SubsetConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$SystemConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$DefinedKeysVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$CallOptionalMethodRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.BaseConfigurationXMLReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractFileConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.MapConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.FileConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.INIConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$BuilderVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationMap$ConfigurationSet$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLPropertiesConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.PropertiesConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory$FileConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractConfiguration$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationKey$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfigurationXMLReader$SAXVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfigurationConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.SubsetConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$NodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.PropertiesConfigurationLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$FileConfigurationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.CompositeConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.SystemConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.BaseConfigurationXMLReader$SAXConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$CloneVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$FileExtensionConfigurationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.PropertiesConfiguration$PropertiesReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$ConfigurationDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLPropertiesConfiguration$XMLPropertiesHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.BaseConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractHierarchicalFileConfiguration$FileConfigurationDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.JNDIConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLConfiguration$XMLNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.ConfigurationMap$ConfigurationSet$ConfigurationSetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.PropertyConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.SubnodeConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalConfiguration$DefinedVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLPropertiesConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.CombinedConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.DefaultConfigurationBuilder$ConfigurationBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.XMLConfiguration$XMLFileConfigurationDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.HierarchicalXMLConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.AbstractHierarchicalFileConfiguration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.plist",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListConfiguration$DateTimeZoneParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.XMLPropertyListConfiguration$XMLPropertyListHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.XMLPropertyListConfiguration$ArrayNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.XMLPropertyListConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListConfiguration$DateSeparatorParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListConfiguration$DateFieldParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListParser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListConfiguration$DateComponentParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.PropertyListParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.XMLPropertyListConfiguration$PListNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.XMLPropertyListConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.plist.Token",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.interpol",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.interpol.ConfigurationInterpolator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.interpol.ConstantLookup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.event",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.event.ConfigurationErrorEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.event.ConfigurationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.event.EventSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.event.ConfigurationErrorListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.event.ConfigurationListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.commons.configuration.beanutils",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.configuration.beanutils.XMLBeanDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.beanutils.BeanDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.beanutils.DefaultBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.beanutils.ConfigurationDynaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.beanutils.BeanHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.beanutils.ConfigurationDynaBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.configuration.beanutils.BeanFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging.impl",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.text",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.exception",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.compiler",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.jxpath",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.digester.xmlrules",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.digester.substitution",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.digester",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.set",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.map",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.iterators",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec.binary",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.commons.configuration",
+   "version": "1.5.0"
+}}

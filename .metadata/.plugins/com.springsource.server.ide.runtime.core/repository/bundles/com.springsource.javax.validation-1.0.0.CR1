@@ -1,0 +1,304 @@
+{"bundle": {
+   "dateAdded": "2009-04-16 17:52:03.0",
+   "moduleName": "com.springsource.javax.validation",
+   "name": "Java Bean Validation API",
+   "notes": "",
+   "organisationName": "javax.validation",
+   "packageExports": [
+      {
+         "name": "javax.validation.spi",
+         "packageMembers": [
+            {
+               "name": "javax.validation.spi.BootstrapState",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.spi.ValidationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.spi.ConfigurationState",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.CR1"
+      },
+      {
+         "name": "javax.validation",
+         "packageMembers": [
+            {
+               "name": "javax.validation.Validation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintViolation",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Validation",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.OverridesAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.PropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ReportAsSingleViolation",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Validation$ProviderSpecificBootstrapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintViolationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.GroupSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.UnexpectedTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ElementDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Validation$DefaultValidationProviderResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintValidatorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.OverridesAttribute$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.GroupDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Validator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.MessageInterpolator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintValidatorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintDeclarationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ValidatorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ConstraintValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.BeanDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Validation$GenericBootstrapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.MessageInterpolator$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.Valid",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.TraversableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ValidatorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.ValidationProviderResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.CR1"
+      },
+      {
+         "name": "javax.validation.groups",
+         "packageMembers": {
+            "name": "javax.validation.groups.Default",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.CR1"
+      },
+      {
+         "name": "javax.validation.constraints",
+         "packageMembers": [
+            {
+               "name": "javax.validation.constraints.Size",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Future",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Size$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.AssertFalse",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.DecimalMax$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.AssertTrue$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.AssertTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.AssertFalse$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Min$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Digits",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.NotNull$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Min",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Max",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Past$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.DecimalMin$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Digits$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Pattern$Flag",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Pattern$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Pattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.DecimalMax",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Future$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Null$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.NotNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Max$List",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.DecimalMin",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.constraints.Past",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.CR1"
+      },
+      {
+         "name": "javax.validation.bootstrap",
+         "packageMembers": [
+            {
+               "name": "javax.validation.bootstrap.ProviderSpecificBootstrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.validation.bootstrap.GenericBootstrap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.CR1"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.validation",
+   "version": "1.0.0.CR1"
+}}

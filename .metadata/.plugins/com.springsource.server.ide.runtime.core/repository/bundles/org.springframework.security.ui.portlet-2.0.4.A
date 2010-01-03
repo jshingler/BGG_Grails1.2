@@ -1,0 +1,69 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 16:38:07.0",
+   "moduleName": "org.springframework.security.ui.portlet",
+   "name": "Spring Security Portlet UI",
+   "notes": "",
+   "organisationName": "org.springframework.security",
+   "packageExports": [
+      {
+         "name": "org.springframework.security.context",
+         "packageMembers": {
+            "name": "org.springframework.security.context.PortletSessionContextIntegrationInterceptor",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.portlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.portlet.PortletPreAuthenticatedAuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.portlet.PortletProcessingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.portlet.PortletPreAuthenticatedAuthenticationDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.portlet.PortletAuthenticationDetails",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.web.portlet",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.portlet",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.security.ui.portlet",
+   "version": "2.0.4.A"
+}}

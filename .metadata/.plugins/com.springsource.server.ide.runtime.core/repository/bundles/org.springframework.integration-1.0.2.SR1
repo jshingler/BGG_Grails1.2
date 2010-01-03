@@ -1,0 +1,1146 @@
+{"bundle": {
+   "dateAdded": "2009-04-18 00:57:59.0",
+   "moduleName": "org.springframework.integration",
+   "name": "Spring Integration Core",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.splitter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.splitter.MethodInvokingSplitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.splitter.DefaultMessageSplitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.splitter.AbstractMessageSplitter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.transformer",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.transformer.MessageTransformationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.MessageTransformingChannelInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.HeaderEnricher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.ObjectToStringTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.Transformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.PayloadDeserializingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.MessageTransformingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.MethodInvokingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.AbstractPayloadTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.PayloadSerializingTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.transformer.AbstractHeaderTransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.util",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.util.ErrorHandlingTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.util.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.util.MethodValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.util.NameResolvingMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.util.MethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.util.ErrorHandlingTaskExecutor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.util.DefaultMethodInvoker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.aggregator",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.aggregator.HeaderAttributeCorrelationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.MessageBarrier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.MethodInvokingAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.MethodInvokingAggregator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.SequenceSizeCompletionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.AbstractMessageAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.MessageListMethodAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.MessageSequenceComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.CorrelationStrategyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.CompletionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.Resequencer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.CorrelationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.AbstractMessageBarrierHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.AbstractMessageBarrierHandler$PrunerTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.aggregator.CompletionStrategyAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.selector",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.selector.MessageSelectorChain$VotingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.selector.MessageSelectorChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.selector.MessageSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.selector.PayloadTypeSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.selector.UnexpiredMessageSelector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.scheduling",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.scheduling.CronSequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.SimpleTaskScheduler$SchedulerTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.TaskScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.SimpleTaskScheduler$TriggeredTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.SimpleTaskScheduler$ErrorHandlingRunnableWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.Trigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.SimpleTaskScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.PollerMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.IntervalTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.scheduling.CronTrigger",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.router",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.router.RecipientListRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.AbstractMessageRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.AbstractSingleChannelRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.AbstractChannelNameResolvingMessageRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.ErrorMessageExceptionTypeRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.AbstractSingleChannelNameRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.PayloadTypeRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.router.MethodInvokingRouter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.message.OutboundMessageMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MethodInvokingMessageSource$MessageReceivingMethodValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MethodParameterMessageMapper$MethodParameterMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageHandlingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.GenericMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MethodInvokingMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.ErrorMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.StringMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageDeliveryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.InboundMessageMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageRejectedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MethodParameterMessageMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.message.MessageSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.handler",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.handler.AbstractReplyProducingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.MessageHandlerChain$ReplyForwardingMessageChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.HandlerMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.ServiceActivatingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.AbstractMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.MessageMappingMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.LoggingHandler$Level",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.HandlerMethodUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.LoggingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.MethodInvokingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.StaticHandlerMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.ReplyMessageHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.MessageHandlerChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.PayloadTypeMatchingHandlerMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.handler.BridgeHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.gateway",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.gateway.AbstractMessagingGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.gateway.AbstractMessagingGateway$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.gateway.MessagingGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.gateway.GatewayProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.gateway.SimpleMessagingGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.gateway.SimpleMessageMapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.filter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.filter.MethodInvokingSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.filter.MessageFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.endpoint",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.endpoint.MessageProducerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.AbstractPollingEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.AbstractEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.PollingConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.EventDrivenConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.SourcePollingChannelAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.dispatcher",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.dispatcher.FailOverDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.dispatcher.BroadcastingDispatcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.dispatcher.MessageDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.dispatcher.AbstractUnicastDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.dispatcher.RoundRobinDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.dispatcher.BroadcastingDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.dispatcher.AbstractDispatcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.core.MessagePriority",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.core.MessageChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.core.MessageHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.core.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.core.MessagingException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.context.IntegrationContextUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.context.IntegrationObjectSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.config.xml.FilterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.PointToPointChannelParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.LoggingChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.RouterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AbstractChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ThreadPoolTaskExecutorParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.DefaultConfiguringBeanFactoryPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.GatewayParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.PayloadSerializingTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.WireTapParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.SimpleHeaderEnricherParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AbstractConsumerEndpointParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.BeanDefinitionRegisteringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ServiceActivatorParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.SelectorChainParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ThreadLocalChannelParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.BridgeParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ResequencerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/config/xml/spring-integration-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.MethodInvokingInboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.StandardHeaderEnricherParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ChainParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.PublishSubscribeChannelParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ChannelInterceptorParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.IntegrationNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AbstractChannelParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.PollerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AnnotationConfigParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AggregatorParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AbstractPollingInboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.SplitterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.MethodInvokingOutboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ApplicationEventMulticasterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AbstractOutboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.ObjectToStringTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.PayloadDeserializingTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.IntegrationNamespaceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.TransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.AbstractTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.xml.IntegrationNamespaceHandler$NamespaceHandlerDelegate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.config.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.config.annotation.TransformerAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.AggregatorAnnotationPostProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.RouterAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.AbstractMethodAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.AggregatorAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.ServiceActivatorAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.SplitterAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.MessagingAnnotationPostProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.MessagingAnnotationPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.AggregatorAnnotationPostProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.annotation.MethodAnnotationPostProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.config.AbstractMessageHandlerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.RouterFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.SourcePollingChannelAdapterFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.TransformerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.SplitterFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.config.ConsumerEndpointFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.channel.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.channel.interceptor.WireTap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.interceptor.ChannelInterceptorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.interceptor.MessageSelectingInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.channel",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.channel.DirectChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.QueueChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.ChannelResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MessagePublishingErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.BeanFactoryChannelResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MessageChannelTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.ThreadLocalChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.NullChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MessageChannelTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MessageChannelTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MapBasedChannelResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.ChannelInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.PublishSubscribeChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.ThreadLocalChannel$ThreadLocalMessageHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MessageChannelTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.MessageChannelTemplate$TemporaryReplyChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.RendezvousChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.AbstractPollableChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.AbstractMessageChannel$ChannelInterceptorList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.PriorityChannel$MessagePriorityComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.ChannelPurger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.AbstractSubscribableChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.PriorityChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.SubscribableChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.AbstractMessageChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.PollableChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.channel.ChannelResolutionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.annotation.Splitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.Gateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.Headers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.CompletionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.CorrelationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.ServiceActivator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.Router",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.Header",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.Transformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.MessageEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.annotation.Aggregator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.stereotype",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.event",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.scheduling",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.scheduling.concurrent",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.generic",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration",
+   "version": "1.0.2.SR1"
+}}

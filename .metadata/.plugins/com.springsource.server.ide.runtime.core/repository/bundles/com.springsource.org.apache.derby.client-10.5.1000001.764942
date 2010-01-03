@@ -1,0 +1,917 @@
+{"bundle": {
+   "dateAdded": "2009-05-15 14:46:45.0",
+   "moduleName": "com.springsource.org.apache.derby.client",
+   "name": "Apache Derby Client",
+   "notes": "",
+   "organisationName": "org.apache.derby",
+   "packageExports": [
+      {
+         "name": "org.apache.derby.shared.common.sanity",
+         "packageMembers": {
+            "name": "org.apache.derby.shared.common.sanity.ThreadDump",
+            "type": "CLASS"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.tools",
+         "packageMembers": {
+            "name": "org.apache.derby.tools.sysinfo",
+            "type": "CLASS"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.client",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.client.ClientPooledConnection40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.ClientDataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.ClientXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.ClientPooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.ClientXid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.ClientXAConnection40",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.shared.common.i18n",
+         "packageMembers": {
+            "name": "org.apache.derby.shared.common.i18n.MessageUtil",
+            "type": "CLASS"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.shared.common.error",
+         "packageMembers": {
+            "name": "org.apache.derby.shared.common.error.ExceptionUtil",
+            "type": "CLASS"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.loc",
+         "packageMembers": [
+            {
+               "name": "org/apache/derby/loc/clientmessages_en.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/sysinfoMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_zh_TW.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_ko_KR.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_de_DE.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_pl.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_es.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_hu.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_cs.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_pt_BR.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_ja_JP.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_zh_CN.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_it.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/clientmessages_ru.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.jdbc",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.jdbc.ClientConnectionPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientXADataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientXADataSource40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientConnectionPoolDataSource40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientBaseDataSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientDriver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientBaseDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.jdbc.ClientDataSource40",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.info",
+         "packageMembers": {
+            "name": "org/apache/derby/info/dnc.properties",
+            "type": "RESOURCE"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.impl.tools.sysinfo",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.ZipInfoProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.iapi.tools.i18n",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.iapi.tools.i18n.LocalizedInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.iapi.tools.i18n.LocalizedResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.iapi.tools.i18n.LocalizedOutput",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.info",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.iapi.services.info.ProductVersionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.iapi.services.info.JVMInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.client.net",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.client.net.ResultSetReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.OpenSocketAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.EncodedInputStream$PublicBufferOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.StatementReplyInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetPackageRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.Reply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.EncodedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ConnectionReplyInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetConnectionRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ResultSetReplyInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.CcsidManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetStatementRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.StatementReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ClientJDBCObjectFactoryImpl40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetSqlca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.EbcdicCcsidManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetIndoubtTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetResultSet40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetSqldta",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.FdocaSimpleDataArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetStatementReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.StatementRequestInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetLogWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetConnectionReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ResultSetRequestInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.Typdef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.CodePointNameTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.FdocaConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetResultSetRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NaiveTrustManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetResultSetReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.CodePoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetXAConnectionRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ConnectionReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetXACallInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ClientJDBCObjectFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetAgent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetXAConnectionReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetPackageReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetDatabaseMetaData40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.ConnectionRequestInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetConnection40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.net.NetXAResource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.client.am.stmtcache",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.client.am.stmtcache.JDBCStatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.stmtcache.StatementKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.stmtcache.StatementKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.stmtcache.JDBCStatementCache$BoundedLinkedHashMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.client.am",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.client.am.Sqlca",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SignedBinary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalConnection40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CallableStatement40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.UpdateSensitiveClobLocatorReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SQLExceptionFactory40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Cursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalDatabaseMetaData40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClobLocatorReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SqlWarning",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ByteArrayCombinerStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.MaterialStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.DateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ExceptionFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.AsciiStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SqlException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CallableLocatorProcedures",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LOBStateTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.UpdateSensitiveClobLocatorInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.UpdateSensitiveBlobLocatorInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CachingLogicalConnection40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Statement40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CloseFilterInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClobLocatorWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.MaterialPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.UnitOfWorkListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Diagnosable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.FloatingPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.UpdateSensitiveLOBLocatorInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ColumnTypeConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalPreparedStatement40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Decimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ParameterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LossOfPrecisionConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.FailedProperties40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.BatchUpdateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CachingLogicalConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.DisconnectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.PreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ParameterMetaData40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Blob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.CrossConverters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ResultSetCallbackInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.BlobLocatorInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.EncryptionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.StatementCallbackInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SqlCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Section",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Clob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.DatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ColumnMetaData40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClobLocatorInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.XaException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.BlobLocatorOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Lob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Savepoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalCallableStatement40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.PreparedStatement$PossibleTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Configuration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.PreparedStatementCallbackInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalStatementEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.SQLExceptionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.PreparedStatement40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.StatementCacheInteractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClobWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClientMessageId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Types",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Agent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClobLocatorOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ProductLevel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClobOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ClientJDBCObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.BlobOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ConnectionCallbackInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.LogicalDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.client.am.ColumnMetaData",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.transaction.xa",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.interfaces",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.derby.client",
+   "version": "10.5.1000001.764942"
+}}

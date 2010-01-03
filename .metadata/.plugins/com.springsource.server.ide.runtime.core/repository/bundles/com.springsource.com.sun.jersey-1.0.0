@@ -1,0 +1,927 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:22:25.0",
+   "moduleName": "com.springsource.com.sun.jersey",
+   "name": "Jersey JSR311 RESTful Web Services Reference Implementation Core",
+   "notes": "",
+   "organisationName": "com.sun.jersey",
+   "packageExports": [
+      {
+         "name": "com.sun.istack.localization",
+         "packageMembers": [
+            {
+               "name": "com.sun.istack.localization.Localizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.istack.localization.LocalizableMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.istack.localization.Localizable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.istack.localization.LocalizableMessageFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.spi.service",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.spi.service.ComponentProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ComponentContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ComponentConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ServiceFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ServiceFinder$LazyObjectIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ServiceFinder$LazyClassIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ComponentConstructor$ConstructorInjectablePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ServiceConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ServiceFinder$AbstractLazyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ServiceFinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ComponentProvider$Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.service.ComponentConstructor$ConstructorComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.spi.inject",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.spi.inject.Injectable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.inject.InjectableProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.inject.InjectableProviderContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.inject.Inject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.inject.PerRequestTypeInjectableProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.inject.SingletonTypeInjectableProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.spi",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.spi.MessageBodyWorkers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.spi.HeaderDelegateProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.util",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.StringIgnoreCaseKeyComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.ThrowHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.util.KeyComparatorHashMap$Entry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.uri",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.uri.PathPattern$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.uri.PathTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.uri.PathPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.uri.PathTemplate$PathTemplateParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.uri.UriHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.uri.UriBuilderImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.provider.header",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.provider.header.CookieProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.LocaleProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.URIProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.CacheControlProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.MediaTypeProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.DateProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.StringProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.EntityTagProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.header.NewCookieProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.provider.entity",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLListElementProvider$General",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootObjectProvider$Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.DataSourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLJAXBElementProvider$Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLJAXBElementProvider$App",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.SourceProvider$DOMSourceReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootElementProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.ReaderProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootObjectProvider$General",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLJAXBElementProvider$General",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootElementProvider$App",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.FormMultivaluedMapProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.AbstractMessageReaderWriterProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.AbstractListElementProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootElementProvider$General",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.ByteArrayProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.SourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.SourceProvider$StreamSourceReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootElementProvider$Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.StreamingOutputProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.InputStreamProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.SourceProvider$SAXSourceReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLJAXBElementProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.StringProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.FileProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.SourceProvider$SourceWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.FormProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.AbstractRootElementProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.MimeMultipartProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLListElementProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.AbstractJAXBElementProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLListElementProvider$Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLRootObjectProvider$App",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.Inflector$Replacer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.XMLListElementProvider$App",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.Inflector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.provider.entity.AbstractJAXBProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.modelapi.annotation",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.AnnotatedMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.modelapi.annotation.MethodList",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.model",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.model.ReflectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.model.MediaTypeHelper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.model.ReflectionHelper$ClassTypePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.model.MediaTypeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.model.MediaTypeHelper$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.http.header.writer",
+         "packageMembers": {
+            "name": "com.sun.jersey.impl.http.header.writer.WriterUtil",
+            "type": "CLASS"
+         },
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.http.header.reader",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.http.header.reader.HttpHeaderReader$ListElementCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.reader.HttpHeaderReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.reader.HttpHeaderReader$Event",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.reader.HttpHeaderListAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.reader.HttpHeaderReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.reader.HttpHeaderReaderImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.http.header",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpDateFormat$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpHeaderFactory$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpHeaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.QualityFactor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.AcceptableLanguageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpHeaderFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpHeaderFactory$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.CookiesParser$MutableNewCookie",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.CookiesParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.HttpHeaderFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.AcceptableMediaType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.LanguageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.AcceptableToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.http.header.CookiesParser$MutableCookie",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl.application",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.application.InjectableProviderFactory$AnnotationObjectContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.ContextResolverFactory$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.InjectableProviderFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.MessageBodyFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.ContextResolverFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.ContextResolverFactory$ContextResolverAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.MessageBodyFactory$MessageBodyWriterPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.InjectableProviderFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.InjectableProviderFactory$AccessibleObjectContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.ContextResolverFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.InjectableProviderFactory$MetaInjectableProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.InjectableProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.MessageBodyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.ContextResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.application.ComponentProviderCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.impl",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.impl.ImplMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/jersey/impl/api.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.jersey.impl.VariantListBuilderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.ThreadLocalInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/jersey/impl/impl.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.jersey.impl.SpiMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.MultivaluedMapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.impl.ApiMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/jersey/impl/spi.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.api.representation",
+         "packageMembers": {
+            "name": "com.sun.jersey.api.representation.Form",
+            "type": "CLASS"
+         },
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.api.uri",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.api.uri.ExtendedUriInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriPattern$GroupIndexMatchResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriTemplateParser$CharacterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriComponent$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriTemplateParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriPattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriPattern$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriComponent$PathSegmentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriTemplateParser$StringCharacterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriPattern$EmptyStringMatchResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.uri.UriComponent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.api.model",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.api.model.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.model.Parameter$Source",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.api.core",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.api.core.HttpResponseContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.core.HttpContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.core.HttpRequestContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.api.container",
+         "packageMembers": {
+            "name": "com.sun.jersey.api.container.ContainerException",
+            "type": "CLASS"
+         },
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.jersey.api",
+         "packageMembers": [
+            {
+               "name": "com.sun.jersey.api.ConflictException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.OutBoundHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.InBoundHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.NotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.MediaTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.jersey.api.Responses",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.bind.annotation",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.bind",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.ws.rs",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.ws.rs.core",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.ws.rs.ext",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.util",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.sun.jersey",
+   "version": "1.0.0"
+}}

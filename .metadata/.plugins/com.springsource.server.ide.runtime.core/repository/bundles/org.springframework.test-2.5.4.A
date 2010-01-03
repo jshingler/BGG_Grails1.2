@@ -1,0 +1,792 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:59:30.0",
+   "moduleName": "org.springframework.test",
+   "name": "Spring Test",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.mock.jndi",
+         "packageMembers": [
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContext$AbstractNamingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContext$BindingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContextBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.ExpectedLookupTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContext$NameClassPairEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.jndi.SimpleNamingContextBuilder$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.web",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.web.AbstractModelAndViewTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.web.ModelAndViewAssert",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.util",
+         "packageMembers": {
+            "name": "org.springframework.test.util.ReflectionTestUtils",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.jpa",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.jpa.AbstractAspectjJpaTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.jpa.AbstractJpaTests$LoadTimeWeaverInjectingBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.jpa.AbstractJpaTests$ShadowingLoadTimeWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.jpa.OrmXmlOverridingShadowingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.jpa.AbstractJpaTests",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.jdbc",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.jdbc.SimpleJdbcTestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.jdbc.JdbcTestUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.context.transaction",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.context.transaction.AfterTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.transaction.TransactionalTestExecutionListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.transaction.TransactionConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.transaction.TransactionConfigurationAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.transaction.BeforeTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.transaction.TransactionalTestExecutionListener$TransactionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.transaction.TransactionalTestExecutionListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.context.testng",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.testng.AbstractTestNGSpringContextTests",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.context.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.context.support.DirtiesContextTestExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.support.GenericPropertiesContextLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.support.AbstractTestExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.support.AbstractGenericContextLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.support.AbstractContextLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.support.DependencyInjectionTestExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.support.GenericXmlContextLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.context.junit4",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.context.junit4.SpringMethodRoadie$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.SpringMethodRoadie$RunBeforesThenTestThenAfters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.SpringMethodRoadie$FailedBefore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.SpringMethodRoadie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.SpringTestMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit4.SpringJUnit4ClassRunner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.context.junit38",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.context.junit38.AbstractJUnit38SpringContextTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit38.AbstractJUnit38SpringContextTests$TestExecutionCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit38.AbstractJUnit38SpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.junit38.AbstractTransactionalJUnit38SpringContextTests",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.context.TestExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.ContextCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.TestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.TestExecutionListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.ContextConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.TestContextManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.context.ContextLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.annotation.AbstractAnnotationAwareTransactionalTests$TestExecutionCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.Rollback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.SystemProfileValueSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.AbstractAnnotationAwareTransactionalTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.NotTransactional",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.Timed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.ProfileValueSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.ProfileValueUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.IfProfileValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.AbstractAnnotationAwareTransactionalTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.Repeat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.DirtiesContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.ExpectedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.annotation.ProfileValueSourceConfiguration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.test",
+         "packageMembers": [
+            {
+               "name": "org.springframework.test.AbstractTransactionalSpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.AbstractTransactionalDataSourceSpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.AssertThrows",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.AbstractSingleSpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.AbstractSpringContextTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.ConditionalTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.test.AbstractDependencyInjectionSpringContextTests",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.mock.web.portlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletURL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletPreferences",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockActionResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletRequestDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockRenderResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortletSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockActionRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockPortalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockRenderRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.portlet.MockMultipartActionRequest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.mock.web",
+         "packageMembers": [
+            {
+               "name": "org.springframework.mock.web.MockMultipartHttpServletRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.DelegatingServletInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockServletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockPageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockJspWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.HeaderValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockBodyContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockExpressionEvaluator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockHttpSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockHttpServletResponse$ResponseServletOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockExpressionEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockServletContext$MimeTypeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockServletContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockHttpServletRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockFilterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockRequestDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockHttpServletResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockFilterChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockHttpServletResponse$ResponsePrintWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.MockMultipartFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.DelegatingServletOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mock.web.PassThroughFilterChain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.orm.jpa.persistenceunit",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction.annotation",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction.interceptor",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.multipart",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.portlet.multipart",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.testng",
+         "optional": true,
+         "versionRange": "[5.8.0, 6.0.0)"
+      },
+      {
+         "name": "org.testng.annotations",
+         "optional": true,
+         "versionRange": "[5.8.0, 6.0.0)"
+      },
+      {
+         "name": "org.springframework.orm.jpa",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jndi",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.core.simple",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.core",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.instrument.classloading",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.style",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context.annotation",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.annotation",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.junit.runner.notification",
+         "optional": true,
+         "versionRange": "[4.4.0, 5.0.0)"
+      },
+      {
+         "name": "org.junit.runner",
+         "optional": true,
+         "versionRange": "[4.4.0, 5.0.0)"
+      },
+      {
+         "name": "org.junit",
+         "optional": true,
+         "versionRange": "[4.4.0, 5.0.0)"
+      },
+      {
+         "name": "org.junit.internal.runners",
+         "optional": true,
+         "versionRange": "[4.4.0, 5.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.loadtime",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.taglibs.standard.lang.support",
+         "optional": true,
+         "versionRange": "[1.1.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.el",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.portlet",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.test",
+   "version": "2.5.4.A"
+}}

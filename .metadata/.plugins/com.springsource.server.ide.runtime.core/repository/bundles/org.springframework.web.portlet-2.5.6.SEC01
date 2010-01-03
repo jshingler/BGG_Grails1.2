@@ -1,0 +1,612 @@
+{"bundle": {
+   "dateAdded": "2009-04-22 15:15:37.0",
+   "moduleName": "org.springframework.web.portlet",
+   "name": "Spring Web Portlet",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.web.portlet.util",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.util.ActionRequestWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.util.PortletUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.util.PortletRequestWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.HandlerExecutionChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.FrameworkPortlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.HandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.HandlerExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.HandlerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.GenericPortletBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.HandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/web/portlet/DispatcherPortlet.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.web.portlet.ModelAndViewDefiningException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.DispatcherPortlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.GenericPortletBean$PortletConfigPropertyValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.ModelAndView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.GenericPortletBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet.handler",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.handler.AbstractMapBasedHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.PortletSessionRequiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.WebRequestHandlerInterceptorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.ParameterHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.AbstractHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.SimplePortletPostProcessor$DelegatingPortletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.SimplePortletPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.PortletModeHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.ParameterMappingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.SimpleMappingExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.UserRoleAuthorizationInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.PortletModeParameterHandlerMapping$LookupKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.AbstractMapBasedHandlerMapping$PortletRequestMappingPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.PortletModeParameterHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.PortletContentGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.SimplePortletHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.handler.HandlerInterceptorAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet.mvc.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.DefaultAnnotationHandlerMapping$ParameterMappingPredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.PortletAnnotationMappingUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.DefaultAnnotationHandlerMapping$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.DefaultAnnotationHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.AnnotationMethodHandlerAdapter$PortletHandlerMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.AnnotationMethodHandlerAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.AnnotationMethodHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.AnnotationMethodHandlerAdapter$RequestMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.annotation.AnnotationMethodHandlerAdapter$PortletHandlerMethodResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet.mvc",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.mvc.PortletWrappingController$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.AbstractWizardFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.AbstractFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.ParameterizableViewController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.SimpleControllerHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.AbstractCommandController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.PortletModeNameViewController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.SimpleFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.PortletWrappingController$DelegatingPortletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.AbstractController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.PortletWrappingController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.BaseCommandController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.mvc.Controller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet.multipart",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.multipart.PortletMultipartResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.multipart.CommonsPortletMultipartResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.multipart.CommonsPortletMultipartResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.multipart.MultipartActionRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.multipart.DefaultMultipartActionRequest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.context.PortletContextResourcePatternResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletWebRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.ConfigurablePortletApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletRequestAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletApplicationContextUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletContextResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletConfigAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletContextResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.StaticPortletApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletApplicationContextUtils$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletApplicationObjectSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletRequestHandledEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.XmlPortletApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletContextAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletApplicationContextUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.PortletContextAwareProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.context.AbstractRefreshablePortletApplicationContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      },
+      {
+         "name": "org.springframework.web.portlet.bind",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$FloatParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$DoubleParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$ParameterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$LongParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestBindingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestParameterPropertyValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestDataBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.MissingPortletRequestParameterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$IntParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$StringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils$BooleanParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.portlet.bind.PortletRequestUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.6.SEC01"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.web.bind.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.context.request",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.multipart",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.multipart.commons",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.util",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.bind.annotation.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.bind.annotation",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.web.bind",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.validation.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.validation",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.ui",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.stereotype",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.core.style",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.context.i18n",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.context.event",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.beans.factory.generic",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": true,
+         "versionRange": "[2.5.6.SEC01, 2.5.6.SEC01]"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.0.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload.portlet",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload.disk",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.portlet",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.web.portlet",
+   "version": "2.5.6.SEC01"
+}}

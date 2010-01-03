@@ -1,0 +1,1855 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:28:10.0",
+   "moduleName": "com.springsource.com.mchange.v2.c3p0",
+   "name": "c3p0 Connection Pool",
+   "notes": "",
+   "organisationName": "com.mchange.c3p0",
+   "packageExports": [
+      {
+         "name": "com.mchange.v2.util",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$UserEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$CheckKeyHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$UserEntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$ValuesCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$WVal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.ResourceClosedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$ValuesCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$WKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$UserEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$UserKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.util.DoubleWeakHashMap$UserKeySet$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.sql",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.sql.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.SqlUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.sql.filter",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.sql.filter.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.FilterResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.FilterPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.SynchronizedFilterDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.SynchronizedFilterResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.SynchronizedFilterPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.FilterCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.RecreatePackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.FilterDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.FilterConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.SynchronizedFilterConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.SynchronizedFilterStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.FilterStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.sql.filter.SynchronizedFilterCallableStatement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.ser",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.ser.SerializableUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.ser.IndirectPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.ser.Indirector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.ser.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.ser.UnsupportedVersionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.ser.IndirectlySerialized",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.management",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.management.ManagementUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.management.ManagementUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.management.ManagementUtils$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.management.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.resourcepool",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePoolListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePoolUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.CannotAcquireResourceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePool$Manager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$1RefurbishCheckinResourceTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePoolEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePoolException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$RemoveTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePoolEventSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$PunchCard",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePoolFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.TimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.ResourcePoolFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$CheckIdleResourcesTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$CullTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.resourcepool.BasicResourcePool$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.naming",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.naming.ReferenceableUtils$ExtractRec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.ReferenceableUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.JavaBeanObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.ReferenceMaker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.ReferenceIndirector$ReferenceSerialized",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.ReferenceIndirector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.JavaBeanReferenceMaker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.naming.ReferenceableUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange",
+         "packageMembers": {
+            "name": "com.mchange.Debug",
+            "type": "CLASS"
+         },
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.log.log4j",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.log.log4j.Log4jMLog$Log4jMLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.log4j.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.log4j.Log4jMLog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.log.jdk14logging",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.jdk14logging.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.jdk14logging.Jdk14MLog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.log",
+         "packageMembers": [
+            {
+               "name": "com/mchange/v2/log/default-mchange-log.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.mchange.v2.log.MLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.LogUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.MLevel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.FallbackMLog$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.FallbackMLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.MLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.PackageNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.MLogClasses",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.FallbackMLog$FallbackMLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.log.NameTransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.lang",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.lang.Coerce",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.lang.VersionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.lang.ObjectUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.lang.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.lang.ThreadUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.lang.ThreadGroupUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.io",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.io.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.io.IndentedWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.holders",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.holders.ThreadSafeIntHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.holders.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.holders.ChangeNotifyingSynchronizedIntHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.holders.SynchronizedIntHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.encounter",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.encounter.EncounterCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.encounter.AbstractEncounterCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.encounter.EqualityEncounterCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.encounter.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.debug",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.debug.ThreadNameStackTraceRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.debug.ThreadNameStackTraceRecorder$Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.debug.DebugConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.debug.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.codegen.intfc",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.codegen.intfc.DelegatorGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.intfc.DelegatorGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.intfc.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.codegen.bean",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.codegen.bean.ParsedPropertyBeanDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.ParsedPropertyBeanDocument$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SimpleStateBeanImportExportGeneratorExtension$SimplePropertyMask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.GeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SimplePropertyMask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.BeangenUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.InnerBeanPropertyBeanGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.PropertyBeanGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SimpleClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.PropertyComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SerializableExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.ExplicitPropsConstructorGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.WrapperProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.WrapperClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SimplePropertyBeanGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SimpleProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.BeanExtractingGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.CloneableExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.PropertyReferenceableExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.InnerBeanPropertyBeanGenerator$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.PropsToStringGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.InnerBeanPropertyBeanGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.PropertyMapConstructorGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.ResolvedProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.ResolvedClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.IndirectingSerializableExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.SimpleStateBeanImportExportGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.ClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.BeangenUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.CopyConstructorGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.CompleteConstructorGeneratorExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.bean.ExplicitDefaultConstructorGeneratorExtension",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.codegen",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.codegen.IndentedWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.codegen.CodegenUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.coalesce",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.coalesce.StrongEqualsCoalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.WeakEqualsCoalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.CoalescerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.CoalescerIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.CoalesceIdenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.WeakCcCoalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.Coalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.StrongCcCoalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.AbstractStrongCoalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.CoalesceChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.AbstractWeakCoalescer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.coalesce.SyncedCoalescer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.cfg.junit",
+         "packageMembers": [
+            {
+               "name": "com/mchange/v2/cfg/junit/a.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/mchange/v2/cfg/junit/b.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.cfg",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.cfg.MultiPropertiesConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.cfg.CombinedMultiPropertiesConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/mchange/v2/cfg/vmConfigResourcePaths.txt",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.mchange.v2.cfg.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.cfg.BasicMultiPropertiesConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.util",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.util.TestUtils$StupidConnectionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.util.TestUtils$StupidDataSourceInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.util.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.util.TestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.util.ConnectionEventSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.util.CloseReportingConnectionWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.subst",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.subst.C3P0Substitutions",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.subst.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.stmt",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$1StatementCloseTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.StatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.SimpleStatementCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$ConnectionStatementManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$SimpleConnectionStatementManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.StatementCacheBenchmark",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.DoubleMaxStatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$KeyRec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.ValueIdentityStatementCacheKey$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$DeathmarchConnectionStatementManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.ValueIdentityStatementCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.PerConnectionMaxOnlyStatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$1StmtAcquireTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.MemoryCoalescedStatementCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GooGooStatementCache$Deathmarch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.StatementCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.mbean",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.mbean.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.mbean.C3P0PooledDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.mbean.C3P0PooledDataSourceMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.management",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.management.PooledDataSourceManagerMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.ActiveManagementCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.C3P0RegistryManagerMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.PooledDataSourceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.C3P0RegistryManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.NullManagementCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.ManagementCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean$AttrRec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.jboss",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.jboss.C3P0PooledDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.jboss.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.jboss.C3P0PooledDataSourceMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.impl",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyPreparedStatement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.AuthMaskingProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.IdentityTokenizedCoalesceChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NullStatementSetManagedResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.IdentityTokenized",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.DbAuth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$ProxyConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.DriverManagerDataSourceBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0ImplUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyStatement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.DefaultConnectionTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.AbstractIdentityTokenized",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$ThrowableHolderPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewPooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.WrapperConnectionPoolDataSourceBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.AbstractC3P0PooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$ConnectionEventListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyResultSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyDatabaseMetaData$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0Defaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.JndiRefDataSourceBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyConnection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0JavaBeanObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$1ProxyCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$1WrapperStatementHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.IdentityTokenResolvable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$ProxyConnectionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.InternalPooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$1ProxyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.SnatchFromSetResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$StatementProxyingSetManagedResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.SetManagedResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyCallableStatement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.NewProxyResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.SetManagedDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.impl.C3P0PooledConnection$1ProxyPreparedStatement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.filter",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.filter.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.filter.FilterDataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0.cfg",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.cfg.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.cfg.DefaultC3P0ConfigFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.cfg.C3P0Config",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.cfg.NamedScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.cfg.C3P0ConfigXmlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.cfg.C3P0ConfigUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.cfg.C3P0ConfigFinder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.c3p0",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.c3p0.C3P0Registry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.AbstractConnectionCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.PooledDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.PoolBackedDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.SQLWarnings",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.FullQueryConnectionTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.JndiRefForwardingDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.DataSources",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.C3P0ProxyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.WrapperConnectionPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.JndiRefForwardingDataSource$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.PoolBackedDataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.QueryConnectionTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.WrapperConnectionPoolDataSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.ConnectionCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.PoolConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.C3P0ProxyConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.UnifiedConnectionTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.JndiRefConnectionPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.JndiRefForwardingDataSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.ConnectionTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.ComboPooledDataSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.DriverManagerDataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.AbstractConnectionTester",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.ComboPooledDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.DriverManagerDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.ComboPooledDataSource$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.c3p0.DriverManagerDataSource$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.beans",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.beans.StateBeanExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.beans.StateBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.beans.StateBeanImporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.beans.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.beans.BeansUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2.async",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v2.async.ThreadPoolAsynchronousRunner$MaxIndividualTaskTimeEnforcer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.Queuable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPoolAsynchronousRunner$ReplacedThreadInterruptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$DispatchThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.RoundRobinAsynchronousRunner$RunnableQueueView",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPoolAsynchronousRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.CarefulRunnableQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.CarefulRunnableQueue$TaskThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.RunnableQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.AsynchronousRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.RoundRobinAsynchronousRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPerTaskAsynchronousRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v2.async.StrandedTaskReporting",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v2",
+         "packageMembers": {
+            "name": "com.mchange.v2.Debug",
+            "type": "CLASS"
+         },
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.xml",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v1.xml.DomParseUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.xml.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.xml.DomParseUtils$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.util",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v1.util.StringTokenizerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.DebugUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.ArrayUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.SimpleMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.WrapperIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.ClosableResourceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.ClosableResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.util.AbstractMapEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.lang",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v1.lang.BooleanUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.lang.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.lang.NullUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.lang.GentleThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.lang.ClassUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.lang.AmbiguousClassNameException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.io",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v1.io.InputStreamUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.io.OutputStreamUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.io.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.identicator",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v1.identicator.IdMap$UserEntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdHashKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdMap$UserEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.StrongIdHashKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdWeakHashMap$WeakUserEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdWeakHashMap$WeakUserEntrySet$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdMap$UserEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.Identicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdWeakHashMap$WeakUserEntrySet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdWeakHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.WeakIdHashKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.WeakIdHashKey$Ref",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.identicator.IdWeakHashMap$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.db.sql",
+         "packageMembers": [
+            {
+               "name": "com.mchange.v1.db.sql.ConnectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.db.sql.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.db.sql.StatementUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.v1.db.sql.ResultSetUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1.db",
+         "packageMembers": {
+            "name": "com.mchange.v1.db.Debug",
+            "type": "CLASS"
+         },
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.v1",
+         "packageMembers": {
+            "name": "com.mchange.v1.Debug",
+            "type": "CLASS"
+         },
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.util",
+         "packageMembers": [
+            {
+               "name": "com.mchange.util.AssertException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.util.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      },
+      {
+         "name": "com.mchange.lang",
+         "packageMembers": [
+            {
+               "name": "com.mchange.lang.Debug",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.lang.PotentiallySecondary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.lang.ByteUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.lang.PotentiallySecondaryRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.lang.PotentiallySecondaryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.lang.ThrowableUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.mchange.lang.PotentiallySecondaryError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.1.2"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.log4j",
+         "optional": true,
+         "versionRange": "[1.2.15, 1.3.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.mchange.v2.c3p0",
+   "version": "0.9.1.2"
+}}

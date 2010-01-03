@@ -1,0 +1,1004 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:48:13.0",
+   "moduleName": "com.springsource.jcifs",
+   "name": "Samba CIFS/SMB Client Library",
+   "notes": "",
+   "organisationName": "org.samba.jcifs",
+   "packageExports": [
+      {
+         "name": "jcifs",
+         "packageMembers": [
+            {
+               "name": "jcifs.UniAddress$Sem",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.Config",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.UniAddress$QueryThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.UniAddress",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.util.transport",
+         "packageMembers": [
+            {
+               "name": "jcifs.util.transport.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.transport.TransportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.transport.Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.transport.Transport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.util",
+         "packageMembers": [
+            {
+               "name": "jcifs.util.HMACT64",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.DES",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.Encdec",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.Hexdump",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs/util/mime.map",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jcifs.util.MimeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.MD4",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.util.LogStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.smb",
+         "packageMembers": [
+            {
+               "name": "jcifs.smb.BufferCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComQueryInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransTransactNamedPipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransTransactNamedPipeResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComCreateDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NtTransQuerySecurityDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SecurityDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2FindFirst2Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComOpenAndX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComBlankResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransCallNamedPipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComNtTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransactNamedPipeOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComNtTransactionResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComRename",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NetShareEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbRandomAccessFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2SetFileInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryPathInformationResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.DfsReferral",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComNTCreateAndXResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbFileInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbAuthException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NetShareEnumResponse$ShareInfo1",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransPeekNamedPipeResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SID",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbNamedPipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NtTransQuerySecurityDescResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2GetDfsReferral",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryPathInformationResponse$SmbQueryFileBasicInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.AndXServerMessageBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2FindFirst2Response$SmbFindFileBothDirectoryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbFilenameFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbFileOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComQueryInformationResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbFile$WriterThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComReadAndX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.FileEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComNegotiate",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryPathInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbTransport$ServerData",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComDeleteDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComLogoffAndX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComTreeConnectAndXResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NetServerEnum2Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComFindClose2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2GetDfsReferralResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryFSInformationResponse$SmbInfoAllocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransWaitNamedPipeResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransWaitNamedPipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComTreeConnectAndX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.WinError",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.DosError",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NetShareEnumResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.DosFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComClose",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NtlmChallenge",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComReadAndXResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2FindFirst2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComTreeDisconnect",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransPeekNamedPipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbTransport",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryFSInformationResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2GetDfsReferralResponse$Referral",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NetServerEnum2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComNTCreateAndX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComTransactionResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComWriteResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComOpenAndXResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComWriteAndXResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComNegotiateResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2SetFileInformationResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.AllocInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComSessionSetupAndXResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NtStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransCallNamedPipeResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SigningDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComWrite",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryPathInformationResponse$SmbQueryFileStandardInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NtlmAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComWriteAndX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.ACE",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NtlmPasswordAuthentication",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2FindNext2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.NetServerEnum2Response$ServerInfo1",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.Trans2QueryFSInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.TransactNamedPipeInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.ServerMessageBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.smb.SmbComSessionSetupAndX",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.ntlmssp",
+         "packageMembers": [
+            {
+               "name": "jcifs.ntlmssp.NtlmMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.ntlmssp.Type3Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.ntlmssp.Type2Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.ntlmssp.NtlmFlags",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.ntlmssp.Type1Message",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.netbios",
+         "packageMembers": [
+            {
+               "name": "jcifs.netbios.NbtAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.SessionRequestPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NbtException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NodeStatusResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.SocketInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NbtSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.SessionServicePacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NameQueryRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NameServiceClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NodeStatusRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NameServicePacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NameQueryResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.NbtAddress$CacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.SocketOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.Lmhosts",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.netbios.SessionRetargetResponsePacket",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.https",
+         "packageMembers": {
+            "name": "jcifs.https.Handler",
+            "type": "CLASS"
+         },
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.dcerpc",
+         "packageMembers": [
+            {
+               "name": "jcifs.dcerpc.rpc$policy_handle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.rpc",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.rpc$sid_t",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcBind",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.UnicodeString",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcPipeHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.rpc$uuid_t",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcError",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.UUID",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.rpc$unicode_string",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.DcerpcHandle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.dcerpc.msrpc",
+         "packageMembers": [
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$TimeOfDayInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.LsaPolicyHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcLookupSids",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.LsarSidArrayX",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarClose",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcSamrConnect4",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrSamArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarSidArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareGetInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcLsarOpenPolicy2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarQueryInformationPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcSamrConnect2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.SamrDomainHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcQueryInformationPolicy2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarTranslatedName",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarSidPtr",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarOpenPolicy2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcSamrOpenDomain",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareInfo0",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareInfoCtr502",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarQueryInformationPolicy2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcSamrOpenAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareEnumAll",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarQosInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrEnumerateAliasesInDomain",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareInfo1",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.SamrAliasHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareInfo502",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarTrustInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.SamrPolicyHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarTranslatedSid",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrOpenDomain",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarDomainInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrSamEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrConnect4",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcShareEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcShareGetInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarTransSidArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrCloseHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$RemoteTOD",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ServerGetInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ServerInfo100",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrGetMembersInAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareInfoCtr1",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcGetMembersInAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarLookupSids",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.srvsvc$ShareInfoCtr0",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarObjectAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcShareEnum$MsrpcShareInfo1",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrOpenAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarRefDomainList",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarTransNameArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.lsarpc$LsarDnsDomainInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.samr$SamrConnect2",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.msrpc.MsrpcEnumerateAliasesInDomain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.dcerpc.ndr",
+         "packageMembers": [
+            {
+               "name": "jcifs.dcerpc.ndr.NdrBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrShort",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrHyper",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrLong",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrSmall",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.dcerpc.ndr.NdrBuffer$Entry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "jcifs.http",
+         "packageMembers": [
+            {
+               "name": "jcifs.http.NetworkExplorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs/http/ne.css",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jcifs.http.Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.http.NtlmServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.http.NtlmHttpURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.http.NtlmSsp",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.http.NtlmHttpFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.http.NtlmHttpURLConnection$CacheStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "jcifs.http.NtlmHttpServletRequest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.jcifs",
+   "version": "1.2.15"
+}}

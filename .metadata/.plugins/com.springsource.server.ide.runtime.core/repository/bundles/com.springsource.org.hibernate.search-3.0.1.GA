@@ -1,0 +1,921 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:53:38.0",
+   "moduleName": "com.springsource.org.hibernate.search",
+   "name": "JBoss Hibernate Search",
+   "notes": "",
+   "organisationName": "org.hibernate",
+   "packageExports": [
+      {
+         "name": "org.hibernate.search",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.FullTextFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.Environment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.SearchFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.SearchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.Search",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.ProjectionConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.FullTextQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.FullTextSession",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.util",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$SimpleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.FileHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.DirectoryProviderHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.BinderHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.ContextHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.ScopedAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.util.WeakIdentityHashMap$EntrySet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.store.optimization",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.store.optimization.NoOpOptimizerStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.optimization.IncrementalOptimizerStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.optimization.OptimizerStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.store",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.store.FSSlaveDirectoryProvider$TriggerTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.DirectoryProviderFactory$DirectoryProviders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.FSMasterDirectoryProvider$CopyDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.DirectoryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.FSMasterDirectoryProvider$TriggerTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.FSSlaveDirectoryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.FSDirectoryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.NotShardedStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.IdHashShardingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.RAMDirectoryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.FSSlaveDirectoryProvider$CopyDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.IndexShardingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.DirectoryProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.store.FSMasterDirectoryProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.reader",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.reader.ReaderProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.reader.CacheableMultiReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.reader.SharedReaderProvider$ReaderData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.reader.SharedReaderProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.reader.NotSharedReaderProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.reader.ReaderProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.reader.ReaderProviderHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.query",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.query.FullTextQueryImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.query.FullTextQueryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.query.ScrollableResultsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.query.IteratorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.query.FullTextQueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.query.FullTextFilterImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.jpa.impl",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.jpa.impl.FullTextEntityManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.jpa.impl.FullTextQueryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.jpa",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.jpa.FullTextQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.jpa.FullTextEntityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.jpa.Search",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.impl",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.impl.FullTextSessionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.impl.SearchFactoryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.filter",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.filter.MRUFilterCachingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.filter.ChainedFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.filter.FilterKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.filter.StandardFilterKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.filter.FilterCachingStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.event",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.event.FullTextIndexCollectionEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.event.FullTextIndexEventListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.engine",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.engine.DocumentBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.EntityInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.LoaderHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.SearchFactoryImplementor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.DocumentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.DocumentBuilder$PropertiesMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.DocumentBuilder$PropertiesMetadata$Container",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.ObjectLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.DocumentExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.FilterDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.QueryLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.engine.ProjectionLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.bridge",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.bridge.TwoWayFieldBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.StringBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.TwoWayStringBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.TwoWayString2FieldBridgeAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.String2FieldBridgeAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.ParameterizedBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.BridgeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.FieldBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.BridgeFactory$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.bridge.builtin",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.bridge.builtin.BigDecimalBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.FloatBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.BooleanBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.IntegerBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.DoubleBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.DateBridge$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.EnumBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.DateBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.StringBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.BigIntegerBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.NumberBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.LongBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.bridge.builtin.ShortBridge",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.backend.impl.jms",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.backend.impl.jms.JMSBackendQueueProcessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.jms.AbstractJMSHibernateSearchController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.jms.JMSBackendQueueProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.backend.impl.lucene",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.backend.impl.lucene.LuceneWorker$WorkWithPayload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.lucene.LuceneBackendQueueProcessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.lucene.LuceneBackendQueueProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.lucene.LuceneBackendQueueProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.lucene.LuceneWorker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.backend.impl",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.backend.impl.PostTransactionWorkQueueSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.BatchedQueueingProcessor$Layer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.BatchedQueueingProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.impl.TransactionalWorker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.backend",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.backend.DeleteLuceneWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.QueueingProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.Work",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.WorkerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.LuceneIndexingParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.BackendQueueProcessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.Workspace$DPStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.OptimizeLuceneWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.Workspace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.AddLuceneWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.WorkType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.PurgeAllLuceneWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.Worker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.LuceneWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.Workspace$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.backend.WorkQueue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      },
+      {
+         "name": "org.hibernate.search.annotations",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.search.annotations.FullTextFilterDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.DocumentId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.ClassBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.DateBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Field",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Store",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.ContainedIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.FieldBridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Analyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Indexed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Fields",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.IndexedEmbedded",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Boost",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.FullTextFilterDefs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.Resolution",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.search.annotations.ClassBridges",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.1.GA"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.hibernate.jdbc",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.loader.custom",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.mapping",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.persister.entity",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.proxy",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.stat",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.transform",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.type",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.util",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.hql",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.impl",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.exception",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.event",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.engine.query.sql",
+         "optional": true,
+         "versionRange": "[3.3.1.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.engine.query",
+         "optional": true,
+         "versionRange": "[3.3.1.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.engine",
+         "optional": true,
+         "versionRange": "[3.3.1.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.criterion",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.collection",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.classic",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.cfg",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.annotations.common.util",
+         "optional": false,
+         "versionRange": "[3.3.0.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.annotations.common.reflection.java",
+         "optional": false,
+         "versionRange": "[3.3.0.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.annotations.common.reflection",
+         "optional": false,
+         "versionRange": "[3.3.0.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.annotations.common",
+         "optional": false,
+         "versionRange": "[3.3.0.GA, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate",
+         "optional": false,
+         "versionRange": "[3.2.6.GA, 4.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.store",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.search",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.index",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.document",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.analysis.standard",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.analysis",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.annotation",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.hibernate.search",
+   "version": "3.0.1.GA"
+}}

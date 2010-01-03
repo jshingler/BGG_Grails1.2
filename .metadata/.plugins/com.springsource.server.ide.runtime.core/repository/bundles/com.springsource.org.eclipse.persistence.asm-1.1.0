@@ -1,0 +1,588 @@
+{"bundle": {
+   "dateAdded": "2009-04-23 10:08:05.0",
+   "moduleName": "com.springsource.org.eclipse.persistence.asm",
+   "name": "EclipseLink ASM",
+   "notes": "",
+   "organisationName": "org.eclipse.persistence",
+   "packageExports": [
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.ClassAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.CodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.Label",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.CodeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.ByteVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.ClassWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.Edge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.CodeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.ClassReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.ClassVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.xml",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$SAXWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$LookupSwitchRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$ExceptionsRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$FieldRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$InterfaceRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$InterfacesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$Opcode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$OpcodesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$OutputSlicingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$MethodRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$LabelRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.SAXCodeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$TableSwitchLabelRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$TryCatchRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$ASMContentHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.SAXClassAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$ContentHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$SingleDocElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$InputSlicingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$MaxRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$ProtectedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$InnerClassRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$TableSwitchRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$TransformerHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$EntryElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$LocalVarRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$ZipEntryElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$OpcodeGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$ExceptionRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$LookupSwitchLabelRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$LineNumberRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.ASMContentHandler$ClassRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$SubdocumentHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.xml.Processor$SAXWriterFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMRuntimeInvisibleParameterAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMSourceDebugExtensionAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMSignatureAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMRuntimeVisibleParameterAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMRuntimeInvisibleAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMifiable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMAnnotationDefaultAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMLocalVariableTypeTableAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMStackMapAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMEnclosingMethodAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.attrs.ASMRuntimeVisibleAnnotations",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.util",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.CheckClassAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.CheckClassAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.ASMifierClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.TraceClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.PrintCodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.PrintClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.ASMifierCodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.CheckCodeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.util.TraceCodeVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.BasicValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.DataflowInterpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.DataflowValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.AnalyzerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.Frame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.SimpleVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.Analyzer$IntMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.BasicInterpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.Value",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.BasicVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.Analyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.Interpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.analysis.Analyzer$Subroutine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.tree",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.InsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.AbstractInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.FieldInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.VarInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.TryCatchBlockNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.TreeClassAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.JumpInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.TypeInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.LookupSwitchInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.MultiANewArrayInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.MethodNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.InnerClassNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.TreeCodeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.LdcInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.LocalVariableNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.IntInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.MethodInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.ClassNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.IincInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.LineNumberNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.TableSwitchInsnNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.tree.FieldNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.commons",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.commons.SerialVersionUIDAdder$Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.commons.SerialVersionUIDAdder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm.attrs",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.Annotation$EnumConstValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.RuntimeVisibleAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.LocalVariableTypeTableAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.RuntimeInvisibleAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.LocalVariableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.StackMapFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.SourceDebugExtensionAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.EnclosingMethodAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.RuntimeInvisibleParameterAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.SignatureAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.StackMapType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.Annotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.RuntimeVisibleParameterAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.StackMapAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.libraries.asm.attrs.AnnotationDefaultAttribute",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.eclipse.persistence.asm",
+   "version": "1.1.0"
+}}

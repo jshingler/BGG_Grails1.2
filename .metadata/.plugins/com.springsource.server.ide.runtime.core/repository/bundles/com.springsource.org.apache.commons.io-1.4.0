@@ -1,0 +1,346 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:39:00.0",
+   "moduleName": "com.springsource.org.apache.commons.io",
+   "name": "Apache Commons IO",
+   "notes": "",
+   "organisationName": "org.apache.commons",
+   "packageExports": [
+      {
+         "name": "org.apache.commons.io",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.io.FileUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.HexDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileSystemUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.DirectoryWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileCleaner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.CopyUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.DirectoryWalker$CancelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileDeleteStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.IOCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileCleaningTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileDeleteStrategy$ForceFileDeleteStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FilenameUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.IOExceptionWithCause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.LineIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileCleaningTracker$Reaper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.FileCleaningTracker$Tracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.EndianUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.commons.io.output",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.io.output.LockableFileWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.ClosedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.ThresholdingOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.DeferredFileOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.NullOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.FileWriterWithEncoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.DemuxOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.ProxyOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.CloseShieldOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.ProxyWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.NullWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.CountingOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.TeeOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.output.ByteArrayOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.commons.io.input",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.io.input.TeeInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.CloseShieldInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.ProxyReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.CountingInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.CharSequenceReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.SwappedDataInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.AutoCloseInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.ClassLoaderObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.ClosedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.NullReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.ProxyInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.NullInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.input.DemuxInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.commons.io.filefilter",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.io.filefilter.PrefixFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.AbstractFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.HiddenFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.WildcardFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.TrueFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.CanReadFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.FileFilterUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.NameFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.IOFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.WildcardFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.FileFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.SizeFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.OrFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.NotFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.CanWriteFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.FalseFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.ConditionalFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.AndFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.DelegateFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.EmptyFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.SuffixFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.RegexFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.DirectoryFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.filefilter.AgeFileFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      },
+      {
+         "name": "org.apache.commons.io.comparator",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.io.comparator.NameFileComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.comparator.SizeFileComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.comparator.PathFileComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.comparator.LastModifiedFileComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.comparator.ExtensionFileComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.comparator.ReverseComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.io.comparator.DefaultFileComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.4.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.commons.io",
+   "version": "1.4.0"
+}}

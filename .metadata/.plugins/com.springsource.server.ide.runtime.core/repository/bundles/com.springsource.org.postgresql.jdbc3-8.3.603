@@ -1,0 +1,876 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:42:08.0",
+   "moduleName": "com.springsource.org.postgresql.jdbc3",
+   "name": "PostgreSQL JDBC3 Driver",
+   "notes": "",
+   "organisationName": "org.postgresql",
+   "packageExports": [
+      {
+         "name": "org.postgresql",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.PGRefCursorResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.PGConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.Driver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.Driver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.PGResultSetMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.Driver$ConnectThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.PGStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.PGNotification",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.xa",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.xa.PGXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.xa.RecoveredXid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.xa.PGXADataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.xa.PGXAException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.xa.PGXADataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.translation",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.translation.messages_de",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_zh_TW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_tr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_ru",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_fr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_pt_BR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_nl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_sr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_es",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_it",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_pl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_zh_CN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.translation.messages_cs",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.util",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.util.GT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PGbytea",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PGobject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.StreamWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PGtokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PGmoney",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.MD5Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PSQLState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.ServerErrorMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PGInterval",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PSQLWarning",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PSQLDriverVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.UnixCrypt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.util.PSQLException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.ssl",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.ssl.WrappedFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ssl.NonValidatingFactory$NonValidatingTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ssl.NonValidatingFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ssl.MakeSSL",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.largeobject",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.largeobject.BlobInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.largeobject.LargeObjectManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.largeobject.LargeObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.largeobject.BlobOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.jdbc2.optional",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.jdbc2.optional.SimpleDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.optional.ConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.optional.PoolingDataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.jdbc3",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3Clob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3SimpleDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3Clob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3DatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3ResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3Blob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3ResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3Array",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3PoolingDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3DatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3ConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.PSQLSavepoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3ParameterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3ParameterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3PreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3ResultSetMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.AbstractJdbc3Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3Blob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc3.Jdbc3CallableStatement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.jdbc2",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Blob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2ResultSet$PrimaryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Array",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2ResultSet$NullObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2ResultSetMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.TimestampUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2DatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Connection$TransactionCommandHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Array$PgArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Array$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2BlobClob$LOIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Statement$CallableBatchResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.TimestampUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.TypeInfoCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.ResultWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2BlobClob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2ResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Statement$StatementResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Connection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Clob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.EscapedFunctions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.TimestampUtils$ParsedTimestamp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2Statement$BatchResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.jdbc2.AbstractJdbc2ResultSet$CursorResultHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.geometric",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.geometric.PGpolygon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.geometric.PGpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.geometric.PGcircle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.geometric.PGbox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.geometric.PGline",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.geometric.PGpath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.geometric.PGlseg",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.fastpath",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.fastpath.Fastpath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.fastpath.FastpathArg",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.ds.jdbc23",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.ds.jdbc23.AbstractJdbc23PooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.jdbc23.AbstractJdbc23PooledConnection$StatementHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.jdbc23.AbstractJdbc23PooledConnection$ConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.jdbc23.AbstractJdbc23SimpleDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.jdbc23.AbstractJdbc23PoolingDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.jdbc23.AbstractJdbc23PoolingDataSource$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.ds.common",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.ds.common.BaseDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.common.PGObjectFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.ds",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.ds.PGSimpleDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.PGPooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.PGConnectionPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.ds.PGPoolingDataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.core.v3",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.core.v3.V3Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.ConnectionFactoryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.SimpleParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.CompositeParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.ConnectionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.QueryExecutorImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.CompositeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.Portal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.QueryExecutorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.V3ParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.ProtocolConnectionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.ConnectionFactoryImpl$UnsupportedProtocolException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.QueryExecutorImpl$ErrorTrackingResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.QueryExecutorImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.QueryExecutorImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v3.SimpleQuery",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.core.v2",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.core.v2.V2Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.QueryExecutorImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.QueryExecutorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.ConnectionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.QueryExecutorImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.QueryExecutorImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.SimpleParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.ConnectionFactoryImpl$SimpleResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.FastpathParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.v2.ProtocolConnectionImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.core.types",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.core.types.PGByte",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGUnknown",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGShort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGLong",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGBigDecimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGDouble",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.types.PGNumber",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      },
+      {
+         "name": "org.postgresql.core",
+         "packageMembers": [
+            {
+               "name": "org.postgresql.core.QueryExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Encoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.PGStream$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Oid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.BaseConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.BaseResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.ResultHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.PGStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.ConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.UTF8Encoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.ParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.PGBindException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.BaseStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.ProtocolConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Notification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.ResultCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.VisibleBufferedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.postgresql.core.Field",
+               "type": "CLASS"
+            }
+         ],
+         "version": "8.3.603"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.postgresql.jdbc3",
+   "version": "8.3.603"
+}}

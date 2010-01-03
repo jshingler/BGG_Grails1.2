@@ -1,0 +1,1949 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:44:16.0",
+   "moduleName": "com.springsource.org.apache.openjpa.jdbc",
+   "name": "Apache OpenJPA Java Persistence API JDBC support",
+   "notes": "",
+   "organisationName": "org.apache.openjpa",
+   "packageExports": [
+      {
+         "name": "org.apache.openjpa.jdbc.ant",
+         "packageMembers": [
+            {
+               "name": "org/apache/openjpa/jdbc/ant/antlib.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.SchemaToolTask$Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.SchemaToolTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/ant/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.ReverseMappingToolTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.ReverseMappingToolTask$AccessType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.MappingToolTask$SchemaAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.MappingToolTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.MappingToolTask$Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.ant.ReverseMappingToolTask$Level",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.sql",
+         "packageMembers": [
+            {
+               "name": "org.apache.openjpa.jdbc.sql.AbstractSQLServerDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$Selects",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.InformixDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.MergedResult$ResultComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.DBDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.JoinSyntaxes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$NullId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.HSQLDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.AbstractResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLServerDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.PostgresDictionary$PostgresPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SybaseDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SybaseDictionary$SybaseConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLBuffer$Subselect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Union$Selector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.RowManagerImpl$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.H2Dictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.PostgresDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$SelectResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.JoinSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Union",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SecondaryRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Calendard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.AccessDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$Placeholder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Raw",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.FoxProDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.CacheDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Row",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.MySQLDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$SelectJoins",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Select",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.InterbaseDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLExceptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.MergedResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.PathJoins",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.LogicalUnion$UnionSelect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.LogicalUnion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.FirebirdDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.LogicalUnion$ResultComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.OracleDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.JoinSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.PostgresDictionary$PostgresConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.PointbaseDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.RowManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Result",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.RowManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.DerbyDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$Selects$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.PrimaryRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SQLFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Sized",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$PathJoinsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Joins",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.AbstractResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.DB2Dictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.ResultSetResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.AbstractResult$NoOpJoins",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.DBDictionaryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.JDataStoreDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/sql/sql-keywords.rsrc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.LogicalUnion$Selector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/sql/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.EmpressDictionary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.SelectExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.Join",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.DBDictionary$SerializedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.JoinSet$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.RowImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.sql.AbstractDB2Dictionary",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.schema",
+         "packageMembers": [
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Unique",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.FileSchemaFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.NameSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.PrimaryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SimpleDriverDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.LocalConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.DriverDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/schema/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaParser$IndexInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.ForeignKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.ColumnIO$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.ReferenceCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaGenerator$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Schemas",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.DataSourceFactory$DefaultsDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaParser$ForeignKeyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.DataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaTool$Flags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.DynamicSchemaFactory$DynamicTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.DynamicSchemaFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.TableSchemaFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaParser$UniqueInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.XMLSchemaParser$PrimaryKeyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/schema/schemas-doctype.rsrc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.DynamicSchemaFactory$DynamicColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.ColumnIO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaGenerator$Event",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.LazySchemaFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.schema.SchemaTool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.meta.strats",
+         "packageMembers": [
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.MapTableFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.UntypedPCValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.CharArrayValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.AbstractDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.MaxEmbeddedClobFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.MaxEmbeddedBlobFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.AbstractFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.AbstractValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyCollection$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ValueMapDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StoreCollectionFieldStrategy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.EmbedValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.MaxEmbeddedByteArrayFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StringFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ObjectIdValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.SubclassJoinDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.EmbedFieldStrategy$EmbeddedRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.NoneVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StoreCollectionFieldStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.InValueDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationFieldStrategy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.NoneDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/meta/strats/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap$ResultIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationMapTableFieldStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.SuperclassDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.AbstractClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ObjectIdClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.EmbeddedClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StoreCollectionFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationCollectionTableFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationToManyTableFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.NumberVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.SuperclassVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationMapInverseKeyFieldStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationFieldStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StateComparisonVersionStrategy$CustomUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.EmbedFieldStrategy$EmbeddedRowManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSMapFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.PrimitiveFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSCollectionFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ImmutableValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyCollection$ResultIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ContainerFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationMapInverseKeyFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ColumnVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.TimestampVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.CharArrayStreamValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.VerticalClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationToManyInverseKeyFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StateComparisonVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationCollectionInverseKeyFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.FullClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.FlatClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.MaxEmbeddedCharArrayFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.NoneClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ClassNameDiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ClobValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.MaxEmbeddedLobFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.EmbedFieldStrategy$NullEmbeddedStateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.BlobValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.IdentityJoinable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.HandlerStrategies",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.PrimitiveWrapperArrays",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationMapTableFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.RelationStrategies",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.EmbedFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.StateComparisonVersionStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.AbstractVersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.ByteArrayValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.LRSProxyCollection$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.NoneFieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.AbstractStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.strats.HandlerFieldStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.meta",
+         "packageMembers": [
+            {
+               "name": "org/apache/openjpa/jdbc/meta/java-keywords.rsrc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ClassMappingInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/meta/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.PropertiesReverseCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingStrategyInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ReverseCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.DiscriminatorMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.JDBCColumnOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping$ColumnMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingTool$Flags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.Discriminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.VersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ClassMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ValueMappingInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.Joinable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingDefaultsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.NoneMappingDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ClassMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ReverseMappingTool$AnnotatedCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.FieldMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.StrategyInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ValueMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.SequenceMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.FieldStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ValueMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingInfo$ForeignKeyDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.JDBCValueOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ValueMappingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.NoneStrategyInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ValueHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.RuntimeStrategyInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingTool$ImportExport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ReverseMappingTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.FieldMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.RefreshStrategyInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.DiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingInfo$TableDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ReverseMappingTool$ReverseStrategyInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping$SingleColumnMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping$FetchInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ReverseMappingTool$Flags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.FieldMappingInfo$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.Strategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ValueMappingInfo$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ClassMappingInfo$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MappingTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.DelegatingJoinable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.Embeddable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.JDBCOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ClassStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.RelationId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.JavaSQLTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.MetaDataPlusMappingFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping$PCResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.VersionMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.FieldMappingInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.ReverseMappingTool$ReverseCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.QueryResultMapping$MultiColumnMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.JDBCRelatedFieldOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.meta.Version",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.kernel.exps",
+         "packageMembers": [
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.EndsWithExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Distinct",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.IsNotEmptyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Abs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Exp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Min",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Lit$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.GetColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.JDBCWildcardMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.SQLExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InSubQExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Math",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InKeyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.PCPath$Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Size",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.CompareEqualExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.StartsWithExpression$StringLengthFilterValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/kernel/exps/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.BinaryOpExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.StringLength",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.StartsWithExpression$ZeroFilterValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.UnaryOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.JDBCAggregateListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.GetMapValue$GetMapValueExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ConstInstanceofExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Aggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Sum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InExpression$InExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.MatchesExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Param",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Extension$ExtensionExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ConstGetObjectId$ConstGetObjectIdExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.JDBCFilterListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Trim$TrimExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InValueExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.SQLEmbed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Lit$LitExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.HasContainsExpressionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.GetMapValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.FilterValueImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ExpContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.NotContainsExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Trim",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.AndExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InstanceofExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.GetObjectId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.FilterValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Param$ParamExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.IndexOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Variable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.SelectConstructor$ProjectionExpressionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.StringFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.CompareExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Args$ArgsExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Const",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Concat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.PCPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Substring",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InSubQExpression$InSubQExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Val",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.NotContainsExpression$NotContainsExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ConstPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Max",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ToUpperCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Sqrt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.InstanceofExpression$InstanceofExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Lit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.EqualExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.NotExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ContainsExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.BindVariableAndExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Args",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.EndsWithExpression$StringLengthDifferenceFilterValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.NotEqualExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.IsEmptyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.PCPath$PathExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.QueryExpressionsState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.SubQ",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.EmptyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ConstGetObjectId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ConstPath$ConstPathExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.BindVariableExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.NotExpression$NotExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.CurrentDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.StartsWithExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ToLowerCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.PCPath$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Avg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.All",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.JDBCStringContains",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.SelectConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.SQLValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Any",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Const$ConstExpState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.JDBCExpressionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.AbstractVal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Count",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Param$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.ContainsKeyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.Extension",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.JDBCPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.exps.OrExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.kernel",
+         "packageMembers": [
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.SelectResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.OperationOrderUpdateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.SQLStoreQuery$SQLExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.ConstraintUpdateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager$ClientConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.DelegatingJDBCFetchConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.ProjectionResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.ConnectionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.MappedQueryResultObjectProvider$MappingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.TableJDBCSeq$Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCFetchConfigurationImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.PagingResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.PessimisticLockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.ClassTableJDBCSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.AbstractUpdateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.AbstractJDBCSavepointManager$ConnectionSavepoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.LRSSizes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.AbstractJDBCSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCLockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager$CancelPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager$CancelStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager$RefCountConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCBrokerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCFetchConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.MappedQueryResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.ValueTableJDBCSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/openjpa/jdbc/kernel/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.GenericResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.SQLStoreQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.InstanceResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreManager$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.NativeJDBCSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.SQLProjectionResultObjectProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCStoreQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCFetchConfigurationImpl$JDBCConfigurationState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.AbstractJDBCSavepointManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.TableJDBCSeq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.JDBCFetchConfigurationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.EagerFetchModes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.PreparedStatementManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.AbstractUpdateManager$CustomMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.kernel.UpdateManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.openjpa.jdbc.conf",
+         "packageMembers": [
+            {
+               "name": "org/apache/openjpa/jdbc/conf/localizer.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.MappingFactoryValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.JDBCProductDerivation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.JDBCConfigurationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.FetchModeValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.MappingRepositoryValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.JDBCSeqValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.openjpa.jdbc.conf.JDBCConfiguration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "serp.util",
+         "optional": false,
+         "versionRange": "[1.13.1, 1.14.0)"
+      },
+      {
+         "name": "serp.bytecode.lowlevel",
+         "optional": false,
+         "versionRange": "[1.13.1, 1.14.0)"
+      },
+      {
+         "name": "serp.bytecode",
+         "optional": false,
+         "versionRange": "[1.13.1, 1.14.0)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.openjpa.util",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.meta",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.xml",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.util",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.rop",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.meta",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.log",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.jdbc",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.graph",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.conf",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.lib.ant",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.kernel.exps",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.kernel",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.event",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.enhance",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.ee",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.openjpa.conf",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.2]"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.iterators",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.openjpa.jdbc",
+   "version": "1.0.2"
+}}

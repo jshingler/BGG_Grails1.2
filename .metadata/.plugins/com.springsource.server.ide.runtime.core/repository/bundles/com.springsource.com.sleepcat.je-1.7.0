@@ -1,0 +1,1404 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:19:22.0",
+   "moduleName": "com.springsource.com.sleepycat.je",
+   "name": "Sleepycat Berkeley DB Java Edition",
+   "notes": "",
+   "organisationName": "com.sleepycat.je",
+   "packageExports": [
+      {
+         "name": "com.sleepycat.je.util",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.util.DbSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbStat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbVerify",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbRecover",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbSpace$Summary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.util.DbPrintLog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.utilint",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.utilint.DaemonThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.InternalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.DbScavenger$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.CmdUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.DbScavenger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.EventTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.NotImplementedYetException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.LevelOrderedINMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.DbScavenger$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.Tracer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.PropUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.HexFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.Adler32",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.utilint.DbLsn",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.util",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.util.FastOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.util.FastInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.util.RuntimeExceptionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.util.IOExceptionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.util.ExceptionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.util.UtfOps",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.util.ExceptionUnwrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.bind",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.bind.EntityBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.EntryBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.ByteArrayBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.RecordNumberBinding",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.txn",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.txn.LockManager$LockAttemptResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockGrantType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.TxnEnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockUpgrade",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.TxnTimeOutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.TxnAbort",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockTimeOutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.Locker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.AutoTxn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.Txn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.Lock",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.BasicLocker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.TxnCommit",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockConflict",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.BuddyLocker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.SyncedLockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LatchedLockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.Txn$DatabaseCleanupInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.ThreadLocker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.TxnManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.WriteLockInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.txn.LockInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.tree",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.tree.Generation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.TreeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.BIN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.Tree$SplitInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.DIN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.BINReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.DuplicateEntryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.BINDelta",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.TrackingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.LN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.TreeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.Tree$SearchType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.ChildReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.IN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.INDupDeleteInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.BINBoundary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.INDeleteInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.DBINReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.MapLN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.NameLN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.TreeWalkerStatsAccumulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.FileSummaryLN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.NodeNotEmptyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.Tree",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.DeltaInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.DBIN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.SplitRequiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.SearchResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.DupCountLN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.WithRootLatched",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.TreeLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.TreeStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.tree.InconsistentNodeException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.recovery",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.recovery.RecoveryManager$RootUpdater",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.RecoveryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.RecoveryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.CheckpointEnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.RecoveryManager$TxnNodeId",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.RecoveryManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.CheckpointStart",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.Checkpointer$RootFlusher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.Checkpointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.Checkpointer$CheckpointReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.recovery.RecoveryManager$RootDeleter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.log.entry",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.log.entry.DeletedDupLNLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.NodeLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.INLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.LNLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.BINDeltaLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.INContainingEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.SingleItemLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.entry.LogEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.log",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.log.LogBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.StatsFileReader$LogEntryTypeComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogManager$LogResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.DbChecksumException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogReadable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LatchedLogManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.SyncedLogManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LoggableObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.JEFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FSyncManager$FSyncGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileManager$FileCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileHandleSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.StatsFileReader$EntryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.SearchFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.ChecksumValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.StatsFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileReader$EOFException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.PrintFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogWritable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogFileNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileManager$LogEndFileDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LastFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogBufferPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.CheckpointMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.TraceLogHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FileManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.CleanerFileReader$EntryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.CleanerFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.StatsFileReader$CheckpointCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LNFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.INFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.LogEntryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.DumpFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.CheckpointFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.FSyncManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.log.ScavengerFileReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.latch",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.latch.Latch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.latch.LatchTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.latch.SharedLatch$Owner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.latch.LatchNotHeldException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.latch.LatchStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.latch.LatchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.latch.SharedLatch",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.incomp",
+         "packageMembers": {
+            "name": "com.sleepycat.je.incomp.INCompressor",
+            "type": "CLASS"
+         },
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.evictor",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.evictor.Evictor$INGenerationComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.evictor.Evictor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.evictor.Evictor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.evictor.Evictor$EvictProfile",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.dbi",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.dbi.DbTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.CursorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.EnvironmentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.CursorImpl$KeyChangeStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DatabaseImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbTree$RootLevel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.RangeRestartException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbTree$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DatabaseImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.GetMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.INList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbConfigManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbTree$RewriteMapLN",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DatabaseId",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbEnvPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DatabaseImpl$StatsAccumulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.EnvConfigObserver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.TruncateResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbEnvState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.CursorImpl$SearchMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.MemoryBudget",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbConfigException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DatabaseImpl$ObsoleteINCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbEnvPool$EnvironmentImplInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.DbTree$NameLockResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.dbi.PutMode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.config",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.config.ShortConfigParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.config.BooleanConfigParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.config.ConfigParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.config.IntConfigParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.config.LongConfigParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.config.EnvironmentParams",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je.cleaner",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.cleaner.RotationSelector$RetryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.FileRetryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.Cleaner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.RotationSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.TrackedFileSummary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.UtilizationTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.UtilizationSelector$RetryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.UtilizationProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.FileSummary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.Cleaner$RootDoWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.UtilizationSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.cleaner.FileSelector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.je",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.je.JoinCursor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.SecondaryCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DbInternal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.Database$DbState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.EnvironmentConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.ForeignKeyDeleteAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.TransactionStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.SecondaryKeyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.TransactionStats$Active",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.SecondaryConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.JoinConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.JoinCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.CursorConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.BtreeStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.EnvironmentStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DeadlockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.Environment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.LockMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.TriggerTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.VerifyConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.LockNotGrantedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.TransactionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.StatsConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.OperationStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.JEVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.CheckpointConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.ForeignKeyNullifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.ForeignKeyTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.RunRecoveryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.SecondaryTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.EnvironmentMutableConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.Transaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.Cursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.DatabaseUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.Database",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.SecondaryDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.je.LockStats",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.compat",
+         "packageMembers": {
+            "name": "com.sleepycat.compat.DbCompat",
+            "type": "CLASS"
+         },
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.collections",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.collections.StoredValueSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.CurrentTransaction$Trans",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.TransactionWorker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.MapEntryParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredCollections",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.TupleSerialFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.CurrentTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.RangeCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredList$IndexKeyBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredSortedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.KeyRangeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.DataView",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.PrimaryKeyAssigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.TransactionRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.DataCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredSortedValueSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.CurrentTransaction$CdbCursors",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.CurrentTransaction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredSortedKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredSortedEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.KeyRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.collections.StoredMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.bind.tuple",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.bind.tuple.BooleanBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.LongBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleTupleKeyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.CharacterBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleTupleMarshalledKeyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleTupleBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.MarshalledTupleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.FloatBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.MarshalledTupleKeyEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.ShortBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.DoubleBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.ByteBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleInputBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleMarshalledBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleTupleMarshalledBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.IntegerBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.StringBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.tuple.TupleBinding",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "com.sleepycat.bind.serial",
+         "packageMembers": [
+            {
+               "name": "com.sleepycat.bind.serial.SerialSerialKeyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.TupleSerialMarshalledBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.TupleSerialBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.StoredClassCatalog",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.TupleSerialMarshalledKeyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.StoredClassCatalog$ClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.SerialBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.ClassCatalog",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.TupleSerialKeyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.SerialSerialBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.SerialInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sleepycat.bind.serial.SerialOutput",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.com.sleepcat.je",
+   "version": "1.7.0"
+}}

@@ -1,0 +1,422 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:27:15.0",
+   "moduleName": "com.springsource.com.jcraft.jsch",
+   "name": "Java Secure Channel",
+   "notes": "",
+   "organisationName": "com.jcraft.jsch",
+   "packageExports": [
+      {
+         "name": "com.jcraft.jsch",
+         "packageMembers": [
+            {
+               "name": "com.jcraft.jsch.IdentityFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Channel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.IO",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestSftp",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.SignatureRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Channel$PassiveInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KnownHosts",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.JSchPartialAuthException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UserInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Buffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelSftp",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.HostKeyRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.MAC",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.HostKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Identity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.DHGEX",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Random",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelExec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UserAuthPassword",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.PortWatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ProxyHTTP",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Channel$MyPipedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.JSch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.CipherNone",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KeyExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestSubsystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestShell",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UserAuthKeyboardInteractive",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KeyPairGenRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UserAuthNone",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelSftp$LsEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KeyPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.SignatureDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KeyPairGenDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Proxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.JSchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ServerSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Session$GlobalRequestReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelForwardedTCPIP",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ProxySOCKS5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.SftpProgressMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelSubsystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestSignal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UserAuthPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ForwardedTCPIPDaemon",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.SftpATTRS",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelSftp$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelSftp$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestWindowChange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestPtyReq",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UserAuth",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Util$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.HASH",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KeyPairRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Channel$PassiveOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestExec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.SocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Compression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelDirectTCPIP",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.DHG1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Cipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Packet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.Session$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.JSchAuthCancelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.SftpException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.KeyPairDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.UIKeyboardInteractive",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.RequestX11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelX11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.ChannelShell",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.25"
+      },
+      {
+         "name": "com.jcraft.jsch.jcraft",
+         "packageMembers": {
+            "name": "com.jcraft.jsch.jcraft.Compression",
+            "type": "CLASS"
+         },
+         "version": "0.1.25"
+      },
+      {
+         "name": "com.jcraft.jsch.jce",
+         "packageMembers": [
+            {
+               "name": "com.jcraft.jsch.jce.Random",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.TripleDESCBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.SignatureDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.HMACSHA196",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.AES192CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.KeyPairGenRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.HMACSHA1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.AES256CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.SignatureRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.KeyPairGenDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.MD5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.AES128CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.SHA1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.HMACMD5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.BlowfishCBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.jcraft.jsch.jce.HMACMD596",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.25"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.interfaces",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.jcraft.jzlib",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.jcraft.jsch",
+   "version": "0.1.25"
+}}

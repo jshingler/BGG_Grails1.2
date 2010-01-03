@@ -1,0 +1,697 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:34:16.0",
+   "moduleName": "com.springsource.javax.jdo",
+   "name": "Java Data Objects",
+   "notes": "",
+   "organisationName": "javax.jdo",
+   "packageExports": [
+      {
+         "name": "javax.jdo.spi",
+         "packageMembers": [
+            {
+               "name": "javax.jdo.spi.StateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.PersistenceCapable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.I18NHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.RegisterClassEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.RegisterClassListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.I18NHelper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$Meta",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$StateInterrogationBooleanReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.PersistenceCapable$ObjectIdFieldManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.StateInterrogation",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.I18NHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.Detachable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$StateInterrogationObjectReturn",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.spi.JDOImplHelper$StringConstructor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.jdo",
+         "packageMembers": [
+            {
+               "name": "javax.jdo.PersistenceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOEntityManagerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOUnsupportedOptionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdoconfig_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDOFatalInternalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/Bundle.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDOObjectNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdoquery_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/jdo/jdoquery_2_0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.Transaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.Extent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdoquery_2_0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOEntityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/orm_2_0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDODetachedFieldAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.InstanceCallbacks",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOUserCallbackException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/orm_2_0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.PersistenceManagerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOFatalUserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOUserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDONullIdentityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdo_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDOFatalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdo_2_0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOFatalDataStoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOCanRetryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.ObjectState",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDODataStoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdoconfig_2_1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/jdo/orm_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax/jdo/jdo_2_0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax.jdo.FetchPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOHelper$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.JDOOptimisticVerificationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.jdo.listener",
+         "packageMembers": [
+            {
+               "name": "javax.jdo.listener.DeleteLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.DetachLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.DeleteCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.InstanceLifecycleEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.LoadLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.AttachLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.StoreLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.InstanceLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.ClearLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.AttachCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.CreateLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.DetachCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.LoadCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.DirtyLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.ClearCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.listener.StoreCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.jdo.identity",
+         "packageMembers": [
+            {
+               "name": "javax.jdo.identity.ObjectIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.IntIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.CharIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.ShortIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.ByteIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.StringIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.SingleFieldIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.LongIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.identity.ObjectIdentity$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.jdo.datastore",
+         "packageMembers": [
+            {
+               "name": "javax.jdo.datastore.JDOConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.datastore.DataStoreCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.datastore.Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.datastore.DataStoreCache$EmptyDataStoreCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "javax.jdo.annotations",
+         "packageMembers": [
+            {
+               "name": "javax.jdo.annotations.PersistenceModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Uniques",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Discriminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.FetchPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.SequenceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Indices",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Queries",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.DiscriminatorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Serialized",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Extensions",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.NotPersistent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.FetchGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Embedded",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.DatastoreIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Join",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.EmbeddedOnly",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.ForeignKeyAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Extension",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Joins",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Unique",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Transactional",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.PersistenceCapable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.NullValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Inheritance",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.InheritanceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Columns",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.FetchPlans",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.IdentityType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.ForeignKeys",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.IdGeneratorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.PrimaryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Persistent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.FetchGroups",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.ForeignKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.PersistenceAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.VersionStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Value",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.jdo.annotations.Key",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.jdo",
+   "version": "2.1.0"
+}}

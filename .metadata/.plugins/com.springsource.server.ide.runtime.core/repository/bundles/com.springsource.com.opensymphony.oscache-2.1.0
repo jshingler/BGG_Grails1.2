@@ -1,0 +1,411 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:31:40.0",
+   "moduleName": "com.springsource.com.opensymphony.oscache",
+   "name": "Open Symphony Cache",
+   "notes": "",
+   "organisationName": "com.opensymphony.oscache",
+   "packageExports": [
+      {
+         "name": "com.opensymphony.oscache.base",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.base.FinalizationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.EntryRefreshPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.CacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.NeedsRefreshException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.EntryUpdateState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.LifecycleAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.InitializationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.Config",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.AbstractCacheAdministrator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.web.tag",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.web.tag.FlushTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.tag.UseCachedTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.tag.CacheTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.tag.GroupTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.web.filter",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.web.filter.SplitServletOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.filter.CacheHttpServletResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.filter.ResponseContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.filter.CacheFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.web",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.web.ServletCacheAdministrator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.WebEntryRefreshPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.CacheContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.web.ServletCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.plugins.clustersupport",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.JMSBroadcastingListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.ClusterNotification",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.JMSBroadcastingListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.JMS10BroadcastingListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.JavaGroupsBroadcastingListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.JMS10BroadcastingListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.clustersupport.AbstractBroadcastingListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.plugins.diskpersistence",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.plugins.diskpersistence.HashDiskPersistenceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.diskpersistence.DiskPersistenceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.plugins.diskpersistence.AbstractDiskPersistenceListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.util",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.util.StringUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.util.FastCronParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.util.ClassLoaderUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.util.ValueSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.general",
+         "packageMembers": {
+            "name": "com.opensymphony.oscache.general.GeneralCacheAdministrator",
+            "type": "CLASS"
+         },
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.extra",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.extra.CacheMapAccessEventListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.extra.ScopeEventListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.extra.CacheEntryEventListenerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.base.persistence",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.base.persistence.CachePersistenceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.persistence.PersistenceListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.base.events",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheEntryEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheEntryEventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheEntryEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CachePatternEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.ScopeEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CachewideEventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.ScopeEventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheGroupEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CachewideEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.ScopeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheMapAccessEventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheMapAccessEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.events.CacheMapAccessEventListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.opensymphony.oscache.base.algorithm",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.FIFOCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.UnlimitedCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.AbstractConcurrentReadCache$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.oscache.base.algorithm.LRUCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.jgroups.blocks",
+         "optional": false,
+         "versionRange": "[2.2.8, 2.3.0)"
+      },
+      {
+         "name": "org.jgroups",
+         "optional": false,
+         "versionRange": "[2.2.8, 2.3.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.opensymphony.oscache",
+   "version": "2.1.0"
+}}

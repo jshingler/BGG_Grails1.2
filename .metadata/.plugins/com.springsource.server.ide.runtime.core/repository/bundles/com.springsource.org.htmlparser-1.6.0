@@ -1,0 +1,875 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:56:10.0",
+   "moduleName": "com.springsource.org.htmlparser",
+   "name": "HTML Parser",
+   "notes": "",
+   "organisationName": "org.htmlparser",
+   "packageExports": [
+      {
+         "name": "org.htmlparser.sax",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.sax.Locator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.sax.Feedback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.sax.XMLReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.sax.Attributes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.scanners",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.scanners.TagScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.scanners.Scanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.scanners.ScriptDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.scanners.ScriptScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.scanners.CompositeTagScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.scanners.JspScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.scanners.StyleScanner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.tags",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.tags.Span",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.DoctypeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.Html",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.LinkTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.TableColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.CompositeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.DefinitionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.FrameTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.TextareaTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.ParagraphTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.Div",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.StyleTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.TableRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.AppletTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.SelectTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.TableHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.ProcessingInstructionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.MetaTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.BodyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.JspTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.BaseHrefTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.LabelTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.ImageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.FrameSetTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.Bullet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.InputTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.TitleTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.ObjectTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.OptionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.DefinitionListBullet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.TableTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.BulletList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.HeadingTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.HeadTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.ScriptTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.tags.FormTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.util",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.util.ParserFeedback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.ParserUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.SimpleNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.CharacterReferenceEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.NodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.EncodingChangeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.Translate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.NodeList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.FeedbackManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.IteratorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.ParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.NodeTreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.DefaultParserFeedback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.NodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.ChainedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.CharacterReference",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.util.sort",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.util.sort.Sort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.sort.Ordered",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.util.sort.Sortable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.visitors",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.visitors.NodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.StringFindingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.UrlModifyingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.TextExtractingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.TagFindingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.LinkFindingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.ObjectFindingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.visitors.HtmlPage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.PrototypicalNodeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.NodeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.Tag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.NodeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.Remark",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.parserapplications.filterbuilder.wrappers",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.HasSiblingFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.NotFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.HasParentFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.RegexFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.AndFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.OrFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.TagNameFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.NodeClassFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.StringFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.HasAttributeFilterWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.HasChildFilterWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.parserapplications.filterbuilder.wrappers.images",
+         "packageMembers": [
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/RegexFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/HasParentFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/TagNameFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/HasSiblingFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/AndFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/StringFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/HasAttributeFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/OrFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/NodeClassFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/HasChildFilter.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/wrappers/images/NotFilter.gif",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.parserapplications.filterbuilder.layouts",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.layouts.NullLayoutManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.layouts.VerticalLayoutManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.parserapplications.filterbuilder.images",
+         "packageMembers": [
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/save.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/delete.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/about.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/new.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/paste.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/copy.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/open.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/parserapplications/filterbuilder/images/cut.gif",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.parserapplications.filterbuilder",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.FilterBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.HtmlTreeCellRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.SubFilterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.filterbuilder.HtmlTreeModel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.parserapplications",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.parserapplications.WikiCapturer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.LinkExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.LinkExtractor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.StringExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.SiteCapturer$LocalFrameTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.SiteCapturer$LocalLinkTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.SiteCapturer$LocalImageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.SiteCapturer$LocalBaseHrefTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.parserapplications.SiteCapturer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.filters",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.filters.StringFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.AndFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.OrFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.XorFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.CssSelectorNodeFilter$AdjacentFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.CssSelectorNodeFilter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.CssSelectorNodeFilter$HasAncestorFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.HasAttributeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.IsEqualFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.CssSelectorNodeFilter$YesFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.TagNameFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.RegexFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.CssSelectorNodeFilter$AttribMatchFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.HasChildFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.NodeClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.LinkStringFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.HasParentFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.NotFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.HasSiblingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.CssSelectorNodeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.filters.LinkRegexFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.http",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.http.ConnectionMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.http.HttpHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.http.Cookie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.http.ConnectionManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.lexer",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.lexer.Page",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.PageIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.StringSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.PageAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.InputStreamSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.Stream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.Lexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.Source",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.lexer.Cursor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.nodes",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.nodes.AbstractNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.nodes.TagNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.nodes.RemarkNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.nodes.TextNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.beans",
+         "packageMembers": [
+            {
+               "name": "org.htmlparser.beans.BeanyBaby$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.beans.StringBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.beans.HTMLLinkBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.beans.BeanyBaby",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.beans.LinkBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.beans.FilterBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.htmlparser.beans.HTMLTextBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.htmlparser.beans.images",
+         "packageMembers": [
+            {
+               "name": "org/htmlparser/beans/images/Knot32.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/beans/images/Chain16.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/beans/images/Knot16.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/htmlparser/beans/images/Chain32.gif",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.6.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.htmlparser",
+   "version": "1.6.0"
+}}

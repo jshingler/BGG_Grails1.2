@@ -1,0 +1,313 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:18:11.0",
+   "moduleName": "com.springsource.javax.resource",
+   "name": "Java Resource API",
+   "notes": "",
+   "organisationName": "javax.resource",
+   "packageExports": [
+      {
+         "name": "javax.resource",
+         "packageMembers": [
+            {
+               "name": "javax.resource.NotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.ResourceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.Referenceable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "javax.resource.spi.work",
+         "packageMembers": [
+            {
+               "name": "javax.resource.spi.work.WorkManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.WorkEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.Work",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.WorkListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.WorkException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.WorkCompletedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.WorkAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.ExecutionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.work.WorkRejectedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "javax.resource.spi.security",
+         "packageMembers": [
+            {
+               "name": "javax.resource.spi.security.PasswordCredential",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.security.GenericCredential",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "javax.resource.spi.endpoint",
+         "packageMembers": [
+            {
+               "name": "javax.resource.spi.endpoint.MessageEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.endpoint.MessageEndpointFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "javax.resource.spi",
+         "packageMembers": [
+            {
+               "name": "javax.resource.spi.ActivationSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ValidatingManagedConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.InvalidPropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ManagedConnectionMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ManagedConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.SecurityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ResourceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ManagedConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.LazyEnlistableConnectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.LazyEnlistableManagedConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ResourceAdapterInternalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.LazyAssociatableConnectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.SharingViolationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.EISSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ApplicationServerInternalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ConnectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ConnectionRequestInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.UnavailableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ResourceAllocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.XATerminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.LocalTransactionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.CommException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ResourceAdapterAssociation",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ConnectionEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.LocalTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.IllegalStateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.ConnectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.DissociatableManagedConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.spi.BootstrapContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "javax.resource.cci",
+         "packageMembers": [
+            {
+               "name": "javax.resource.cci.ConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.ResourceAdapterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.ResultSetInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.IndexedRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.LocalTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.Streamable",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.ConnectionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.ConnectionMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.MappedRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.InteractionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.RecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.Interaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.MessageListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.ResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.resource.cci.ResourceWarning",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.security.auth",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.resource",
+   "version": "1.5.0"
+}}

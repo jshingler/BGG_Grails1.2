@@ -1,0 +1,345 @@
+{"bundle": {
+   "dateAdded": "2008-10-22 09:48:26.0",
+   "moduleName": "org.springframework.ws.transport",
+   "name": "Spring Web Services Transport",
+   "notes": "",
+   "organisationName": "org.springframework.ws",
+   "packageExports": [
+      {
+         "name": "org.springframework.ws.transport.http",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.http.HttpExchangeConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.WsdlDefinitionHttpHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.http.WebServiceMessageReceiverHttpHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.support.SimpleWebServiceMessageReceiverObjectSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.support.AbstractStandaloneMessageReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.support.AbstractAsyncStandaloneMessageReceiver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.mail.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.transport.mail.support.MailTransportUtils",
+            "type": "CLASS"
+         },
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.mail.monitor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.mail.monitor.Pop3PollingMonitoringStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.monitor.PollingMonitoringStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.monitor.MonitoringStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.monitor.ImapIdleMonitoringStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.monitor.ImapIdleMonitoringStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.monitor.AbstractMonitoringStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.mail",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.mail.MailMessageReceiver$MonitoringRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailMessageReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailReceiverConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailTransportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailMessageSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailMessageReceiver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailMessageReceiver$MessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailReceiverConnection$ByteArrayDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailSenderConnection$ByteArrayDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailTransportConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.mail.MailSenderConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.jms.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.transport.jms.support.JmsTransportUtils",
+            "type": "CLASS"
+         },
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.transport.jms",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.transport.jms.JmsMessageSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsReceiverConnection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsSenderConnection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.BytesMessageInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsReceiverConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.WebServiceMessageListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.WebServiceMessageDrivenBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.BytesMessageOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsTransportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsSenderConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsTransportConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.transport.jms.JmsMessageReceiver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.ws.wsdl",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.transport",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.scheduling",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jndi",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.support.destination",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.listener",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.connection",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.ejb.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.search",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.event",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.ejb",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.net.httpserver",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.mail.imap",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.ws.transport",
+   "version": "1.5.2.A"
+}}

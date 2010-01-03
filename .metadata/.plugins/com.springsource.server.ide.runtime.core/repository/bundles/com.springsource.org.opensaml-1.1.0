@@ -1,0 +1,566 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:56:50.0",
+   "moduleName": "com.springsource.org.opensaml",
+   "name": "OASIS Open Security Assertion Markup Language (OpenSAML)",
+   "notes": "",
+   "organisationName": "org.opensaml",
+   "packageExports": [
+      {
+         "name": "org.opensaml",
+         "packageMembers": [
+            {
+               "name": "org.opensaml.UnknownAssertionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SOAPHTTPBindingTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SOAPBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBrowserProfile$BrowserProfileResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLDoNotCacheCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SignatureTest$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAttributeStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAuthorizationDecisionQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.XML$ParserPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.XML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.ReplayCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSOAPBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSubject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAudienceRestrictionCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.POSTProfileTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSubjectStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.ReplayedAssertionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.ProfileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.FatalProfileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAuthorizationDecisionStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SignatureTest$theTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.ExpiredAssertionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLNameIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBrowserProfile$ArtifactMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAuthorityBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.TrustException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSOAPBinding$SOAPHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAuthenticationQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLActionTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSubjectQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBindingFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.UnsupportedProfileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSignedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAssertion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.BindingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLDecision",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.InvalidAssertionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAttributeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBrowserProfile$BrowserProfileRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.RetryableProfileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.NoSuchProviderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAttributeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.InvalidCryptoException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SOAPException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAuthenticationStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSOAPHTTPBinding$HTTPHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSOAPHTTPBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBrowserProfileFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SignatureTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLPOSTProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.MalformedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLSubjectTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLAttributeDesignator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.ReplayCacheFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLNameIdentifierTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.UnsupportedExtensionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLBrowserProfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.SAMLIdentifierFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.opensaml.provider",
+         "packageMembers": [
+            {
+               "name": "org.opensaml.provider.BrowserProfileProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.provider.SOAPHTTPBindingProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.provider.MemoryReplayCacheProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.provider.SecureRandomIDProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.opensaml.artifact",
+         "packageMembers": [
+            {
+               "name": "org.opensaml.artifact.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0002Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.TwoByteSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.NullArgumentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0001$RemainingArtifact",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.Artifact$RemainingArtifact",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.Artifact$Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.ArtifactParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0002",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifact$TypeCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.Artifact$TypeCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.ByteSizedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.URI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactChecking",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0001",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.Artifact",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0001$Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.ArtifactTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.ArtifactParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.InvalidArgumentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifact$RemainingArtifact",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.ArtifactTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0001Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifact$Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0002$RemainingArtifact",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifactType0002$Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.opensaml.artifact.SAMLArtifact",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.xml.security.signature",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.xml.security.utils",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.transforms.params",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.transforms",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.keys.content.x509",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.keys.content",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.keys",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.exceptions",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.c14n",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.algorithms",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.log4j",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security",
+         "optional": false,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec.binary",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "junit.textui",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.validation",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.opensaml",
+   "version": "1.1.0"
+}}

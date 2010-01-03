@@ -1,0 +1,1071 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:04:06.0",
+   "moduleName": "com.springsource.org.codehaus.plexus.container",
+   "name": "Plexus Container",
+   "notes": "",
+   "organisationName": "org.codehaus.plexus",
+   "packageExports": [
+      {
+         "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.LogDisablePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Initializable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.InitializePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.DisposePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Suspendable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.ConfigurablePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.StartingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.PlexusContainerLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Serviceable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.StoppingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.LogEnablePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.AutoConfigurePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.StartPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.InitializationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.ServiceablePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.ServiceLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.ContextualizePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.ResumePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.PhaseExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Startable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Contextualizable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.Disposable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.StopPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.personality.plexus.lifecycle.phase.SuspendPhase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.DefaultComponentLookupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.ComponentLookupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.MutableComponentLookupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.PlexusTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/codehaus/plexus/plexus-bootstrap.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.codehaus.plexus.DefaultPlexusContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.PlexusConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.PlexusContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.DefaultContainerConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.MutablePlexusContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.PlexusContainerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.ContainerConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.DuplicateChildContainerException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.logging.console",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.logging.console.ConsoleLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.console.ConsoleLoggerManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.lifecycle.phase",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.lifecycle.phase.Phase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.lifecycle.phase.AbstractPhase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.logging",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.logging.AbstractLoggerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.AbstractLogEnabled",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.LoggerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.LogEnabled",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.AbstractLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.logging.BaseLoggerManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.lifecycle",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.lifecycle.LifecycleHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.lifecycle.LifecycleHandlerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.lifecycle.AbstractLifecycleHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.lifecycle.DefaultLifecycleHandlerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.lifecycle.BasicLifecycleHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.lifecycle.UndefinedLifecycleHandlerException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.context",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.context.ContextMapAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.context.DefaultContext$Hidden",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.context.ContextException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.context.DefaultContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.context.Context",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.configuration.source",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.configuration.source.ConfigurationSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.source.ContainerConfigurationSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.source.ChainedConfigurationSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.container.initialization",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.container.initialization.AbstractContainerInitializationPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.ContainerInitializationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeComponentDiscovererManagerPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.ContainerInitializationPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeComponentRepositoryPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeUserConfigurationSourcePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.StartLoadOnStartComponentsPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeComponentLookupManagerPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeComponentFactoryManagerPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeResourcesPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeComponentManagerManagerPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeLifecycleHandlerManagerPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.ContainerInitializationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeLoggerManagerPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.AbstractCoreComponentInitializationPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.ComponentDiscoveryPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeContainerConfigurationSourcePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeContextPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.container.initialization.InitializeSystemPropertiesPhase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.configuration.xml",
+         "packageMembers": {
+            "name": "org.codehaus.plexus.configuration.xml.XmlPlexusConfiguration",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.configuration.io",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.configuration.io.PlexusConfigurationWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.io.PlexusConfigurationReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.io.XmlPlexusConfigurationWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.io.XmlPlexusConfigurationReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.configuration",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.configuration.PlexusComponentDescriptorMerger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.PlexusConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.DefaultPlexusConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.PlexusConfigurationMerger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.PlexusConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.configuration.PlexusConfigurationResourceException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.repository.exception",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentImplementationNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentManagerImplementationNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentDescriptorUnmarshallingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentRepositoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentProfileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentLookupException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.exception.ComponentLifecycleException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.repository.io",
+         "packageMembers": {
+            "name": "org.codehaus.plexus.component.repository.io.PlexusTools",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.repository",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.repository.DefaultComponentRepository$ComponentRealmDescriptorMaps",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.ComponentSetDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.ComponentDependency",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.ComponentRequirement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.ComponentRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.DefaultComponentRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.ComponentDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.repository.ComponentRequirementList",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.reloading",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.reloading.ComponentReloadingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.reloading.ComponentReloadingException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.manager",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.manager.UndefinedComponentManagerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.PerLookupComponentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.ClassicSingletonComponentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.ComponentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.ComponentLookupManagerComponentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.DefaultComponentManagerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.AbstractComponentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.KeepAliveSingletonComponentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.ComponentManagerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.manager.AbstractComponentManager$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.factory.java",
+         "packageMembers": {
+            "name": "org.codehaus.plexus.component.factory.java.JavaComponentFactory",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.factory",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.factory.UndefinedComponentFactoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.factory.DefaultComponentFactoryManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.factory.ComponentInstantiationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.factory.ComponentFactoryManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.factory.ComponentFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.factory.AbstractComponentFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.discovery",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.discovery.ComponentDiscoveryEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.ComponentDiscoveryListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.DefaultComponentDiscoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.DefaultComponentDiscovererManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.PlexusXmlComponentDiscoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.AbstractComponentDiscoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.DiscoveryListenerDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.ComponentDiscoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.discovery.ComponentDiscovererManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator.expression",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.configurator.expression.DefaultExpressionEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.expression.ExpressionEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.expression.ExpressionEvaluationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator.converters.special",
+         "packageMembers": {
+            "name": "org.codehaus.plexus.component.configurator.converters.special.ClassRealmConverter",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator.converters.lookup",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.lookup.ConverterLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.lookup.DefaultConverterLookup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator.converters.composite",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.composite.PropertiesConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.composite.ObjectWithFieldsConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.composite.MapConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.composite.CollectionConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.composite.ArrayConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.composite.PlexusConfigurationConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator.converters.basic",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.StringConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.ShortConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.BooleanConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.CharConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.DateConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.DoubleConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.IntConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.ClassConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.StringBufferConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.ByteConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.UriConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.FileConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.FloatConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.LongConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.AbstractBasicConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.basic.UrlConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.configurator.ConfigurationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.BasicComponentConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.AbstractComponentConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.ComponentConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.ComponentConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.MapOrientedComponentConfigurator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.configurator.converters",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.ConfigurationConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.ComponentValueSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.configurator.converters.AbstractConfigurationConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.composition",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.composition.CompositionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.Requirement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.UndefinedComponentComposerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.CompositionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.ComponentComposer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.DefaultCompositionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.NoOpComponentComposer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.FieldComponentComposer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.MapOrientedComponentComposer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.composition.AbstractComponentComposer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.composition.setter",
+         "packageMembers": {
+            "name": "org.codehaus.plexus.component.composition.setter.SetterComponentComposer",
+            "type": "CLASS"
+         },
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.collections",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.collections.ComponentList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.collections.AbstractComponentCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.collections.ComponentMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component.builder",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.builder.AbstractComponentBuildListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.builder.DefaultComponentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.builder.XBeanComponentBuilder$PlexusConfigurationRecipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.builder.ComponentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.builder.XBeanComponentBuilder$RequirementRecipe",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.builder.XBeanComponentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.builder.ComponentBuildListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.component",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.component.MapOrientedComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.component.CastUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      },
+      {
+         "name": "org.codehaus.plexus.aspect",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.plexus.aspect.CompatibilityAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.plexus.aspect.ActiveCollectionsCleanupAspect",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.alpha-48"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.codehaus.plexus.util.xml.pull",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.plexus.util.xml",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.plexus.util.dag",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.plexus.util",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.plexus.classworlds.realm",
+         "optional": false,
+         "versionRange": "[1.2.0.alpha-13, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.plexus.classworlds",
+         "optional": false,
+         "versionRange": "[1.2.0.alpha-13, 2.0.0)"
+      },
+      {
+         "name": "org.codehaus.classworlds",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.runtime.internal",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang.annotation",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.internal.lang.annotation",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang",
+         "optional": false,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xbean.recipe",
+         "optional": false,
+         "versionRange": "[3.4.0, 4.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.org.codehaus.plexus.container",
+   "version": "1.0.0.alpha-48"
+}}

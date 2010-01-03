@@ -1,0 +1,2784 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:37:52.0",
+   "moduleName": "com.springsource.freemarker",
+   "name": "Freemarker Templating Engine",
+   "notes": "",
+   "organisationName": "org.freemarker",
+   "packageExports": [
+      {
+         "name": "freemarker.template",
+         "packageMembers": [
+            {
+               "name": "freemarker.template.TemplateModelIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateBooleanModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleSequence$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateExceptionHandler$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateModelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateExceptionHandler$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateExceptionHandler$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.ResourceBundleLocalizedString",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateTransformModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateSequenceModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleScalar",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleHash$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateMethodModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateNodeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateHashModelEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateBooleanModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.Template$LineTableBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.EmptyMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateDirectiveBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleSequence$SynchronizedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.ObjectWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleHash$SynchronizedHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SettingStringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleCollection$SimpleTemplateModelIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleList",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateCollectionModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateModelListSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.Template",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.AdapterTemplateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleObjectWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.DefaultObjectWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateBooleanModel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateMethodModelEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateDirectiveModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TransformControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.WrappingTemplateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.Template$WrongEncodingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateModelAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.LocalizedString",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateExceptionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateScalarModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateDateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.GeneralPurposeNothing",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateNumberModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.TemplateExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.SimpleHash",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.template.utility",
+         "packageMembers": [
+            {
+               "name": "freemarker.template.utility.SecurityUtilities$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Constants$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.JythonRuntime$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Collections12",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.CaptureOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Constants$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.CaptureOutput$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.SecurityUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Constants$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Collections12$SingletonMap$ImmutableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.NormalizeNewlines$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.DOMNodeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.JythonRuntime",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.UndeclaredThrowableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Collections12$EmptyMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.StringUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.XmlEscape$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.HtmlEscape$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Collections12$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.OptimizerUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.SecurityUtilities$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.DeepUnwrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Execute",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.NormalizeNewlines",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.DOMNodeModel$NodeListTM",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.StandardCompress",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.ClassUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Collections12$SingletonMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.ToCanonical",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.HtmlEscape",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.StandardCompress$StandardCompressWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Constants$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.Collections12$SingletonList",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.XmlEscape",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.SecurityUtilities$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.DOMNodeModel$AncestorByName",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.template.utility.ObjectConstructor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.cache",
+         "packageMembers": [
+            {
+               "name": "freemarker.cache.MultiTemplateLoader$MultiSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.TemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.FileTemplateLoader$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.URLTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.FileTemplateLoader$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.FileTemplateLoader$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.TemplateCache$TemplateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.MruCacheStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.MultiTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.CacheStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.SoftCacheStorage$SoftValueReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.ClassTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.StrongCacheStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.MruCacheStorage$MruEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.MruCacheStorage$MruReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.StringTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.URLTemplateSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.StringTemplateLoader$StringTemplateSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.FileTemplateLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.TemplateCache$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.FileTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.WebappTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.SoftCacheStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.TemplateCache$CachedTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.StatefulTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.cache.TemplateCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.log",
+         "packageMembers": [
+            {
+               "name": "freemarker.log.JDK14LoggerFactory$JDK14Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.Log4JLoggerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.JDK14LoggerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.Log4JLoggerFactory$Log4JLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.AvalonLoggerFactory$AvalonLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.NullLoggerFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.LoggerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.NullLoggerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.log.AvalonLoggerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.xml",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.xml.Navigator$TypeOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$NamespacePrefixOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Namespaces$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$DescendantOrSelfOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$DocumentOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.JaxenNamespaces$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.DomNavigator$DomXPathEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$QualifiedNameOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Dom4jNavigator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$AncestorOrSelfOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$DocumentTypeOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$LocalNameOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.JaxenNamespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$TextOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$AncestorOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Namespaces$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.JdomNavigator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$DescendantOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.NodeOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.NodeListModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.NodeListModel$FilterByType",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.JdomNavigator$JDOMXPathEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$ChildrenOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Dom4jNavigator$Dom4jXPathEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$ContentOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.NodeListModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$XPathEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$AttributesOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$ParentOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.Navigator$NamespaceUriOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.xml.DomNavigator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.util",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.util.IdentityHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.WrapperTemplateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.IdentityHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.IdentityHashMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.IdentityHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.ModelCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.IdentityHashMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.ModelFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.IdentityHashMap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.IdentityHashMap$EmptyHashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.util.ModelCache$ModelReference",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.servlet",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.servlet.HttpSessionHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.servlet.AllHttpScopesHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.servlet.ServletContextHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.servlet.HttpRequestHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.servlet.HttpRequestParametersHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.servlet.FreemarkerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.servlet.HttpRequestParametersHashModel$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.rhino",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.rhino.RhinoScriptableModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.rhino.RhinoScriptableModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.rhino.RhinoFunctionModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.rhino.RhinoWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.jython",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.jython.JythonModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonHashModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonNumberModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonHashModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonSequenceModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonSequenceModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonNumberModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonSequenceModel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonWrapper$TemplateModelToJythonAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jython.JythonModelCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.jsp",
+         "packageMembers": [
+            {
+               "name": "freemarker/ext/jsp/web-app_2_5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext21",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-app_2_2.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-jsptaglibrary_2_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspApplicationContext$FreeMarkerELContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext21$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.JspContextModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.EventForwarding",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-jsptaglibrary_1_1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory$Taglib",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TagTransformModel$TagWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext$TemplateHashModelExEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-app_2_3.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-jsptaglibrary_1_2.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.jsp.TagTransformModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-jsptaglibrary_2_0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory$TldParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.SimpleTagDirectiveModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory$LocalTaglibDtds",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspFactory2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.JspWriterAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker/ext/jsp/web-app_2_4.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspFactory21",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.JspTagModelBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.SimpleTagDirectiveModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TagTransformModel$BodyContentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerJspApplicationContext$FreeMarkerELContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreemarkerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory$WebXmlParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.TaglibFactory$TldUriReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.PageContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jsp.FreeMarkerPageContext21$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.jdom",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NamedChildrenOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$AllAttributesOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$CanonicalNameOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$JDOMXPathEx$NamespaceContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NamedAttributeOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NamedNodeOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$TextOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NamespacePrefixOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$AncestorOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NamespaceUriOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$AttributeXMLOutputter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$DocTypeOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$DescendantOrSelfOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NodeOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$QNameOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$AncestorOrSelfOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$RegisterNamespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$DescendantOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$JDOMXPathEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$TypeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$ContentOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$ParentOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$AllChildrenOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$DocumentOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NameFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.jdom.NodeListModel$NameOp",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.dom",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.dom.SunInternalXalanXPathSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.NodeOutputter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.DocumentModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.Transform",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.XalanXPathSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.CharacterDataNodeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.NodeListModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.SunInternalXalanXPathSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.XPathSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.PINodeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.DocumentTypeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.NodeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.ElementModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.XalanXPathSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.AttributeNodeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport$FmEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.NodeListModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.dom.JaxenXPathSupport$4",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.beans",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.beans.MethodUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.OverloadedMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ResourceBundleModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.InvalidPropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeansWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.OverloadedVarArgMethod$ArgumentPacker",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.SimpleMethodModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.MapModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ClassString",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.EnumerationModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.HashAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ArrayModel$Iterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeansWrapper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeansModelCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ClassBasedModelFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.DateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.CollectionAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.MemberAndArguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.DateModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.OverloadedMethodModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker/ext/beans/unsafeMethods.txt",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "freemarker.ext.beans.SimpleMapModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.SimpleMemberModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeanModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.NumberModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.HashAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.StringModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.SimpleMapModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeansWrapper$MethodSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.OverloadedFixArgMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeansWrapper$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.OverloadedVarArgMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.CollectionModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.CollectionModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BooleanModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.IteratorModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.StaticModels",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeansWrapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.SequenceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ResourceBundleModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.NumberModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.StaticModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.MapModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ArrayModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.CollectionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.StringModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.ArrayModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.HashAdapter$1$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.EnumModels",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.BeanModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.MethodMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.SetAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.beans.HashAdapter$1$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.ext.ant",
+         "packageMembers": [
+            {
+               "name": "freemarker.ext.ant.UnlinkedJythonOperationsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.ant.UnlinkedJythonOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.ant.JythonAntTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.ext.ant.FreemarkerXmlTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.debug.impl",
+         "packageMembers": [
+            {
+               "name": "freemarker.debug.impl.DebuggerServer$DebuggerAuthProtocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerService",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.DebuggerService$NoOpDebuggerService",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugConfigurableModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerImpl_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.DebuggerService",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.DebuggerService$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerService$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugTemplateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebugModelImpl_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugConfigurationModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerListenerImpl_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugEnvironmentModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerService$TemplateReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.DebuggerServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebugModelImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugConfigurationModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggerService$TemplateDebugInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugEnvironmentModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.DebuggerServer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.impl.RmiDebuggedEnvironmentImpl$DebugMapModel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.debug",
+         "packageMembers": [
+            {
+               "name": "freemarker.debug.Debugger",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.DebuggerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.DebuggerClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.DebuggerClient$LocalDebuggerProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.Breakpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.EnvironmentSuspendedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.DebugModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.debug.DebuggedEnvironment",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      },
+      {
+         "name": "freemarker.core",
+         "packageMembers": [
+            {
+               "name": "freemarker.core.BuiltIn$defaultBI$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$has_contentBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$sizeBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$dateBI$DateParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FMParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$chunkBI$ChunkedSequence$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$stringBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Assignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$parentBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$RegexMatchModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_directiveBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$seq_containsBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$matchesBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$urlBI$urlBIResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.InvalidReferenceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$right_padBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$childrenBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FMParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NonNumericalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_enumerableBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_nodeBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$stringBI$NumberFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$containsBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FallbackInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AddConcatExpression$ConcatenatedHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$last_index_ofBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Interpret",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.CustomAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$starts_withBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NonStringException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$reverseBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringArraySequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BooleanExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AddConcatExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$index_ofBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumberLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$replaceBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.VisitNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Configurable$UnknownSettingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_hash_exBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BlockAssignment$CaptureOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Include",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$lengthBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ListLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$containsBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BreakInstruction$Break",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Interpret$TemplateProcessorModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Dot",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sortBI$DateKVPComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$ReplaceMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$numberBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_hashBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$reverseBI$ReverseSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$chunkBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_booleanBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltinVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BodyInstruction$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$splitBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_collectionBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StopException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RecoveryBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$RegexMatchModel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ReturnInstruction$Return",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StopInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sortBI$NumericalKVPComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$last_index_ofBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$chunkBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.DollarVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ArithmeticExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$floatBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FMParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$starts_withBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$seq_index_ofBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.DynamicKeyName",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FlushInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$chop_linebreakBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$split_reBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.TemplateObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.MixedContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$keysBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$upper_caseBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FMParser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_dateBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_numberBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AttemptBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$seq_index_ofBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$namespaceBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$NodeBuiltIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltinVariable$VarsHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.TrimInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BodyInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.DefaultToExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$lower_caseBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sortBI$LexicalKVPComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$chunkBI$ChunkedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$SequenceBuiltIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$ends_withBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.IteratorBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$node_nameBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.EscapeBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$groupsBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$defaultBI$ConstantMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$xmlBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$rtfBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$left_padBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.CompressedBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$node_namespaceBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$replaceBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$splitBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$js_stringBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$valuesBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ExistsExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$replace_reBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_macroBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$NumberBuiltIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ParentheticalExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$substringBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_sequenceBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$existsBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NotExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BooleanLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$SplitMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$lastBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.UnaryPlusMinusExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Identifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$node_typeBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.TemplateElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SwitchBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.IfBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$stringBI$DateFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$longBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.MethodCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.HashLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$MatcherBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BlockAssignment$CaptureOutput$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ReturnInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.LibraryLoad",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.TransformBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Macro",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.OrExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$evalBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sortBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AddConcatExpression$ConcatenatedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ComparisonExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FMParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$NumberFormatKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$cap_firstBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_stringBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$AncestorSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Interpret$TemplateProcessorModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AssignmentInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NewBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.TextBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.CommandLine",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NoEscapeBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RecurseNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$StringBuiltIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$dateBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$htmlBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sort_byBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.DefaultToExpression$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$doubleBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Case",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.HashLiteral$SequenceHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Configurable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BlockAssignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NewBI$ConstructorFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$RegexMatchModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.CollectionAndSequence$SequenceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.EvaluationUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sort_byBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$ancestorsBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$if_existsBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$defaultBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$cBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$seq_containsBI$BIMethodForCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_methodBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.RegexBuiltins$RegexMatchModel$Match",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.UnifiedCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$j_stringBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.IteratorBlock$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$stringBI$BooleanFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$uncap_firstBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Environment$DateFormatKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.DefaultToExpression$EmptyStringAndSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$left_padBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BreakInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.LocalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$sortBI$KVP",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AndExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$trimBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$right_padBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ArithmeticEngine$ConservativeEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$word_listBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$seq_containsBI$BIMethodForSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.CollectionAndSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FreeMarkerTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.Macro$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ArithmeticEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.SequenceBuiltins$firstBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$byteBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$urlBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NonBooleanException",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NodeBuiltins$rootBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.PropertySetting",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_transformBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$shortBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ArithmeticEngine$BigDecimalEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.FMParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$capitalizeBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalOutput$FormatHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.ConditionalBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.NumericalBuiltins$intBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.StringBuiltins$substringBI$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$is_indexableBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$index_ofBI",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.AddConcatExpression$ConcatenatedHashEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.BuiltIn$ends_withBI$BIMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "freemarker.core.DebugBreak",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.12"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.python.util",
+         "optional": true,
+         "versionRange": "[2.2.1, 2.3.0)"
+      },
+      {
+         "name": "org.python.core",
+         "optional": true,
+         "versionRange": "[2.2.1, 2.3.0)"
+      },
+      {
+         "name": "org.mozilla.javascript",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jdom.input",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom.output",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jaxen.jdom",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.jaxen.dom4j",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.jaxen.dom",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.jaxen",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j.tree",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xpath.objects",
+         "optional": true,
+         "versionRange": "[2.7.0, 3.0.0)"
+      },
+      {
+         "name": "org.dom4j",
+         "optional": true,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xpath",
+         "optional": true,
+         "versionRange": "[2.7.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xml.utils",
+         "optional": true,
+         "versionRange": "[2.7.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.log4j",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.log",
+         "optional": true,
+         "versionRange": "[1.0.1, 1.0.1]"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.el",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.el",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.freemarker",
+   "version": "2.3.12"
+}}

@@ -1,0 +1,494 @@
+{"bundle": {
+   "dateAdded": "2008-10-22 09:44:26.0",
+   "moduleName": "org.springframework.oxm",
+   "name": "Spring Object/XML Mapping",
+   "notes": "",
+   "organisationName": "org.springframework.ws",
+   "packageExports": [
+      {
+         "name": "org.springframework.oxm.xmlbeans",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlOptionsFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlBeansMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlBeansUnmarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlBeansMarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlBeansUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlBeansValidationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xmlbeans.XmlBeansSystemException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.xstream",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.xstream.XStreamSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xstream.XStreamUnmarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xstream.XStreamMarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xstream.XStreamUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.xstream.XStreamMarshaller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.XmlMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.UnmarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.UncategorizedXmlMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.GenericMarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.Unmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.ValidationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.Marshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.MarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.AbstractMarshaller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.support.MarshallingView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.support.MarshallingSource$MarshallingXmlReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.support.MarshallingMessageConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.support.MarshallingSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.support.MarshallingSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.mime",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.mime.MimeMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.mime.MimeContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.mime.MimeUnmarshaller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.castor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.castor.CastorValidationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.castor.CastorUnmarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.castor.CastorMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.castor.CastorUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.castor.CastorMarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.castor.CastorSystemException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.config.XmlBeansMarshallerBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/oxm/config/spring-oxm-1.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.oxm.config.Jaxb1MarshallerBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.config.Jaxb2MarshallerBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.config.JibxMarshallerBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.config.OxmNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.jibx",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.jibx.JibxUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jibx.JibxMarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jibx.JibxMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jibx.JibxUnmarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jibx.JibxValidationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jibx.JibxSystemException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      },
+      {
+         "name": "org.springframework.oxm.jaxb",
+         "packageMembers": [
+            {
+               "name": "org.springframework.oxm.jaxb.AbstractJaxbMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jaxb.JaxbUnmarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jaxb.JaxbMarshallingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jaxb.Jaxb1Marshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jaxb.JaxbSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jaxb.JaxbValidationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.oxm.jaxb.JaxbUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.1.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": false,
+         "versionRange": "[1.5.1.A, 1.5.1.A]"
+      },
+      {
+         "name": "org.springframework.xml.stream",
+         "optional": false,
+         "versionRange": "[1.5.1.A, 1.5.1.A]"
+      },
+      {
+         "name": "org.springframework.xml.sax",
+         "optional": false,
+         "versionRange": "[1.5.1.A, 1.5.1.A]"
+      },
+      {
+         "name": "org.springframework.xml.dom",
+         "optional": false,
+         "versionRange": "[1.5.1.A, 1.5.1.A]"
+      },
+      {
+         "name": "org.springframework.web.servlet.view",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.xml",
+         "optional": false,
+         "versionRange": "[1.5.1.A, 1.5.1.A]"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.support.converter",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.exolab.castor.xml",
+         "optional": true,
+         "versionRange": "[1.1.2, 2.0.0)"
+      },
+      {
+         "name": "org.jibx.runtime.impl",
+         "optional": true,
+         "versionRange": "[1.1.5, 2.0.0]"
+      },
+      {
+         "name": "org.jibx.runtime",
+         "optional": true,
+         "versionRange": "[1.1.5, 2.0.0]"
+      },
+      {
+         "name": "org.exolab.castor.mapping",
+         "optional": true,
+         "versionRange": "[1.1.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xmlbeans",
+         "optional": true,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream.util",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.bind",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream.io.xml",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream.io",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream.converters",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream.alias",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.oxm",
+   "version": "1.5.1.A"
+}}

@@ -1,0 +1,430 @@
+{"bundle": {
+   "dateAdded": "2009-01-20 16:20:31.0",
+   "moduleName": "org.springframework.osgi.test",
+   "name": "Spring DM Test",
+   "notes": "",
+   "organisationName": "org.springframework.osgi",
+   "packageExports": [
+      {
+         "name": "org.springframework.osgi.extender.internal.util.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$SimpleTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$MonitoredRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.provisioning.internal",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.provisioning.internal.MavenPackagedArtifactFinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.provisioning.internal.LocalFileSystemMavenRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.provisioning.internal.MavenPackagedArtifactFinder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.internal.holder",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.internal.holder.HolderLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.holder.ReflectionOsgiHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.holder.OsgiTestInfoHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.internal.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.internal.support.OsgiJUnitTestAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.support.Activator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.support.OsgiJUnitService$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.support.OsgiJUnitService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.internal.util",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.internal.util.TestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.DependencyVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.PropertiesUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.IOUtils$IOCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.internal.util.jar",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.internal.util.jar.JarUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.jar.JarCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.jar.ManifestUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.internal.util.jar.storage",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.internal.util.jar.storage.Storage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.jar.storage.FileSystemStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.util.jar.storage.MemoryStorage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.platform",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.platform.EquinoxPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.platform.OsgiPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.platform.EquinoxPlatform$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.platform.Platforms",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.platform.KnopflerfishPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.platform.FelixPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.platform.AbstractOsgiPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.provisioning",
+         "packageMembers": {
+            "name": "org.springframework.osgi.test.provisioning.ArtifactLocator",
+            "type": "CLASS"
+         },
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test.internal",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.internal.TestRunnerService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/test/internal/boot-bundles.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.osgi.test.internal.OsgiJUnitTest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.extender.support.internal",
+         "packageMembers": {
+            "name": "org.springframework.osgi.extender.support.internal.ConfigUtils",
+            "type": "CLASS"
+         },
+         "version": "1.1.3.BUILD-20090112"
+      },
+      {
+         "name": "org.springframework.osgi.test",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.test.AbstractConfigurableOsgiTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractSynchronizedOsgiTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOnTheFlyBundleCreatorTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOptionalDependencyInjectionTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/test/MANIFEST.MF",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.osgi.test.JUnitTestActivator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOptionalDependencyInjectionTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractSynchronizedOsgiTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractConfigurableBundleCreatorTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractDependencyManagerTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOptionalDependencyInjectionTests$EmptyOsgiApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOsgiTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOsgiTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.test.AbstractOsgiTests$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.3.BUILD-20090112"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.test",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.context.support",
+         "optional": false,
+         "versionRange": "[1.1.3.BUILD-20090112, 1.1.3.BUILD-20090112]"
+      },
+      {
+         "name": "org.springframework.osgi.util",
+         "optional": false,
+         "versionRange": "[1.1.3.BUILD-20090112, 1.1.3.BUILD-20090112]"
+      },
+      {
+         "name": "org.springframework.osgi.io",
+         "optional": false,
+         "versionRange": "[1.1.3.BUILD-20090112, 1.1.3.BUILD-20090112]"
+      },
+      {
+         "name": "org.springframework.osgi.context",
+         "optional": false,
+         "versionRange": "[1.1.3.BUILD-20090112, 1.1.3.BUILD-20090112]"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.objectweb.asm.signature",
+         "optional": true,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "org.osgi.framework",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.objectweb.asm",
+         "optional": true,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "org.knopflerfish.framework",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.eclipse.core.runtime.adaptor",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.felix.main",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.felix.framework",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": false,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "org.springframework.osgi.test",
+   "version": "1.1.3.BUILD-20090112"
+}}

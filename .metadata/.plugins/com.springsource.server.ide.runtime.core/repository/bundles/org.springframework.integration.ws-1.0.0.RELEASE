@@ -1,0 +1,147 @@
+{"bundle": {
+   "dateAdded": "2008-11-26 18:08:39.0",
+   "moduleName": "org.springframework.integration.ws",
+   "name": "Spring Integration Web Services Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.ws",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.ws.MarshallingWebServiceOutboundGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.ws.AbstractWebServiceOutboundGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.ws.WebServiceHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.ws.SimpleWebServiceOutboundGateway$DefaultSourceExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.ws.SimpleWebServiceOutboundGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.ws.AbstractWebServiceOutboundGateway$TypeCheckingSoapActionCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.ws.config",
+         "packageMembers": [
+            {
+               "name": "org/springframework/integration/ws/config/spring-integration-ws-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.ws.config.WebServiceOutboundGatewayParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.ws.config.WsNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.ws.transport",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ws.soap.client.core",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ws.soap",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ws.client.core",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ws",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.handler",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.oxm",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.adapter.config",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.ws",
+   "version": "1.0.0.RELEASE"
+}}

@@ -1,0 +1,820 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:11:01.0",
+   "moduleName": "com.springsource.org.apache.commons.jxpath",
+   "name": "XPath for Java Objects",
+   "notes": "",
+   "organisationName": "org.apache.commons",
+   "packageExports": [
+      {
+         "name": "org.apache.commons.jxpath.xml",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.xml.JDOMParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.xml.DocumentContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.xml.XMLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.xml.XMLParser2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.xml.DOMParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.util.TypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.util.MethodLookupUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.util.BasicTypeConverter$ValuePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.util.BasicTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.util.TypeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.util.ValueUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.util.BasicTypeConverter$ValueNodeSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.Functions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathBasicBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathBasicBeanInfo$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathIntrospector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.DynamicPropertyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.AbstractFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.BasicNodeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.IdentityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.KeyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.NodeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ExpressionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathContextFactoryConfigurationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.CompiledExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.XMLDocumentContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.FunctionLibrary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.MapDynamicPropertyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ClassFunctions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.Variables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.Pointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.PackageFunctions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.BasicVariables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.JXPathBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.Container",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.servlet",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.servlet.KeywordVariables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.HttpSessionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.HttpSessionAndServletContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.ServletRequestAndContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.PageContextHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.ServletContextHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.JXPathServletContexts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.PageScopeContextHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.ServletRequestHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.servlet.PageScopeContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.parser",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.XPathParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.XPathParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.XPathParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.parser.XPathParser$JJCalls",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model.jdom",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMNamespaceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.jdom.JDOMNamespacePointer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model.dynamic",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynamic.DynamicAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynamic.DynamicPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynamic.DynamicPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertyPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertyIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model.dom",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.DOMPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.DOMNamespaceIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.DOMAttributePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.NamespacePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dom.DOMNodeIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model.dynabeans",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPropertyPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanPointer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model.container",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.container.ContainerPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.container.ContainerPointer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model.beans",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.PropertyOwnerPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.CollectionChildNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.NullPropertyPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.CollectionPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.CollectionNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.CollectionAttributeNodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.PropertyPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.BeanAttributeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.PropertyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.NullElementPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.CollectionPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.BeanPropertyPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.BeanPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.BeanPointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.LangAttributePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.beans.NullPointer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.model",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.model.VariablePointer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.NodePointerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.NodePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.VariablePointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.model.NodeIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.compiler",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.VariableReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.ProcessingInstructionTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationAdd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThanOrEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Expression$PointerIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.NodeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.NameAttributeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationAnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationCompare",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationNegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationMultiply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationUnion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationLessThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationOr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Expression$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationSubtract",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.NodeTypeTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Constant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationDivide",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Path",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.ExpressionPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationNotEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.TreeCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Step",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationMod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.LocationPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.NodeNameTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.ExtensionFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.compiler.CoreOperationGreaterThanOrEqual",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri.axes",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.NamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.SelfContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.SimplePathInterpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.InitialContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.PrecedingOrFollowingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.AncestorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.AttributeContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.ParentContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.NodeSetContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.ChildContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.RootContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.PredicateContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.UnionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.axes.DescendantContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.ri",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.ri.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.JXPathContextFactoryReferenceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.JXPathCompiledExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.EvalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.Compiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.NamespaceResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.InfoSetUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.JXPathContextReferenceImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.JXPathContextReferenceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.EvalContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.ri.QName",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.apache.commons.jxpath.functions",
+         "packageMembers": [
+            {
+               "name": "org.apache.commons.jxpath.functions.MethodFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.commons.jxpath.functions.ConstructorFunction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jdom.input",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.commons.jxpath",
+   "version": "1.2.0"
+}}

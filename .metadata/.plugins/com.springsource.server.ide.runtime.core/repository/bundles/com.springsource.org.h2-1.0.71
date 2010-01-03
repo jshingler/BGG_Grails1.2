@@ -1,0 +1,1986 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:22:18.0",
+   "moduleName": "com.springsource.org.h2",
+   "name": "H2 Database Engine",
+   "notes": "",
+   "organisationName": "com.h2database",
+   "packageExports": [
+      {
+         "name": "org.h2.store",
+         "packageMembers": [
+            {
+               "name": "org.h2.store.RecordReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileLister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileLock$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileStoreInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.DiskFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.DataHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileLock$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.DataPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.Storage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.DataPageText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.WriterThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.FileStoreOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.DiskFile$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.DataPageBinary",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.store.fs",
+         "packageMembers": [
+            {
+               "name": "org.h2.store.fs.FileSystemDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileSystemDisk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectMemory$CompressItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectMemory$Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileSystemZip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectMemory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectDisk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileSystemMemory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileObjectZip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.store.fs.FileSystem",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.table",
+         "packageMembers": [
+            {
+               "name": "org.h2.table.SingleColumnResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.TableData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.Plan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.LinkSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.ColumnResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.IndexColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.TableFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.PlanItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.FunctionTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.TableLink",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.MetaTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.RangeTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.TableData$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.table.TableView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.tools",
+         "packageMembers": [
+            {
+               "name": "org.h2.tools.RunScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.SimpleResultSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Shell",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.SimpleResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Console",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.MultiDimension",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.ConvertTraceFile$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Recover",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.CreateCluster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Script",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.DeleteDbFiles",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.ConvertTraceFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.ChangePassword",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Csv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.ConvertTraceFile$Stat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Shell$1PasswordHider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.SimpleResultSet$Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.SimpleResultSet$SimpleArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.SimpleRowSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Restore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.MultiDimension$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Backup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Console$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.CompressTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.tools.Server",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.util",
+         "packageMembers": [
+            {
+               "name": "org.h2.util.StartBrowser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.SmallLRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.CacheObject$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ValueHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ReaderInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.StringCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.IntHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.JdbcConnectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/h2/util/data.zip",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.h2.util.ObjectUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.DateTimeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.JdbcDriverUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.MemoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ExactUTF8InputStreamReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.NetUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.Cache2Q",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.Resources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ByteUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.CacheHead",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.CacheWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.BitField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.MathUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.RandomUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.JdbcUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.TempFileDeleter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.RandomUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.CacheObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.CacheLRU",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.FileUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.SmallMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.Tool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.IntArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ResourceData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.AutoCloseInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ObjectArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ClassUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.SortedProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.ScriptReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.TempFileDeleter$TempFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.HashBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.TempFileDeleter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.Permutations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.util.IntIntHashMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.value",
+         "packageMembers": [
+            {
+               "name": "org.h2.value.ValueStringBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueInt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.DataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.Transfer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueByte",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.Transfer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueUuid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueLob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueBytesBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueStringFixed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueJavaObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueBytes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueDecimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueTimestamp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueLong",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueShort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueDouble",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.Value",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueStringIgnoreCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.CompareMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.value.ValueBoolean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2",
+         "packageMembers": {
+            "name": "org.h2.Driver",
+            "type": "CLASS"
+         },
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.server.pg",
+         "packageMembers": [
+            {
+               "name": "org.h2.server.pg.PgServerThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.pg.PgServerThread$Prepared",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.pg.PgServerThread$Portal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.pg.PgServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.pg.PgServerThread$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.server.web",
+         "packageMembers": [
+            {
+               "name": "org.h2.server.web.DbSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.DbContextRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebThread$1LoginTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.DbContents",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebThread$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.PageParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.DbColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.DbStarter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebThread$IndexInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.DbTableOrView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.ConnectionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.web.WebThread$DynamicClassLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.server.ftp",
+         "packageMembers": [
+            {
+               "name": "org.h2.server.ftp.FtpEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.ftp.FtpServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.ftp.FtpServer$StreamRedirect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.ftp.FtpEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.ftp.FtpData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.ftp.FtpControl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.server",
+         "packageMembers": [
+            {
+               "name": "org.h2.server.TcpServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.Service",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.TcpServerThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.server.ShutdownHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.security",
+         "packageMembers": [
+            {
+               "name": "org.h2.security.CipherFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.security.XTEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.security.SecureSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.security.BlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.security.AES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.security.SHA256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.security.SecureFileStore",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.schema",
+         "packageMembers": [
+            {
+               "name": "org.h2.schema.TriggerObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.schema.Constant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.schema.SchemaObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.schema.SchemaObjectBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.schema.Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.schema.Sequence",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.result",
+         "packageMembers": [
+            {
+               "name": "org.h2.result.ResultDiskBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.LocalResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.SearchRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultRemote",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultTempTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultDiskBuffer$ResultDiskTape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.SortOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.RowList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.Row",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.SimpleRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.SimpleRowValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultDiskBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.UpdatableRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.result.ResultExternal",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.message",
+         "packageMembers": [
+            {
+               "name": "org.h2.message.TraceSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.message.TraceObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.message.Trace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.message.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.message.InternalException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.log",
+         "packageMembers": [
+            {
+               "name": "org.h2.log.UndoLogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.InDoubtTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.UndoLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.RedoLogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.LogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.LogFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.LogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.SessionState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.log.LogSystem$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.jdbcx",
+         "packageMembers": [
+            {
+               "name": "org.h2.jdbcx.JdbcDataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbcx.JdbcConnectionPool$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbcx.JdbcDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbcx.JdbcConnectionPool$PoolConnectionEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbcx.JdbcXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbcx.JdbcXid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbcx.JdbcConnectionPool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.jdbc",
+         "packageMembers": [
+            {
+               "name": "org.h2.jdbc.JdbcPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcBatchUpdateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcParameterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcSQLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcClob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcResultSetMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcSavepoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.jdbc.JdbcCallableStatement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.index",
+         "packageMembers": [
+            {
+               "name": "org.h2.index.HashIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreeIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.TreeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.RangeCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.TreeIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.MultiVersionCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.ViewIndex$CostElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.ViewCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.HashCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.FunctionIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.LinkedIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.FunctionCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreeLeaf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.ViewIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.ScanCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.Cursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.IndexCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.IndexType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.MetaCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.ScanIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.RangeIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.LinkedCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreeCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.MetaIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BaseIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.MultiVersionIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreePage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.TreeCursor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.ViewIndex$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreeHead",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.index.BtreePosition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.fulltext",
+         "packageMembers": [
+            {
+               "name": "org.h2.fulltext.FullText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.fulltext.FullTextLucene",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.fulltext.FullTextSettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.fulltext.IndexInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.expression",
+         "packageMembers": [
+            {
+               "name": "org.h2.expression.ParameterInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ExpressionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.JavaAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ParameterRemote",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Rownum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ConditionNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Condition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.FunctionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Variable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Wildcard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.SequenceValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Alias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.CompareLike",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ConditionAndOr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Comparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ExpressionColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ExpressionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.FunctionCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ValueExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ConditionExists",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Aggregate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.JavaFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.AggregateData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ConditionIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Subquery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.TableFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.Aggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.expression.ConditionInSelect",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.engine",
+         "packageMembers": [
+            {
+               "name": "org.h2.engine.Procedure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Role",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.FunctionAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.MetaRecord$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.SessionInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.DatabaseCloser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Mode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.SessionRemote",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.RightOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.UserAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.MetaRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Right",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.DbObjectBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.ConnectionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Setting",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.User",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.Database",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.UserDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.engine.DbObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.constant",
+         "packageMembers": [
+            {
+               "name": "org.h2.constant.SysProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.constant.ErrorCode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.constraint",
+         "packageMembers": [
+            {
+               "name": "org.h2.constraint.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.constraint.ConstraintReferential",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.constraint.ConstraintUnique",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.constraint.ConstraintCheck",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.compress",
+         "packageMembers": [
+            {
+               "name": "org.h2.compress.Compressor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.compress.CompressLZF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.compress.LZFOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.compress.CompressDeflate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.compress.LZFInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.compress.CompressNo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.command.dml",
+         "packageMembers": [
+            {
+               "name": "org.h2.command.dml.Delete",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.AlterSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.AlterTableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Insert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.SetTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Optimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.ScriptCommand$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.ExplainPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.ScriptCommand$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.ExecuteProcedure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.BackupCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.TransactionCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Set",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.SelectUnion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.ScriptCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.SelectOrderBy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Select",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Call",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.NoOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.ScriptBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Merge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.RunScriptCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.dml.Update",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.command.ddl",
+         "packageMembers": [
+            {
+               "name": "org.h2.command.ddl.DropSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropFunctionAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropUserDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DeallocateProcedure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.TruncateTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterTableRename",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateUserDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropConstant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterTableDropConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterTableAddConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DefineCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateFunctionAlias",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.SchemaCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.PrepareProcedure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropRole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateUser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterIndexRename",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.GrantRevoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropUser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterTableRenameColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateRole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateConstant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterUser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.Analyze",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.DropTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.SetComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.AlterTableAlterColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.ddl.CreateLinkedTable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.command",
+         "packageMembers": [
+            {
+               "name": "org.h2.command.CommandRemote",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.Command",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.CommandContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.Prepared",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.CommandList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.command.CommandInterface",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.bnf",
+         "packageMembers": [
+            {
+               "name": "org.h2.bnf.RuleFixed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.RuleRepeat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.RuleList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.RuleHead",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.Bnf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.RuleOptional",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.Sentence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.bnf.RuleElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      },
+      {
+         "name": "org.h2.api",
+         "packageMembers": [
+            {
+               "name": "org.h2.api.AggregateFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.api.DatabaseEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.h2.api.Trigger",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.71"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.lucene.analysis.standard",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.document",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.index",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.queryParser",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.search",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.lucene.analysis",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.h2",
+   "version": "1.0.71"
+}}

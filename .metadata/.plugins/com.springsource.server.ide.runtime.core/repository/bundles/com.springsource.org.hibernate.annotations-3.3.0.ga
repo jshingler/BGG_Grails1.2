@@ -1,0 +1,653 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:50:12.0",
+   "moduleName": "com.springsource.org.hibernate.annotations",
+   "name": "JBoss Hibernate Annotations",
+   "notes": "",
+   "organisationName": "org.hibernate",
+   "packageExports": [
+      {
+         "name": "org.hibernate",
+         "packageMembers": {
+            "name": "org.hibernate.AnnotationException",
+            "type": "CLASS"
+         },
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.type",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.type.ByteArrayBlobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.StringClobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.SerializableToBlobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.EnumType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.CharacterArrayClobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.AbstractLobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.PrimitiveByteArrayBlobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.type.PrimitiveCharacterArrayClobType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.mapping",
+         "packageMembers": {
+            "name": "org.hibernate.mapping.IdGenerator",
+            "type": "CLASS"
+         },
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.ejb",
+         "packageMembers": {
+            "name": "org/hibernate/ejb/orm_1_0.xsd",
+            "type": "RESOURCE"
+         },
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.cfg.annotations.reflection",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.cfg.annotations.reflection.EJB3OverridenAnnotationReader$PropertyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.reflection.XMLContext$Default",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.reflection.EJB3ReflectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.reflection.XMLContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.reflection.EJB3OverridenAnnotationReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.reflection.EJB3OverridenAnnotationReader$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.cfg.annotations",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.cfg.annotations.QueryBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.TableBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.ArrayBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.CollectionBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.CollectionBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.MapBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.SetBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.ResultsetMappingSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.SimpleValueBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.EntityBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.ListBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.MapBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.SimpleValueBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.BagBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.IdBagBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.EntityBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.PrimitiveArrayBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.QueryBinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.ListBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.PropertyBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.annotations.Nullability",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.cfg",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.cfg.ExtendedMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.CreateKeySecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotationConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotationConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Ejb3JoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.PropertyHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.FkSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.IndexSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.PropertyData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.PropertyPreloadedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.EJB3NamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.InheritanceState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotationConfiguration$CacheHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.CollectionPropertyHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.BinderHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.DefaultComponentSafeNamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.ClassPropertyHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.OneToOneSecondPass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.NotYetImplementedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.PropertyHolderBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.WrappedInferredData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotationBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.IndexColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotationBinder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotatedClassType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AbstractPropertyHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.EJB3DTDEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Ejb3DiscriminatorColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.ComponentPropertyHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.PropertyInferredData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.Ejb3Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.cfg.AnnotationBinder$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.ga"
+      },
+      {
+         "name": "org.hibernate.annotations",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.annotations.NamedQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.ForeignKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Immutable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.IndexColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.CacheConcurrencyStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.LazyCollectionOption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.SortType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.NotFoundAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.CacheModeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Proxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.SQLUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.FetchMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.LazyToOne",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.LazyCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.LazyToOneOption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.BatchSize",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Filters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.CollectionId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.OptimisticLockType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.SQLDeleteAll",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.ForceDiscriminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.AccessType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Fetch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.OptimisticLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.NamedQueries",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Where",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.NamedNativeQueries",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Tuplizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.GenericGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Sort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.WhereJoinTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.MapKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.DiscriminatorFormula",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.ResultCheckStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.GenerationTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.NamedNativeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.FilterJoinTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.MapKeyManyToMany",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.CollectionOfElements",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.TypeDefs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.CascadeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.TypeDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Parent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Cascade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.FilterJoinTables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Tuplizers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Tables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Columns",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.SQLInsert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.OnDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.NotFound",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Persister",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.ParamDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Generated",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.PolymorphismType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.OrderBy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.FlushModeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.FilterDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.OnDeleteAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Formula",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.Check",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.SQLDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.annotations.FilterDefs",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.ga"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j.io",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.hibernate.annotations",
+   "version": "3.3.0.ga"
+}}

@@ -1,0 +1,60 @@
+{"bundle": {
+   "dateAdded": "2009-04-18 00:59:30.0",
+   "moduleName": "org.springframework.integration.event",
+   "name": "Spring Integration ApplicationEvent Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": {
+      "name": "org.springframework.integration.event",
+      "packageMembers": [
+         {
+            "name": "org.springframework.integration.event.MessagingEvent",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.springframework.integration.event.ApplicationEventInboundChannelAdapter",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.springframework.integration.event.ApplicationEventPublishingMessageHandler",
+            "type": "CLASS"
+         }
+      ],
+      "version": "1.0.2.SR1"
+   },
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      },
+      {
+         "name": "org.springframework.integration.handler",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      },
+      {
+         "name": "org.springframework.integration.endpoint",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.event",
+   "version": "1.0.2.SR1"
+}}

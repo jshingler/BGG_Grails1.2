@@ -1,0 +1,329 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:23:41.0",
+   "moduleName": "com.springsource.org.apache.el",
+   "name": "Apache EL",
+   "notes": "",
+   "organisationName": "org.apache.el",
+   "packageExports": [
+      {
+         "name": "org.apache.el",
+         "packageMembers": [
+            {
+               "name": "org/apache/el/Messages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.el.ValueExpressionLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.ValueExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.ExpressionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.MethodExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.MethodExpressionLiteral",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.el.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.el.util.MessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.util.ConcurrentCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.util.ReflectionUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.el.parser",
+         "packageMembers": [
+            {
+               "name": "org.apache.el.parser.AstLiteralExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstValue$Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstGreaterThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParserTreeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstFloatingPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstEmpty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstMult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstOr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstDeferredExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstCompositeExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstFalse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.NodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstLessThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstMinus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.SimpleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstMod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstNotEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstDotSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstGreaterThanEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstLessThanEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstPlus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ELParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.BooleanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstDiv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstBracketSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.JJTELParserState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstAnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstNegative",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstChoice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.ArithmeticNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.parser.AstDynamicExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.el.lang",
+         "packageMembers": [
+            {
+               "name": "org.apache.el.lang.ELArithmetic$LongDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.VariableMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.EvaluationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.FunctionMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.ELArithmetic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.ELArithmetic$BigIntegerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.ELArithmetic$DoubleDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.ExpressionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.FunctionMapperImpl$Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.ELArithmetic$BigDecimalDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.VariableMapperFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.ELSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.el.lang.FunctionMapperFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      }
+   ],
+   "packageImports": {
+      "name": "javax.el",
+      "optional": false,
+      "versionRange": "[1.0.0, 2.0.0)"
+   },
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.el",
+   "version": "6.0.18"
+}}

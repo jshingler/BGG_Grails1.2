@@ -1,0 +1,711 @@
+{"bundle": {
+   "dateAdded": "2009-05-26 11:07:46.0",
+   "moduleName": "org.springframework.osgi.core",
+   "name": "Spring DM Core",
+   "notes": "",
+   "organisationName": "org.springframework.osgi",
+   "packageExports": [
+      {
+         "name": "org.springframework.osgi",
+         "packageMembers": {
+            "name": "org.springframework.osgi.OsgiException",
+            "type": "CLASS"
+         },
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.service.importer.event",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.service.importer.event.OsgiServiceDependencyWaitStartingEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.event.OsgiServiceDependencyEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.event.OsgiServiceDependencyWaitTimedOutEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.event.OsgiServiceDependencyWaitEndedEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.util",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.util.OsgiServiceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.BundleDelegatingClassLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiListenerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.SimpleLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiBundleUtils$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiServiceReferenceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.BundleDelegatingClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiBundleUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiBundleUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiStringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.DebugUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.LogUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiFilterUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.util.OsgiPlatformDetector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.service.importer.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.service.importer.support.Cardinality",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.OsgiServiceCollectionProxyFactoryBean$Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.OsgiServiceProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.OsgiServiceProxyFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.AbstractServiceProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.OsgiServiceCollectionProxyFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.OsgiServiceProxyFactoryBean$Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.DisposableBeanRunnableAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.LocalBundleContextAdvice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.AbstractOsgiServiceImportFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.OsgiServiceCollectionProxyFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.StaticServiceProxyCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.ImportContextClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.ServiceReferenceEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.AbstractServiceImporterProxyFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.CollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.LocalBundleContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.support.AbstractServiceImporterProxyFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.service.importer",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.service.importer.ServiceReferenceProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.OsgiServiceLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.DefaultOsgiServiceDependency",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.OsgiServiceDependency",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.ServiceProxyDestroyedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.importer.ImportedOsgiServiceProxy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.service.exporter.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.service.exporter.support.AbstractOsgiServiceExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.AutoExport$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.AutoExport$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.AutoExport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.ExportContextClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean$Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.OsgiServiceFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.BeanNameServicePropertiesResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.AutoExport$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.support.AutoExport$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.service.exporter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.service.exporter.OsgiServicePropertiesResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.exporter.OsgiServiceRegistrationListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.service",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.service.ServiceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.service.ServiceUnavailableException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.context.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.context.support.DelegatedNamespaceHandlerResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$BeanPostProcessorChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractOsgiBundleApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.OsgiPropertyEditorRegistrar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.OsgiBundleXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.DelegatedEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.TrackingUtil$OsgiServiceHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.BundleContextAwareProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.TrackingUtil$OsgiServiceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.TrackingUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.OsgiBundleXmlApplicationContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractOsgiBundleApplicationContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$NoDependenciesWaitRefreshExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.ContextClassLoaderProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.support.DefaultContextClassLoaderProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.context.event",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleContextFailedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleApplicationContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleApplicationContextEventMulticasterAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleApplicationContextEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleContextClosedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleApplicationContextEventMulticaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.ApplicationListenerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.event.OsgiBundleContextRefreshedEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.context.OsgiBundleApplicationContextExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.DependencyAwareBeanFactoryPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.DelegatedExecutionOsgiBundleApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.ConfigurableOsgiBundleApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.DependencyInitializationAwareBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.context.BundleContextAware",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.compendium.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.compendium.config.ConfigPropertiesDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.compendium.config.ManagedPropertiesDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/compendium/config/spring-osgi-compendium-1.1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.osgi.compendium.config.CompendiumNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.compendium.config.ManagedServiceFactoryDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/compendium/config/spring-osgi-compendium-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.osgi.compendium.config.UpdateStrategyAttributeCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/compendium/config/spring-osgi-compendium-1.2.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.config.AbstractReferenceDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.OsgiNamespaceHandler$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.OsgiDefaultsDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.BundleBeanDefinitionParser$BundleActionCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.CollectionBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/config/spring-osgi-1.2.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/osgi/config/spring-osgi-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.osgi.config.CollectionBeanDefinitionParser$GreedyProxyingAttributeCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.BundleBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.OsgiNamespaceHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.ReferenceBeanDefinitionParser$TimeoutAttributeCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.OsgiNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.ReferenceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.config.ServiceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/osgi/config/spring-osgi-1.1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.osgi.config.AbstractReferenceDefinitionParser$ReferenceAttributesCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.bundle",
+         "packageMembers": [
+            {
+               "name": "org.springframework.osgi.bundle.BundleAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.osgi.bundle.BundleFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.springframework.osgi.compendium.cm",
+         "packageMembers": {
+            "name": "org.springframework.osgi.compendium.cm.ConfigAdminPropertiesFactoryBean",
+            "type": "CLASS"
+         },
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.core.enums",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.osgi.io",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.context.event",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.aop",
+         "optional": false,
+         "versionRange": "[2.5.6, 4.0.0)"
+      },
+      {
+         "name": "org.osgi.service.startlevel",
+         "optional": true,
+         "versionRange": "[1.0.0, infinity)"
+      },
+      {
+         "name": "org.osgi.service.cm",
+         "optional": true,
+         "versionRange": "[1.2.0, infinity)"
+      },
+      {
+         "name": "org.osgi.framework",
+         "optional": false,
+         "versionRange": "[1.3.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.osgi.core",
+   "version": "1.2.0"
+}}

@@ -1,0 +1,684 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:57:06.0",
+   "moduleName": "com.springsource.org.jasypt.encryption",
+   "name": "Jasypt Java Simplified Encryption Library",
+   "notes": "",
+   "organisationName": "org.jasypt",
+   "packageExports": [
+      {
+         "name": "org.jasypt.util.numeric",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.util.numeric.IntegerNumberEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.numeric.StrongIntegerNumberEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.numeric.BasicIntegerNumberEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.numeric.StrongDecimalNumberEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.numeric.DecimalNumberEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.numeric.BasicDecimalNumberEncryptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.util.password",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.util.password.BasicPasswordEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.password.StrongPasswordEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.password.PasswordEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.password.ConfigurablePasswordEncryptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.util.text",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.util.text.TextEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.text.BasicTextEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.text.StrongTextEncryptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.web.pbeconfig",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.web.pbeconfig.WebPBEConfigServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.web.pbeconfig.WebPBEInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.web.pbeconfig.WebPBEConfigRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.web.pbeconfig.WebPBEInitializationContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.web.pbeconfig.WebPBEConfigHtmlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.web.pbeconfig.WebPBEConfigFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.wicket",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.wicket.JasyptCrypt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.wicket.JasyptCryptFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.commons",
+         "packageMembers": {
+            "name": "org.jasypt.commons.CommonUtils",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.util.digest",
+         "packageMembers": {
+            "name": "org.jasypt.util.digest.Digester",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.util.binary",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.util.binary.BasicBinaryEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.binary.StrongBinaryEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.util.binary.BinaryEncryptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.spring.security2",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.spring.security2.PBEPasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.spring.security2.PasswordEncoder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.spring.security",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.spring.security.PasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.spring.security.PBEPasswordEncoder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.spring.properties",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.spring.properties.EncryptablePropertyPlaceholderConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.spring.properties.EncryptablePropertyOverrideConfigurer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.properties",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.properties.PropertyValueEncryptionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.properties.EncryptablePropertiesEncryptorRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.properties.EncryptableProperties",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.salt",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.salt.RandomSaltGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.salt.SaltGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.salt.FixedStringSaltGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.salt.FixedByteArraySaltGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.salt.ZeroSaltGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.normalization",
+         "packageMembers": {
+            "name": "org.jasypt.normalization.Normalizer",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.intf.service",
+         "packageMembers": {
+            "name": "org.jasypt.intf.service.JasyptStatelessService",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.intf.cli",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.intf.cli.CLIUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.intf.cli.JasyptStringDigestCLI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.intf.cli.JasyptPBEStringEncryptionCLI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.intf.cli.ArgumentNaming",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.intf.cli.JasyptPBEStringDecryptionCLI",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.hibernate.type",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedShortAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedBooleanAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.ParameterNaming",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedFloatAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedBigIntegerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedDoubleAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.AbstractEncryptedAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedByteAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedBigDecimalType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedBigDecimalAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedDateAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedLongAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedCalendarAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedBinaryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedIntegerAsStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.type.EncryptedBigIntegerAsStringType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.hibernate.encryptor",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.hibernate.encryptor.HibernatePBEStringEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.encryptor.HibernatePBEBigIntegerEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.encryptor.HibernatePBEBigDecimalEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.encryptor.HibernatePBEByteEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.encryptor.HibernatePBEEncryptorRegistry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.hibernate.connectionprovider",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.hibernate.connectionprovider.ParameterNaming",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.connectionprovider.EncryptedPasswordDriverManagerConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.hibernate.connectionprovider.EncryptedPasswordC3P0ConnectionProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.exceptions",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.exceptions.EncryptionOperationNotPossibleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.exceptions.AlreadyInitializedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.exceptions.EncryptionInitializationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.encryption.pbe",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.encryption.pbe.StandardPBEBigDecimalEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.PBEBigDecimalEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.PasswordBased",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.NumberUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.PBEStringEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.PBEByteEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.PBEBigIntegerEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.StandardPBEStringEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.StandardPBEBigIntegerEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.StandardPBEByteEncryptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.encryption.pbe.config",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.encryption.pbe.config.StringPBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.WebStringPBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.SimpleStringPBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.PBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.SimplePBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.EnvironmentStringPBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.EnvironmentPBEConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.pbe.config.WebPBEConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.encryption",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.encryption.ByteEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.BigIntegerEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.BigDecimalEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.encryption.StringEncryptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.digest.config",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.digest.config.SimpleDigesterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.config.SimpleStringDigesterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.config.EnvironmentDigesterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.config.EnvironmentStringDigesterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.config.DigesterConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.config.StringDigesterConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.jasypt.digest",
+         "packageMembers": [
+            {
+               "name": "org.jasypt.digest.ByteDigester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.StringDigester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.StandardByteDigester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jasypt.digest.StandardStringDigester",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.hibernate.usertype",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.util",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers.encoding",
+         "optional": true,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.hibernate.type",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.cfg",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate.connection",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.apache.wicket.util.crypt",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.wicket",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.math",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.exception",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec.binary",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.providers.encoding",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.ibm.icu.text",
+         "optional": true,
+         "versionRange": "[3.4.4, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.jasypt.encryption",
+   "version": "1.5.0"
+}}

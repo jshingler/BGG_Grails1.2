@@ -1,0 +1,323 @@
+{"bundle": {
+   "dateAdded": "2008-08-07 13:26:53.0",
+   "moduleName": "org.springframework.security.acls",
+   "name": "Spring Security Access Control Lists",
+   "notes": "",
+   "organisationName": "org.springframework.security",
+   "packageExports": [
+      {
+         "name": "org.springframework.security.afterinvocation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.afterinvocation.AclEntryAfterInvocationCollectionFilteringProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.AbstractAclProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.AclEntryAfterInvocationProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.vote",
+         "packageMembers": {
+            "name": "org.springframework.security.vote.AclEntryVoter",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.acls",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acls.ChildrenExistException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.AclFormattingUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.AuditableAcl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.AlreadyExistsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.AclService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.UnloadedSidException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.Permission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.AuditableAccessControlEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.OwnershipAcl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.MutableAclService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.IdentityUnavailableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.MutableAcl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.NotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.AccessControlEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.Acl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.acls.sid",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acls.sid.GrantedAuthoritySid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.sid.SidRetrievalStrategyImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.sid.Sid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.sid.PrincipalSid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.sid.SidRetrievalStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.acls.domain",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acls.domain.AclImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.AclAuthorizationStrategyImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.AclAuthorizationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.BasePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.AccessControlEntryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.CumulativePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.ConsoleAuditLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.domain.AuditLogger",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.acls.jdbc",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acls.jdbc.AclCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.BasicLookupStrategy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.LookupStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/acls/jdbc/testData.sql",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.BasicLookupStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.JdbcAclService$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.JdbcMutableAclService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.BasicLookupStrategy$ProcessResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.BasicLookupStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.EhCacheBasedAclCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/acls/jdbc/applicationContext-test.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.JdbcMutableAclService$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.BasicLookupStrategy$StubAclParent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/acls/jdbc/select.sql",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.acls.jdbc.JdbcAclService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      },
+      {
+         "name": "org.springframework.security.acls.objectidentity",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acls.objectidentity.ObjectIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.objectidentity.ObjectIdentityImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.objectidentity.ObjectIdentityRetrievalStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acls.objectidentity.ObjectIdentityRetrievalStrategyImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.util",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 2.0.0.A]"
+      },
+      {
+         "name": "org.springframework.security.userdetails",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 2.0.0.A]"
+      },
+      {
+         "name": "org.springframework.security.context",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 2.0.0.A]"
+      },
+      {
+         "name": "org.springframework.security",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 2.0.0.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.core",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "net.sf.ehcache",
+         "optional": true,
+         "versionRange": "[1.4.1, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.security.acls",
+   "version": "2.0.0.A"
+}}

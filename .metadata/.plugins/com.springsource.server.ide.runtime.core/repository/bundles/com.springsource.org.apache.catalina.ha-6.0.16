@@ -1,0 +1,370 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:08:47.0",
+   "moduleName": "com.springsource.org.apache.catalina.ha",
+   "name": "Apache Tomcat Catalina HA",
+   "notes": "",
+   "organisationName": "org.apache.catalina",
+   "packageExports": [
+      {
+         "name": "org.apache.catalina.ha",
+         "packageMembers": [
+            {
+               "name": "org/apache/catalina/ha/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/ha/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterDeployer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.CatalinaCluster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.ClusterMessageBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.catalina.ha.util",
+         "packageMembers": {
+            "name": "org.apache.catalina.ha.util.IDynamicProperty",
+            "type": "CLASS"
+         },
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.catalina.ha.session",
+         "packageMembers": [
+            {
+               "name": "org/apache/catalina/ha/session/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.DeltaRequest$AttributeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.JvmRouteBinderValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.SessionMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.SessionIDMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/ha/session/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.DeltaRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.SessionMessageImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.SerializablePrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.StandardSessionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.SimpleTcpReplicationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.ClusterSessionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.DeltaManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.ReplicatedSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.ClusterManagerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.BackupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.session.DeltaSession",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.catalina.ha.tcp",
+         "packageMembers": [
+            {
+               "name": "org/apache/catalina/ha/tcp/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/catalina/ha/tcp/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.tcp.ReplicationValve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.tcp.SendMessageData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.tcp.SimpleTcpCluster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.tcp.Constants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.catalina.ha.deploy",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.ha.deploy.FileMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.WarWatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/ha/deploy/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.WarWatcher$WarInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.FileChangeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.FileMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.FarmWarDeployer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.WarWatcher$WarFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.deploy.UndeployMessage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.catalina.ha.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.ha.context.ReplicatedContext$ReplApplContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.context.ReplicatedContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.context.ReplicatedContext$MultiEnumeration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.catalina.ha.authenticator",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.ha.authenticator.SingleSignOnMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/ha/authenticator/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.ha.authenticator.ClusterSingleSignOn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.ha.authenticator.ClusterSingleSignOnListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.tomcat.util.modeler",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.juli.logging",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.tomcat.util",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.tomcat.util.digester",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.util",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.valves",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.tribes.tipis",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.tribes.io",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.tribes.group.interceptors",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.tribes.group",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.tribes",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.session",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.realm",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.core",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.connector",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina.authenticator",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.catalina",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.catalina.ha",
+   "version": "6.0.16"
+}}

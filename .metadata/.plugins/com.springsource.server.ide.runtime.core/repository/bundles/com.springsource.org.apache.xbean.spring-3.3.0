@@ -1,0 +1,437 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:56:09.0",
+   "moduleName": "com.springsource.org.apache.xbean.spring",
+   "name": "Apache XBean Spring Plugin",
+   "notes": "",
+   "organisationName": "org.apache.xbean",
+   "packageExports": [
+      {
+         "name": "org.apache.xbean.spring",
+         "packageMembers": {
+            "name": "org/apache/xbean/spring/spring-beans.xsd",
+            "type": "RESOURCE"
+         },
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.util.AbstractSpringVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.util.SpringVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.jndi",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.jndi.DefaultContext$LocalNamingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.jndi.DefaultContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.jndi.DefaultContext$ListEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.jndi.SpringInitialContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.jndi.DefaultContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.jndi.DefaultContext$ListBindingEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.jndi.NameParserImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.generator",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.generator.InvalidModelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.XmlWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.ParameterMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.WikiDocumentationGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.ElementMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.LogFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.AttributeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.GeneratorPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.MapMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.XmlMetadataGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.QdoxMappingLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.XsdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.NamespaceMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.MappingGeneratorTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.SchemaGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.DocumentationGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.generator.MappingLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.context.v2c",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.context.v2c.XBeanNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2c.PropertyEditorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2c.XBeanBeanDefinitionParserDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2c.XBeanQNameHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.context.v2",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.context.v2.XBeanXmlBeanDefinitionReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2.XBeanV2Helper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2.XBeanBeanDefinitionDocumentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2.XBeanXmlBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2.XBeanNamespaceHandlerResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.v2.XBeanNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.context.impl",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.context.impl.QNameReflectionParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.URIEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.PropertyEditorHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.XBeanHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.NamedConstructorArgs$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.QNameReflectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.FileEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.NamedConstructorArgs$ArgLengthComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.MappingMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.NamedConstructorArgs$PropertyKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.DateEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.DefaultProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.NamespaceHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.QNameHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.ObjectNameEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.XBeanXmlBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.NamedConstructorArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.impl.NamedConstructorArgs$ConstructionInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      },
+      {
+         "name": "org.apache.xbean.spring.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.xbean.spring.context.ResourceXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.FileSystemXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.SpringXmlPreprocessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.ClassPathXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.SpringApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.xbean.spring.context.XmlWebApplicationContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.thoughtworks.qdox.model",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.qdox",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.xbean.spring",
+   "version": "3.3.0"
+}}

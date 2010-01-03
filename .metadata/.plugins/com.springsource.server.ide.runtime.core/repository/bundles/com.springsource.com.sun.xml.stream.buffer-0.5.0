@@ -1,0 +1,211 @@
+{"bundle": {
+   "dateAdded": "2009-04-14 12:06:30.0",
+   "moduleName": "com.springsource.com.sun.xml.stream.buffer",
+   "name": "XML Stream Buffer Implementation",
+   "notes": "",
+   "organisationName": "com.sun.xml",
+   "packageExports": [
+      {
+         "name": "com.sun.xml.stream.buffer.stax",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$InternalNamespaceContext$BindingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.NamespaceContexHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamBufferCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamWriterBufferCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$ElementStackEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$InternalNamespaceContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$InternalNamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$DummyLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamWriterBufferProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$InternalNamespaceContext$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.StreamReaderBufferProcessor$CharSequenceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.stax.NamespaceContexHelper$NamespaceBindingImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.5.0"
+      },
+      {
+         "name": "com.sun.xml.stream.buffer",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.stream.buffer.FragmentedArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.AttributesHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.XMLStreamBufferException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.MutableXMLStreamBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.AbstractCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.XMLStreamBufferResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.AbstractProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.XMLStreamBufferMark",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.XMLStreamBufferSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.AbstractCreatorProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.XMLStreamBuffer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.5.0"
+      },
+      {
+         "name": "com.sun.xml.stream.buffer.sax",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.stream.buffer.sax.Features",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.sax.Properties",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.sax.DefaultWithLexicalHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.sax.SAXBufferCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.stream.buffer.sax.SAXBufferProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jvnet.staxex",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.sun.xml.stream.buffer",
+   "version": "0.5.0"
+}}

@@ -1,0 +1,2338 @@
+{"bundle": {
+   "dateAdded": "2008-11-12 15:43:46.0",
+   "moduleName": "org.eclipse.osgi",
+   "name": "systemBundle",
+   "notes": "",
+   "organisationName": "org.eclipse.osgi",
+   "packageExports": [
+      {
+         "name": "org.eclipse.osgi.internal.provisional.verifier",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.provisional.verifier.CertificateTrustAuthority",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.verifier.CertificateVerifierFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.verifier.CertificateVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.verifier.CertificateChain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.serviceregistry",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceUse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceUse$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceUse$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceReferenceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ShrinkableCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceUse$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.serviceregistry.ServiceRegistry$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.permadmin",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurityTableUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurePermissionStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.PermissionsHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurityTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.BundlePermissions$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.EquinoxProtectionDomain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.BundlePermissions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.EquinoxSecurityManager$CheckContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.EquinoxSecurityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurityRow$Decision",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.PermissionInfoCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurityInfoBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.EquinoxSecurityManager$CheckPermissionAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurityRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/permadmin/implied.permissions",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/permadmin/default.permissions",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.PermissionAdminTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.permadmin.SecurityAdmin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.event",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.event.BatchBundleListener",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.service.security",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.service.security.DefaultAuthorizationEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.service.security.KeyStoreTrustEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.signedcontent",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignerInfoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/signedcontent/SignedContentMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.LegacyVerifierFactory$LegacyChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.LegacyVerifierFactory$LegacyVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.DNChainMatching",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedBundleFile$SignedBundleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedContentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedContentMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.TrustEngineListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedContentConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.BundleInstallListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.DigestedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.PKCS7Processor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedContentImpl$SignedContentEntryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.LegacyVerifierFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.PKCS7DateParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedContentFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedBundleHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedBundleFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedContentFile$SignedContentFileEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.BERProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignatureBlockProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.signedcontent.SignedStorageHook",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.provisional.service.security",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.provisional.service.security.AuthorizationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.service.security.AuthorizationStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.service.security.AuthorizationEngine$AuthEventDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.service.security.AuthorizationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.provisional.service.security.AuthorizationEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.resolver",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/resolver/StateImpl.java.orig",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.GenericDescriptionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ResolverErrorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateObjectFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ComputeNodeOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ComputeNodeOrder$Digraph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ReadOnlyState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.BundleDescriptionImpl$LazyData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ComputeNodeOrder$Digraph$Vertex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateDeltaImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.SystemState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/resolver/StateMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.UserState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateHelperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.HostSpecificationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ImportPackageSpecificationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.ExportPackageDescriptionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.VersionConstraintImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.NativeCodeDescriptionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.BaseDescriptionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.BundleSpecificationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.BundleDescriptionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.BundleDeltaImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.NativeCodeSpecificationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.StateReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.resolver.GenericSpecificationImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.profile",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.profile.DefaultProfileLogger$AccumPerfData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.profile.DefaultProfileLogger$TimeEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.profile.DefaultProfileLogger$AccumPerfScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.profile.ProfileLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.profile.DefaultProfileLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.profile.Profile",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.module",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.module.ResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.BundleConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.ResolverExport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.GenericConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.ResolverConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.GroupingChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.ResolverBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.MappedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.ResolverImport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.VersionHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.PermissionChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.VersionSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.GenericCapability",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.module.GroupingChecker$PackageRoots",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.loader",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.loader.MultiSourcePackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.SystemBundleLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.FilteredSourcePackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoaderProxy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.NullPackageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoaderProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.PackageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.BundleLoader$ClassContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.SingleSourcePackage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.loader.buddy",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.SystemPolicy$ParentClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.SystemPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.RegisteredPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.PolicyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.GlobalPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.DependentPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.SystemPolicy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.loader.buddy.IBuddyPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.internal.baseadaptor",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.AdaptorUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/baseadaptor/ExternalMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BaseClassLoadingHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BaseStorage$StateSaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/internal/baseadaptor/BaseStorage.java.orig",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.DevClassPathHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.AdaptorMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BaseStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BasePermissionStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BundleInstall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BaseStorageHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.StateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.InvalidVersion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.DevClassLoadingHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.SystemBundleData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BundleUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.SystemBundleData$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BundleUninstall",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.internal.baseadaptor.BaseHookConfigurator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.util",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.KeyedHashSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.Headers$ArrayEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.KeyedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.Headers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.KeyedHashSet$EquinoxSetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.util.SecureAction$8",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.internal.reliablefile",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.internal.reliablefile.ReliableFile$CacheInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.reliablefile.ReliableFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.reliablefile.ReliableFileOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.reliablefile.ReliableFileInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.internal.protocol.reference",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.reference.ReferenceURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.reference.Handler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.internal.protocol.bundleresource",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.framework.internal.protocol.bundleresource.Handler",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.internal.protocol.bundleentry",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.framework.internal.protocol.bundleentry.Handler",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.internal.protocol",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.ContentHandlerProxy$DefaultContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.URLStreamHandlerProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.MultiplexingFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.ProtocolActivator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.MultiplexingURLStreamHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.ContentHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.URLStreamHandlerFactoryProxyFor15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.NullURLStreamHandlerService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.MultiplexingContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.StreamHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.URLStreamHandlerSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.MultiplexingFactory$InternalSecurityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.protocol.ContentHandlerProxy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.internal.core",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.PackageAdminImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.SystemBundleActivator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.StartLevelManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.StartLevelEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ManifestLocalization$BundleResourceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.InternalSystemBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/framework/internal/core/StartLevelManager.java.orig",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ManifestLocalization$EmptyResouceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$DuplicateBundleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$GetDataFileAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleURLConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleResourceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkConsole$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/framework/internal/core/processor.aliases",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/eclipse/osgi/framework/internal/core/osname.aliases",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.InternalSystemBundle$SystemBundleHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ReferenceInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.EquinoxLauncher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AliasMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/framework/internal/core/ConsoleMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ManifestLocalization$LocalizationResourceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FilterImpl$SetAccessibleAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleContextImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkConsole",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ManifestLocalization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.EquinoxLauncher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/framework/internal/core/ExternalMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Tokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.InternalSystemBundle$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.InternalSystemBundle$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.PackageAdminImpl$GetBundleAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/osgi/framework/internal/core/BundleRepository.java.orig",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleHost",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Msg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.PackageAdminImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ExportedPackageImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.Framework$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.EquinoxLauncher$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.ConsoleMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.BundleContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FilterImpl$Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.StartLevelManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkConsole$ConsoleSocketGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.AbstractBundle$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.internal.core.FrameworkConsole$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.debug",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.debug.FrameworkDebugOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.debug.Debug",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.adaptor",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.BundleData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.FrameworkAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.BundleClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.EventPublisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.ClassLoaderDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.ClassLoaderDelegateHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.FilePath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.BundleWatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.PermissionStorage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.BundleOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.StatusException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.adaptor.BundleProtectionDomain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.baseadaptor.loader",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.baseadaptor.loader.ClasspathManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.loader.ClasspathEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.loader.FragmentClasspath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.loader.BaseClassLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.baseadaptor.hooks",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.baseadaptor.hooks.ClassLoadingHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.hooks.AdaptorHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.hooks.ClassLoadingStatsHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.hooks.StorageHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.hooks.BundleFileWrapperFactoryHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.hooks.BundleFileFactoryHook",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.baseadaptor.bundlefile",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.NestedDirBundleFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.DirZipBundleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.BundleFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.BundleFileWrapperChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.FileBundleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.BundleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.MRUBundleFileList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.DirBundleFile$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.bundlefile.DirBundleFile",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.baseadaptor",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.baseadaptor.HookConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.BaseData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.BaseAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.HookRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.BaseAdaptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.BaseAdaptor$ParentClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.baseadaptor.BaseAdaptor$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.core.runtime.internal.stats",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.core.runtime.internal.stats.ClassloaderStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.stats.BundleStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.stats.ClassloaderStats$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.stats.StatsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.stats.ResourceBundleStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.stats.ClassStats",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.core.runtime.internal.adaptor",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseLogHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.ContextFinder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook$DomParsingService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.ContextFinder$Finder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.Locker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.CachedManifest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.Locker_JavaNio",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.PluginParser$PluginInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/eclipse/core/runtime/internal/adaptor/EclipseAdaptorMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook$SaxParsingService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseCommandProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.PluginParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseEnvironmentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.Locker_JavaIo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.ClasspathManifest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.DefaultStartupMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.BasicLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.ContextFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.IPluginInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.ContextFinder$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.BundleLocalizationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter$TerminatingClassNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.Semaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.PluginParser$Prerequisite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.BasicLocation$MockLocker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.EclipseClassLoadingHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.URLConverterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.LocationHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.MessageHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.internal.adaptor.IModel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.core.runtime.adaptor",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.core.runtime.adaptor.EclipseLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.adaptor.EclipseStarter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.adaptor.EclipseStarter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.adaptor.EclipseStarter$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.adaptor.LocationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.adaptor.EclipseStarter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.core.runtime.adaptor.EclipseStarter$InitialBundle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.service.url",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.url.URLStreamHandlerSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.url.URLStreamHandlerService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.url.URLConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.url.AbstractURLStreamHandlerService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.util.tracker",
+         "packageMembers": [
+            {
+               "name": "org.osgi.util.tracker.ServiceTrackerCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.BundleTracker$Tracked",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.AbstractTracked",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.ServiceTracker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.BundleTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.ServiceTracker$Tracked",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.ServiceTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.ServiceTracker$AllTracked",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.util.tracker.BundleTrackerCustomizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.service.startlevel",
+         "packageMembers": {
+            "name": "org.osgi.service.startlevel.StartLevel",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.service.permissionadmin",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.permissionadmin.PermissionAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.permissionadmin.PermissionInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.service.packageadmin",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.packageadmin.ExportedPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.packageadmin.RequiredBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.packageadmin.PackageAdmin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.service.condpermadmin",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.condpermadmin.BundleLocationCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.ConditionalPermissionsUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.BundleLocationCondition$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.ConditionalPermissionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.ConditionalPermissionAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.Condition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.BundleSignerCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.ConditionalPermissionInfoBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.ConditionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.condpermadmin.BooleanCondition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.framework.hooks.service",
+         "packageMembers": [
+            {
+               "name": "org.osgi.framework.hooks.service.PublishHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.hooks.service.ListenerHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.hooks.service.FindHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.hooks.service.ListenerHook$ListenerInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.framework.launch",
+         "packageMembers": [
+            {
+               "name": "org.osgi.framework.launch.Framework",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.launch.SystemBundle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.osgi.framework",
+         "packageMembers": [
+            {
+               "name": "org.osgi.framework.BundleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.BundlePermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.PackagePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.FrameworkUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServiceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.FrameworkListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.PackagePermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServiceRegistration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServiceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.BundleEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.AllServiceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.BundleContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.InvalidSyntaxException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.BundlePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.AdminPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServicePermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.Bundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.AdminPermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.AdminPermission$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServiceEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServiceReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.BundleActivator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.AdminPermission$SignerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.SynchronousBundleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServiceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.ServicePermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.BundleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.framework.FrameworkEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.util",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.util.TextProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.util.NLS$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.util.NLS",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.util.NLS$MessagesProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.util.ManifestElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.storagemanager",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.storagemanager.ManagedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.storagemanager.StorageManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.storagemanager.StorageManager$Entry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.signedcontent",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.signedcontent.SignedContentEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.signedcontent.SignedContentFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.signedcontent.InvalidContentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.signedcontent.SignerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.signedcontent.SignedContent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.urlconversion",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.service.urlconversion.URLConverter",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.security",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.service.security.TrustEngine",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.runnable",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.service.runnable.ApplicationRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.runnable.ApplicationLauncher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.runnable.StartupMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.runnable.ParameterizedRunnable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.resolver",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.service.resolver.BundleDelta",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.ExportPackageDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.HostSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.ResolverError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.NativeCodeSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.BundleSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.ImportPackageSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.Resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.GenericSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.VersionRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.PlatformAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.StateHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.VersionConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.NativeCodeDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.StateObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.BundleDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.DisabledInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.GenericDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.StateDelta",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.resolver.BaseDescription",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.pluginconversion",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.service.pluginconversion.PluginConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.pluginconversion.PluginConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.localization",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.service.localization.BundleLocalization",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.environment",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.service.environment.EnvironmentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.service.environment.Constants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.debug",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.service.debug.DebugOptions",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.service.datalocation",
+         "packageMembers": {
+            "name": "org.eclipse.osgi.service.datalocation.Location",
+            "type": "CLASS"
+         },
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.launch",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.launch.Equinox$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.launch.Equinox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.launch.EquinoxFWClassLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.log",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.log.FrameworkLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.log.FrameworkLogEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.eventmgr",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.EventManager$EventThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.EventManager$EventThread$Queued",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.CopyOnWriteIdentityMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.CopyOnWriteIdentityMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.ListenerQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.CopyOnWriteIdentityMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.EventManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.CopyOnWriteIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.EventListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.eventmgr.EventDispatcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      },
+      {
+         "name": "org.eclipse.osgi.framework.console",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.osgi.framework.console.CommandProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.osgi.framework.console.CommandInterpreter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.5.0.200811061137"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.eclipse.osgi",
+   "version": "3.5.0.200811061137"
+}}

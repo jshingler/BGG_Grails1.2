@@ -1,0 +1,960 @@
+{"bundle": {
+   "dateAdded": "2009-05-19 20:44:45.0",
+   "moduleName": "com.springsource.ch.qos.logback.core",
+   "name": "LogBack Core",
+   "notes": "",
+   "organisationName": "ch.qos.logback",
+   "packageExports": [
+      {
+         "name": "ch.qos.logback.core",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.LogbackException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.AppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.WriterAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.ContextBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.Layout",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.LayoutBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.UnsynchronizedAppenderBase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.ConsoleAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.Appender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.FileAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.CoreConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.BasicStatusManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.UnsynchronizedAppenderBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.util",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.util.FileSize",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.SystemInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.OptionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.StatusPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.Duration",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.PropertySetterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.Loader",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.IncompatibleClassException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.AggregationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.FileUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.DynamicClassLoadingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.ContentTypeUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.util.TimeUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.status",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.status.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.StatusUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.StatusListenerAsList",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.StatusBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.StatusManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.StatusListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.ErrorStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.OnConsoleStatusListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.WarnStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.ViewStatusMessagesServletBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.status.InfoStatus",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.spi",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.spi.PropertyContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.LifeCycle",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.FilterAttachableImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.FilterReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.ContextAwareImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.ContextAwareBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.AppenderAttachableImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.AppenderAttachable",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.FilterAttachable",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.spi.ContextAware",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.rolling.helper",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.rolling.helper.CompressionMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.Compressor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.Compressor",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.RollingCalendar$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.AsynchronousCompressor",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.TokenConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.PeriodicityType",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.RenameUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.CompressionRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.DateTokenConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.TimeBasedCleaner",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.RollingCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.helper.FileNamePattern",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.sift",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.sift.AppenderTrackerImpl$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.sift.Discriminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.sift.AppenderFactoryBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.sift.AppenderTrackerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.sift.AppenderTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.sift.SiftingAppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.sift.SiftingJoranConfiguratorBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.rolling",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.rolling.TriggeringPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.RolloverFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.RollingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.TriggeringPolicyBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.FixedWindowRollingPolicy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.RollingPolicyBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.RollingFileAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.TimeBasedRollingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.TimeBasedRollingPolicy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.rolling.FixedWindowRollingPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.read",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.read.CyclicBufferAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.read.ListAppender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.pattern.util",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.pattern.util.RegularEscapeUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.util.AlmostAsIsEscapeUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.util.IEscapeUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.pattern.parser",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.pattern.parser.KeywordNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.OptionTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.CompositeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.FormattingNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.TokenStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.ScanException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.parser.Compiler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.pattern",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.pattern.SpacePadder",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.CompositeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.PostCompileProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.ConverterUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.PatternLayoutBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.DynamicConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.FormattingConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.LiteralConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.pattern.FormatInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.net",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.net.SocketAppenderBase$Connector",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.TelnetAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.SyslogAppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.SyslogConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.LoginAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.SocketAppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.JMSAppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.SMTPAppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.net.SyslogWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.layout",
+         "packageMembers": {
+            "name": "ch.qos.logback.core.layout.EchoLayout",
+            "type": "CLASS"
+         },
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.joran.spi",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.joran.spi.XMLUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.Interpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.PropertySetter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.DefaultClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.HostClassAndPropertyDouble",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.SimpleRuleStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.CAI_WithLocatorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.InterpretationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.Pattern",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.ActionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.RuleStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.EventPlayer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.PropertySetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.spi.JoranException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.joran.event",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.joran.event.SaxEventRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.event.EndEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.event.SaxEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.event.StartEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.event.BodyEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.event.InPlayListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.joran.action",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.joran.action.NestedBasicPropertyIA",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.IADataForBasicProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.NOPAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.NestedComplexPropertyIA",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.PropertyAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.AbstractEventEvaluatorAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.IncludeAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.AppenderRefAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.NestedBasicPropertyIA$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.StatusListenerAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.NewRuleAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.ParamAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.AppenderAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.IADataForComplexProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.ContextPropertyAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.ConversionRuleAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.NestedComplexPropertyIA$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.ActionConst",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.action.ImplicitAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.joran",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.joran.JoranConfiguratorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.joran.GenericConfigurator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.html",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.html.NOPThrowableRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.html.IThrowableRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.html.CssBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.html.HTMLLayoutBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.helpers",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.helpers.ThrowableToStringArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.helpers.Transform",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.helpers.CyclicBuffer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.filter",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.filter.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.filter.AbstractMatcherFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.filter.EvaluatorFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.db",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.db.JNDIConnectionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.ConnectionSourceBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.DBAppenderBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.DataSourceConnectionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.ConnectionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.BindDataSourceToJNDIAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.DriverManagerConnectionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.DBHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.db.dialect",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.db.dialect.SQLDialectCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.DBUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.PostgreSQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.SQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.OracleDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.HSQLDBDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.MsSQLDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.DBUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.db.dialect.MySQLDialect",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      },
+      {
+         "name": "ch.qos.logback.core.boolex",
+         "packageMembers": [
+            {
+               "name": "ch.qos.logback.core.boolex.JaninoEventEvaluatorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.boolex.EventEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.boolex.EvaluationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.boolex.Matcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "ch.qos.logback.core.boolex.EventEvaluatorBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.15"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.codehaus.janino",
+         "optional": true,
+         "versionRange": "[2.4.3, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.ch.qos.logback.core",
+   "version": "0.9.15"
+}}

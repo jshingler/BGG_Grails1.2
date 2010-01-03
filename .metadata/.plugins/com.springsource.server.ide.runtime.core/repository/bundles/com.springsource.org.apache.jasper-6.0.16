@@ -1,0 +1,1202 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:36:00.0",
+   "moduleName": "com.springsource.org.apache.jasper",
+   "name": "Apache Jasper JSP support",
+   "notes": "",
+   "organisationName": "org.apache.jasper",
+   "packageExports": [
+      {
+         "name": "org.apache",
+         "packageMembers": [
+            {
+               "name": "org.apache.AnnotationProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.PeriodicEventListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.xmlparser",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.xmlparser.SymbolTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.SymbolTable$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.MyErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.XMLStringBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.ParserUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.XMLString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.MyEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.EncodingMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.XMLChar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.XMLEncodingDetector$RewindableInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.ASCIIReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.TreeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.UCSReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.UTF8Reader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.xmlparser.XMLEncodingDetector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.util",
+         "packageMembers": {
+            "name": "org.apache.jasper.util.Enumerator",
+            "type": "CLASS"
+         },
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.tagplugins.jstl.core",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Choose",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.ForEach",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.When",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Import",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Redirect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Set",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Otherwise",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.If",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Out",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Url",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.ForTokens",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Param",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Catch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.core.Remove",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.servlet",
+         "packageMembers": [
+            {
+               "name": "org/apache/jasper/servlet/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.jasper.servlet.JspCServletContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.servlet.JspServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.servlet.JspServletWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.servlet.JasperLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.tagplugins.jstl",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/jasper/tagplugins/jstl/tagPlugins.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.Util$ImportResponseWrapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.tagplugins.jstl.Util$ImportResponseWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.security",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.security.SecurityUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.security.SecurityClassLoad",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.runtime",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.runtime.JspFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.ProtectedFunctionMapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PerThreadTagHandlerPool$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PerThreadTagHandlerPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.ProtectedFunctionMapper$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspSourceDependent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspFactoryImpl$PageContextPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspContextWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.AnnotationHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspFragmentHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.HttpJspBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspWriterImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.ProtectedFunctionMapper$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspApplicationContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PerThreadTagHandlerPool$PerThreadData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspFactoryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.ProtectedFunctionMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.TagHandlerPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspRuntimeLibrary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.BodyContentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspRuntimeLibrary$PrivilegedIntrospectHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspFactoryImpl$PrivilegedGetPageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.ServletResponseWrapperInclude",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.ProtectedFunctionMapper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.PageContextImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspWriterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.runtime.JspFactoryImpl$PrivilegedReleasePageContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.resources",
+         "packageMembers": {
+            "name": "org/apache/jasper/resources/LocalStrings.properties",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.el",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.el.ELContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.JspMethodExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.JspPropertyNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.ELResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.ELContextImpl$VariableMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.ExpressionEvaluatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.ExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.FunctionMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.VariableResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.JspPropertyNotWritableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.JspValueExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.ELContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.ELContextWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.JspELException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.el.JspMethodNotFoundException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.compiler.tagplugin",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.compiler.tagplugin.TagPluginContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.tagplugin.TagPlugin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper.compiler",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.compiler.TagLibraryInfoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$1ScriptingVarVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$TagDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspConfig$JspProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$PlugIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$JspRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapStratum$LineInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ScriptingVariabler$ScriptingVariableVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Collector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagFileProcessor$TagFileDirectiveVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$CustomTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ScriptingVariabler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELParser$Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$ValidateVisitor$1MapperELVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapUtil$SmapGenVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$ParamAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagPluginManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Dumper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.PageDataImpl$SecondPassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.AntCompiler$SystemLogHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$1TagHandlerPoolVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Nodes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$TagExtraInfoVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode$Root",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELFunctionMapper$ELFunctionVisitor$1Fvisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Collector$CollectVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$ELExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$GenBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$TaglibDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.PageDataImpl$FirstPassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Declaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$JspElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ScriptingVariabler$CustomTagCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$GetProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$VariableDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode$ELText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.AntCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELParser$Char",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$TemplateText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Scriptlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELParser$Id",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ServletWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TextOptimizer$TextCatVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode$Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JDTCompiler$1CompilationUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ErrorDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$JspBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$TagHandlerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$UseBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspUtil$ValidAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TldLocationsCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.PageInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$AttributeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$FragmentHelperClass$Fragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode$Nodes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$ValidateVisitor$NamedAttributeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$ValidateVisitor$1ValidateFunctionMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspDocumentParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ErrorDispatcher$ErrorVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$NamedAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TextOptimizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$ParamsAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspRuntimeContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspConfig$JspPropertyGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.BeanRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$GenerateVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$AttributeDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$FallBackAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$DirectiveVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JDTCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JDTCompiler$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$ForwardAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$GenBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagPluginManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$InvokeAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JavacErrorDetail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$1DeclarationVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagPluginManager$TagPluginContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Mark",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELFunctionMapper$ELFunctionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$FragmentHelperClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspDocumentParser$EnableDTDValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$NamedAttribute$1AttributeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$GenerateVisitor$1ParamVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$JspText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ImplicitTagLibraryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Mark$IncludeState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapUtil$PreScanVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagFileProcessor$TagFileDirectiveVisitor$NameEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$ValidateVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagFileProcessor$TagFileLoaderVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapUtil$SDEInstaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Localizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$PageDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$ScriptingElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$IncludeAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$ChildInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$DoBodyAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Generator$GenerateVisitor$2ParamVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$Root",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JDTCompiler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ParserController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$JspOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode$Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.TagFileProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Validator$ValidateVisitor$1FVVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Compiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELParser$QuotedString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$JspAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.AntCompiler$JasperAntLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELFunctionMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Dumper$DumpVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.PageDataImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$SetProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$UninterpretedTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.Node$IncludeDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.ELNode$Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JasperTagInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.JspUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.DefaultErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.compiler.SmapStratum",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      },
+      {
+         "name": "org.apache.jasper",
+         "packageMembers": [
+            {
+               "name": "org.apache.jasper.JspC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.JspCompilationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.Options",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.EmbeddedServletOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jasper.JasperException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.16"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.eclipse.jdt.internal.compiler.problem",
+         "optional": false,
+         "versionRange": "[3.3.0, 3.3.0]"
+      },
+      {
+         "name": "org.eclipse.jdt.internal.compiler.env",
+         "optional": false,
+         "versionRange": "[3.3.0, 3.3.0]"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.util",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.jdt.core.compiler",
+         "optional": false,
+         "versionRange": "[3.3.0, 3.3.0]"
+      },
+      {
+         "name": "org.eclipse.jdt.internal.compiler",
+         "optional": false,
+         "versionRange": "[3.3.0, 3.3.0]"
+      },
+      {
+         "name": "org.eclipse.jdt.internal.compiler.classfmt",
+         "optional": false,
+         "versionRange": "[3.3.0, 3.3.0]"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.juli.logging",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.el.lang",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "org.apache.el",
+         "optional": false,
+         "versionRange": "[6.0.16, 6.0.16]"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.resources",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.resources",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.el",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.el",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.jasper",
+   "version": "6.0.16"
+}}

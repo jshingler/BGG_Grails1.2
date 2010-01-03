@@ -1,0 +1,1594 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 16:05:46.0",
+   "moduleName": "org.springframework.web.servlet",
+   "name": "Spring Web Servlet",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.web.bind",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.bind.WebDataBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.EscapedErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$ParameterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.RequestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestParameterPropertyValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$StringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.MissingServletRequestParameterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestBindingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$IntParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$LongParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$FloatParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$BooleanParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestDataBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.ServletRequestUtils$DoubleParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view.xslt",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.xslt.XsltViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.xslt.TransformerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.xslt.XsltView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.xslt.AbstractXsltView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view.velocity",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityView$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityView$LocaleAwareNumberTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityToolboxView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/web/servlet/view/velocity/spring.vm",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityLayoutView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.velocity.VelocityView$LocaleAwareDateTool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view.jasperreports",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.JasperReportsMultiFormatView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.AbstractJasperReportsView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.JasperReportsHtmlView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.JasperReportsCsvView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.JasperReportsViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.JasperReportsPdfView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.JasperReportsXlsView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.ConfigurableJasperReportsView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.jasperreports.AbstractJasperReportsSingleFormatView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view.tiles2",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.TilesView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.AbstractSpringPreparerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.TilesConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.SimpleSpringPreparerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.SpringBeanPreparerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.SpringLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.TilesConfigurer$DelegatingServletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.tiles2.TilesConfigurer$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view.freemarker",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/web/servlet/view/freemarker/spring.ftl",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$GenericServletAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$DelegatingServletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.freemarker.FreeMarkerView$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.tags.form",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.tags.form.TagIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.TagWriter$SafeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.HiddenInputTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractMultiCheckedElementTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.ValueFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.TagWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractHtmlElementTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractCheckedElementTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.RadioButtonTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.CheckboxesTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractSingleCheckedElementTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.FormTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.SelectTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.SelectedValueComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractHtmlInputElementTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.LabelTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.OptionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.PasswordInputTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.InputTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.ErrorsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.OptionsTag$OptionsWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.RadioButtonsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.TextareaTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractHtmlElementBodyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractFormTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.TagWriter$TagStateEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.OptionWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.CheckboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.OptionsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view.document",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.document.AbstractJExcelView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.document.AbstractExcelView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.document.AbstractPdfView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.view",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.view.JstlView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.AbstractCachingViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.BeanNameViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.AbstractTemplateView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.InternalResourceViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.InternalResourceView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.AbstractTemplateViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.AbstractUrlBasedView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.RedirectView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.XmlViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.AbstractView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.ResourceBundleViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.view.UrlBasedViewResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.theme",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.theme.AbstractThemeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.theme.FixedThemeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.theme.CookieThemeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.theme.SessionThemeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.theme.ThemeChangeInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.tags",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.tags.RequestContextAwareTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.HtmlEscapingAwareTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.EditorAwareTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.TransformTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.NestedPathTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.HtmlEscapeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.ThemeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.BindErrorsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.BindTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.MessageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.tags.EscapeBodyTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.support.RequestContextUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.RequestContext$JstlLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.WebContentGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.JstlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.JspAwareRequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.BindStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.RequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.JspAwareRequestContext$JstlPageLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.support.JstlUtils$SpringLocalizationContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.mvc.throwaway",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.mvc.throwaway.ThrowawayControllerHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.throwaway.ThrowawayController",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.mvc.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.mvc.support.AnnotationControllerTypePredicate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.support.AbstractControllerUrlHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.support.ControllerBeanNameHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.support.ControllerTypePredicate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.mvc.multiaction",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.InternalPathMethodNameResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.AbstractUrlMethodNameResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.PropertiesMethodNameResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.MultiActionController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.MethodNameResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.multiaction.NoSuchRequestHandlingMethodException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.mvc.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter$ServletHandlerMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter$ServletHandlerMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter$RequestMappingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.ServletAnnotationMappingUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.mvc",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.mvc.UrlFilenameViewController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.AbstractWizardFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.ServletWrappingController$DelegatingServletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.AbstractCommandController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.LastModified",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.SimpleFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.AbstractUrlViewController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.AbstractController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.CancellableFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.AbstractFormController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.BaseCommandController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.ServletForwardingController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.ServletWrappingController$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.ServletWrappingController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.WebContentInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.Controller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.mvc.ParameterizableViewController",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.i18n",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.i18n.LocaleChangeInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.i18n.FixedLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.i18n.CookieLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.i18n.SessionLocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.i18n.AbstractLocaleResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.handler.metadata",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.handler.metadata.CommonsPathMapHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.metadata.PathMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.metadata.AbstractPathMapHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.metadata.PathMap$__attributeRepository",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet.handler",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.handler.AbstractHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.HandlerInterceptorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.UserRoleAuthorizationInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.SimpleMappingExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.AbstractUrlHandlerMapping$PathExposingHandlerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.SimpleServletHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.DispatcherServletWebRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.SimpleServletPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.SimpleServletPostProcessor$DelegatingServletConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.handler.AbstractUrlHandlerMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.servlet.HandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HandlerExecutionChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.ModelAndView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.ViewRendererServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HttpServletBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HandlerInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.DispatcherServlet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.ModelAndViewDefiningException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.ThemeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HandlerMapping$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.ResourceServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HttpServletBean$ServletConfigPropertyValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.FrameworkServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.HandlerExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.LocaleResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.ViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.RequestToViewNameTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/web/servlet/DispatcherServlet.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.web.servlet.View",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.servlet.DispatcherServlet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.multipart.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.support.StringMultipartFileEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.support.ByteArrayMultipartFileEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.support.MultipartFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.multipart.commons",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.multipart.commons.CommonsFileUploadSupport$MultipartParsingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.commons.CommonsFileUploadSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.commons.CommonsMultipartResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.commons.CommonsMultipartFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.commons.CommonsMultipartResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.multipart",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.multipart.MultipartResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.MultipartException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.MaxUploadSizeExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.MultipartRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.MultipartHttpServletRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.multipart.MultipartFile",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.bind.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.bind.support.WebRequestDataBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.SimpleSessionStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.ConfigurableWebBindingInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.WebBindingInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.SessionAttributeStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.DefaultSessionAttributeStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.WebArgumentResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.support.SessionStatus",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.bind.annotation.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.bind.annotation.support.HandlerMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.support.HandlerMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.support.HandlerMethodResolver$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.web.bind.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.web.bind.annotation.ModelAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.InitBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.SessionAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.RequestParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.RequestMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.web.bind.annotation.RequestMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.context.request",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.filter",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.validation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui.velocity",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui.jasperreports",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui.freemarker",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.stereotype",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.style",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.enums",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context.i18n",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context.event",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.tools",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.servlet",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.context",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.tools.view",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.tools.generic",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource.loader",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.exception",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.context",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.app.tools",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.app",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.web.util",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.servlet.context",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.preparer",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.locale.impl",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.jsp.context",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.factory",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.definition",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.context",
+         "optional": true,
+         "versionRange": "[2.0.5.osgi, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles.access",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "org.apache.tiles",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "org.apache.poi.poifs.filesystem",
+         "optional": true,
+         "versionRange": "[3.0.2.FINAL, 4.0.0)"
+      },
+      {
+         "name": "org.apache.poi.hssf.usermodel",
+         "optional": true,
+         "versionRange": "[3.0.2.FINAL, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload.servlet",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload.disk",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.attributes",
+         "optional": true,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine.xml",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine.util",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine.export",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine.design",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "jxl.write",
+         "optional": true,
+         "versionRange": "[2.6.6, 3.0.0)"
+      },
+      {
+         "name": "jxl",
+         "optional": true,
+         "versionRange": "[2.6.6, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.jstl.fmt",
+         "optional": false,
+         "versionRange": "[1.1.2, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.jstl.core",
+         "optional": false,
+         "versionRange": "[1.1.2, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "freemarker.template",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "freemarker.ext.servlet",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "freemarker.ext.jsp",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "freemarker.core",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "freemarker.cache",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "com.lowagie.text.pdf",
+         "optional": true,
+         "versionRange": "[2.0.8, 3.0.0)"
+      },
+      {
+         "name": "com.lowagie.text",
+         "optional": true,
+         "versionRange": "[2.0.8, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.web.servlet",
+   "version": "2.5.4.A"
+}}

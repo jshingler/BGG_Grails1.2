@@ -1,0 +1,2243 @@
+{"bundle": {
+   "dateAdded": "2008-11-14 17:26:04.0",
+   "moduleName": "org.springframework.webflow",
+   "name": "Spring Web Flow",
+   "notes": "",
+   "organisationName": "org.springframework.webflow",
+   "packageExports": [
+      {
+         "name": "org.springframework.webflow.validation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.validation.DefaultValidationContext$PropertyMappingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.validation.DefaultValidationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.validation.ValidationHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.action",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.action.MultiAction$MethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.EventFactorySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ResultEventFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.DispatchMethodInvoker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.DefaultMultiActionMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.AbstractAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ViewFactoryActionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/action/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.action.DispatchMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.RenderAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ResultObjectBasedEventFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.MultiAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ActionResultExposer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ResultObjectBasedEventFactory$EnumUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.EvaluateAction$DefaultResultEventFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.SuccessEventFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.EvaluateAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.SetAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ResultEventFactorySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.DispatchMethodInvoker$MethodLookupException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.CompositeAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.FormObjectAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.FormAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.FlowDefinitionRedirectAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.action.ExternalRedirectAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.upgrade",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/upgrade/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.upgrade.WebFlowUpgrader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/upgrade/spring-webflow-1.0-to-2.0.xsl",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.test.execution",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.test.execution.AbstractXmlFlowExecutionTests$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.execution.AbstractXmlFlowExecutionTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.execution.AbstractFlowExecutionTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.execution.AbstractExternalizedFlowExecutionTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/test/execution/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.test",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.test.MockExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockFlowExecutionKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockRequestControlContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockViewFactoryCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockFlowExecutionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockViewFactoryCreator$MockViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockFlowSession$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockFlowBuilderContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockFlowSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.TestFlowBuilderServicesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockRequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockFlowExecutionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockExternalContext$MockPrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.test.GeneratedFlowExecutionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/test/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.test.MockViewFactoryCreator$MockView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.security",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/security/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.security.SecurityRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.security.SecurityFlowExecutionListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.scope",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.scope.FlowScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.scope.ViewScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.scope.ScopeRegistrar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.scope.ConversationScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.scope.AbstractWebFlowScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.scope.FlashScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.scope.RequestScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/scope/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.persistence",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.persistence.HibernateFlowExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/persistence/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.persistence.HibernateFlowExecutionListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.persistence.JpaFlowExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.persistence.JpaFlowExecutionListener$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.mvc.portlet",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/mvc/portlet/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.portlet.PortletMvcViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.portlet.FlowHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.portlet.AbstractFlowHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.portlet.FlowHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.portlet.PortletMvcView",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.mvc.view",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.mvc.view.FlowViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.AbstractMvcView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.BindingModel$FieldErrorResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.FlowAjaxTilesView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.AbstractMvcView$PropertyNotFoundError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.BindingModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.AbstractMvcViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.BindingModel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.AbstractMvcView$RequestParameterExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.BindingModel$FieldErrorMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.AbstractMvcView$MappingError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/mvc/view/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.BindingModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.view.ViewActionStateHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.mvc.servlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.mvc.servlet.ServletMvcViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.FlowHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.FlowController$DefaultFlowHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/mvc/servlet/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.FlowHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.MvcExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.FlowHandlerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.FlowHandlerMapping$DefaultFlowHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.ServletMvcView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.FlowController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.servlet.AbstractFlowHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.mvc.builder",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.mvc.builder.MvcViewFactoryCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.builder.MvcEnvironment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.builder.FlowResourceFlowViewResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/mvc/builder/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.mvc.builder.DelegatingFlowViewResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.expression.el",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/expression/el/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ImplicitFlowVariableELResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ImplicitFlowVariableELResolver$PropertyResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ActionMethodELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ScopeSearchingELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ImplicitFlowVariableELResolver$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.WebFlowELExpressionParser$RequestContextELContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ImplicitFlowVariableELResolver$ImplicitVariables",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.RequestContextELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.SpringBeanWebFlowELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.WebFlowELExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.FlowResourceELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ImplicitFlowVariableELResolver$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.ImplicitFlowVariableELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.el.WebFlowELExpressionParser$WebFlowELContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.expression",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.expression.WebFlowOgnlExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.WebFlowOgnlExpressionParser$MutableAttributeMapPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.WebFlowOgnlExpressionParser$RequestContextPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.WebFlowOgnlExpressionParser$MessageSourcePropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.WebFlowOgnlExpressionParser$MapAdaptablePropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.expression.WebFlowOgnlExpressionParser$ActionPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/expression/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.expression.DefaultExpressionParserFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.executor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.executor.FlowExecutionResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.executor.FlowExecutorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.executor.FlowExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/executor/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.execution.repository.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.execution.repository.support.AbstractFlowExecutionRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.support.ConversationBackedFlowExecutionLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.support.CompositeFlowExecutionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/execution/repository/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.support.FlowExecutionStateRestorer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.execution.repository.snapshot",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SimpleFlowExecutionSnapshotFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/execution/repository/snapshot/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.FlowExecutionSnapshotFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SerializedFlowExecutionSnapshotFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SimpleFlowExecutionSnapshotFactory$SimpleFlowExecutionSnapshot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SerializedFlowExecutionSnapshot$ConfigurableObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.AbstractSnapshottingFlowExecutionRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SerializedFlowExecutionSnapshot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SnapshotUnmarshalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SnapshotNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.SnapshotCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.snapshot.FlowExecutionSnapshot",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.execution.repository.impl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.execution.repository.impl.SimpleFlowExecutionSnapshotGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.impl.DefaultFlowExecutionRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/execution/repository/impl/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.impl.FlowExecutionSnapshotGroup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.execution.repository",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/execution/repository/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.PermissionDeniedFlowExecutionAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.FlowExecutionRestorationFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.FlowExecutionLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.FlowExecutionAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.BadlyFormattedFlowExecutionKeyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.FlowExecutionRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.FlowExecutionRepositoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.repository.NoSuchFlowExecutionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.execution.factory",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.execution.factory.FlowExecutionListenerCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.FlowExecutionListenerCriteriaFactory$WildcardFlowExecutionListenerCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.FlowExecutionListenerLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/execution/factory/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.FlowExecutionListenerCriteriaFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.StaticFlowExecutionListenerLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.FlowExecutionListenerCriteriaFactory$FlowIdFlowExecutionListenerCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.ConditionalFlowExecutionListenerLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.factory.ConditionalFlowExecutionListenerHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.builder.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.builder.support.AbstractFlowBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.support.FlowBuilderContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.support.TextToTargetStateResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.support.FlowBuilderContextImpl$ParentConversionServiceProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/builder/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.support.TextToTransitionCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.support.FlowBuilderServices",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.impl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.impl.FlowExecutionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.impl.FlowExecutionImplFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/impl/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.impl.FlowExecutionListeners",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.impl.FlowExecutionImplFactory$SimpleFlowExecutionKeyFactory$SimpleFlowExecutionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.impl.FlowSessionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.impl.RequestControlContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.impl.FlowExecutionImplFactory$SimpleFlowExecutionKeyFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.model",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.model.PersistenceContextModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.VarModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.ExceptionHandlerModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.ViewStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.OutputModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.AbstractStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.InputModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.EndStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.AbstractActionModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.FlowModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.TransitionModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.Model",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/model/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.IfModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.SubflowStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.AttributeModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.AbstractTransitionableStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.EvaluateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.DecisionStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.ActionStateModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.SetModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.BindingModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.AbstractModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.BinderModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.SecuredModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.BeanImportModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.RenderModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.AbstractMappingModel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.model.builder",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.model.builder.FlowModelBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.builder.FlowModelBuilderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.builder.DefaultFlowModelHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/model/builder/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.model.builder.xml",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.model.builder.xml.XmlFlowModelBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.builder.xml.WebFlowEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/model/builder/xml/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/webflow/engine/model/builder/xml/spring-webflow-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.builder.xml.DocumentLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.builder.xml.DefaultDocumentLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.model.registry",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/engine/model/registry/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.registry.FlowModelRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.registry.FlowModelLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.registry.FlowModelRegistryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.registry.FlowModelHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.model.registry.NoSuchFlowModelException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.support",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/engine/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.ActionExecutingViewFactory$ActionExecutingView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.TransitionCriteriaChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.NotTransitionCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.BeanFactoryVariableValueFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.DefaultTransitionCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.DefaultTargetStateResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.TransitionExecutingFlowExecutionExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.ActionExecutingViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.GenericSubflowAttributeMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.support.ActionTransitionCriteria",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.execution",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.execution.RequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/execution/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ScopeType$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionOutcome",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ActionExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ScopeType$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.EnterStateVetoException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.RequestContextHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.Event",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ActionExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionListenerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ScopeType$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ScopeType$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ScopeType$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.ScopeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.View",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecutionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.AnnotatedAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.execution.FlowExecution",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.builder.model",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/engine/builder/model/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.model.FlowModelFlowBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.model.FlowRelativeResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.model.SubflowExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.model.LocalFlowBuilderContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine.builder",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.builder.FlowBuilderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.FlowArtifactFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.DefaultFlowHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.BinderConfiguration$Binding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.BinderConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.FlowBuilderContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.FlowBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/builder/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.ViewFactoryCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.builder.FlowAssembler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.engine",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.engine.RequestControlContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.ViewRenderingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.FlowVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.TransitionableState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.FlowOutputMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.ViewState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.ActionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.Transition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.WildcardTransitionCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.History",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.ActionState$NoMatchingActionResultTransitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.EndState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.Flow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.VariableValueFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.NoMatchingTransitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.SubflowState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.SubflowAttributeMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.FlowExecutionExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.FlowAttributeMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.FlowExecutionExceptionHandlerSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/engine/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.engine.State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.TransitionSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.ActionState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.TransitionCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.FlowInputMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.ViewVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.DecisionState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.engine.TargetStateResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.definition",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.definition.FlowDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.TransitionableStateDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.StateDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/definition/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.definition.TransitionDefinition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.definition.registry",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.definition.registry.NoSuchFlowDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.registry.StaticFlowDefinitionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.registry.FlowDefinitionRegistryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/definition/registry/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.definition.registry.FlowDefinitionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.registry.FlowDefinitionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.registry.FlowDefinitionConstructionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.definition.registry.FlowDefinitionLocator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.core.collection",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.core.collection.LocalSharedAttributeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.AttributeMapBindingListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.CollectionUtils$EnumerationIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.AttributeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.LocalParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.ParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.CollectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.AttributeMapBindingEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/core/collection/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.CollectionUtils$EmptyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.SharedAttributeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.LocalAttributeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.collection.MutableAttributeMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.core.Annotated",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/core/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.core.FlowException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.core.AnnotatedObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.conversation.impl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.conversation.impl.JdkBackportConcurrentConversationLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.NoOpConversationLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.ConversationLockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.LockInterruptedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.ConversationContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/conversation/impl/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.JdkConcurrentConversationLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.ConversationLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.ContainedConversation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.LockTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.SessionBindingConversationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.SimpleConversationId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.impl.BadlyFormattedConversationIdException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.conversation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.conversation.ConversationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.NoSuchConversationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.ConversationLockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.ConversationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/conversation/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.ConversationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.Conversation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.conversation.ConversationId",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.context.web",
+         "packageMembers": [
+            {
+               "name": "org/springframework/webflow/context/web/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.context.web.HttpSessionMapBindingListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.context.portlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.context.portlet.PortletSessionMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.portlet.PortletRequestMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/context/portlet/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.context.portlet.PortletRequestParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.portlet.PortletExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.portlet.PortletContextMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.portlet.DefaultFlowUrlHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.portlet.FlowUrlHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.context.servlet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.context.servlet.HttpServletRequestParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.DefaultFlowUrlHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.HttpServletRequestMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.FlowUrlHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.ServletExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.HttpServletContextMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.FilenameFlowUrlHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/context/servlet/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.HttpSessionMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.servlet.WebFlow1FlowUrlHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.context.ExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.context.ExternalContextHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/context/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.webflow.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.webflow.config.FlowDefinitionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.WebFlowConfigNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowExecutionListenerLoaderFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowRegistryFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.DefaultFlowRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowBuilderInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowRegistryBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowElementAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowExecutorBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/config/spring-webflow-config-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowBuilderServicesBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowExecutionListenerLoaderBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowExecutorFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.webflow.config.FlowDefinitionResourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/webflow/config/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet.view",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet.mvc",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet.handler",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.portlet.multipart",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.portlet.handler",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.portlet.context",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.portlet",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.multipart",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context.request",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.bind",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.validation",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.vote",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.context",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.orm.jpa",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.orm.hibernate3",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.js.ajax.tiles2",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.js.ajax",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.core.style",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.enums",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.annotation",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.binding.validation",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.method",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.message",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.mapping.impl",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.mapping",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.expression.support",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.expression.el",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.expression.ognl",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.expression.beanwrapper",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.expression",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.convert.service",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.convert.converters",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.convert",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.binding.collection",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.6)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.access.el",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.hibernate.classic",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.hibernate",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "ognl",
+         "optional": true,
+         "versionRange": "[2.6.9, 3.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.portlet",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent.locks",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      },
+      {
+         "name": "javax.el",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.webflow",
+   "version": "2.0.5.RELEASE"
+}}

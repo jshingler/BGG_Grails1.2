@@ -1,0 +1,2380 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:56:19.0",
+   "moduleName": "com.springsource.org.apache.poi",
+   "name": "Apache POI Microsoft File Format API",
+   "notes": "",
+   "organisationName": "org.apache.poi",
+   "packageExports": [
+      {
+         "name": "org.apache.poi",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.POITextExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.POIDocument",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.util.TempFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.POILogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.HexDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LittleEndian$BufferUnderrunException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IntMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BlockingInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.ArrayUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.POILogFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IntList2d",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.StringUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.SystemOutLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$5$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LongField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.CommonsLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.DrawingDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.ByteField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$6$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IntList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BitField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$4$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$3$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.List2d",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.NullLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BitFieldFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LittleEndianConsts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.ShortList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$BinaryTreeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IntegerField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.HexRead",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LittleEndian",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.DoubleList2d",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BinaryTree$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.DoubleList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.ShortField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.FixedField",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.poifs.storage",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.storage.PropertyBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.DocumentBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.RawDataBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.HeaderBlockConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockAllocationTableReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.RawDataBlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallDocumentBlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.ListManagedBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallDocumentBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.HeaderBlockWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.PropertyBlock$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallBlockTableWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallBlockTableReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BigBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockWritable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BATBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockAllocationTableWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockListImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.HeaderBlockReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.poifs.property",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.property.PropertyConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.DirectoryProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.DirectoryProperty$PropertyComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.PropertyTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.DocumentProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.Parent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.Child",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.PropertyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.RootProperty",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.poifs.filesystem",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSFileSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.BATManaged",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.OfficeXmlFileException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DirectoryEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocument$SmallBlockStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.EntryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSWriterListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSWriterEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DirectoryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocumentPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocument$BigBlockStore",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.poifs.eventfilesystem",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.eventfilesystem.POIFSReader$SampleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.eventfilesystem.POIFSReaderEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.eventfilesystem.POIFSReaderListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.eventfilesystem.POIFSReaderRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.eventfilesystem.POIFSReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.poifs.common",
+         "packageMembers": {
+            "name": "org.apache.poi.poifs.common.POIFSConstants",
+            "type": "CLASS"
+         },
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.poifs.dev",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.dev.POIFSViewEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.dev.POIFSViewable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.dev.POIFSViewer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$ROYAL_BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIGHT_ORANGE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$TAN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$ORANGE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$AQUA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFDataValidation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LAVENDER",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$VIOLET",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$BLACK",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$SEA_GREEN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIGHT_TURQUOISE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$TEAL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$PINK",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$CORAL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$GREY_25_PERCENT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIGHT_GREEN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.RKUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$CORNFLOWER_BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$BRIGHT_GREEN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$GOLD",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$BROWN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.RangeAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIGHT_BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.SheetReferences",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$INDIGO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.AreaReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$BLUE_GREY",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIME",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIGHT_CORNFLOWER_BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$SKY_BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$DARK_GREEN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$GREY_40_PERCENT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$OLIVE_GREEN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$WHITE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.Region",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$DARK_RED",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$RED",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$AUTOMATIC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LEMON_CHIFFON",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$LIGHT_YELLOW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$ROSE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$MAROON",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$DARK_TEAL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$TURQUOISE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$DARK_YELLOW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$YELLOW",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFCellRangeAddress$AddrStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.CellReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.PaneInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFCellRangeAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$ORCHID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$PLUM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$GREY_80_PERCENT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$GREY_50_PERCENT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$DARK_BLUE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$GREEN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.util.HSSFColor$PALE_BLUE",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.usermodel",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPrintSetup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFSimpleShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFRow$CellIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPalette",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPalette$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFAnchor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFChildAnchor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFClientAnchor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFDateUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPolygon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFSheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFRichTextString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFDataFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.EscherGraphics2d",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFObjectData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.DummyGraphics2d",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPalette$CustomColor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.FontDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.StaticFontMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFShapeContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFWorkbook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFCellStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFShapeGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFFooter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFTextbox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPicture",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPictureData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFPatriarch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.HSSFErrorConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.usermodel.EscherGraphics",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.record.formula",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.record.formula.UnknownPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RefErrorPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.SubtractPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.GreaterEqualPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.MissingArgPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.OperationPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaAPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.NamePtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.NotEqualPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ReferencePtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.FuncVarPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.PowerPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaErrPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.Area3DPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.UnionPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.MemErrPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AbstractFunctionPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.DeletedRef3DPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.MultiplyPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.NumberPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.MemFuncPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.DeletedArea3DPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RangePtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RefNAPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RefNVPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.NameXPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AddPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.GreaterThanPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.LessEqualPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.LessThanPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.DividePtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.EqualPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.IntPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ArrayPtgV",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RefNPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaNAPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.MemAreaPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ArrayPtgA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.UnaryPlusPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ExpPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaNVPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ErrPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ParenthesisPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.UnaryMinusPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaVPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.Ref3DPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ConcatPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.IntersectionPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.PercentPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ArrayPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RefAPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.StringPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.Ptg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.FuncPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.RefVPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.ControlPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AttrPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.BoolPtg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.formula.AreaNPtg",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.record.aggregates",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.record.aggregates.ValueRecordsAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.aggregates.RowRecordsAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.aggregates.FormulaRecordAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.aggregates.ColumnInfoRecordsAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.aggregates.ValueRecordsAggregate$MyIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.record",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.record.ExternSheetRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SCLRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DrawingGroupRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ChartRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SharedFormulaRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BackupRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.IndexRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UnitsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SSTSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ChartFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RefModeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EOFRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PlotGrowthRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CountryRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SheetPropertiesRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FrameRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ExtendedFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FormulaRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.StyleRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ContinueRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesListRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EscherAggregate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.VerticalPageBreakRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PasswordRev4Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesLabelsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.GridsetRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BoundSheetRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LeftMarginRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RKRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FilePassRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.WindowProtectRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ProtectionRev4Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.Margin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.TopMarginRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DSFRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.WindowOneRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ObjRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CodepageRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.MergeCellsRecord$MergedRegion",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BarRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RkRec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BOFRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EscherAggregate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UnknownRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SSTRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AbstractEscherHolderRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SSTRecordSizeCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.IterationRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FileSharingRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.GroupMarkerSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EndRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ValueRangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.MulRKRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RefreshAllRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesChartGroupIndexRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BookBoolRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RecordProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.WriteProtectRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UseSelFSRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CalcCountRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.WindowTwoRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FnGroupCountRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FontBasisRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DrawingSelectionRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DefaultRowHeightRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AxisParentRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CategorySeriesAxisRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.HorizontalPageBreakRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DateWindow1904Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UncalcedRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PaletteRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SSTDeserializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FontIndexRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PrintHeadersRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DVRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LabelSSTRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PasswordRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.WSBoolRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AxisRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ExtSSTInfoSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.NoteStructureSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.TextRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.InterfaceEndRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AreaRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BoolErrRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SelectionRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RecordInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ChartTitleFormatRecord$CTFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CommonObjectDataSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CalcModeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.HCenterRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SupBookRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.MergeCellsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.NameRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PageBreakRecord$Break",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BottomMarginRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.NumberFormatIndexRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AreaFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RowRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.InterfaceHdrRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DeltaRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FooterRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PrintGridlinesRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EscherAggregate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.MMSRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.TickRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DrawingRecordForBiffViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesTextRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CellValueRecordInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PrecisionRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UnicodeString$FormatRun",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.StringRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ChartTitleFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LegendRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RecalcIdRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PColor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AxisOptionsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.GutsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UnicodeString$UnicodeRecordStats",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SSTRecordHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EndSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.UnicodeString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PaneRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DVRecord$StringHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PrintSetupRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.TextObjectBaseRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.CustomField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.VCenterRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.WriteAccessRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SelectionRecord$Reference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DefaultDataLabelTextPropertiesRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.HideObjRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FontRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ObjectProtectRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.FormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.NumberRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BeginRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.TextObjectRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DVALRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DataFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ExternSheetSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LinkedDataFormulaField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AxisUsedRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ObjectLinkRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.AxisLineFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.MulBlankRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.EmbeddedObjectRefSubRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SaveRecalcRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RecordFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DrawingRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.HeaderRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PageBreakRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DBCellRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ColumnInfoRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.RightMarginRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesIndexRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LabelRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.TabIdRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ProtectRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.PlotAreaRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DimensionsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.NoteRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ExtSSTRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.DefaultColWidthRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.SeriesToChartGroupRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LineFormatRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.BlankRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.ScenarioProtectRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.record.LinkedDataRecord",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.model",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.model.FormulaParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.PolygonShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.DrawingManager2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.CommentShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.Sheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.Workbook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.TextboxShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.Model",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.DrawingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.WorkbookRecordList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.PictureShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.SimpleFilledShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.AbstractShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.LineShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.model.ConvertAnchor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.extractor",
+         "packageMembers": {
+            "name": "org.apache.poi.hssf.extractor.ExcelExtractor",
+            "type": "CLASS"
+         },
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.eventusermodel",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.eventusermodel.AbortableHSSFListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventusermodel.HSSFListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventusermodel.HSSFEventFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventusermodel.HSSFRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventusermodel.HSSFUserException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.eventmodel",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.eventmodel.EventRecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventmodel.ModelFactoryListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventmodel.ListenerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventmodel.ERFListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.eventmodel.ModelFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hssf.dev",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hssf.dev.BiffViewer$RecordDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.dev.EFBiffViewer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.dev.BiffViewer$BiffviewRecordInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.dev.BiffViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.dev.EFBiffViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.dev.HSSF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hssf.dev.FormulaViewer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hpsf.wellknown",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hpsf.wellknown.SectionIDMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.wellknown.PropertyIDMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.hpsf",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hpsf.VariantTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.MissingSectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.VariantSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.HPSFRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.UnexpectedPropertySetTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.MutableProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.CustomProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Section",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.SpecialPropertySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.TypeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.WritingNotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.IllegalVariantTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.ClassID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.MutableSection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.MutableSection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.UnsupportedVariantTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.ReadingNotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Variant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Section$PropertyListEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.PropertySetFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.Thumbnail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.PropertySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.DocumentSummaryInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.CustomProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.HPSFException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.NoPropertySetStreamException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.MutablePropertySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.SummaryInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.NoFormatIDException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.MarkUnsupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.IllegalPropertySetDataException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hpsf.NoSingleSectionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.dev",
+         "packageMembers": {
+            "name": "org.apache.poi.dev.RecordGenerator",
+            "type": "CLASS"
+         },
+         "version": "3.0.2.FINAL"
+      },
+      {
+         "name": "org.apache.poi.ddf",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.ddf.EscherShapePathProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherBlipRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherClientDataRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherPropertyMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherPropertyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherArrayProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherOptRecord$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherRecord$EscherRecordHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherMetafileBlip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherBSERecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherComplexProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherBoolProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherSplitMenuColorsRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherClientAnchorRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.DefaultEscherRecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherOptRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherSimpleProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherContainerRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.NullEscherSerializationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherTextboxRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherDggRecord$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherDggRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherSpRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherSpgrRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.UnknownEscherRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherRecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherPictBlip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherSerializationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherDgRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherDump$1PropName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherRGBProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherChildAnchorRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherBitmapBlip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherDggRecord$FileIdCluster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.ddf.EscherBlipWMFRecord",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.2.FINAL"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.metadata",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.poi",
+   "version": "3.0.2.FINAL"
+}}

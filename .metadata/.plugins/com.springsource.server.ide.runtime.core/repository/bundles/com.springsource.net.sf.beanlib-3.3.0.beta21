@@ -1,0 +1,930 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:40:49.0",
+   "moduleName": "com.springsource.net.sf.beanlib",
+   "name": "Beanlib Java Bean Library",
+   "notes": "",
+   "organisationName": "net.sourceforge.beanlib",
+   "packageExports": [
+      {
+         "name": "net.sf.beanlib",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.CollectionPropertyName",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.BeanGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.PropertyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.BeanlibException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.utils.xml",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.utils.xml.XStreamFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.xml.XmlUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.utils.range",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.utils.range.AbstractMap$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.SortedRangeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$SubMapEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$PrivateEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.AbstractMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$NodeEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.AbstractMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.AbstractMap$SimpleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$SubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.RangeTreeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.AbstractMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.AbstractMap$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$SubMap$EntrySetView",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.ExtensibleTreeMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.range.RangeBoundable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.utils",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.utils.TypeReference$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.DebugUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.TypeReference$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.CollectionUtils$SynchronizedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.ClassUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.CollectionUtils$SynchronizedSortedRangeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.EnumUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.CollectionUtils$SynchronizedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.CollectionUtils$SynchronizedSortedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.BeanUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.EnumUtils$LazyOrdinal",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.BlobUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.EqualsUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.SpringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.EnumUtils$LazyToString",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.CollectionUtils$SynchronizedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.EnumUtils$LazyExternal",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.TimingMethodInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.External",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.TypeReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.ObjectUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.CollectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.utils.ByteUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.util.concurrent",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.util.concurrent.BlockingDeque",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.LinkedBlockingDeque$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$Iter",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.LinkedBlockingDeque$AbstractItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$HeadIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$ComparableUsingComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentLinkedBlockingQueue$ThreadMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.LinkedBlockingDeque$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.LinkedBlockingDeque",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.LinkedBlockingDeque$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentLinkedBoundedBlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.UnboundedLinkedBlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$SubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapIter",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentLinkedBlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.LinkedBlockingDeque$DescendingItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentNavigableMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.concurrent.ConcurrentSkipListMap$KeyIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.util",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.util.ArrayDeque",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.TextIterable",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap$SimpleImmutableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.NavigableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.ArrayDeque$DescendingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap$SimpleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.ArrayDeque$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.NavigableMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.ArrayDeque$DeqIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.LineIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.Deque",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.util.AbstractCollection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.spi",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.spi.BeanSourceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanMethodCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.DetailedBeanPopulatable",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulationExceptionHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.ChainedCustomBeanTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.Transformable",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$IdentityCustomTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulatable",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulatorBaseConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$NullCustomTransformer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.ChainedCustomBeanTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$NullCustomTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanTransformerSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$NullCustomTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.CustomBeanTransformerSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.ChainedCustomBeanTransformer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.DetailedBeanPopulatable$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanMethodFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.CustomBeanTransformerSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$IdentityCustomTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanTransformerSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$NoopCustomTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulatorBaseSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$NoopCustomTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulationExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$NoopCustomTransformer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.BeanPopulationExceptionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.TrivialCustomBeanTransformerFactories$IdentityCustomTransformer$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.spi.replicator",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.spi.replicator.BlobReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.CollectionReplicatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.ImmutableReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.ImmutableReplicatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.ArrayReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.MapReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.MapReplicatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.BlobReplicatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.CollectionReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.DateReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.ArrayReplicatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.BeanReplicatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.BeanReplicatorSpi$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.spi.replicator.DateReplicatorSpi$Factory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.reflect",
+         "packageMembers": {
+            "name": "net.sf.beanlib.reflect.Subclass",
+            "type": "CLASS"
+         },
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.provider.replicator",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.provider.replicator.HeteroImmutableReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.UnsupportedBlobReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.MapReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.CollectionReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ReplicatorTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.HeteroImmutableReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.UnsupportedBlobReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ReplicatorTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.DateReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ImmutableReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ArrayReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.CollectionReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ImmutableReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ReplicatorTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ArrayReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.BeanReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.MapReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.UnsupportedBlobReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.DateReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.DateReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.BeanReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.CollectionReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.BeanReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.MapReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.HeteroImmutableReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ArrayReplicator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.replicator.ImmutableReplicator$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.provider.handler",
+         "packageMembers": {
+            "name": "net.sf.beanlib.provider.handler.AbstractBeanPopulationExceptionHandler",
+            "type": "CLASS"
+         },
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.provider.collector",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.provider.collector.OrderedMethodCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.collector.PublicSetterMethodCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.collector.PrivateSetterMethodCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.collector.PublicSetterCollectionLastMethodCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.collector.ProtectedSetterMethodCollector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.provider.finder",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.provider.finder.PrivateReaderMethodFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.finder.ProtectedReaderMethodFinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.finder.PublicReaderMethodFinder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.provider",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.provider.BeanDebugger",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.JavaBeanPopulatableSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanPopulator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanPopulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanTransformer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.provider.BeanPopulator$Factory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.jaxb2",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.jaxb2.FluentSetterMethodCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.jaxb2.Jaxb2ImmutableReplicator$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.jaxb2.Jaxb2ImmutableReplicator",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.jaxb2.Jaxb2ImmutableReplicator$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      },
+      {
+         "name": "net.sf.beanlib.io",
+         "packageMembers": [
+            {
+               "name": "net.sf.beanlib.io.FastLineNumberReader$EolEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.io.FastLineNumberReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "net.sf.beanlib.io.FastLineNumberReader$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.0.beta21"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.log4j",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.jcip.annotations",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.net.sf.beanlib",
+   "version": "3.3.0.beta21"
+}}

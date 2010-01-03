@@ -1,0 +1,4729 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:17:47.0",
+   "moduleName": "com.springsource.oracle.toplink.essentials",
+   "name": "Oracle TopLink Essentials JPA",
+   "notes": "",
+   "organisationName": "com.oracle.toplink.essentials",
+   "packageExports": [
+      {
+         "name": "oracle.toplink.essentials",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.PersistenceProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.preprocessor",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.preprocessor.Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.Tool",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.Preprocessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.Hierarchy",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.PreprocessorTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.GrammarFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.Grammar",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.PreprocessorLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.preprocessor.Option",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.debug",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.debug.DebuggingCharScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.MessageListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.Tracer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserTokenEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParseTreeDebugParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.SyntacticPredicateAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.LLkDebuggingParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.NewLineEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserEventSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.InputBufferReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserController",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.InputBufferAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.TraceListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.TraceAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.SemanticPredicateAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.DebuggingInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.SyntacticPredicateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.InputBufferListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserTokenListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.Event",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.MessageAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserTokenAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.GuessingEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.MessageEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.NewLineListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ListenerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserMatchAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.SyntacticPredicateListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.InputBufferEventSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.SemanticPredicateEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.DebuggingParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.SemanticPredicateListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserMatchListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.TraceEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.ParserMatchEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.InputBufferEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.debug.misc",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.debug.misc.ASTFrame$MyTreeSelectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.misc.ASTFrame$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.misc.JTreeASTPanel",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.misc.JTreeASTModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.debug.misc.ASTFrame",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.collections.impl",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.collections.impl.VectorEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.IntRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.Vector",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.ASTEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.LList",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.LLCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.VectorEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.LLEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.ASTArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.IndexedVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.impl.BitSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.collections",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.collections.ASTEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.Enumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.List",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.AST",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.collections.Stack",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.actions.java",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.actions.java.ActionLexerTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.actions.java.ActionLexer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.actions.csharp",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.actions.csharp.ActionLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.actions.csharp.ActionLexerTokenTypes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr.actions.cpp",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.actions.cpp.ActionLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.actions.cpp.ActionLexerTokenTypes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "persistence.antlr",
+         "packageMembers": [
+            {
+               "name": "persistence.antlr.SynPredBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRTokdefParserTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.DocBookCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamBasicFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ImportVocabTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.StringLiteralSymbol",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.RecognitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRError",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.GrammarAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ASTVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.LexerSharedInputState",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Alternative",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.StringLiteralElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Tool",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ToolErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.GrammarElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.PreservingFileWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.NoViableAltForCharException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ParseTreeRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.OneOrMoreBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRewriteEngine$ReplaceOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenRangeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CommonToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ByteBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.RuleSymbol",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.JavaCharFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.SimpleTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRewriteEngine$DeleteOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRHashString",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.FileCopyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.AlternativeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ASTNULLType",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.JavaBlockFinishingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CppBlockFinishingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ParseTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRewriteEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TreeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharRangeElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CommonASTWithHiddenTokens",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ASTPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.BlockContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.SemanticException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.InputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamHiddenTokenFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRTokdefLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.FileLineFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharLiteralElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.DefineGrammarSymbols",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRetryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CSharpBlockFinishingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.DumpASTVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.GrammarSymbol",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenWithIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CSharpNameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.MakeGrammar",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.WildcardElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ASTIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.RuleEndElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.NoViableAltException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharStreamIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ZeroOrMoreBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CppCharFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ActionTransInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.MismatchedTokenException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ParserGrammar",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.MismatchedCharException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRewriteEngine$InsertBeforeOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRStringBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.DiagnosticCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRTokdefParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CommonHiddenStreamToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.LLkParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenSymbol",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.BlockEndElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRecognitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.BaseAST",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TreeParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.RuleRefElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.NameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TreeWalkerGrammar",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.LLkAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ParserSharedInputState",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TreeParserSharedInputState",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ExceptionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.LexerGrammar",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.RuleBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CSharpCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CommonAST",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.JavaCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.DefaultToolErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.DefaultFileLineFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.BlockWithImpliedExitPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharStreamException",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRewriteEngine$RewriteOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CppCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TreeBlockContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ASTFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CharScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Lookahead",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ActionElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TokenStreamRewriteEngine$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.Grammar",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.TreeSpecifierNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.GrammarAtom",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.HTMLCodeGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ANTLRGrammarParseBehavior",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.ParseTreeToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.AlternativeBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.LLkGrammarAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "persistence.antlr.CSharpCharFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.libraries.asm.attrs",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.LocalVariableTypeTableAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.RuntimeVisibleParameterAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.StackMapType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.StackMapFrame",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.SignatureAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.EnclosingMethodAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.RuntimeVisibleAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.LocalVariableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.RuntimeInvisibleParameterAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.RuntimeInvisibleAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.SourceDebugExtensionAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.Annotation$EnumConstValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.Annotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.AnnotationDefaultAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.attrs.StackMapAttribute",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.libraries.asm",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.libraries.asm.CodeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.Label",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.Edge",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.CodeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.ClassAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.ByteVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.ClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.ClassReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.ClassWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.CodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.libraries.asm.Constants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.weaving",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.weaving.StaticWeave",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.weaving.StaticWeaveProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.weaving.StaticWeaveAntTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.transaction.sunas",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.transaction.sunas.SunAS9TransactionController",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.tools.schemaframework",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.ForeignKeyConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.TableSequenceDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.SchemaManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.ViewDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.OracleSequenceDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.DefaultTableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.SequenceDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.TimesTenSequenceDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.PopulationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.TableCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.TableDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.FieldDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.DatabaseObjectDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.schemaframework.UniqueKeyConstraint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.tools.sessionconfiguration",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.tools.sessionconfiguration.DescriptorCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.tools.sessionconfiguration.SessionCustomizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.tools.sessionmanagement",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.tools.sessionmanagement.SessionManager",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.transaction",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.transaction.JTATransactionController",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.transaction.AbstractTransactionController",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.transaction.SynchronizationListenerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.transaction.JTASynchronizationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.transaction.AbstractSynchronizationListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.transaction.oc4j",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.transaction.oc4j.Oc4jTransactionController",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.sequencing",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.sequencing.TableSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sequencing.NativeSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sequencing.DefaultSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sequencing.Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sequencing.StandardSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sequencing.SequencingControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sequencing.QuerySequence",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.sessions",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.sessions.SessionEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.SessionEventAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.DatabaseRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.DefaultConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.DatasourceLogin",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.SessionProfiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.ExternalTransactionController",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.Connector",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.UnitOfWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.DatabaseSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.Login",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.SessionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.IdentityMapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.Project",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.ObjectCopyingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.DatabaseLogin",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.DirectConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.sessions.SessionEventManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.threetier",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.threetier.ConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.threetier.Server",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.threetier.ConnectionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.threetier.ServerSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.threetier.ReadConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.threetier.ExternalConnectionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.threetier.ClientSession",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.querykeys",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.querykeys.DirectCollectionQueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.querykeys.QueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.querykeys.OneToOneQueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.querykeys.ForeignReferenceQueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.querykeys.DirectQueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.querykeys.OneToManyQueryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.querykeys.ManyToManyQueryKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.queryframework",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.queryframework.ValueReadQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.UpdateObjectQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ReportQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.FetchGroupTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DatabaseQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.UpdateAllQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ObjectBuildingQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DirectReadQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DoesExistQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.SQLResultSetMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.EJBQLPlaceHolderQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ReadAllQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DeleteObjectQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ReportQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DataModifyQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ObjectLevelReadQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.FetchGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.InMemoryQueryIndirectionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ModifyAllQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.WriteObjectQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.SQLResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ResultSetMappingQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DataReadQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.Call",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ColumnResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ComplexQueryResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ModifyQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ObjectLevelModifyQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.SQLCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.EntityResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ReadObjectQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.EJBQLCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ReadQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.ConstructorReportItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.InsertObjectQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.DeleteAllQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.queryframework.FieldResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.xml.jaxp",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.platform.xml.jaxp.JAXPParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.jaxp.JAXPTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.jaxp.JAXPPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.xml",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLNamespaceResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLComparer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.SAXDocumentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLPlatformFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLPlatformException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLSchemaReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.xml.XMLPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.server.sunas",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.platform.server.sunas.SunAS9ServerPlatform",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.server.oc4j",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.platform.server.oc4j.Oc4jPlatform",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.server",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.platform.server.ServerLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.server.ServerPlatformBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.server.ServerPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.server.CustomServerPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.server.NoServerPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.database",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.platform.database.InformixPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.DatabasePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.JavaDBPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.AttunityPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.DB2MainframePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.DBasePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.DB2Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.TimesTenPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.SQLServerPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.CloudscapePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.HSQLPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.PointBasePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.DerbyPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.SQLAnyWherePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.MySQL4Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.SybasePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.PostgreSQLPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.platform.database.AccessPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.platform.database.oracle",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.platform.database.oracle.OraclePlatform",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.mappings.foundation",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.mappings.foundation.AbstractDirectMapping",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.mappings.converters",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.mappings.converters.EnumTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.converters.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.converters.ObjectTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.converters.ClassInstanceConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.converters.TypeConversionConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.converters.SerializedObjectConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.mappings",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.mappings.RelationalMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.TypedAssociation",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.AggregateCollectionMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.OneToOneMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.DirectMapMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.ForeignReferenceMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.DatabaseMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.ManyToManyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.Association",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.CollectionMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.DirectCollectionMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.AggregateMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.ContainerMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.AttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.DirectToFieldMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.OneToManyMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.ObjectReferenceMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.mappings.AggregateObjectMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.logging",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.logging.SessionLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.DefaultSessionLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.TopLinkLogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.SessionLogEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.JavaLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.AbstractSessionLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.JavaLog$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.TopLinkSimpleFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.logging.TopLinkXMLFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.jndi",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.jndi.JNDIConnector",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.weaving",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.StaticWeaveDirectoryOutputHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.TopLinkClassWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.AttributeDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.TopLinkMethodWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.StaticWeaveClassTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.TopLinkWeaved",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.TopLinkWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.StaticWeaveJAROutputHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.AbstractStaticWeaveOutputHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.TransformerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.weaving.ClassDetails",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.sessions",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.UnitOfWorkChangeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.CollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.CommitManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AggregateChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AggregateObjectChangeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.ObjectReferenceChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.CommitOrderCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.DirectMapChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AbstractRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.ObjectChangeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AbstractSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AbstractRecord$NoEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.DirectCollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.IsolatedClientSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.DatabaseSessionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.DirectCollectionChangeRecord$NULL",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AbstractRecord$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.DirectToFieldChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.IdentityMapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.UnitOfWorkIdentityMapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.CommitOrderDependencyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.AggregateCollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.MergeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.UnitOfWorkImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.UnitOfWorkImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.ClientSessionIdentityMapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.UnitOfWorkImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.OrderedDirectCollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.ChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.IdentityMapAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.IsolatedClientSessionIdentityMapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.UnitOfWorkImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sessions.OrderedCollectionChangeRecord",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.sequencing",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager$SequencingCallbackContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.ClientSessionSequencing",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager$NoPreallocation_State",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager$Preallocation_NoTransaction_State",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.ServerSessionConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager$Preallocation_Transaction_NoAccessor_State",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingHome",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.PreallocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager$State",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingLogInOut",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.DatabaseSessionConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.Sequencing",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.sequencing.SequencingManager$Preallocation_Transaction_Accessor_State",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.security",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.security.JCEEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedAccessHelper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedAccessHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedNewInstanceFromClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.Securable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetMethodReturnType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.SecurableObjectHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetDeclaredField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetContextClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetConstructorFor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetDeclaredMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetValueFromField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedClassForName",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedAccessHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedSetValueInField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetClassLoaderForClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetDeclaredMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetDeclaredFields",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetDeclaredConstructorFor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetFieldType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedInvokeConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.SecurableObjectHolder$PassThroughEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.JCEEncryptor$Synergizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.SecurableObjectHolder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.security.PrivilegedGetMethodParameterTypes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.parsing.ejbql.antlr273",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.antlr273.EJBQLParserBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.antlr273.EJBQLLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.antlr273.EJBQLTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.antlr273.EJBQLParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.queryframework",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.CollectionContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ExpressionQueryMechanism",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ExpressionQueryMechanism$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.StatementQueryMechanism",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ListContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.InterfaceContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.SortedCollectionContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.OrderedListContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.DatabaseQueryMechanism",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.CallQueryMechanism",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.JoinedAttributeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.DatasourceCallQueryMechanism",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.DirectMapContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ReportItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ExpressionQueryMechanism$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.IndirectListContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.MapContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ContainerPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.queryframework.ExpressionQueryMechanism$3",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.localization.i18n",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.localization.i18n.ToStringLocalizationResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.i18n.ToplinkLocalizationResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.i18n.LoggingLocalizationResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.i18n.ExceptionLocalizationResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.i18n.TraceLocalizationResource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.parsing.ejbql",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.EJBQLCallQueryMechanism",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.EJBQLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.GrammarSpecial",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ejbql.EJBQLParserFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.parsing",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NodeFactoryImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.BetweenNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LessThanEqualToNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AbsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.FetchJoinNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ConcatNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SqrtNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NodeFactory$TrimSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.MinusNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LikeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.EqualsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.UnaryMinus",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ModifyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NullComparisonNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.GreaterThanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ParseTreeContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ParseTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.FromNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LessThanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.EmptyCollectionComparisonNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.IdentificationVariableDeclNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.BinaryOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.StringFunctionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ExistsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.HavingNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.DivideNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.PlusNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AttributeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ParameterNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NodeFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.InNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SumNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.UpdateNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AllNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.MultiplyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.QueryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.EJBQLParseTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.CountNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.OrderByItemNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.VariableNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.TypeHelperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.RangeDeclNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.CollectionMemberDeclNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.MemberOfNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.BooleanLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LogicalOperatorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AggregateNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SomeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.UpperNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SubqueryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.DotNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AnyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.GreaterThanEqualToNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.OrNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SizeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.FunctionalExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.DateFunctionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NodeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AndNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SimpleConditionalExpressionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.EscapeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.DoubleLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LengthNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NotEqualsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LongLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SelectNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.NotNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.IntegerLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.StringLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.DeleteNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.TrimNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SetNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.TypeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LowerNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.GenerationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.AvgNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.OrderByNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.EqualsAssignmentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.JoinDeclNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ParseTreeContext$VariableDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SubstringNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ArithmeticFunctionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.LocateNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.MinNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.MaxNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.MajorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ConstructorNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.FloatLiteralNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SelectGenerationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.ModNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.WhereNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.GroupByNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.parsing.SortDirectionNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.localization",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.localization.ExceptionLocalization",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.LoggingLocalization",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.ToStringLocalization",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.ToplinkLocalization",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.localization.TraceLocalization",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.indirection",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.UnitOfWorkValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.IndirectionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.WeavedObjectBasicIndirectionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.UnitOfWorkQueryValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.QueryBasedValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.TransparentIndirectionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.DatabaseValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.NoIndirectionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.BackupValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.indirection.BasicIndirectionPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.identitymaps",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.IdentityMapKeyEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.CacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.CacheIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.IdentityMapEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.SoftCacheWeakIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.IdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.FullIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.NoIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.HardCacheWeakIdentityMap$ReferenceCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.WeakCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.WeakIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.IdentityMapManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.HardCacheWeakIdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.identitymaps.LinkedCacheKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.helper.linkedlist",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.helper.linkedlist.ExposedNodeLinkedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.linkedlist.LinkedNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.helper",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.LOBValueWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.SerializationHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.IdentityHashtable$EmptyEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.DatabaseTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.DBPlatformHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.NonSynchronizedVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.QueryCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.JDKPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.NoConversion",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.NonSynchronizedVector$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.DeferredLockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.DescriptorCompare",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.WriteLockManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.Helper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.EJB30ConversionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.IdentityHashtable$Enumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.IdentityHashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap$EmptyHashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.Answer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.IdentityHashtable$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.InvalidObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.CustomObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.JDK15Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TOPComparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.ThreadCursoredList",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.JavaPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.ThreadCursoredList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.DatabaseField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.ConcurrencyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.ConversionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.MappingCompare",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle/toplink/essentials/internal/helper/VendorNameToPlatformMapping.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.DBPlatformHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashSet$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.FalseUndefinedTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.BasicTypeHelperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TOPSort",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashSet$TopLinkIdentityHashSetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.TopLinkIdentityHashMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.helper.ClassConstants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.expressions",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ForUpdateClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.RelationExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLUpdateAllStatementForOracleAnonymousBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLSelectStatement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ExpressionJavaPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLUpdateAllStatementForTempTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLInsertStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLUpdateStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ExpressionNormalizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ExpressionSQLPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ParameterExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.FunctionExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.DataExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.TableExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.LogicalExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLModifyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SubSelectExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLDeleteAllStatementForTempTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.LiteralExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ConstantExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.TableAliasLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLModifyAllStatementForTempTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLDeleteStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.QueryKeyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLSelectStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.FieldExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ForUpdateOfClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLDeleteAllStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.CompoundExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLUpdateAllStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ExpressionOperatorConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLSelectStatement$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ExpressionIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ObjectExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.ManualQueryKeyExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.expressions.SQLSelectStatement$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.tables",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.tables.XMLTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.tables.XMLSecondaryTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.tables.XMLJoinTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.tables.XMLTableHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.sequencing",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.sequencing.XMLSequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.sequencing.XMLGeneratedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.sequencing.XMLTableGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.queries",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.queries.XMLEntityResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.queries.XMLNamedQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.queries.XMLNamedNativeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.queries.XMLFieldResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.queries.XMLSQLResultSetMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.parser",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.parser.XMLExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.parser.XMLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.parser.XPathEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.parser.XMLNodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.parser.PersistenceContentHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.listeners",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.listeners.XMLEntityClassListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.listeners.XMLEntityListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.EntityTransactionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.EntityTransactionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.JTATransactionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.TransactionWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base.EntityTransactionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base.JTATransactionWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base.TransactionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base.TransactionManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base.TransactionWrapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.transaction.base.EntityTransactionImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.XMLValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.XMLHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.XMLConstants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLTransientAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLMappedSuperclassAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLManyToManyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLEmbeddedIdAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLOneToManyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLEmbeddedAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLBasicAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLOneToOneAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLManyToOneAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.accessors.XMLClassAccessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns.XMLPrimaryKeyJoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns.XMLDiscriminatorColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns.XMLPrimaryKeyJoinColumns",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns.XMLColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns.XMLJoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.xml.columns.XMLJoinColumns",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.naming",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.naming.InitialContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.naming.InitialContextFactoryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.naming.base",
+         "packageMembers": {
+            "name": "oracle.toplink.essentials.internal.ejb.cmp3.naming.base.InitialContextImpl",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.tables",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.tables.MetadataJoinTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.tables.MetadataSecondaryTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.tables.MetadataTable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.sequencing",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.sequencing.MetadataGeneratedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.sequencing.MetadataGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.sequencing.MetadataTableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.sequencing.MetadataSequenceGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.listeners",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.listeners.MetadataEntityClassListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.listeners.MetadataEntityListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataEntityResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataNamedQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataNamedNativeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataQueryHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataSQLResultSetMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.queries.MetadataFieldResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns.MetadataPrimaryKeyJoinColumns",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns.MetadataJoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns.MetadataDiscriminatorColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns.MetadataPrimaryKeyJoinColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns.MetadataJoinColumns",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.columns.MetadataColumn",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.objects",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.objects.MetadataAccessibleObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.objects.MetadataClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.objects.MetadataField",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.objects.MetadataMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.ManyToManyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.NonRelationshipAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.OneToOneAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.MetadataAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.EmbeddedAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.EmbeddedIdAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.ManyToOneAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.MappedSuperclassAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.RelationshipAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.OneToManyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.CollectionAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.ClassAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.EmbeddedAccessor$AccessType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.DirectAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.BasicAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.accessors.ObjectAccessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataPersistenceUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataProject",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.metadata.MetadataHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.jdbc.base",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.jdbc.base.ConnectionProxyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.jdbc.base.DataSourceImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3.base",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$TargetDatabaseProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$LoggerTypeProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$DescriptorCustomizerProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.EJBQueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.CMP3Policy$KeyElementAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.RepeatableWriteUnitOfWork$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.CMP3Policy$FieldAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$Prop$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.QueryHintsHandler$RefreshHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$CacheSharedProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$CacheSizeProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.CMP3Policy$KeyIsElementAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.DataSourceConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$CacheTypeProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.ExceptionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.QueryHintsHandler$PessimisticLockHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.QueryHintsHandler$BindParametersHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.EntityManagerFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.CMP3Policy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.EntityManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.RepeatableWriteUnitOfWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$LoggingLevelProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.QueryHintsHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.QueryHintsHandler$CacheUsageHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$TargetServerProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.PropertiesHandler$Prop",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.CMP3Policy$PropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.base.QueryHintsHandler$Hint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.ejb.cmp3",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.JavaSECMPInitializer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.EntityManagerFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.JavaSECMPInitializerAgent",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.EJBQueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.EntityManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.JavaSECMPInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.JavaSECMPInitializer$TempEntityLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.ejb.cmp3.EntityManagerSetupImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.descriptors",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.descriptors.MethodAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.descriptors.DescriptorIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.descriptors.OptimisticLockingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.descriptors.ObjectBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.descriptors.InstanceVariableAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.descriptors.InstantiationPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.databaseaccess",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatasourceAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatasourceCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.SimpleAppendCallCustomParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.Accessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatabaseAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatabaseAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.InOutputParameterForCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.BindCallCustomParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatabasePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.QueryStringCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.OutputParameterForCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatasourcePlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.FieldTypeDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.DatabaseCall",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.internal.databaseaccess.AppendCallCustomParameter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.indirection",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.WeavedAttributeValueHolderInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap$2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.ValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectSet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectList$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap$3$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.ValueHolderInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectList",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.indirection.IndirectMap$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.expressions",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.expressions.ExpressionMath",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.expressions.Expression$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.expressions.ExpressionOperator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.expressions.ExpressionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.expressions.Expression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.exceptions.i18n",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.TransactionExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.ConcurrencyExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.DescriptorExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.DatabaseExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.DefaultMappingExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.StaticWeaveExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.DeploymentExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.QueryExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.EntityManagerSetupExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.ValidationExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.EJBQLExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.XMLPlatformExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.ExceptionMessageGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.PersistenceUnitLoadingExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.XMLParseExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.ConversionExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.ExceptionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.i18n.OptimisticLockExceptionResource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.exceptions",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.exceptions.XMLParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.DescriptorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.ValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.EntityManagerSetupException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.StaticWeaveException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.ConcurrencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.OptimisticLockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.TransactionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.TopLinkException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.IntegrityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.IntegrityChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.PersistenceUnitLoadingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.ExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.ConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.EJBQLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.DefaultMappingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.DatabaseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.exceptions.QueryException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.ejb.cmp3.persistence",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.Archive",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.DirectoryArchive",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.JarFileArchive",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.DirectoryArchive$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.SEPersistenceUnitInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.URLArchive",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.DirectoryInsideJarURLArchive",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.JarInputStreamURLArchive",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.PersistenceUnitProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.persistence.ArchiveFactoryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.descriptors.invalidation",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.descriptors.invalidation.CacheInvalidationPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.invalidation.NoExpiryCacheInvalidationPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.ejb.cmp3",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.StaticWeaver",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.EntityManagerFactoryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.EntityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.ejb.cmp3.EJBQuery",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.descriptors.copying",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.descriptors.copying.AbstractCopyPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.copying.CloneCopyPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.copying.CopyPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.copying.InstantiationCopyPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.descriptors.changetracking",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.descriptors.changetracking.ObjectChangePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.changetracking.DeferredChangeDetectionPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.descriptors",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.descriptors.VersionLockingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.ClassExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.InheritancePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.DescriptorEventManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.WrapperPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.DescriptorEventAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.TimestampLockingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.DescriptorEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.ClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.DescriptorEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.FetchGroupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.CMPPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.DescriptorQueryManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.MethodClassExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.descriptors.RelationalDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.config",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.config.TopLinkProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.TopLinkQueryHints",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.TargetServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.TargetDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.CacheUsage",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.LoggerType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.HintValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.CacheType",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.config.PessimisticLock",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      },
+      {
+         "name": "oracle.toplink.essentials.changesets",
+         "packageMembers": [
+            {
+               "name": "oracle.toplink.essentials.changesets.AggregateChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.OrderedCollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.DirectCollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.ChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.CollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.AggregateCollectionChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.ObjectReferenceChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.ObjectChangeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.DirectToFieldChangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "oracle.toplink.essentials.changesets.UnitOfWorkChangeSet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b41-beta2"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence.spi",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.oracle.toplink.essentials",
+   "version": "2.0.0.b41-beta2"
+}}

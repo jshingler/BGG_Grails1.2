@@ -1,0 +1,461 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:51:23.0",
+   "moduleName": "com.springsource.org.apache.tiles.core",
+   "name": "Apache Tiles 2 Core",
+   "notes": "",
+   "organisationName": "org.apache.tiles",
+   "packageExports": [
+      {
+         "name": "org.apache.tiles.web.startup",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.web.startup.TilesServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.startup.TilesFilter$ServletConfigAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.startup.TilesListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.startup.TilesFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.web.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.web.util.TilesDispatchServlet$DefaultMutator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.util.AttributeContextMutator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.util.TilesDispatchServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.util.TilesDecorationFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.util.TilesDecorationFilter$DefaultMutator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.util.ServletContextAdapter$CompositeEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.web.util.ServletContextAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.beans",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.beans.MenuItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.beans.SimpleMenuItem",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.servlet.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.servlet.context.ServletParamValuesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletSessionScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletTilesApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletHeaderMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletInitParamMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletParamMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletRequestScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletHeaderValuesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletApplicationScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletTilesRequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.servlet.context.ServletTilesContextFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.util",
+         "packageMembers": {
+            "name": "org.apache.tiles.util.ClassUtil",
+            "type": "CLASS"
+         },
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.resources",
+         "packageMembers": {
+            "name": "org/apache/tiles/resources/tiles-config_2_0.dtd",
+            "type": "RESOURCE"
+         },
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.preparer",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.preparer.ViewPreparerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.preparer.NoSuchPreparerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.preparer.PreparerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.preparer.PreparerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.preparer.ViewPreparer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.preparer.BasicPreparerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.portlet.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.portlet.context.PortletInitParamMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletTilesApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletTilesRequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletRequestScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletParamValuesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletApplicationScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletTilesContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletSessionScopeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.portlet.context.PortletParamMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.locale.impl",
+         "packageMembers": {
+            "name": "org.apache.tiles.locale.impl.DefaultLocaleResolver",
+            "type": "CLASS"
+         },
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.locale",
+         "packageMembers": {
+            "name": "org.apache.tiles.locale.LocaleResolver",
+            "type": "CLASS"
+         },
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.impl.mgmt",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.impl.mgmt.CachingTilesContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.impl.mgmt.DefinitionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.impl.mgmt.CachingKeyedDefinitionsFactoryTilesContainer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.impl",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.impl.KeyedDefinitionsFactoryTilesContainer$KeyExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.impl.KeyedDefinitionsFactoryTilesContainer$DefaultKeyExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.impl.KeyedDefinitionsFactoryTilesContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.impl.BasicTilesContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.impl.BasicTilesContainer$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.factory",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.factory.KeyedDefinitionsFactoryTilesContainerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.factory.TilesContainerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.definition.util",
+         "packageMembers": {
+            "name": "org.apache.tiles.definition.util.DefinitionsFactoryUtil",
+            "type": "CLASS"
+         },
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.definition.digester",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.definition.digester.DigesterDefinitionsReader$FillAttributeRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.digester.DigesterDefinitionsReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.digester.DigesterDefinitionsReader$ThrowingErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.digester.DigesterDefinitionsReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.definition",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.definition.NoSuchDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.UrlDefinitionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.Definitions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.DefinitionsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.ReloadableDefinitionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.DefinitionsFactoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.FactoryNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.DefinitionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.definition.DefinitionsReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.context.enhanced",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.context.enhanced.EnhancedContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.enhanced.EnhancedTilesApplicationContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      },
+      {
+         "name": "org.apache.tiles.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.tiles.context.MapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.TilesRequestContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.TilesContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.BasicAttributeContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.ChainedTilesContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.ListAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tiles.context.TilesRequestContextWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.osgi"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tiles.mgmt",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.5]"
+      },
+      {
+         "name": "org.apache.tiles.access",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.5]"
+      },
+      {
+         "name": "org.apache.commons.digester",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tiles",
+         "optional": false,
+         "versionRange": "[2.0.5, 2.0.5]"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.portlet",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.tiles.core",
+   "version": "2.0.5.osgi"
+}}

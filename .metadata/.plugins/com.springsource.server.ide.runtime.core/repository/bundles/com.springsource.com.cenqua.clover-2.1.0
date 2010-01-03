@@ -1,0 +1,2042 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:06:05.0",
+   "moduleName": "com.springsource.com.cenqua.clover",
+   "name": "Atlassian Clover",
+   "notes": "",
+   "organisationName": "com.atlassian.clover",
+   "packageExports": [
+      {
+         "name": "com.cenqua.clover.tasks",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.tasks.TestSourceSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AbstractInstrTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverInstrTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverCleanTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverReportTask$HistoricalEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverFormatType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverReportTask$CurrentEx",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverHtmlReportTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverMergeTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverReportTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverEnvTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AbstractInstrTask$StatementContextDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.HistoryPointTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AbstractInstrTask$MethodContextDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverPassTask$PackageRequirement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.FilesetFileVisitor$Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.f",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverSetupTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.FilesetFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverPdfReportTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverWarningTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AbstractCloverTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AntExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverLogTask$Level",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverPassTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.FilesetFileVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AntInstrumentationConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AntPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverLogTask$Package",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AntInstrumentationConfig$Instrumentation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverMergeTask$CloverDbSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.AntInstrumentationConfig$FlushPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverInstrumentTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.tasks.CloverLogTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.util",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.util.UnicodeDecodingReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.SourceScanner$Visitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.SourceScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.Path",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.CloverExecutors",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.CloverExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.CloverUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.SourceScanner$SrcFileVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.Formatting",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.BitSetUtils$BitSetCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.UnicodeEncodingWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.LRUCacheMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.FileUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.BitSetUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.NamedComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.ChecksummingReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.JavaEnvUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.ClassPathUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.BitSetUtils$BitSetIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.util.format",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.util.format.MessageTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.format.MessageFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.format.Formatting",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.format.HtmlFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.format.JFCFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.format.ConsoleFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.util.format.PDFFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com_cenqua_clover",
+         "packageMembers": [
+            {
+               "name": "com_cenqua_clover.CloverVersionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com_cenqua_clover.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com_cenqua_clover.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com_cenqua_clover.Clover",
+               "type": "CLASS"
+            },
+            {
+               "name": "com_cenqua_clover.a",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "html_res.img",
+         "packageMembers": [
+            {
+               "name": "html_res/img/clover.ico",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/cnrL_tr.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/less.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/collapse.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/spacer.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/cloud.png",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/logo.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/cnrL_tl.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/test.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/expand.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/more.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/icn_down.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/back.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/icn_up.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/less_dark.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/tick.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "html_res/img/more_dark.gif",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "clover_cenqua_com.atlassian.clover",
+         "packageMembers": {
+            "name": "clover_cenqua_com/atlassian/clover/leaf.key",
+            "type": "RESOURCE"
+         },
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.spec.instr.test",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.spec.instr.test.BooleanSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.spec.instr.test.TestMethodSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.spec.instr.test.OrSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.spec.instr.test.AndSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.spec.instr.test.TestClassSpec",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporting.util",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporting.util.SourceRenderHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporting.util.SourceRenderHelper$LineRenderInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporting.util.JavaSourceRenderer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters.pdf",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.pdf.PDFReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.pdf.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.pdf.PageFooterRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.pdf.PDFColours",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.pdf.RenderingSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.pdf.b",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters.xml",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.xml.XMLReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.xml.XMLWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters.util",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.util.CloverChartFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.HistoricalSupport$HasMetricsWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.HistoricalReportDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.CoverageDiffSummary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.HistoricalReportDescriptor$MoversDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.Content",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.util.HistoricalSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters.json",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONString",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.RenderJSONAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONStringer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.json.JSONTokener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters.html",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.html.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.AbstractClassInfoClosure$ElementCountClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.AbstractClassInfoClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderDashboardAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderCoverageCloudAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderFileAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.f",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.g",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.TestClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderPackageSummaryAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.NonTestClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.CloverVelocityResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.h",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.HtmlReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.AbstractClassInfoClosure$UncoveredElementsClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.HtmlRenderingSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.ClassInfoClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.FullHtmlReporter$TreeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.SourceRenderHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderPackageCoverageCloudAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.HtmlReportUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.ClosureValueComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.TabInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.AbstractClassInfoClosure$PcCoveredElementsClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.VelocityLogAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.FullHtmlReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.HtmlSourceRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderProjectCoverageCloudsAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.RenderTestResultAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.AbstractClassInfoClosure$AvgMethodComplexityClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.TestClassCoverageThresholdFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.HtmlSourceRenderer$LineRenderInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.html.StatisticsClassInfoVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters.console",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.console.ConsoleReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.console.ConsoleReporter$Config",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.reporters",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalClasses",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CalcLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Column$ColumnData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$ShortBarGraphColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.TotalColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$AvgMethodComplexity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Column$PcColumnData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Current",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$PercentageColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Current$FileSetTestFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.MetricsCollator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$FloatColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$CoveredStatements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalStatements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$ComplexityDensity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Historical$Coverage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$ErrorColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Column",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Historical",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$UncoveredBranches",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Current$DefaultTestFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$BarGraphColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$Complexity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Historical$Metrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$IntColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$SUM",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalBranches",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CalcTreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalPackages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ExpressionEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$AvgStatementsPerMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CalcParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Format",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CoverageColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$CoveredBranches",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CalcParserTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalChildren",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalFiles",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$LineCount",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalPercentageCovered",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$CoveredElements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$ComplexityToCoverage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CloverReportConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$UncoveredElements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$AvgClassesPerFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$TotalElements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.CloverReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$NcLineCount",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$AvgMethodsPerClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$CoveredMethods",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$UncoveredStatements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.AverageColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Historical$Chart",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ColumnFormat$LongBarGraphColumnFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.ReportFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Historical$Overview",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Historical$Movers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.reporters.Columns$UncoveredMethods",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.registry",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.registry.r",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetricsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.t",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.s",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.StatementInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.CoverageDataReceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.SourceRegion$RegionStartComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.SourceRegion",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.MethodInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.BasePackageInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.ProjectInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.FileInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.Clover2Registry$InstrumentationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.Clover2Registry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.ProjectMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.u",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.h",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.BaseProjectInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.n",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.FileMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetricsSupport$HasMetricsComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetricsFilter$Invertable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.BaseFileInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.j",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.BranchInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.m",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.p",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.PackageMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.BlockMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.f",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.LineInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.ElementInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.g",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.FileElementVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.ClassMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.l",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetricsSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetricsFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.PackageInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.TestCaseInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.k",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.FileInfoVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.HasMetricsSupport$HasMetricsComparatorChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.BaseClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.i",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.TestCaseInfo$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.CoverageDataProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.ClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.o",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.q",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.registry.PackageFragment",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.model",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.model.CoverageDataPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.model.XmlConverter$CoverageXMLHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.model.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.model.XmlConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.model.XmlNames",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.instr",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.instr.TokenListUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.ClassExitNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.MethodEntryInstrEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.DefaultTestDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.EndBoolInstrEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FileStructureInfo$MethodMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.RecorderInstrEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.AnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.TestDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.MethodExitInstrEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FinallyMarkEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.MethodRegistrationNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.Emitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.StringifiedAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FileStructureInfo$Marker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.TestSourceMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.MethodSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.InstrumentationState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.ExpressionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.AnnotationValueCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FinallyFlushEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.BooleanStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.ArrayAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.Annotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.JavaLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.Modifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.InstrumentationConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FileMappedTestDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.JavaRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FlaggedInstrEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.TestSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.JavaTokenTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.StatementInstrEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.CloverTokenStreamFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.DirectedFlushEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.AggregateTestDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FlagDeclEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.SimpleEmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.Instrumenter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.ClassEntryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.FileStructureInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.AndStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.OrStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.UnicodeJavaLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.instr.CloverToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.context",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.context.RegexpContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.NamedContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.ContextRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.MethodRegexpContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.StatementRegexpContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.ContextSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.context.SimpleContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover.cfg",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.cfg.Percentage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.cfg.Interval",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "com.cenqua.clover",
+         "packageMembers": [
+            {
+               "name": "com.cenqua.clover.g",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.ProgressListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.Log4JLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverDatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverDatabaseSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.AntLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.RecordingFile$SliceFilePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverStartup$LicenseLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.Contract",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.RecordingFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.i",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.Log4JLogger$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.AntLogger$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CoverageRecording",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.RecorderLogging",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.h",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverInstr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.ContractFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverLicense",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.JDKLogger$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CoverageDataCollator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.j",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverMerge",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.TestResultProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.Logger$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CoverageDataSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CoverageData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CoverageSliceVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.RecordingFile$RecordingFileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.JDKLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.DefaultLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.FOSFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverStartup$LicenseFileLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverLicenseInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.k",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.f",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.cenqua.clover.CloverStartup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "clover_cenqua_com.atlassian.license.decoder",
+         "packageMembers": {
+            "name": "clover_cenqua_com.atlassian.license.decoder.a",
+            "type": "CLASS"
+         },
+         "version": "2.1.0"
+      },
+      {
+         "name": "clover_cenqua_com.atlassian.license.util",
+         "packageMembers": [
+            {
+               "name": "clover_cenqua_com.atlassian.license.util.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.util.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.util.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.util.a",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      },
+      {
+         "name": "clover_cenqua_com.atlassian.license.applications.clover",
+         "packageMembers": {
+            "name": "clover_cenqua_com.atlassian.license.applications.clover.a",
+            "type": "CLASS"
+         },
+         "version": "2.1.0"
+      },
+      {
+         "name": "clover_cenqua_com.atlassian.license",
+         "packageMembers": [
+            {
+               "name": "clover_cenqua_com.atlassian.license.m",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.o",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.g",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.k",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.f",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.l",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.h",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.a",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.p",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.n",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.i",
+               "type": "CLASS"
+            },
+            {
+               "name": "clover_cenqua_com.atlassian.license.j",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.log4j",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.log4j.net",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs.compilers",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.util",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.bcel.generic",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.bcel.classfile",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.avalon.framework.logger",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.table",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.plaf",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.filechooser",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.stream",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.metadata",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.accessibility",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.lowagie.text.xml",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.lowagie.text",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "cloverantlr.preprocessor",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "cloverantlr.debug",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "cloverantlr",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "cloverantlr.collections.impl",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.org.xml.sax",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.org.xml.sax.helpers",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.shorts",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.booleans",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.bytes",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.chars",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.doubles",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.ints",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "clover.it.unimi.dsi.fastutil.floats",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.com.cenqua.clover",
+   "version": "2.1.0"
+}}

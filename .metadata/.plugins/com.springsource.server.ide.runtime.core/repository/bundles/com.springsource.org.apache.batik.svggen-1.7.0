@@ -1,0 +1,708 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:55:53.0",
+   "moduleName": "com.springsource.org.apache.batik.svggen",
+   "name": "Apache Batik Java2D SVG Generator",
+   "notes": "",
+   "organisationName": "org.apache.batik",
+   "packageExports": [
+      {
+         "name": "org.apache.batik.svggen.font.table",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.svggen.font.table.Ligature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.PostTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.RangeRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CoverageFormat2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.ClassDefFormat1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GlyfCompositeComp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GsubTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LookupSubtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.PrepTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GposTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.FeatureTags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapIndexEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.SingleSubstFormat2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.ClassDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.HeadTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapFormat2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LigatureSubst",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.MaxpTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Panose",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GlyfDescript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.NameTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Lookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LookupList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LocaTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LigatureSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LangSysRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.KernSubtableFormat2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.FpgmTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Program",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Feature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CoverageFormat1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GlyfCompositeDescript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Device",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GlyfTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.NameRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CvtTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.SingleSubstFormat1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.SingleSubst",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapFormat6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.KernSubtableFormat0",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.ScriptTags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GlyfSimpleDescript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.TableDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Script",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.TableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapFormat0",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.KernTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Coverage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.FeatureRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.KernSubtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LigatureSubstFormat1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.HheaTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.GlyphDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.ScriptList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.KerningPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LangSys",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.FeatureList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.ScriptRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapFormat4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.DirectoryEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.HmtxTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.LookupSubtableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.ClassDefFormat2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.Os2Table",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.table.CmapFormat",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.svggen",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.svggen.SVGGraphicObjectConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGFont$CharListHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGCustomBufferedImageOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGFilterDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGraphicContextConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ErrorConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGCompositeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.XmlWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGPaintDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGBufferedImageOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DOMGroupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.XmlWriter$IndentWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGIDGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGeneratorContext$GraphicContextDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.CachedImageHandlerPNGEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DefaultImageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageHandlerPNGEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.NullOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGTransform$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGLookupOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGeneratorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageCacher$External",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGRenderingHints",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGArc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGFilterConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.CachedImageHandlerJPEGEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGLinearGradient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGClip",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageCacher$Embedded",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SimpleImageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DOMTreeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGraphics2DIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGCustomComposite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGTransform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGFontDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ClipKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.StyleHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGSyntax",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGStylingAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGraphicContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DefaultStyleHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGPaint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGRescaleOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.GenericImageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGraphics2DRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGTexturePaint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DefaultExtensionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGRectangle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageCacher$ImageCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGAlphaComposite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.AbstractSVGConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGShape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGClipDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SwingSVGPrettyPrint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGPolygon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.AbstractImageHandlerEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGHintsDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DefaultCachedImageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageHandlerBase64Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageCacher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGAttributeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGLine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.CachedImageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGComposite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.AbstractSVGFilterConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGStrokeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ExtensionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGCSSStyler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGColor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGConvolveOp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGBasicStroke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGGraphics2D",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.CachedImageHandlerBase64Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGEllipse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.DefaultErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGTransformDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.ImageHandlerJPEGEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.SVGCustomPaint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.svggen.font",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.svggen.font.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.SVGFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.Font",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.Glyph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.svggen.font.Point",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.svggen.font.resources",
+         "packageMembers": {
+            "name": "org/apache/batik/svggen/font/resources/Messages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.7.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.batik.ext.awt.image.spi",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.i18n",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.util",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.batik.ext.awt.g2d",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "javax.swing.plaf",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.batik.svggen",
+   "version": "1.7.0"
+}}

@@ -1,0 +1,1740 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:56:03.0",
+   "moduleName": "org.springframework.orm",
+   "name": "Spring ORM",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.orm",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.ObjectRetrievalFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ObjectOptimisticLockingFailureException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.toplink.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.toplink.support.CommonsLoggingSessionLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.support.TransactionAwareSessionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.support.CommonsLoggingSessionLog904",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.support.TopLinkDaoSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.toplink",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.toplink.SessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTransactionManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkOptimisticLockingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SingleSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SessionFactoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.AbstractSessionFactory$TransactionAwareInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkQueryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.LocalSessionFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SessionFactoryUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SessionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.AbstractSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SessionBrokerSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.ServerSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SessionReadCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.UnitOfWorkCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.SessionFactoryUtils$SessionSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.LocalSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkJdbcException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.AbstractSessionFactory$ManagedClientInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTransactionManager$TopLinkTransactionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.toplink.TopLinkTemplate$13",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.jpa.vendor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.OpenJpaDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.TopLinkJpaVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.OpenJpaVendorAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.TopLinkJpaVendorAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.Database",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.OpenJpaDialect$OpenJpaConnectionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.TopLinkJpaDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.OpenJpaDialect$OpenJpaTransactionData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.vendor.OpenJpaVendorAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.jpa.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.SharedEntityManagerBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.JpaDaoSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.jpa.persistenceunit",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.ClassFileTransformerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.jpa",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.jpa.JpaCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerFactoryPlus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerFactoryInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerFactoryAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.ExtendedEntityManagerCreator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTransactionManager$SuspendedResourcesHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTransactionManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerFactoryUtils$EntityManagerSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaOptimisticLockingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerPlus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$CloseSuppressingInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerFactoryPlusOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerPlusOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.SharedEntityManagerCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.DefaultJpaDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaVendorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.ExtendedEntityManagerCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaObjectRetrievalFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.LocalEntityManagerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerFactoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.EntityManagerProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jpa.JpaTemplate$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.jdo.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.jdo.support.OpenPersistenceManagerInViewInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.support.JdoDaoSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.support.OpenPersistenceManagerInViewFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.jdo",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.PersistenceManagerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.DefaultJdoDialect$DataStoreConnectionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.TransactionAwarePersistenceManagerFactoryProxy$TransactionAwareFactoryInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.TransactionAwarePersistenceManagerFactoryProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.DefaultJdoDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.TransactionAwarePersistenceManagerFactoryProxy$TransactionAwareInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoDialect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.TransactionAwarePersistenceManagerFactoryProxy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.PersistenceManagerFactoryUtils$PersistenceManagerSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoObjectRetrievalFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$CloseSuppressingInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoOptimisticLockingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.LocalPersistenceManagerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTransactionManager$JdoTransactionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTransactionManager$SuspendedResourcesHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.PersistenceManagerFactoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTransactionManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoResourceFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.jdo.JdoUsageException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.ibatis.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.ibatis.support.SqlMapClientDaoSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.support.BlobByteArrayTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.support.AbstractLobTypeHandler$LobCreatorSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.support.AbstractLobTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.support.ClobStringTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.support.BlobSerializableTypeHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.ibatis",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.ibatis.SqlMapClientTemplate$5",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.hibernate3.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.hibernate3.support.AbstractLobType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.ClobStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.ScopedBeanInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.IdTransferringMergeEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.BlobSerializableType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.HibernateDaoSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.BlobByteArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.OpenSessionInViewFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.BlobStringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.support.OpenSessionInViewInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.hibernate3.annotation",
+         "packageMembers": {
+            "name": "org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean",
+            "type": "CLASS"
+         },
+         "version": "2.5.4.A"
+      },
+      {
+         "name": "org.springframework.orm.hibernate3",
+         "packageMembers": [
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$39",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalCacheProviderProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalSessionFactoryBean$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalSessionFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$35",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalSessionFactoryBean$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateOptimisticLockingFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalSessionFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$36",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTransactionManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.AbstractSessionFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$31",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTransactionManager$HibernateTransactionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$38",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.SessionFactoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$32",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$27",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateSystemException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$28",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$34",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.TypeDefinitionBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$33",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$29",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.TransactionAwareDataSourceConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalTransactionManagerLookup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$37",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$30",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.LocalJtaDataSourceConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTransactionManager$SuspendedResourcesHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateQueryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.FilterDefinitionFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.SpringTransactionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.SpringSessionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$CloseSuppressingInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateObjectRetrievalFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$26",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateJdbcException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.SessionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.SpringSessionSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.orm.hibernate3.HibernateTemplate$15",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.context.request",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.filter",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.ui",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction.jta",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.instrument.classloading",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.datasource",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.datasource.lookup",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.support.lob",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.jndi",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.dao.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context.weaving",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.annotation",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop.scope",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 2.5.4.A]"
+      },
+      {
+         "name": "org.hibernate.util",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.usertype",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.type",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.transaction",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.tool.hbm2ddl",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.persister.entity",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.jdbc",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.impl",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.exception",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.event",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.event.def",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.engine",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.ejb",
+         "optional": true,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "org.hibernate.dialect",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.criterion",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.context",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.connection",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.classic",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.cfg",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate.cache",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.hibernate",
+         "optional": true,
+         "versionRange": "[3.2.6.ga, 3.3.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.jpa",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.sessions",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.sessions",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.databaseaccess",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.expressions",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.openjpa.persistence",
+         "optional": true,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "oracle.toplink.tools.sessionconfiguration",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.tools.sessionmanagement",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.threetier",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.sessions",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.sessionbroker",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.queryframework",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.publicinterface",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.logging",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.jndi",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.internal.databaseaccess",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.expressions",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.exceptions",
+         "optional": true,
+         "versionRange": "[10.1.3, 11.0.0)"
+      },
+      {
+         "name": "oracle.toplink.essentials.sessions",
+         "optional": true,
+         "versionRange": "[2.0.0.b41-beta2, 3.0.0)"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.sessions",
+         "optional": true,
+         "versionRange": "[2.0.0.b41-beta2, 3.0.0)"
+      },
+      {
+         "name": "oracle.toplink.essentials.internal.databaseaccess",
+         "optional": true,
+         "versionRange": "[2.0.0.b41-beta2, 3.0.0)"
+      },
+      {
+         "name": "oracle.toplink.essentials.expressions",
+         "optional": true,
+         "versionRange": "[2.0.0.b41-beta2, 3.0.0)"
+      },
+      {
+         "name": "oracle.toplink.essentials.ejb.cmp3",
+         "optional": true,
+         "versionRange": "[2.0.0.b41-beta2, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.persistence.spi",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jdo.datastore",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.jdo",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.type",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction.external",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.impl",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.client.event",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.client",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.common.util",
+         "optional": true,
+         "versionRange": "[2.3.0.677, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.orm",
+   "version": "2.5.4.A"
+}}

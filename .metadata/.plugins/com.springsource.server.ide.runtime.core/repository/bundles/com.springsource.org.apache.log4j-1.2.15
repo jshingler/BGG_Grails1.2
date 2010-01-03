@@ -1,0 +1,1266 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:04:29.0",
+   "moduleName": "com.springsource.org.apache.log4j",
+   "name": "Apache Log4J",
+   "notes": "",
+   "organisationName": "org.apache.log4j",
+   "packageExports": [
+      {
+         "name": "org.apache.log4j.or.sax",
+         "packageMembers": {
+            "name": "org.apache.log4j.or.sax.AttributesRenderer",
+            "type": "CLASS"
+         },
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.spi",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.spi.LoggerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.RendererSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.RepositorySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.RootLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.ThrowableInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.LoggerRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.NOPLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.RootCategory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.NullWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.Configurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.NOPLoggerRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.OptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.AppenderAttachable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.VectorWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.HierarchyEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.ErrorCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.LoggingEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.TriggeringEventEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.DefaultRepositorySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.spi.LocationInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.varia",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.varia.DenyAllFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.LevelMatchFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.HUPNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.NullAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.LevelRangeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.FallbackErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.Roller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.StringMatchFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.HUP",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.ReloadingPropertyConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.varia.ExternallyRolledFileAppender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.xml",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.xml.SAXErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/log4j/xml/log4j.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.Log4jEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.UnrecognizedElementHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator$ParseAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.DOMConfigurator$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.XMLLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.xml.XMLWatchdog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.AsyncAppender$DiscardSummary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.ConsoleAppender$SystemOutStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Category",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.BasicConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Logger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.PatternLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.ConsoleAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.CategoryKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.WriterAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Appender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.DailyRollingFileAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.NDC$DiagnosticContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.RollingFileAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.AsyncAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.FileAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.NDC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Level",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.PropertyWatchdog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.ProvisionNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Hierarchy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.PropertyConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.MDC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.AppenderSkeleton",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Layout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.AsyncAppender$Dispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.RollingCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.LogManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Dispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.TTCCLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.SimpleLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.ConsoleAppender$SystemErrStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.DefaultCategoryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.HTMLLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.Priority",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.or.jms",
+         "packageMembers": {
+            "name": "org.apache.log4j.or.jms.MessageRenderer",
+            "type": "CLASS"
+         },
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5.viewer.categoryexplorer",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5.viewer.configure",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.lf5.viewer.configure.ConfigurationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.configure.MRUFileManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.or",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.or.DefaultRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.or.ThreadGroupRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.or.ObjectRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.or.RendererMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.nt",
+         "packageMembers": {
+            "name": "org.apache.log4j.nt.NTEventLogAppender",
+            "type": "CLASS"
+         },
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.net",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.net.TelnetAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SMTPAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.TelnetAppender$SocketHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.JMSAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.JMSSink",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SimpleSocketServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SMTPAppender$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SocketHubAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SocketHubAppender$ServerMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SocketAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SyslogAppender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.DefaultEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SocketServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SocketNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.net.SocketAppender$Connector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5.viewer.images",
+         "packageMembers": [
+            {
+               "name": "org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5.viewer",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogTableModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.FilteredLogTableModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LF5SwingUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$32",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$30",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$31",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$29",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogTableColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogTableColumnFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogTableRowRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$27",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5InputDialog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$28",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$26",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LF5SwingUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.TrackingAdjustmentListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogFactor5Dialog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.viewer.LogBrokerMonitor$12",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.lf5.util.LogFileParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.ResourceUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.LogMonitorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.DateFormatManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.AdapterLogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.LogFileParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.StreamUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.util.Resource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5.config",
+         "packageMembers": {
+            "name": "org/apache/log4j/lf5/config/defaultconfig.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.lf5",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.lf5.Log4JLogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.StartLogFactor5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.DefaultLF5Configurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.AppenderFinalizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.LogRecordFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.LogLevelFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.LogRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.PassingLogRecordFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.LF5Appender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.lf5.LogLevel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.jmx",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.jmx.HierarchyDynamicMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.jmx.Agent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.jmx.LoggerDynamicMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.jmx.LayoutDynamicMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.jmx.AppenderDynamicMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.jmx.AbstractDynamicMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.jmx.MethodUnion",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.jdbc",
+         "packageMembers": {
+            "name": "org.apache.log4j.jdbc.JDBCAppender",
+            "type": "CLASS"
+         },
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.helpers",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.helpers.PatternParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.RelativeTimeDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.FormattingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.CyclicBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$LocationPatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.OnlyOnceErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.DateLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$NamedPatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.Transform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.LogLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$MDCPatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.OptionConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.SyslogWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.DateTimeDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$CategoryPatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$DatePatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.SyslogQuietWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.NullEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$LiteralPatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.AbsoluteTimeDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.AppenderAttachableImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.FileWatchdog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.CountingQuietWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.ThreadLocalMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.ISO8601DateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.BoundedFIFO",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.PatternParser$BasicPatternConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.QuietWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.helpers.Loader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.config",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.config.PropertyPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.config.PropertySetterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.config.PropertyGetter$PropertyCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.config.PropertyGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.config.PropertySetter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      },
+      {
+         "name": "org.apache.log4j.chainsaw",
+         "packageMembers": [
+            {
+               "name": "org.apache.log4j.chainsaw.MyTableModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.DetailPanel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.LoadXMLAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ExitAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.MyTableModel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.LoggingReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.Main$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.EventDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.XMLFileHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.LoggingReceiver$Slurper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.ControlPanel$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.log4j.chainsaw.MyTableModel$Processor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.15"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.table",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.jdmk.comm",
+         "optional": true,
+         "versionRange": "[5.1.0, 5.1.0]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.log4j",
+   "version": "1.2.15"
+}}

@@ -1,0 +1,654 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:23:30.0",
+   "moduleName": "com.springsource.org.exolab.castor.xml",
+   "name": "Castor Data Binding Framework XML Schema",
+   "notes": "",
+   "organisationName": "org.codehaus.castor",
+   "packageExports": [
+      {
+         "name": "org.exolab.castor.xml.dtd",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.dtd.Notation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.DTDException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.GeneralEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.ContentParticle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.DTDdocument",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.schema.writer",
+         "packageMembers": {
+            "name": "org.exolab.castor.xml.schema.writer.SchemaWriter",
+            "type": "CLASS"
+         },
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.schema.util",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.schema.util.XMLInstance2SchemaHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.util.DatatypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.util.XMLInstance2Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.util.XMLInstance2SchemaHandler$StateInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.schema.simpletypes.factory",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.factory.TypeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.factory.TypeProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.factory.Type",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.schema.simpletypes",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.RealType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.AtomicType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.ListType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.DateTimeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.BinaryType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.BooleanType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.DurationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.StringType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.DecimalType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.AnyURIType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.simpletypes.UrType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.schema.reader",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SchemaUnmarshallerState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.AnnotationUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SchemaReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ComplexTypeUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.RedefineUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SimpleTypeUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SchemaUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ImportUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.Sax2ComponentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.AttributeUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ComponentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.AppInfoUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.GroupUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.UnknownUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SaxUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SchemaUnmarshaller$RemappedPrefixes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.AttributeGroupUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SimpleTypeRestrictionUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.FieldOrSelectorUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.IdentityConstraintUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SimpleTypeDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.FacetUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ComplexContentRestrictionUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.UnionUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ExtensionUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.DocumentationUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SchemaLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.CharacterUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.IncludeUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ComplexContentUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.WildcardUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SimpleContentUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ElementUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SimpleTypeListUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.SimpleContentRestrictionUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.reader.ModelGroupUnmarshaller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.schema",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.schema.Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.BlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.IdentitySelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.RedefineSchema$EmptyEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Unique",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Facet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.TypeReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.IdentityField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ContentModelGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SimpleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SimpleTypeReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AttributeGroupDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ModelGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AttributeDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ScopableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.FinalList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.FacetListEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ResolvableReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.XMLType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Structure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.DeferredSimpleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SchemaNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SimpleTypesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ElementDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AppInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AttributeGroupReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ComplexType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Particle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AttributeGroupEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AnyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Documentation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Annotated",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ContentModelGroupImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.IdentityConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AnnotationItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.ResolvingObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SchemaException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.AttributeGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.KeyRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.FacetList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SchemaContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Resolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Form",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Referable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.UnknownDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Annotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Union",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SimpleContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SimpleTypesFactoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Wildcard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.Group",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.SchemaContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.schema.RedefineSchema",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.dtd.parser",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDInitialParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.InputCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDInitialParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDInitialParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.dtd.parser.DTDParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.exolab.castor.xml.validators",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.exolab.castor.xml.util",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.exolab.castor.xml",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.exolab.castor.util",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.exolab.castor.types",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.exolab.castor.net.util",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.exolab.castor.net",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.exolab.castor.mapping",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.castor.xml",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.castor.util",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.castor.core.util",
+         "optional": false,
+         "versionRange": "[1.2.0, 1.2.0]"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.exolab.castor.xml",
+   "version": "1.2.0"
+}}

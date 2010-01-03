@@ -1,0 +1,462 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 17:52:47.0",
+   "moduleName": "com.springsource.org.hibernate.ejb",
+   "name": "JBoss Hibernate Entity Manager",
+   "notes": "",
+   "organisationName": "org.hibernate",
+   "packageExports": [
+      {
+         "name": "org.hibernate.ejb",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.ejb.EntityManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.AbstractEntityManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.HibernateQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.AbstractEntityManagerImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.TransactionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.HibernatePersistence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.CurrentEntityManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.EntityManagerImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.HibernateEntityManagerImplementor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.AbstractEntityManagerImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3Configuration$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.InjectionSettingsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.QueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.HibernateEntityManagerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.EntityManagerFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3Configuration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3Configuration$Ejb3EntityNotFoundDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.HibernateEntityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3Configuration$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.EventListenerConfigurator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3Configuration$XML_SEARCH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.Ejb3ConfigurationObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/hibernate/ejb/persistence_1_0.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.engine",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.engine.EJB3CascadingAction$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.EJB3CascadingAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.EJB3CascadeStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.engine.EJB3CascadeStyle$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.ejb.util",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.ejb.util.LogHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.util.ConfigurationHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.util.NamingHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.util.NamingHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.util.ConfigurationHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.ejb.transaction",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.ejb.transaction.JoinableCMTTransaction$JoinStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.transaction.JoinableCMTTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.transaction.JoinableCMTTransactionFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.ejb.packaging",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.ejb.packaging.FileFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.AbstractJarVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.XmlHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.JavaElementFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.ClassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.JarVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.JarProtocolVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.FileZippedJarVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.PersistenceXmlLoader$ErrorLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.JarVisitorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.PackageFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.PersistenceXmlLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.InputStreamZippedJarVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.NamedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.PersistenceMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.packaging.ExplodedJarVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.ejb.instrument",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.ejb.instrument.InterceptFieldClassFileTransformer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.instrument.InterceptFieldClassFileTransformer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.instrument.InterceptFieldClassFileTransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.ejb.event",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.ejb.event.ListenerCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3SaveEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3PostUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3SaveOrUpdateEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3PostLoadEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3PostInsertEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.CallbackResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3FlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3AutoFlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3PersistEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.CallbackHandlerConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3DeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.Callback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3FlushEntityEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EntityCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3PostDeleteEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3MergeEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.EJB3PersistOnFlushEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.ejb.event.BeanCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.3.2.GA"
+      },
+      {
+         "name": "org.hibernate.ejb.connection",
+         "packageMembers": {
+            "name": "org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider",
+            "type": "CLASS"
+         },
+         "version": "3.3.2.GA"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.hibernate.annotations.common",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "org.hibernate.annotations.common.reflection",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "org.hibernate.annotations.common.util",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 3.4.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.dom4j",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j.io",
+         "optional": false,
+         "versionRange": "[1.6.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence.spi",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javassist.bytecode.annotation",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 4.0.0)"
+      },
+      {
+         "name": "javassist.bytecode",
+         "optional": false,
+         "versionRange": "[3.3.0.ga, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.hibernate.ejb",
+   "version": "3.3.2.GA"
+}}

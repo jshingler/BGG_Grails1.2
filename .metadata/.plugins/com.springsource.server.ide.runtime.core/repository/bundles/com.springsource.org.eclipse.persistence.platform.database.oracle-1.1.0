@@ -1,0 +1,417 @@
+{"bundle": {
+   "dateAdded": "2009-04-23 10:24:03.0",
+   "moduleName": "com.springsource.org.eclipse.persistence.platform.database.oracle",
+   "name": "EclipseLink Oracle Extensions",
+   "notes": "",
+   "organisationName": "org.eclipse.persistence",
+   "packageExports": [
+      {
+         "name": "org.eclipse.persistence.eis.adapters.aq",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.eis.adapters.aq.AQEISConnectionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.eis.adapters.aq.AQPlatform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.database.oracle.converters",
+         "packageMembers": {
+            "name": "org.eclipse.persistence.platform.database.oracle.converters.JGeometryConverter",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.xml.xdk",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.platform.xml.xdk.XDKTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.xml.xdk.XDKPrintDriver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.xml.xdk.XDKParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.xml.xdk.XDKPlatform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.xml.xdk.XDKNamespaceResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.database.oracle",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.OracleOCIProxyConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.Oracle9Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.NClob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.NCharacter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.NString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.Oracle10Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.Oracle11Platform",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.OracleJDBC_10_1_0_2ProxyConnectionCustomizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.Oracle9Platform$NTypeBindCallCustomParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.platform.database.oracle.Oracle8Platform",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.eis.adapters.aq",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQConnectionMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQRecordFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQInteractionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQAdapterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQConnectionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQDequeueInteractionSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQInteraction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.eis.adapters.aq.AQEnqueueInteractionSpec",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.platform.database.oracle",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.TIMESTAMPTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.XMLTypeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.TIMESTAMPLTZWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.TIMESTAMPTZWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.TIMESTAMPHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.platform.database.oracle.xdb",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.xdb.XMLTypeFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.platform.database.oracle.xdb.XMLTypeBindCallCustomParameter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.eclipse.persistence.sessions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.queries",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.xml",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.server",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.record",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.schema",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.database",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.database.converters",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.helper",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.platform.database",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.security",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.sessions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.expressions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.expressions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.databaseaccess",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.exceptions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.eis.interactions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.eis",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "oracle.xml.parser.v2",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.xml.parser.schema",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.xml.jaxp",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.xdb.dom",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.xdb",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.sql",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.spatial.geometry",
+         "optional": true,
+         "versionRange": "[10.2.0.1, 11.0.0)"
+      },
+      {
+         "name": "oracle.jdbc.pool",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.jdbc.internal",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.jdbc",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0)"
+      },
+      {
+         "name": "oracle.AQ",
+         "optional": true,
+         "versionRange": "[10.1.0.1, 11.0.0)"
+      },
+      {
+         "name": "javax.xml.validation",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.resource",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "javax.resource.cci",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.eclipse.persistence.platform.database.oracle",
+   "version": "1.1.0"
+}}

@@ -1,0 +1,803 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:32:21.0",
+   "moduleName": "com.springsource.org.bouncycastle.mail",
+   "name": "The Bouncy Castle Secure Email",
+   "notes": "",
+   "organisationName": "org.bouncycastle",
+   "packageExports": [
+      {
+         "name": "org.bouncycastle.cms",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataStreamGenerator$SignerInf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataStreamGenerator$NullOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.DefaultSignedAttributeTableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedDataStreamGenerator$CmsEnvelopedDataOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSCompressedDataStreamGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.RecipientId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataStreamGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataStreamGenerator$CmsSignedDataOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.SignerInformationStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopableByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSTypedStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedGenerator$RecipientInf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSProcessableByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedDataStreamGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSCompressedDataGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignableByteArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataStreamGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.SignerId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.KeyTransRecipientInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSPBEKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataGenerator$SignerInf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSCompressedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSProcessable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataGenerator$DigOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.PasswordRecipientInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSCompressedDataStreamGenerator$CmsCompressedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.BaseDigestCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataStreamGenerator$TeeOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSCompressedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.RecipientInformationStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSAttributeTableGenerationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.DigestCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataGenerator$SigOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSTypedStream$FullReaderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedDataGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.SimpleAttributeTableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.KeyAgreeRecipientInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.RecipientInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSAttributeTableGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.SignerInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedDataGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSEnvelopedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.KEKRecipientInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CounterSignatureDigestCalculator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSProcessableFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSContentInfoParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.CMSSignedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.cms.PKCS5Scheme2PBEKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.sasn1",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.sasn1.DerObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1ObjectIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1InputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerOctetString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerTagClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DefiniteLengthInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DerSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DerOctetString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DerObject$BasicDerGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DerSequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1OctetString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1Integer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1Object",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerOctetStringGenerator$BerOctetStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerOctetStringGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerSequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.ConstructedOctetStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1ObjectIdentifier$OIDTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.LimitedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DerGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerOctetStringGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1Set",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.IndefiniteLengthInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.BerOctetStringGenerator$BufferedBerOctetStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.DerSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.Asn1TaggedObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.sasn1.cms",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.sasn1.cms.EnvelopedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.cms.ContentInfoParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.cms.CompressedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.cms.EncryptedContentInfoParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.sasn1.cms.SignedDataParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.mail.smime.validator",
+         "packageMembers": [
+            {
+               "name": "org/bouncycastle/mail/smime/validator/SignedMailValidatorMessages_de.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.validator.SignedMailValidatorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/bouncycastle/mail/smime/validator/SignedMailValidatorMessages.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.mail.smime.util",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.mail.smime.util.CRLFOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.util.FileBackedMimeBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.util.SharedFileInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.mail.smime.handlers",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.x_pkcs7_signature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.multipart_signed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.PKCS7ContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.pkcs7_signature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.multipart_signed$LineOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.pkcs7_mime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.handlers.x_pkcs7_mime",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.mail.smime.examples",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ReadLargeEncryptedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateCompressedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ReadLargeSignedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.SendSignedAndEncryptedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateEncryptedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateLargeCompressedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ExampleUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ReadSignedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateSignedMultipartMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateLargeSignedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ReadLargeCompressedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ReadCompressedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateLargeEncryptedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.CreateSignedMail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.examples.ReadEncryptedMail",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.mail.smime",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnvelopedGenerator$ContentEncryptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMECompressedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEUtil$WriteOnceFileBackedMimeBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.CMSProcessableBodyPartOutbound",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.CMSProcessableBodyPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnveloped",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnvelopedParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMESignedParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMECompressed",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnvelopedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMECompressedGenerator$ContentCompressor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.CMSProcessableBodyPartInbound",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMESignedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMESignedGenerator$Signer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnvelopedGenerator$EnvelopedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMECompressedParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnvelopedGenerator$WrappingIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMESigned",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMESignedParser$TemporaryFileInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEStreamingProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEEnvelopedGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMEUtil$LineOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.mail.smime.SMIMESignedGenerator$ContentSigner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.bouncycastle.util",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.x509",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.util.io",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.jce.provider",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.jce.interfaces",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.jce",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.i18n",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.crypto.params",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.crypto.generators",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.crypto",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x9",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x509",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.teletrust",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.smime",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.pkcs",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.oiw",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.ntt",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.nist",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.kisa",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.cryptopro",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1.cms",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "org.bouncycastle.asn1",
+         "optional": false,
+         "versionRange": "[1.39.0, 1.39.0]"
+      },
+      {
+         "name": "javax.security.auth.x500",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.crypto.interfaces",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.bouncycastle.mail",
+   "version": "1.39.0"
+}}

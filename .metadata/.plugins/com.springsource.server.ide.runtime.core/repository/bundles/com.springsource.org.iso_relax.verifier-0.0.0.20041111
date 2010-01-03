@@ -1,0 +1,357 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:24:03.0",
+   "moduleName": "com.springsource.org.iso_relax.verifier",
+   "name": "RELAX (Regular Language description for XML)",
+   "notes": "",
+   "organisationName": "net.sourceforge.iso-relax",
+   "packageExports": [
+      {
+         "name": "jp.gr.xml.relax.dom",
+         "packageMembers": [
+            {
+               "name": "jp.gr.xml.relax.dom.DOMVisitorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.dom.IDOMVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.dom.XMLMaker",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.dom.UDOMVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.dom.UDOM",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.verifier",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.verifier.VerifierConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.VerifierHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.VerifierFactoryLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.VerifierFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.VerifierException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.VerifierFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.verifier.impl",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.verifier.impl.VerifierFilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.impl.VerifierImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.impl.SAXEventGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.impl.VerifierImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.verifier.impl.ForkContentHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.jaxp",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.jaxp.ValidatingSAXParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.jaxp.ValidatingSAXParserFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.jaxp.ValidatingDocumentBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.jaxp.ValidatingDocumentBuilderFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.dispatcher.impl",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.dispatcher.impl.IgnoredSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.DispatcherImpl$Transponder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.DispatcherImpl$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.IgnoredSchema$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.IgnoredSchema$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.IgnoreVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.DispatcherImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.DispatcherImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.impl.AbstractSchemaProviderImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.dispatcher",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.dispatcher.ElementDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.SchemaProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.Dispatcher$NotationDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.Dispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.AttributesVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.Dispatcher$UnparsedEntityDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.AttributesDecl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.IslandSchemaReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.IslandVerifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.dispatcher.IslandSchema",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.catalog",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.catalog.RELAXCatalog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.catalog.RELAXCatalog$CatalogHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "org.iso_relax.ant",
+         "packageMembers": [
+            {
+               "name": "org.iso_relax.ant.JARVTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.iso_relax.ant.ErrorHandlerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "jp.gr.xml.relax.xml",
+         "packageMembers": {
+            "name": "jp.gr.xml.relax.xml.UXML",
+            "type": "CLASS"
+         },
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "jp.gr.xml.relax.sax",
+         "packageMembers": [
+            {
+               "name": "jp.gr.xml.relax.sax.DTDSkipper",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.sax.DOMSAXProducerVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.sax.RELAXEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.sax.DeclHandlerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.sax.DOMSAXProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.sax.SimpleEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "jp.gr.xml.relax.sax.LexicalHandlerBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      },
+      {
+         "name": "jp.gr.xml.relax.lib",
+         "packageMembers": [
+            {
+               "name": "jp/gr/xml/relax/lib/relax.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/relaxCore.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/relaxNg.rxm",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/datatypes.mod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/datatypes.rxm",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/relaxNamespace.rxm",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/relaxNamespace.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "jp/gr/xml/relax/lib/relaxCore.rxm",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.0.0.20041111"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.iso_relax.verifier",
+   "version": "0.0.0.20041111"
+}}

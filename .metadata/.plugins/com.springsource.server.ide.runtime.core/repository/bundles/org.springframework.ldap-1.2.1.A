@@ -1,0 +1,961 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 17:31:56.0",
+   "moduleName": "org.springframework.ldap",
+   "name": "Spring LDAP",
+   "notes": "",
+   "organisationName": "org.springframework.ldap",
+   "packageExports": [
+      {
+         "name": "org.springframework.ldap",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.NoInitialContextException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NamingSecurityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InsufficientResourcesException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NameAlreadyBoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.AuthenticationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InvalidAttributeValueException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.OperationNotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NoPermissionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.UncategorizedLdapException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.CommunicationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NamingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InvalidAttributeIdentifierException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.ServiceUnavailableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.BadLdapGrammarException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.MalformedLinkException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InvalidAttributesException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InterruptedNamingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.LinkLoopException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NameNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.TimeLimitExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.AttributeModificationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NotContextException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.AttributeInUseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.LimitExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.LdapReferralException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.CannotProceedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.PartialResultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.LinkException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.SchemaViolationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InvalidSearchFilterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.NoSuchAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.ContextNotEmptyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.SizeLimitExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.AuthenticationNotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InvalidNameException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.InvalidSearchControlsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.ReferralException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.transaction.compensating.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.transaction.compensating.support.DefaultCompensatingTransactionOperationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.support.AbstractCompensatingTransactionManagerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.support.CompensatingTransactionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.support.CompensatingTransactionHolderSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.support.CompensatingTransactionObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.transaction.compensating",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.transaction.compensating.LdapTransactionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.NullOperationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.LdapCompensatingTransactionOperationFactory$NonClosingDirContextInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.ModifyAttributesOperationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.BindOperationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.ModifyAttributesOperationRecorder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.LdapCompensatingTransactionOperationFactory$SingleContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.LdapCompensatingTransactionOperationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.UnbindOperationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.RenameOperationRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.ModifyAttributesOperationRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.RebindOperationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.NullOperationRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.BindOperationRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.RenameOperationExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.TempEntryRenamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.RebindOperationRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.UnbindOperationRecorder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.transaction.compensating.manager",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.TransactionAwareDirContextInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.ContextSourceTransactionManagerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.ContextSourceTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.ContextSourceAndDataSourceTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.TransactionAwareContextSourceProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.ContextSourceAndDataSourceTransactionManager$ContextSourceAndDataSourceTransactionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.manager.DirContextHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.transaction.compensating.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.transaction.compensating.support.DifferentSubtreeTempEntryRenamingStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.transaction.compensating.support.DefaultTempEntryRenamingStrategy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.transaction.compensating",
+         "packageMembers": [
+            {
+               "name": "org.springframework.transaction.compensating.CompensatingTransactionOperationRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.CompensatingTransactionOperationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.CompensatingTransactionOperationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.compensating.CompensatingTransactionOperationExecutor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.support.LdapUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.support.ListComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.pool.validation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.pool.validation.DefaultDirContextValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.pool.validation.DirContextValidator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.pool.factory",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.pool.factory.PoolingContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.pool.factory.DirContextPoolableObjectFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.pool",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.pool.DirContextType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.pool.DelegatingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.pool.DelegatingDirContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.pool.DelegatingLdapContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.filter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.filter.CompareFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.LikeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.OrFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.NotFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.BinaryLogicalFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.GreaterThanOrEqualsFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.AndFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.AbstractFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.LessThanOrEqualsFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.EqualsFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.filter.WhitespaceWildcardsFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.core.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.core.support.BaseLdapPathContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.CountNameClassPairCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.AbstractContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.AbstractContextMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.LdapContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.BaseLdapPathSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.BaseLdapPathAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.AbstractContextSource$SimpleAuthenticationSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.DefaultDirObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.BaseLdapPathBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.DirContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.support.AggregateDirContextProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.core.DnParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.NameClassPairMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$NullDirContextProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$27",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.AuthenticationSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DnParserImplTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.AttributesMapperCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.AttributeModificationsAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DistinguishedNameEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapRdn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DirContextAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DnParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DnParserImplConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ContextMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DefaultDnParserFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ContextMapperCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ObjectRetrievalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.NameClassPairCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$28",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.CollectingNameClassPairCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DirContextOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.SearchExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$MappingCollectingNameClassPairCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$26",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$29",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ContextAssembler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DirContextProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.AttributesMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapRdnComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$30",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DefaultNameClassPairMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.LdapTemplate$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DistinguishedName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.ContextExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.core.DirContextProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.control",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.control.CreateControlFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.control.PagedResultsRequestControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.control.PagedResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.control.AbstractRequestControlDirContextProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.control.SortControlDirContextProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.control.PagedResultsCookie",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      },
+      {
+         "name": "org.springframework.ldap.authentication",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ldap.authentication.DefaultValuesAuthenticationSourceDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ldap.authentication.AcegiAuthenticationSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.1.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.datasource",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": true,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.pool.impl",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.pool",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.userdetails.ldap",
+         "optional": true,
+         "versionRange": "[1.0.3, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.providers.anonymous",
+         "optional": true,
+         "versionRange": "[1.0.3, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.context",
+         "optional": true,
+         "versionRange": "[1.0.3, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity",
+         "optional": true,
+         "versionRange": "[1.0.3, 2.0.0)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.ldap",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.jndi.ldap.ctl",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.jndi.ldap",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.ldap",
+   "version": "1.2.1.A"
+}}

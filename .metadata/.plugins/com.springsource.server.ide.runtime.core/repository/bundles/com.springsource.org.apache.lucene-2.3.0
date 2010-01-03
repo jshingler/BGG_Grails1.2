@@ -1,0 +1,1850 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:39:21.0",
+   "moduleName": "com.springsource.org.apache.lucene",
+   "name": "Apache Lucene",
+   "notes": "",
+   "organisationName": "org.apache.lucene",
+   "packageExports": [
+      {
+         "name": "org.apache.lucene",
+         "packageMembers": {
+            "name": "org.apache.lucene.LucenePackage",
+            "type": "CLASS"
+         },
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.util.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.ScorerDocQueue$HeapedScorerDoc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.BitVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.StringHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.SmallFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.PriorityQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.ScorerDocQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.util.ToStringUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.search.spans",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.search.spans.SpanTermQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanNotQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.Spans",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanFirstQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanOrQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.NearSpansUnordered",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanOrQuery$SpanQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanNotQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.NearSpansUnordered$CellQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.TermSpans",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanNearQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanFirstQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.NearSpansUnordered$SpansCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanOrQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.NearSpansOrdered$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.SpanQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.spans.NearSpansOrdered",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.store",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.store.RAMOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.IndexOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.SingleInstanceLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.MMapDirectory$MMapIndexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.LockReleaseFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.LockStressTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.SimpleFSLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.VerifyingLockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.NoLockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.MMapDirectory$MultiMMapIndexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.SimpleFSLockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.LockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.RAMInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.Lock$With",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.MMapDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.NoLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.RAMFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.IndexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.NativeFSLockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.Directory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.SingleInstanceLockFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.FSDirectory$FSIndexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.NativeFSLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.BufferedIndexOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.VerifyingLockFactory$CheckedLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.FSDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.BufferedIndexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.FSDirectory$FSIndexOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.RAMDirectory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.MMapDirectory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.LockObtainFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.LockVerifyServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.Lock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.store.AlreadyClosedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.search.payloads",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.search.payloads.BoostingTermQuery$BoostingTermWeight$BoostingSpanScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.payloads.BoostingTermQuery$BoostingTermWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.payloads.BoostingTermQuery",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.search.function",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.search.function.FieldScoreQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.IntFieldSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ReverseOrdFieldSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.CustomScoreQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.OrdFieldSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.FieldCacheSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ValueSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.DocValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.CustomScoreQuery$CustomScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ShortFieldSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.FloatFieldSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ValueSourceQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ByteFieldSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.CustomScoreQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ReverseOrdFieldSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.FloatFieldSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ValueSourceQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.OrdFieldSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ValueSourceQuery$ValueSourceScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.IntFieldSource$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ValueSourceQuery$ValueSourceWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.CustomScoreQuery$CustomWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.FieldScoreQuery$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ByteFieldSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.function.ShortFieldSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.search",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.search.BooleanScorer$Collector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCacheImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilterManager$FilterCleaner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MatchAllDocsQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MatchAllDocsQuery$MatchAllDocsWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SpanFilterResult$StartEnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SloppyPhraseScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FuzzyQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$Cache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SortComparatorSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer2$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ConstantScoreRangeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldDocSortedHitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SortComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilteredQuery$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Searchable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$CreationPlaceholder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.IndexSearcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ReqOptSumScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanQuery$BooleanWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiPhraseQuery$MultiPhraseWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiPhraseQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SortComparator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiSearcherThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.DisjunctionSumScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanClause",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.QueryTermVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PhraseQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCache$StringIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FuzzyQuery$ScoreTermQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExactPhraseScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Similarity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ScoreDocComparator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.IdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FuzzyQuery$ScoreTerm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Weight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer$SubScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ConstantScoreQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilteredTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SloppyPhraseScorer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldDoc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PhraseScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SortField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MatchAllDocsQuery$MatchAllScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TopFieldDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PrefixGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer2$SingleMatchScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCacheImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiSearcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.QueryWrapperFilter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Hits",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCacheImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCacheImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.RangeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer$Bucket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.WildcardTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.CachingWrapperFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TopDocCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Sort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ConstantScoreQuery$ConstantWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.HitCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Scorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.RemoteSearchable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ParallelMultiSearcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiSearcher$CachedDfSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TopDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TermScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCache$DoubleParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCacheImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ScoreDocComparator$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PrefixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TermQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCacheImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SimilarityDelegator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ComplexExplanation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanQuery$TooManyClauses",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.RangeQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.HitIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TopFieldDocCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.RemoteSearchable_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PrefixFilter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiTermQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ConjunctionScorer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.IndexSearcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PhraseQuery$PhraseWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ConjunctionScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Query",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.DisjunctionMaxScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.CachingSpanFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilterManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.DisjunctionMaxQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PhrasePositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilteredQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ScoreDoc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SpanQueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCache$ByteParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanClause$Occur",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ReqExclScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Hit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer$BucketTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilteredQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCache$ShortParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.TermQuery$TermWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.HitDoc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.MultiSearcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PrefixQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ConstantScoreQuery$ConstantScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.WildcardQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.HitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FuzzyTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.DisjunctionMaxQuery$DisjunctionMaxWeight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.QueryFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer2$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ScoreDocComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.QueryWrapperFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SpanFilterResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.PhraseQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanScorer2$Coordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilterManager$FilterItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ExtendedFieldCache$LongParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCacheImpl$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.RemoteCachingWrapperFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.NonMatchingScorer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCache$IntParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Explanation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.DefaultSimilarity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.BooleanQuery$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SpanFilterResult$PositionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.Searcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.ParallelMultiSearcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldSortedHitQueue$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.SpanFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FieldCache$FloatParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.search.FilterManager$FilterCleaner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.queryParser",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.queryParser.QueryParser$Operator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.FastCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.QueryParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.QueryParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.QueryParser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.QueryParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.QueryParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.MultiFieldQueryParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.queryParser.QueryParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.index",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.index.MergePolicy$MergeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MergePolicy$MergeAbortedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DirectoryIndexReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.LogMergePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermPositionVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexFileNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexFileNameFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.AbortException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MergeScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentMerger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexFileDeleter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermVectorsWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentInfos$FindSegmentsFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermInfosReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldReaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermVectorEntryFreqSortedComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MergePolicy$MergeSpecification",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ParallelReader$ParallelTermPositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.PositionBasedTermVectorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$CharBlockPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultipleTermPositions$IntQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermInfosWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FilterIndexReader$FilterTermDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CorruptIndexException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.PositionBasedTermVectorMapper$TVPositionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermFreqVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldSortedTermVectorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentInfos",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentTermVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$Posting",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CheckIndex$MySegmentTermDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiSegmentReader$MultiTermPositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldsReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexReader$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.StaleReaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ParallelReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ParallelReader$ParallelTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DefaultSkipListReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.LogDocMergePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiSegmentReader$MultiTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldsReader$FieldForMerge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermVectorOffsetInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentTermPositionVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$ByteBlockPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$PostingVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentTermDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiLevelSkipListReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentInfos$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiLevelSkipListWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldsReader$LazyField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileReader$CSIndexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DirectoryIndexReader$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ConcurrentMergeScheduler$MergeThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentMerger$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermVectorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$ReusableStringReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FilterIndexReader$FilterTermPositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermPositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MergePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ParallelArrayTermVectorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexFileDeleter$CommitPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexFileDeleter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentMerger$CheckAbort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ConcurrentMergeScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SnapshotDeletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldsWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$FieldMergeState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CheckIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexCommitPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DefaultSkipListWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileWriter$FileEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SerialMergeScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexReader$FieldOption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.LogByteSizeMergePolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FilterIndexReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultipleTermPositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$ThreadState$FieldData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$BufferedNorms",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexFileDeleter$RefCount",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiSegmentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SortedTermVectorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiLevelSkipListReader$SkipBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermVectorsReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.KeepOnlyLastCommitDeletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentReader$Norm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermVectorEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultipleTermPositions$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$ByteSliceReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FilterIndexReader$FilterTermEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.Payload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentTermPositions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.ParallelReader$ParallelTermDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$ThreadState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultiSegmentReader$MultiTermDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.FieldInfos",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SnapshotDeletionPolicy$MyCommitPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexDeletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MultipleTermPositions$TermPositionsQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentMergeQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.Term",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.MergePolicy$OneMerge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.IndexWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentMergeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DocumentsWriter$Num",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.TermDocs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.CompoundFileReader$FileEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.DirectoryIndexReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.index.SegmentInfos$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.document",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.document.DateTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.DateTools$Resolution",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Fieldable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Field",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.FieldSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.SetBasedFieldSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.AbstractField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Field$Store",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Field$TermVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Document",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.FieldSelectorResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Field$Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.LoadFirstFieldSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.MapFieldSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.NumberTools",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.Document$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.document.DateField",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.analysis.standard",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.analysis.standard.StandardAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.standard.StandardTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.standard.StandardAnalyzer$SavedStreams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.standard.StandardTokenizerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.standard.StandardAnalyzer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.standard.StandardFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "org.apache.lucene.analysis",
+         "packageMembers": [
+            {
+               "name": "org.apache.lucene.analysis.WhitespaceTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.Tokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.KeywordAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.LengthFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.SinkTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.PerFieldAnalyzerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.CharArraySet$CharArraySetIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.SimpleAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.StopAnalyzer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.StopAnalyzer$SavedStreams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.WhitespaceAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.LowerCaseTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.TokenFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.KeywordTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.ISOLatin1AccentFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.TokenStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.CharTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.StopAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.CharArraySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.LowerCaseFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.Analyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.StopFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.LetterTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.TeeTokenFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.WordlistLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.CachingTokenFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.PorterStemFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.PorterStemmer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.lucene.analysis.Token",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.lucene",
+   "version": "2.3.0"
+}}

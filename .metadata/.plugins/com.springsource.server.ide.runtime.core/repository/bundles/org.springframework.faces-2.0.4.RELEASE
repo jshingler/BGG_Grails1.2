@@ -1,0 +1,694 @@
+{"bundle": {
+   "dateAdded": "2008-11-05 16:57:59.0",
+   "moduleName": "org.springframework.faces",
+   "name": "Spring Faces",
+   "notes": "",
+   "organisationName": "org.springframework.webflow",
+   "packageExports": [
+      {
+         "name": "org.springframework.faces.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.faces.config.FacesFlowBuilderServicesBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/faces/config/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/faces/config/spring-faces-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.config.FacesNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.ui.resource",
+         "packageMembers": [
+            {
+               "name": "org/springframework/faces/ui/resource/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.ui.resource.ResourceHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.webflow",
+         "packageMembers": [
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfManagedBeanAwareELExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$UserMessageCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfViewFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfManagedBeanResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowViewHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$DetailMessageCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$SummaryMessageCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfViewFactoryCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowVariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.TreeStructureManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowPropertyResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowApplicationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowActionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowResourceResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$FlowExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfManagedBeanAwareELExpressionParser$WebFlowELContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/faces/webflow/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$IdentifiedMessageCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$FacesMessageIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowViewStateManager$SerializedView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.SpringBeanWebFlowVariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowFacesContext$ClientIdIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.TreeStructureManager$TreeStructComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowViewStateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.JsfManagedBeanAwareELExpressionParser$RequestContextELContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.ExternalContextWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.webflow.FlowLifecycle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.ui",
+         "packageMembers": [
+            {
+               "name": "org.springframework.faces.ui.ValidateAllRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveUICommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxEventInterceptorRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.HTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoClientTextValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DelegatingViewRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoClientDateValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxViewRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandLinkRenderer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseSpringJavascriptDecorationRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoStyleRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DynamicComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxViewRoot$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoDecoration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseHtmlTagRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandLinkRenderer$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.RendererUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoClientCurrencyValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoClientNumberValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandLinkRenderer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandButtonRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandLinkRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ResourceRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxViewRoot$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseComponentRenderer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandLinkRenderer$DoubleQuoteEscapingWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.RenderAttributeCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseComponentRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseDojoComponentRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseComponentRenderer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxViewRoot$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ProgressiveCommandButtonRenderer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.DojoDecorationRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/faces/ui/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseHtmlTagRenderer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxViewRoot$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.ResourceGroupRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.BaseSpringJavascriptComponentRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.ui.AjaxViewRoot$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.support",
+         "packageMembers": [
+            {
+               "name": "org/springframework/faces/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.support.RequestLoggingPhaseListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.richfaces",
+         "packageMembers": [
+            {
+               "name": "org/springframework/faces/richfaces/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.richfaces.RichFacesAjaxHandler$FacesContextHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.richfaces.RichFacesAjaxHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.mvc",
+         "packageMembers": [
+            {
+               "name": "org.springframework.faces.mvc.JsfView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/faces/mvc/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.expression",
+         "packageMembers": [
+            {
+               "name": "org.springframework.faces.expression.SimpleELContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/faces/expression/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.expression.ELDelegatingVariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.expression.ELDelegatingPropertyResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.model",
+         "packageMembers": [
+            {
+               "name": "org.springframework.faces.model.SerializableListDataModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.model.SelectionAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.model.SelectionTrackingActionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.model.OneSelectionTrackingListDataModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.model.ManySelectionTrackingListDataModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/faces/model/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      },
+      {
+         "name": "org.springframework.faces.model.converter",
+         "packageMembers": [
+            {
+               "name": "org/springframework/faces/model/converter/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.faces.model.converter.DataModelConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.faces.model.converter.FacesConversionService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.webflow.validation",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.expression.el",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.execution",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.engine.builder.support",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.engine.builder",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.engine",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.definition",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.core.collection",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.webflow.context",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.web.servlet.view",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.jsf",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.js.ajax",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.core.style",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.binding.message",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.binding.mapping",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.binding.expression.el",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.binding.expression",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.binding.convert.service",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.binding.convert.converters",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.binding.convert",
+         "optional": false,
+         "versionRange": "[2.0.4, 2.0.5)"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.ajax4jsf.context",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.faces.render",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.model",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.lifecycle",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.event",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.el",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.convert",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.context",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.component",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces.application",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.faces",
+         "optional": false,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "javax.el",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.facelets.impl",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.faces",
+   "version": "2.0.4.RELEASE"
+}}

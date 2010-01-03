@@ -1,0 +1,425 @@
+{"bundle": {
+   "dateAdded": "2009-04-17 15:22:42.0",
+   "moduleName": "com.springsource.org.hibernate.validator",
+   "name": "JBoss Hibernate Validator",
+   "notes": "",
+   "organisationName": "org.hibernate",
+   "packageExports": [
+      {
+         "name": "org.hibernate.validation",
+         "packageMembers": [
+            {
+               "name": "org/hibernate/validation/ValidationMessages_de.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.hibernate.validation.HibernateValidationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/hibernate/validation/ValidationMessages_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/hibernate/validation/ValidationMessages.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.util.annotationfactory",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.util.annotationfactory.AnnotationProxy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.annotationfactory.AnnotationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.annotationfactory.AnnotationProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.annotationfactory.AnnotationDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.util",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.util.IdentitySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.PropertyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.ReflectionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.ValidatorTypeHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.util.LoggerFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.jtype",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.jtype.Types",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.DefaultGenericArrayType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.Generic$DefaultGeneric",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.Generic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.ClassSerializers$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.DefaultTypeVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.DefaultWildcardType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.ClassSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.ClassSerializers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.ClassSerializers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.Generics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.DefaultParameterizedType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.TypeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.jtype.ClassUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.engine.resolver",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.engine.resolver.DefaultTraversableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.resolver.JPATraversableResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.engine.groups",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.engine.groups.GroupChainGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.groups.Group",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.groups.GroupChain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.engine",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.engine.ResourceBundleMessageInterpolator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.MessageInterpolatorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintDescriptorImpl$ClassIndexWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintViolationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ValidatorFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.BeanMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.MetaConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintValidatorContextImpl$ErrorMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.DefaultValidationProviderResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.BeanDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintValidatorContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ValidatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.BeanMetaDataImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ExecutionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.HibernateValidatorConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ElementDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConstraintValidatorFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ValidatorContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.PropertyDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.ConfigurationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.engine.MetaConstraint$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      },
+      {
+         "name": "org.hibernate.validation.constraints",
+         "packageMembers": [
+            {
+               "name": "org.hibernate.validation.constraints.FutureValidatorForCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.FutureValidatorForDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.NullValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.SizeValidatorForArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.NotEmptyValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.PatternValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.MaxValidatorForString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.SizeValidatorForMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.MaxValidatorForNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.SizeValidatorForCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.DigitsValidatorForString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.MinValidatorForString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.PatternValidator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.Length",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.MinValidatorForNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.NotNullValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.AssertFalseValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.PastValidatorForDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.NotEmpty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.AssertTrueValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.DigitsValidatorForNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.LengthValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.SizeValidatorForString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hibernate.validation.constraints.PastValidatorForCalendar",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.0.0.Alpha3"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.slf4j",
+         "optional": false,
+         "versionRange": "[1.3.1, 2.0.0)"
+      },
+      {
+         "name": "javax.validation.groups",
+         "optional": false,
+         "versionRange": "[1.0.0.CR1, 1.0.0.CR1]"
+      },
+      {
+         "name": "javax.validation.spi",
+         "optional": false,
+         "versionRange": "[1.0.0.CR1, 1.0.0.CR1]"
+      },
+      {
+         "name": "javax.validation.constraints",
+         "optional": false,
+         "versionRange": "[1.0.0.CR1, 1.0.0.CR1]"
+      },
+      {
+         "name": "com.googlecode.jtype",
+         "optional": false,
+         "versionRange": "[0.1.0, 0.1.0]"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[2.0.0.Beta1, 2.0.0.Beta1]"
+      },
+      {
+         "name": "javax.validation",
+         "optional": false,
+         "versionRange": "[1.0.0.CR1, 1.0.0.CR1]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.hibernate.validator",
+   "version": "4.0.0.Alpha3"
+}}

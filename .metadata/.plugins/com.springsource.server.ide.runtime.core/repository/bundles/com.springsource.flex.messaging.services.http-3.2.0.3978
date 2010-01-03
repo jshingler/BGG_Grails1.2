@@ -1,0 +1,245 @@
+{"bundle": {
+   "dateAdded": "2009-04-22 15:03:33.0",
+   "moduleName": "com.springsource.flex.messaging.services.http",
+   "name": "Adobe BlazeDS - Proxy Module",
+   "notes": "",
+   "organisationName": "com.adobe.flex",
+   "packageExports": [
+      {
+         "name": "flex.management.runtime.messaging.services",
+         "packageMembers": [
+            {
+               "name": "flex.management.runtime.messaging.services.HTTPProxyServiceControlMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.management.runtime.messaging.services.HTTPProxyServiceControl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.0.3978"
+      },
+      {
+         "name": "flex.messaging.services.http.proxy",
+         "packageMembers": [
+            {
+               "name": "flex.messaging.services.http.proxy.ProxyConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ProxyContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ProxyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ProxyUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ProxyFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ResponseFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ErrorFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ProxyContextFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.SharedProxyContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.SecurityFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.CookieInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.RequestUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.RequestFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.ResponseUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.proxy.AccessFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.0.3978"
+      },
+      {
+         "name": "flex.messaging.services.http.httpclient",
+         "packageMembers": [
+            {
+               "name": "flex.messaging.services.http.httpclient.EasySSLProtocolSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.httpclient.FlexPostMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.httpclient.EasyX509TrustManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.httpclient.FlexGetMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.0.3978"
+      },
+      {
+         "name": "flex.messaging.services.http",
+         "packageMembers": [
+            {
+               "name": "flex.messaging.services.http.HTTPProxyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.HTTPProxyDestination",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.HTTPConnectionManagerSettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.SOAPProxyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.ProtocolFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.HostConfigurationSettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.messaging.services.http.ExternalProxySettings",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.0.3978"
+      },
+      {
+         "name": "flex.messaging",
+         "packageMembers": {
+            "name": "flex/messaging/version.properties",
+            "type": "RESOURCE"
+         },
+         "version": "3.2.0.3978"
+      },
+      {
+         "name": "flex.messaging.services",
+         "packageMembers": {
+            "name": "flex.messaging.services.HTTPProxyService",
+            "type": "CLASS"
+         },
+         "version": "3.2.0.3978"
+      },
+      {
+         "name": "flex.management.runtime.messaging.services.http",
+         "packageMembers": [
+            {
+               "name": "flex.management.runtime.messaging.services.http.HTTPProxyAdapterControlMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.management.runtime.messaging.services.http.SOAPProxyAdapterControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.management.runtime.messaging.services.http.SOAPProxyAdapterControlMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.management.runtime.messaging.services.http.HTTPProxyDestinationControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.management.runtime.messaging.services.http.HTTPProxyDestinationControlMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "flex.management.runtime.messaging.services.http.HTTPProxyAdapterControl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.2.0.3978"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.commons.httpclient.methods",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.params",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.auth",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.httpclient",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.httpclient.protocol",
+         "optional": false,
+         "versionRange": "[3.0.1, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.flex.messaging.services.http",
+   "version": "3.2.0.3978"
+}}

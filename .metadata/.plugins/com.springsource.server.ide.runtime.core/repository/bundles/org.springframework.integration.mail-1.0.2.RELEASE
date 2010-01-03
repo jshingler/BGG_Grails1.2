@@ -1,0 +1,223 @@
+{"bundle": {
+   "dateAdded": "2009-04-01 00:31:36.0",
+   "moduleName": "org.springframework.integration.mail",
+   "name": "Spring Integration Mail Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.mail.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.mail.config.MailNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/mail/config/spring-integration-mail-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.mail.config.MailInboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.config.MailToStringTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.config.MailOutboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.config.ImapIdleChannelAdapterParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.mail.transformer",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.mail.transformer.AbstractMailMessageTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.transformer.MailToStringTransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.mail",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.mail.ImapIdleChannelAdapter$IdleTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.ImapIdleChannelAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.MailHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.MailTransportUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.AbstractMailReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.Pop3MailReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.MailReceivingMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.ImapMailReceiver$SimpleMessageCountListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.ImapMailReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.MailReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.mail.MailSendingMessageHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.integration.transformer",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.mail",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.mail.javamail",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.endpoint",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.context",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.adapter",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.search",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail.event",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": false,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.mail.imap",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.mail",
+   "version": "1.0.2.RELEASE"
+}}

@@ -1,0 +1,1342 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:24:38.0",
+   "moduleName": "com.springsource.com.ibatis",
+   "name": "Apache iBATIS Data Mapper framework",
+   "notes": "",
+   "organisationName": "org.apache.ibatis",
+   "packageExports": [
+      {
+         "name": "com.ibatis.common.beans",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.beans.BaseProbe",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.ProbeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.ClassInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.GenericProbe",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.Probe",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.ProbeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.ComplexBeanProbe",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.beans.DomProbe",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.type",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ObjectTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.BlobTypeHandlerCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.DoubleTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.SqlDateTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.DateOnlyTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.BooleanTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ParameterSetterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ResultGetterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.UnknownTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.JdbcTypeRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ClobTypeHandlerCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.DomCollectionTypeMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.SimpleDateFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.DomTypeMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.LongTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.FloatTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ByteTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.BigDecimalTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.TypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.CustomTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ByteArrayTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.StringTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.XmlCollectionTypeMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.IntegerTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.TypeHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.BaseTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.DateTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.ShortTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.SqlTimestampTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.TimeOnlyTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.CallableStatementResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.XmlTypeMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.type.SqlTimeTypeHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction.user",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.transaction.user.UserProvidedTransaction",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction.jta",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.jta.JtaTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.jta.JtaTransactionConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.sql.simple",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.mapping.sql.simple.SimpleDynamicSql",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.sql.stat",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.mapping.sql.stat.StaticSql",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.statement",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.SelectStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.RowHandlerCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.MappedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.DeleteStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.DefaultRowHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.UpdateStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.InsertStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.CachingStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.StatementType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.PaginatedDataList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.SelectKeyStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.BaseStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.ExecuteListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.ProcedureStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.statement.GeneralStatement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.scope",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.scope.RequestScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.scope.BaseScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.scope.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.scope.SessionScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.scope.ErrorContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.BaseTransactionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.Transaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.TransactionState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.TransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.TransactionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.TransactionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.IsolationLevel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction.external",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.external.ExternalTransactionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.external.ExternalTransaction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.transaction.jdbc",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.jdbc.JdbcTransaction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.transaction.jdbc.JdbcTransactionConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsNotNullTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.SqlTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.SqlTagContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.DynamicParent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IterateTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.SqlTagHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsNotParameterPresentTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsEqualTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IterateContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsNullTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.RemoveFirstPrependMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsNotEqualTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsNotPropertyAvailableTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.SqlTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsParameterPresentTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.DynamicTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsNotEmptyTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsGreaterEqualTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsGreaterThanTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsEmptyTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.BaseTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsLessThanTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsLessEqualTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.ConditionalTagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.elements.IsPropertyAvailableTagHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.result",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.ResultMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.ResultMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.Discriminator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.XmlList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.AutoResultMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.BasicResultMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.BasicResultMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.result.loader",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.loader.LazyResultLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.loader.EnhancedLazyResultLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.loader.ResultLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.result.loader.EnhancedLazyResultLoader$EnhancedLazyResultLoaderImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.sql",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.Sql",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.SqlText",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.sql.SqlChild",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.mapping.sql.dynamic.DynamicSql",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.impl",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.impl.SqlMapClientImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.impl.ExtendedSqlMapClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.impl.SqlMapExecutorDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.mapping.parameter",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.parameter.ParameterMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.parameter.InlineParameterMapParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.parameter.NoParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.parameter.BasicParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.parameter.ParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.mapping.parameter.BasicParameterMapping",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.execution",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.execution.SqlExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.execution.BatchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.execution.SqlExecutor$Batch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.execution.BatchResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.exchange",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.MapDataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.DataExchangeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.BaseDataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.ListDataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.DomDataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.PrimitiveDataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.JavaBeanDataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.DataExchange",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.exchange.ComplexDataExchange",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.datasource",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.datasource.SimpleDataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.datasource.DbcpDataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.datasource.DataSourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.datasource.JndiDataSourceFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.cache.oscache",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.cache.oscache.OSCacheController",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.cache.memory",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.cache.memory.MemoryCacheController",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.cache.memory.MemoryCacheController$StrongReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.cache.memory.MemoryCacheLevel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.cache.lru",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.cache.lru.LruCacheController",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.cache.fifo",
+         "packageMembers": {
+            "name": "com.ibatis.sqlmap.engine.cache.fifo.FifoCacheController",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.cache",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.cache.CacheModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.cache.CacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.cache.CacheController",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.builder.xml",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/ibatis/sqlmap/engine/builder/xml/sql-map-config-2.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.XmlConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlStatementParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.BaseParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/ibatis/sqlmap/engine/builder/xml/sql-map-2.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.BaseParser$Variables",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapClasspathEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapConfigParser$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.builder.xml.SqlMapParser$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.accessplan",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.AccessPlanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.PropertyAccessPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.BaseAccessPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.MapAccessPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.AccessPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.ComplexAccessPlan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.engine.accessplan.EnhancedPropertyAccessPlan",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.client.extensions",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.client.extensions.TypeHandlerCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.extensions.ResultGetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.extensions.ParameterSetter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.client.event",
+         "packageMembers": [
+            {
+               "name": "com/ibatis/sqlmap/client/event/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.event.RowHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.sqlmap.client",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.sqlmap.client.SqlMapExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.SqlMapTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.SqlMapException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.SqlMapClientBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.SqlMapClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.sqlmap.client.SqlMapSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/ibatis/sqlmap/client/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.xml",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.xml.NodeletUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.xml.NodeletParser$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.xml.NodeletParser$Path",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.xml.NodeletParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.xml.Nodelet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.xml.NodeletParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.xml.NodeletException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.logging.log4j",
+         "packageMembers": {
+            "name": "com.ibatis.common.logging.log4j.Log4jImpl",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.logging.nologging",
+         "packageMembers": {
+            "name": "com.ibatis.common.logging.nologging.NoLoggingImpl",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.util",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.util.PaginatedArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.util.ThrottledPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.util.Stopwatch$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.util.Stopwatch$TaskStat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.util.PaginatedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.util.Throttle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.util.Stopwatch",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.resources",
+         "packageMembers": {
+            "name": "com.ibatis.common.resources.Resources",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.logging.jdk14",
+         "packageMembers": {
+            "name": "com.ibatis.common.logging.jdk14.Jdk14LoggingImpl",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.logging.jakarta",
+         "packageMembers": {
+            "name": "com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.logging",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.logging.LogFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.logging.Log",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.jdbc.logging",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.jdbc.logging.ResultSetLogProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.logging.BaseLogProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.logging.PreparedStatementLogProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.logging.ConnectionLogProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.logging.StatementLogProxy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.jdbc.exception",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.jdbc.exception.RuntimeSQLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.exception.NestedSQLException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.jdbc",
+         "packageMembers": [
+            {
+               "name": "com.ibatis.common.jdbc.SimpleDataSource$SimplePooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.DbcpConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.SimpleDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.ibatis.common.jdbc.ScriptRunner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0.677"
+      },
+      {
+         "name": "com.ibatis.common.io",
+         "packageMembers": {
+            "name": "com.ibatis.common.io.ReaderInputStream",
+            "type": "CLASS"
+         },
+         "version": "2.3.0.677"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.log4j",
+         "optional": false,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "net.sf.cglib.beans",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.dbcp",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.opensymphony.oscache.base",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "com.opensymphony.oscache.general",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.ibatis",
+   "version": "2.3.0.677"
+}}

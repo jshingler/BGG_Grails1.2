@@ -1,0 +1,875 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:20:36.0",
+   "moduleName": "com.springsource.com.google.inject",
+   "name": "Google Guice Dependency Injection Framework",
+   "notes": "",
+   "organisationName": "com.google.guice",
+   "packageExports": [
+      {
+         "name": "com.google.inject",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.BinderImpl$StaticInjection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactoryBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.MethodAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$BindingsMultimap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Key$AnnotationTypeStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactory$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleMethodInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Binder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$InvalidConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$9$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleMethodInjector$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.TypeLiteral$SimpleTypeLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InterceptorStackCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.DefaultConstructionProxyFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstructorInjector$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ExternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ContextualCallable",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$RuntimeErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BoundProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactory$MethodInterceptorsPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Key$SimpleKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProviderToInternalFactoryAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleInjectorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProvisionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactory$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.TypeLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$PrimitiveConverters",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleMemberInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.CreationException$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.DefaultConstructionProxyFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl$ImplicitImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ExternalContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$PrimitiveConverters$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$ImplicitBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages$Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstructionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstantConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Scopes$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProvidedBy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BoundProviderFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl$FactoryProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$MissingDependencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Guice",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InternalFactoryToProviderAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$StaticInjection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Injector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Singleton",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl$ImplicitImplementation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstantBindingBuilderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InterceptorStackCallback$InterceptedMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstantFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstantBindingBuilderImpl$BindingInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Module",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Provider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Binding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProxyFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ProviderToInternalFactoryAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$MethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstructionProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$BindingPreloader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Stage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$PrimitiveConverters$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InternalFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstructorInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstructionProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ErrorMessages$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.AbstractModule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleFieldInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.TypeWithArgument",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.DefaultConstructionProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Key$AnnotationInstanceStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Scopes$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Key$AnnotationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Key$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleMethodInjector$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.CreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$StaticInjection$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.AbstractErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$SingleParameterInjector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ConstructionContext$DelegatingInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ImplementedBy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BindingBuilderImpl$FactoryProxy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.BinderImpl$CreationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InvalidErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Scopes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.Inject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.InjectorImpl$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.ScopeAnnotation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.tools.jmx",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.tools.jmx.ManagedBindingMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.tools.jmx.Manager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.tools.jmx.ManagedBinding",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.util",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.util.LineNumbers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ToStringBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$PutStrategy$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.AbstractReferenceCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$SoftKeyReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$Strategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$PutStrategy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.GuiceFastClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.Stopwatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.FinalizableReferenceQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$PutStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.LineNumbers$LineNumberReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$PutStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$KeyReferenceAwareWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.LineNumbers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.Annotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.FinalizableSoftReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.Objects",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.GuiceNamingPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.AbstractReferenceCache$FutureValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$ReferenceAwareWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$SoftValueReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.Strings",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.FinalizableReferenceQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.StackTraceElements",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$WeakValueReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.FinalizableReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$InternalReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.FinalizableWeakReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceCache$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.StackTraceElements$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.util.ReferenceMap$WeakKeyReference",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.spi",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.spi.SourceProviders$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.spi.SourceProviders",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.spi.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.spi.SourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.spi.SourceProviders$StacktraceSourceProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.name",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.name.Names$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.name.Names$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.name.Names",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.name.NamedImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.name.Names$SimpleSourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.name.Named",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.matcher",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.matcher.Matchers$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.AbstractMatcher$OrMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.AbstractMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.AbstractMatcher$AndMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matchers$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.matcher.Matcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.jndi",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.jndi.JndiIntegration$JndiProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.jndi.JndiIntegration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.google.inject.binder",
+         "packageMembers": [
+            {
+               "name": "com.google.inject.binder.LinkedBindingBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.binder.AnnotatedBindingBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.binder.ScopedBindingBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.binder.ConstantBindingBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.google.inject.binder.AnnotatedConstantBindingBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.6.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.6.5, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.google.inject",
+   "version": "1.0.0"
+}}

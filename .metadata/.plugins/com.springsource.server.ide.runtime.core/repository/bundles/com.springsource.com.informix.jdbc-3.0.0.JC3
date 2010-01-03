@@ -1,0 +1,991 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:26:09.0",
+   "moduleName": "com.springsource.com.informix.jdbc",
+   "name": "IBM Informix JDBC Driver",
+   "notes": "",
+   "organisationName": "com.informix.jdbc",
+   "packageExports": [
+      {
+         "name": "com.informix.asf",
+         "packageMembers": [
+            {
+               "name": "com.informix.asf.CSMspwd",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.HttpBufferedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.JnsObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.SqliDbg$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.CSMBufferedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.IfxASFException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.ASFObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.CSMBufferedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.IfxASFRemoteException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.IfxDebugDataInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.HttpBufferedOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.Connection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.IfxDataOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.Connection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.IfxDataInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.SqliDbg",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.HttpConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.asf.IfxDebugDataOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.util",
+         "packageMembers": [
+            {
+               "name": "com.informix.util.IfxMessage$bundleMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.IfxMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.TraceFlag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.IfxByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.MsgEncrypt",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.stringUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.Trace",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.TraceOS",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.dateUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.IfxErrMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.JDK12Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.VersionStamp",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.IfxMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.memoryUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.IfxWarnMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.util.JDBCProxyParameters",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.msg",
+         "packageMembers": [
+            {
+               "name": "com.informix.msg.bundleMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.rds_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql3_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.itoxmsg_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.xps_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql2_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql1_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sqlBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.util_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sblob_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.csm_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.miapi_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.jdbc_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.jdbcminor_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.mls_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.net_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.eami_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.nals_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql6_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.nerm_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.optical_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.shell_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.netsrv_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.mls2_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql5_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.isam_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.os_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.xopen_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql7_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.css_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.cals_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.security_en_US",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.msg.sql4_en_US",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.lang",
+         "packageMembers": [
+            {
+               "name": "com.informix.lang.Types2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.IntervalDF",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.IfxTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.Interval",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.Decimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.IntervalYM",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.JavaToIfxType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.lang.IfxToJavaType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.jns",
+         "packageMembers": [
+            {
+               "name": "com.informix.jns.FileSqlhosts",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.Jnstoolimpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.IfxJNSException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.ServerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.Sqlhosts",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.OptsTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.Jnstool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.ServerGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jns.LdapSqlhosts",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.jdbc",
+         "packageMembers": [
+            {
+               "name": "com.informix.jdbc.IfmxPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxCancelQueryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.UDTSQLData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.ResultSet2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.SQLUDTInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSQLOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxTmpFile$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxUDT",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLocales$IfxNLSLocale",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxUpdateResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDecimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLobInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxIntervalDF",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDatabaseMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxPAM",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxUDTSQLInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSmartLobOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxRowColumn",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxParameterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxShort",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSqliConnect$FPCacheInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.SQLUDTOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.Crypto",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxString",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxRowColumn$columnInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxChar",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSQLInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxByteArrayInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDriver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxMessageTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxIntervalYM",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLocales",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxStruct",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.mdinfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxClientResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxNativeSQL",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxScrollableResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxCblob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxComplexSQLInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxBblob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxResultSetMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxColumnInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDistinctInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.Connection2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSqliConnect",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.rowinfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxTmpFile$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxUDTOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSqli",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxImpExp",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxResultSetMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSmBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSqli$FPCacheInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxCallableStatement$outParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLobDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxFParam",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxTmpFile$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxInt8",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxPAMChallenge",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxUDTSQLOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSmallFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxTmpFile$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.ParameterMetaData2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.PreparedStatement2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxComplexOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxCancelQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxUDTInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxComplexInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxBaseType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDistinctOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxUDTInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxPAMResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxComplex",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxTmpFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSmartLobWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLoStat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxComplexSQLOutput",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxLvarchar",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxStatementTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxTmpFile$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxProtocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfmxParameterMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxFParam$FPTypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxDistinct",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxSmartBlob",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.jdbc.IfxVarChar",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.csm.crypto",
+         "packageMembers": [
+            {
+               "name": "com.informix.csm.crypto.h",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.g",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.c",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.b",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.k",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.i",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.f",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.d",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.IfxEncCsm",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.j",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.e",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.crypto.a",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      },
+      {
+         "name": "com.informix.csm",
+         "packageMembers": [
+            {
+               "name": "com.informix.csm.IfxCsmException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsm",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsmContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsmReadBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsmBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsmDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsm$Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCSSException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCssInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsm$Credentials",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCssOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCss",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.informix.csm.IfxCsm$AbortInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.0.0.JC3"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "netscape.security",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.interfaces",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.informix.jdbcx",
+         "optional": false,
+         "versionRange": "[3.0.0.JC3, 3.0.0.JC3]"
+      },
+      {
+         "name": "com.sun.crypto.provider",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.com.informix.jdbc",
+   "version": "3.0.0.JC3"
+}}

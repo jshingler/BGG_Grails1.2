@@ -1,0 +1,965 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:56:29.0",
+   "moduleName": "com.springsource.org.codehaus.annogen",
+   "name": "Annogen JSR175 Annotation Bean Generator ",
+   "notes": "",
+   "organisationName": "org.codehaus.annogen",
+   "packageExports": [
+      {
+         "name": "org.codehaus.annogen.generate",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.generate.AnnogenInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.Annogen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.AnnogenTask",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.xml",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.xml.JamXmlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.xml.JamXmlWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.xml.JamXmlReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.xml.JamXmlElements",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.xml.TunnelledException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.visitor",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.visitor.TraversingMVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.visitor.MVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.visitor.CompositeMVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.visitor.TraversingJVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.visitor.PropertyInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.visitor.JVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.visitor.CompositeJVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.provider",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.provider.JamServiceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.provider.ResourcePath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.provider.JamLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.provider.JamClassPopulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.provider.CompositeJamClassBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.provider.JamServiceFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.provider.JamClassBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.mutable",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.mutable.MAnnotatedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MInvokable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MSourcePosition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.mutable.MParameter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.internal.javadoc",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocRunner_150",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocClassloadingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocTigerDelegateImpl_150",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocClassBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocTigerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.javadoc.JavadocResults",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.internal.reflect",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.internal.reflect.ReflectTigerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.reflect.ReflectTigerDelegateImpl_150",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.reflect.ReflectClassBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.internal.parser",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.internal.parser.ParserClassBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.parser.ParserClassBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.parser.ParserClassBuilder$MainTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.parser.ParamStructPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.parser.ParamStruct",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.internal.elements",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.internal.elements.PackageImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.ElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.AnnotationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.VoidClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.PropertyImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.MemberImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.AnnotatedElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.ElementContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.BuiltinClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.ClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.ConstructorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.MethodImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.ArrayClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.PrimitiveClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.ParameterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.AnnotationValueImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.FieldImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.InvokableImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.CommentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.SourcePositionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.elements.UnresolvedClassImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.internal.classrefs",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.internal.classrefs.QualifiedJClassRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.classrefs.JClassRefContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.classrefs.UnqualifiedJClassRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.classrefs.DirectJClassRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.classrefs.JClassRef",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.internal",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.internal.DirectoryScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.JamClassLoaderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.TigerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.JamServiceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.JamPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.JamLoggerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.JamServiceContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.internal.CachedClassBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam.annotation",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.annotation.LineDelimitedTagParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.annotation.WhitespaceDelimitedTagParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.annotation.DefaultAnnotationProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.annotation.AnnotationProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.annotation.JavadocTagParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.annotation.TypedAnnotationProxyBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.jam",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.jam.JSourcePosition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JConstructor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JAnnotatedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamServiceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JInvokable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JAnnotationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamClassIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JamServiceParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.jam.JElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.view.internal.reflect",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectAnnoViewerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectAnnogenTigerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.reflect.ReflectIAE",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.view.internal.javadoc",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.view.internal.javadoc.JavadocAnnogenTigerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.javadoc.ParameterJavadocIAE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.javadoc.JavadocAnnoViewerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.javadoc.ProgramElementJavadocIAE",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.view.internal.jam",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.view.internal.jam.JamIAE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.jam.JamAnnoViewerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.view.internal",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.view.internal.NullIAE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.JavadocAnnogenTigerDelegateImpl_150",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.AnnoViewerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.ReflectAnnogenTigerDelegateImpl_150",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.IndigenousAnnoExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.internal.AnnoViewerParamsImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.view",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.view.JavadocAnnoViewer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.QDoxAnnoViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.AnnoViewerParams$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.MirrorAnnoViewer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.MirrorAnnoViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.ReflectAnnoViewer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.JamAnnoViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.ReflectAnnoViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.JamAnnoViewer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.JavadocAnnoViewer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.QDoxAnnoViewer$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.view.AnnoViewerParams",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.override.internal.javadoc",
+         "packageMembers": {
+            "name": "org.codehaus.annogen.override.internal.javadoc.JavadocElementIdPoolImpl",
+            "type": "CLASS"
+         },
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.override.internal.reflect",
+         "packageMembers": {
+            "name": "org.codehaus.annogen.override.internal.reflect.ReflectElementIdPoolImpl",
+            "type": "CLASS"
+         },
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.override.internal.jam",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.override.internal.jam.JamElementIdPoolImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.jam.JamElementIdPoolImpl$1MyVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.override.internal",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.override.internal.CompositeAnnoOverrider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.AnnoBeanBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.StoredAnnoOverriderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.ElementIdImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.DefaultAnnoBeanMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.AnnoContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.internal.AnnoBeanSetImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.override",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.override.AnnoBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.StoredAnnoOverrider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.StoredAnnoOverrider$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.ReflectElementIdPool$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.AnnoContext$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.AnnoContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.AnnoBeanMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.AnnoOverrider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.MirrorElementIdPool$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.QDoxElementIdPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.ElementId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.AnnoBeanSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.JamElementIdPool$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.ReflectElementIdPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.JamElementIdPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.JavadocElementIdPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.QDoxElementIdPool$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.JavadocElementIdPool$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.override.MirrorElementIdPool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      },
+      {
+         "name": "org.codehaus.annogen.generate.internal.joust",
+         "packageMembers": [
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.AnnotationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.WriterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.ExpressionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.CodeGenUtil$ThreadedReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.CodeGenUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.CodeGenUtil$ThreadedReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.SourceJavaOutputStream$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.CodeGenUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.FileWriterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.SourceJavaOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.Annotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.SourceJavaOutputStream$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.Variable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.CompilingJavaOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.SourceJavaOutputStream$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.ValidatingJavaOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.codehaus.annogen.generate.internal.joust.JavaOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.6.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.6.2, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.qdox.model",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.tools.javadoc",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.mirror.declaration",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.javadoc",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.codehaus.annogen",
+   "version": "0.1.0"
+}}

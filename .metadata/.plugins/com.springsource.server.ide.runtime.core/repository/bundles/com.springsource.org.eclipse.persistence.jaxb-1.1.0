@@ -1,0 +1,429 @@
+{"bundle": {
+   "dateAdded": "2009-04-23 10:19:28.0",
+   "moduleName": "com.springsource.org.eclipse.persistence.jaxb",
+   "name": "EclipseLink MOXY component's implementation of JAXB",
+   "notes": "",
+   "organisationName": "org.eclipse.persistence",
+   "packageExports": [
+      {
+         "name": "org.eclipse.persistence.jaxb.javamodel.reflection",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaFieldImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaModelInputImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaAnnotationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaMethodImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaClassImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaPackageImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.reflection.JavaModelImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.jaxb",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.internal.jaxb.JAXBElementAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.jaxb.JaxbClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.jaxb.WrappedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.jaxb.DomHandlerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.internal.jaxb.XMLJavaTypeConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.jaxb.javamodel",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaModelInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaAnnotation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaPackage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaModel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaHasAnnotations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.Helper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.javamodel.JavaField",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.jaxb.compiler",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.AnnotationsProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.EnumTypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.SchemaGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.ReferenceProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.SchemaTypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.MappingsGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.MarshalCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.ElementDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.ChoiceProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.TypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.AnyProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.UnmarshalCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.NamespaceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.compiler.Generator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.jaxb.attachment",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.jaxb.attachment.AttachmentUnmarshallerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.attachment.AttachmentMarshallerAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.eclipse.persistence.jaxb",
+         "packageMembers": [
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBEnumTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBTypesafeEnumConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBUnmarshallerHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBMarshalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBIntrospector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBBinder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.eclipse.persistence.jaxb.JAXBUnmarshalListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.eclipse.persistence.oxm.documentpreservation",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.mappings",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.mappings.converters",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.eclipse.persistence.sessions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.schema",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.platform.xml",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.annotations",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.oxm.attachment",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.mappings.converters",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.mappings",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.sessions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.security",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.queries",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm.schema.model",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm.schema",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.oxm",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.libraries.asm",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.helper",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.internal.databaseaccess",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.exceptions",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.eclipse.persistence.descriptors",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.validation",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.bind.helpers",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.bind.attachment",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.bind.annotation.adapters",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.bind.annotation",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.bind",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.eclipse.persistence.jaxb",
+   "version": "1.1.0"
+}}

@@ -1,0 +1,782 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:27:45.0",
+   "moduleName": "com.springsource.com.sun.xml.messaging.saaj",
+   "name": "Sun SOAP Implementation",
+   "notes": "",
+   "organisationName": "com.sun.xml",
+   "packageExports": [
+      {
+         "name": "com.sun.xml.messaging.saaj.util",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.util.TeeInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.CharReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.FastInfosetReflection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.ParseUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.ByteOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.MimeHeadersUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.ByteInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.RejectDoctypeSaxFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.FinalArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.CharWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.ParserPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.JAXMStreamSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.XMLDeclarationParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.JaxmURI$MalformedURIException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.JaxmURI",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/util/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.Base64",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.LogDomainConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.util.NamespaceContextIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj",
+         "packageMembers": {
+            "name": "com.sun.xml.messaging.saaj.SOAPExceptionImpl",
+            "type": "CLASS"
+         },
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.util.transform",
+         "packageMembers": {
+            "name": "com.sun.xml.messaging.saaj.util.transform.EfficientStreamingTransformer",
+            "type": "CLASS"
+         },
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.soap.ver1_2",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.SOAPPart1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Message1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Detail1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.BodyElement1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.DetailEntry1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.HeaderElement1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Envelope1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.SOAPMessageFactory1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.FaultElement1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/soap/ver1_2/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Fault1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Header1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Body1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.SOAPFactory1_2Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_2.Fault1_2Impl$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.soap",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.XmlDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.FastInfosetDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.MultipartDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.StringDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.AttachmentPartImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.MessageImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.GifDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPDocumentFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPDocumentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.MessageImpl$MimeMatchingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.JpegDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/soap/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPPartImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPPartImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPVersionMismatchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.EnvelopeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.MessageImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SOAPFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.Envelope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.SAAJMetaFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ImageDataContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.MessageFactoryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.soap.dynamic",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.dynamic.SOAPFactoryDynamicImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.dynamic.SOAPMessageFactoryDynamicImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.soap.impl",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.FaultElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl$AttributeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.TextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.CDATAImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/soap/impl/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.BodyImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.DetailEntryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.HeaderElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.CommentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.FaultImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.EnvelopeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.HeaderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.BodyElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.ElementFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.DetailImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.TreeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.impl.DetailImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.soap.name",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$SOAP1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Detail1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Header1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Fault1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$FaultElement1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Header1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$SOAP1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Body1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Envelope1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Upgrade1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$CodeSubcode1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/soap/name/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$SupportedEnvelope1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Body1_1Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Envelope1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$NotUnderstood1_2Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.name.NameImpl$Fault1_2Name",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.soap.ver1_1",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.Envelope1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.DetailEntry1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.SOAPPart1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.BodyElement1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.HeaderElement1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.Detail1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.SOAPMessageFactory1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/soap/ver1_1/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.Body1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.Header1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.Message1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.SOAPFactory1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.Fault1_1Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.soap.ver1_1.FaultElement1_1Impl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.packaging.mime.util",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.QPEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.UUEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.OutputUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.QEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.LineInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.UUDecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.BASE64EncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.BASE64DecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.QPDecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.QDecoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.BEncoderStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.util.ASCIIUtility",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.packaging.mime.internet",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.MimeMultipart",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.InternetHeaders$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.HeaderTokenizer$Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.HeaderTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.ContentDisposition",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.UniqueValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.ParameterList",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.MimeUtility$1NullInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.BMMimeMultipart",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.MimePartDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.AsciiOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.SharedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.hdr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.MimeUtility",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.ContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.InternetHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.internet.MimeBodyPart",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.packaging.mime",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.MessagingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.MultipartDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.packaging.mime.Header",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      },
+      {
+         "name": "com.sun.xml.messaging.saaj.client.p2p",
+         "packageMembers": [
+            {
+               "name": "com.sun.xml.messaging.saaj.client.p2p.HttpSOAPConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.client.p2p.HttpSOAPConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/xml/messaging/saaj/client/p2p/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.client.p2p.HttpSOAPConnection$PriviledgedPost",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.client.p2p.HttpSOAPConnection$PriviledgedGet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.xml.messaging.saaj.client.p2p.HttpSOAPConnection$PriviledgedSetProxyAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.3.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.soap",
+         "optional": false,
+         "versionRange": "[1.3.0, 1.3.0]"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.imageio",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.sun.xml.messaging.saaj",
+   "version": "1.3.0"
+}}

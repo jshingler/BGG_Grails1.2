@@ -1,0 +1,259 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:00:53.0",
+   "moduleName": "com.springsource.org.apache.activemq.web",
+   "name": "Apache ActiveMQ Web Connector for REST API and Streamlets support",
+   "notes": "",
+   "organisationName": "org.apache.activemq",
+   "packageExports": [
+      {
+         "name": "org.apache.activemq.web.view",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.web.view.MessageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.view.XmlMessageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.view.SimpleMessageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.view.RssMessageRenderer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      },
+      {
+         "name": "org.apache.activemq.web",
+         "packageMembers": [
+            {
+               "name": "org.apache.activemq.web.NoDestinationSuppliedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.SessionFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/activemq/web/_amq.js",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.activemq.web.AjaxServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.QueueBrowseServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.RemoteJMXBrokerFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/activemq/web/behaviour.js",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.activemq.web.BrokerFacadeSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.SpringBrokerContextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.DurableSubscriberFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageListenerServlet$Listener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.DestinationFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/activemq/web/prototype.js",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.activemq.web.BrokerFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.SingletonBrokerFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageServletSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageListenerServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.LocalBrokerFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.QueueBrowseQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageServlet$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.SessionPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.PortfolioPublishServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/activemq/web/amq.js",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.activemq.web.WebClient",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.MessageListenerServlet$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activemq.web.NoSuchViewStyleException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "5.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.activemq.util",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.xbean",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.mortbay.util.ajax",
+         "optional": true,
+         "versionRange": "[6.1.9, 7.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.1, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.1, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": false,
+         "versionRange": "[2.5.1, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.servlet",
+         "optional": false,
+         "versionRange": "[2.5.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.broker.region",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.command",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.broker.jmx",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.broker",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "org.apache.activemq",
+         "optional": false,
+         "versionRange": "[5.1.0, 6.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.management.remote",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "com.thoughtworks.xstream",
+         "optional": false,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "com.sun.syndication.feed.synd",
+         "optional": true,
+         "versionRange": "[0.8.0, 1.0.0)"
+      },
+      {
+         "name": "com.sun.syndication.io",
+         "optional": true,
+         "versionRange": "[0.8.0, 1.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.activemq.web",
+   "version": "5.1.0"
+}}

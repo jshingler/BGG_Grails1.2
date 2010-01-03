@@ -1,0 +1,609 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:54:34.0",
+   "moduleName": "com.springsource.org.apache.batik.gvt",
+   "name": "Apache Batik GVT (Graphics Vector Tree)",
+   "notes": "",
+   "organisationName": "org.apache.batik",
+   "packageExports": [
+      {
+         "name": "org.apache.batik.gvt",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.Selector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.TextNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.MarkerShapePainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.FillShapePainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.StrokeShapePainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.GraphicsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.RasterImageNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.UpdateTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.GVTTreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.CompositeGraphicsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.Selectable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.ImageNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.AbstractGraphicsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.RootGraphicsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.CanvasGraphicsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.CompositeGraphicsNode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.PatternPaint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.Marker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.ShapePainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.CompositeGraphicsNode$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.ShapeNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.PatternPaint$PatternPaintContextWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.UpdateTracker$ChngSrcRect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.Mask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.ProxyGraphicsNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.CompositeShapePainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.TextNode$Anchor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.CompositeGraphicsNode$ListItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.PatternPaintContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.TextPainter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.svg12",
+         "packageMembers": {
+            "name": "org.apache.batik.gvt.svg12.MultiResGraphicsNode",
+            "type": "CLASS"
+         },
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.text",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.text.GVTACIImpl$TransformAttributeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.TextHit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.TextSpanLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.GVTAttributedCharacterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.ArabicTextHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.ConcreteTextSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.GVTACIImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.TextPaintInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.BidiAttributedCharacterIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.GVTAttributedCharacterIterator$AttributeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.ConcreteTextLayoutFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.TextLayoutFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.AttributedCharacterSpanIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.TextPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.GlyphLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.Mark",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.text.GVTAttributedCharacterIterator$TextAttribute",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.renderer",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.renderer.Renderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.BasicTextPainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.StrokingTextPainter$TextRun",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.ConcreteTextPainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.StaticRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.DynamicRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.BasicTextPainter$BasicMark",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.RendererFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.ImageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.StrokingTextPainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.MacRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.ImageRendererFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.ConcreteImageRendererFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.renderer.StrokingTextPainter$TextChunk",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.font",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.font.GVTLineMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AWTFontFamily",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.GVTFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AWTGlyphGeometryCache$Value",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AWTGVTFont",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.SVGGVTGlyphVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.Glyph",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.FontFamilyResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AWTGlyphGeometryCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.UnicodeRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AltGlyphHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AWTGlyphGeometryCache$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.GVTFontFace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.GVTFontFamily",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.GVTGlyphMetrics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.MultiGlyphVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.KerningTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.GVTGlyphVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.Kern",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.UnresolvedFontFamily",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.font.AWTGVTGlyphVector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.flow",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.flow.MarginInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowRegions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowRegions$Transition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowTextNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.BlockInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.LineInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowGlyphLayout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.RegionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowTextPainter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowRegions$TransitionComp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.FlowTextLayoutFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.TextLineBreaks",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.WordInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.flow.GlyphGroupInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.filter",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.filter.GraphicsNodeRable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.MaskRable8Bit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.ConcreteGraphicsNodeRableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.GraphicsNodeRed8Bit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.GraphicsNodeRableFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.Mask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.GraphicsNodeRable8Bit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.filter.BackgroundRable8Bit",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.gvt.event",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.gvt.event.SelectionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeChangeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeKeyEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeMouseListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeInputEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeKeyListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeChangeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.SelectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeFocusListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.SelectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.AWTEventDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeMouseAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.AbstractAWTEventDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeMouseEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeChangeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeKeyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeFocusEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeMouseWheelListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.EventDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.gvt.event.GraphicsNodeMouseWheelEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.batik.util",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.ext.awt.image.renderable",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.ext.awt.image.rendered",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.ext.awt.image",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.ext.awt.geom",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.ext.awt",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.batik.bridge",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.batik.gvt",
+   "version": "1.7.0"
+}}

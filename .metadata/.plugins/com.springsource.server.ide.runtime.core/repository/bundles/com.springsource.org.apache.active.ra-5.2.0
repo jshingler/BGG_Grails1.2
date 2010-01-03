@@ -1,0 +1,246 @@
+{"bundle": {
+   "dateAdded": "2008-12-08 14:55:53.0",
+   "moduleName": "com.springsource.org.apache.activemq.ra",
+   "name": "Apache ActiveMQ JCA Resource Adapter",
+   "notes": "",
+   "organisationName": "org.apache.activemq",
+   "packageExports": {
+      "name": "org.apache.activemq.ra",
+      "packageMembers": [
+         {
+            "name": "org.apache.activemq.ra.ActiveMQResourceAdapter$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQEndpointWorker",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.SimpleConnectionManager",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ServerSessionImpl",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ServerSessionPoolImpl",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQManagedConnectionFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQActivationSpec",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageEndpointProxy$MessageEndpointAlive",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageEndpointProxy",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQConnectionRequestInfo",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQConnectionFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InboundContextSupport",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQResourceAdapter",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQEndpointActivationKey",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ServerSessionImpl$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InboundConnectionProxyFactory",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQManagedConnection",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ManagedTransactionContext",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InboundContext",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQManagedConnection$2",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ManagedSessionProxy",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQManagedConnection$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQEndpointWorker$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQManagedConnection$3",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InvalidMessageEndpointException",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InboundConnectionProxy",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.LocalAndXATransaction",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageActivationSpec",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageEndpointProxy$MessageEndpointDead",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InboundSessionProxy",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageResourceAdapter",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageEndpointProxy$MessageEndpointState",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.MessageEndpointProxy$1",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ManagedConnectionProxy",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQConnectionSupport",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.InboundMessageProducerProxy",
+            "type": "CLASS"
+         },
+         {
+            "name": "org.apache.activemq.ra.ActiveMQEndpointWorker$1$1",
+            "type": "CLASS"
+         }
+      ],
+      "version": "5.2.0"
+   },
+   "packageImports": [
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.activemq.util",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.transaction",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.selector",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.filter",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.command",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq.broker",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "org.apache.activemq",
+         "optional": false,
+         "versionRange": "[5.2.0, 5.2.0]"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.resource.spi.work",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.resource.spi.endpoint",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.resource.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.resource",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.active.ra",
+   "version": "5.2.0"
+}}

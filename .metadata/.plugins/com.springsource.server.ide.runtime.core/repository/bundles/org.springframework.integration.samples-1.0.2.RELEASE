@@ -1,0 +1,414 @@
+{"bundle": {
+   "dateAdded": "2009-04-01 00:32:19.0",
+   "moduleName": "org.springframework.integration.samples",
+   "name": "Spring Integration Samples",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.samples.xml",
+         "packageMembers": [
+            {
+               "name": "org/springframework/integration/samples/xml/orderProcessingSample.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/integration/samples/xml/order.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.xml.BookOrderProcessingSample",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.xml.WarehouseDispatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.xml.XmlUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/xml/bigBooksSupplierTransformer.xsl",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.xml.StockChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.xml.ExternalResupply",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.cafe",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.cafe.OrderItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.Order",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.Drink",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.Cafe",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.Delivery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.DrinkType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.ws",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.ws.WebServiceDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/ws/temperatureConversion.xml",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.quote",
+         "packageMembers": [
+            {
+               "name": "org/springframework/integration/samples/quote/quoteDemo.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.quote.TickerStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.quote.Quote",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.quote.QuoteDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.quote.QuoteService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.oddeven",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.oddeven.OddLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.oddeven.EvenLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/oddeven/cronOddEvenDemo.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.oddeven.CronOddEvenDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.oddeven.IntervalOddEvenDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/oddeven/intervalOddEvenDemo.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.oddeven.Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.oddeven.ParityResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.jms",
+         "packageMembers": [
+            {
+               "name": "org/springframework/integration/samples/jms/inboundChannelAdapter.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.jms.ChannelAdapterDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.jms.GatewayDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.jms.DemoBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/jms/inboundGateway.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/integration/samples/jms/common.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/integration/samples/jms/outboundGateway.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/integration/samples/jms/outboundChannelAdapter.xml",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.helloworld",
+         "packageMembers": [
+            {
+               "name": "org/springframework/integration/samples/helloworld/helloWorldDemo.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.helloworld.HelloService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.helloworld.HelloWorldDemo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.filecopy",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.filecopy.TextFileCopyDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.filecopy.FileBasedFileCopyDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/filecopy/fileCopyDemo-file.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.filecopy.Exclaimer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.filecopy.BinaryFileCopyDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.filecopy.FileCopyDemoCommon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/filecopy/fileCopyDemo-text.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/integration/samples/filecopy/fileCopyDemo-binary.xml",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.errorhandling",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.errorhandling.PartyHost",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.errorhandling.PartyGuest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/errorhandling/errorHandlingDemo.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.errorhandling.Invitation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.errorhandling.PartyDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.errorhandling.ErrorUnwrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.cafe.xml",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.cafe.xml.Waiter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.xml.Barista",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/cafe/xml/cafeDemo.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.xml.OrderSplitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.xml.DrinkRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.xml.CafeDemo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.samples.cafe.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.samples.cafe.annotation.CafeDemo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.annotation.OrderSplitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.annotation.DrinkRouter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.annotation.Waiter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.samples.cafe.annotation.Barista",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/samples/cafe/annotation/cafeDemo.xml",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.xml.xpath",
+         "optional": false,
+         "versionRange": "[1.5.5.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.stereotype",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.channel",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.annotation",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.samples",
+   "version": "1.0.2.RELEASE"
+}}

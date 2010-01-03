@@ -1,0 +1,1458 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:50:29.0",
+   "moduleName": "com.springsource.org.apache.struts",
+   "name": "Apache Struts",
+   "notes": "",
+   "organisationName": "org.apache.struts",
+   "packageExports": [
+      {
+         "name": "org.apache.struts",
+         "packageMembers": {
+            "name": "org.apache.struts.Globals",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.validator",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.validator.FieldChecks",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.validator.ValidatorActionForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.validator.DynaValidatorForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.validator.ValidatorPlugIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.validator.DynaValidatorActionForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.validator.ValidatorForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.validator.Resources",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.util.StrutsValidatorUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.ImageButtonBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.MessageResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/struts/util/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.util.ModuleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.ResponseUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.PropertyMessageResourcesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.ServletContextWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.RequestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.IteratorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.TokenProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.PropertyMessageResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.AppException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.StrutsValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.GenericDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.LabelValueBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.MessageResourcesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.util.ErrorMessages",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.upload",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.upload.FormFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MultipartElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.BufferedMultipartInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.CommonsMultipartRequestHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MaxLengthExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.DiskFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MultipartRequestWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MultipartRequestHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MultipartBoundaryInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MultipartValueStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.ContentLengthExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.CommonsMultipartRequestHandler$CommonsFormFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.MultipartIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.upload.DiskMultipartRequestHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.tiles.xmlDefinition",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.XmlDefinitionsSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.FactorySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.XmlParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.DefinitionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.XmlListAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.XmlAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.I18nFactorySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.xmlDefinition.XmlDefinition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.tiles.definition",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.tiles.definition.ComponentDefinitionsFactoryWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.definition.ReloadableDefinitionsFactory$ServletPropertiesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.definition.ReloadableDefinitionsFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.tiles.beans",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.tiles.beans.MenuItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.beans.SimpleMenuItem",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.tiles.actions",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.tiles.actions.NoOpAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.actions.DefinitionDispatcherAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.actions.ReloadDefinitionsAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.actions.ViewDefinitionsAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.actions.TilesAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.tiles",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.tiles.ActionComponentServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesUtilStrutsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionsUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.FactoryNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.ComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DirectStringAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionsFactoryConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.ControllerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesRequestProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionNameAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.UrlController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.UntyppedAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.ComponentDefinitionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.EmptyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionsFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesUtilImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesUtilStrutsModulesImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.Controller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.TilesPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionsFactoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.AttributeDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.DefinitionsUtil$ServletPropertiesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.PathAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.ComponentContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.NoSuchDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.tiles.ActionController",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.tiles.util",
+         "packageMembers": {
+            "name": "org.apache.struts.taglib.tiles.util.TagUtils",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.tiles.ext",
+         "packageMembers": {
+            "name": "org.apache.struts.taglib.tiles.ext.TextTag",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.tiles",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.tiles.AttributeToScopeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.ComponentConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.GetAttributeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.InsertTag$DirectStringHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.InsertTag$InsertHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.PutListTagParent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.PutListTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.InitDefinitionsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.DefinitionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.UseAttributeTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.InsertTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.AddTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.DefinitionTagSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.GetTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.PutTagParent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.InsertTag$TagHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.PutTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.UseAttributeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.ImportAttributeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.tiles.AddTagParent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.template.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.template.util.ContentMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.template.util.Content",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.template.util.ContentMapStack",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.template",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.template.InsertTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.template.GetTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.template.PutTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.nested.logic",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedEmptyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedMatchTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedNotPresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedNotMatchTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedIterateTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedGreaterThanTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedMessagesPresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedIterateTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedNotEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedPresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedNotEmptyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedLessThanTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedGreaterEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedLessEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.logic.NestedMessagesNotPresentTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.nested.html",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedOptionsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedTextTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedSelectTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedSubmitTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedImgTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedTextareaTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedOptionsCollectionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedFormTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedHiddenTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedMultiboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedLinkTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedMessagesTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedRadioTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedFileTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedErrorsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedImageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedPasswordTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.html.NestedCheckboxTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.nested.bean",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.nested.bean.NestedSizeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.bean.NestedWriteTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.bean.NestedMessageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.bean.NestedDefineTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.bean.NestedDefineTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.nested",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.nested.NestedWriteNestingTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedPropertyHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedPropertySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedTagSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedPropertyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedRootTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedNameSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.nested.NestedParentSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.logic",
+         "packageMembers": [
+            {
+               "name": "org/apache/struts/taglib/logic/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.GreaterThanTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.NotMatchTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.LessEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.ConditionalTagBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.LessThanTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.ForwardTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.GreaterEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.NotEqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.MessagesPresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.IterateTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.MatchTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.EqualTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.CompareTagBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.NotPresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.IterateTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.PresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.MessagesNotPresentTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.RedirectTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.NotEmptyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.logic.EmptyTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.html",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.html.MessagesTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.OptionsCollectionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.MultiboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.MessagesTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.BaseHandlerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.LinkTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.FrameTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.HtmlTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.RadioTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.OptionsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.ErrorsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.BaseInputTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.OptionTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.SelectTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/struts/taglib/html/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.JavascriptValidatorTag$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.ButtonTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.PasswordTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.SubmitTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.ImgTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.HiddenTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.FormTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.TextareaTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.FileTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.JavascriptValidatorTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.CheckboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.CancelTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.XhtmlTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.RewriteTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.TextTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.BaseTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.BaseFieldTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.ResetTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.html.ImageTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.taglib.bean",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.taglib.bean.DefineTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/struts/taglib/bean/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.PageTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.ParameterTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.HeaderTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.MessageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.CookieTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.IncludeTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.WriteTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.StrutsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.SizeTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.CookieTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.IncludeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.ResourceTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.ResourceTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.SizeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.ParameterTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.StrutsTei",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.DefineTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.PageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.taglib.bean.HeaderTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.resources",
+         "packageMembers": [
+            {
+               "name": "org/apache/struts/resources/web-app_2_2.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/tiles-config_1_1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/struts-config_1_1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/struts-config_1_0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/validation_1_1.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/web-app_2_3.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/tiles-config.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/struts/resources/validator-rules_1_1.dtd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.plugins",
+         "packageMembers": {
+            "name": "org.apache.struts.plugins.ModuleConfigVerifier",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.config.impl",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.config.impl.ModuleConfigImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.impl.DefaultModuleConfigFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.config",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.config.ModuleConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ActionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ModuleConfigFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ForwardConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.PlugInSetPropertyRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.FormPropertyConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.PlugInConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ActionMappingFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.DataSourceConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.FormBeanConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.SetActionMappingClassRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ApplicationConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ConfigHelperInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.AddDataSourcePropertyRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ControllerConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ConfigRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ConfigHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.ExceptionConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.config.MessageResourcesConfig",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.actions",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.actions.SwitchAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.actions.LookupDispatchAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/struts/actions/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.actions.IncludeAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.actions.ForwardAction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.actions.DispatchAction",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "org.apache.struts.action",
+         "packageMembers": [
+            {
+               "name": "org.apache.struts.action.ActionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionMessages$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/struts/action/ActionResources.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.action.Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionServletWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ForwardingActionForward",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.SessionActionMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.RequestProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionForwards",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.DynaActionForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionFormBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.RequestActionMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/struts/action/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.struts.action.ActionServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionForward",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.RedirectingActionForward",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionMessages$ActionMessageItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionForm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.DynaActionFormClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.ActionFormBeans",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.struts.action.PlugIn",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.struts.legacy",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.validator",
+         "optional": true,
+         "versionRange": "[1.1.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.fileupload",
+         "optional": true,
+         "versionRange": "[1.2.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.digester",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils.converters",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.struts",
+   "version": "1.1.0"
+}}

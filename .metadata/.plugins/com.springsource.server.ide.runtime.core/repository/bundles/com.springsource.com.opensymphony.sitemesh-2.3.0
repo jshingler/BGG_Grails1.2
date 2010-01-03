@@ -1,0 +1,845 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:48:05.0",
+   "moduleName": "com.springsource.com.opensymphony.sitemesh",
+   "name": "SiteMesh Page Decorator Plugin",
+   "notes": "",
+   "organisationName": "com.opensymphony.sitemesh",
+   "packageExports": [
+      {
+         "name": "com.opensymphony.module.sitemesh",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.RequestConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.PageParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.DecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.Page",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.Decorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.PageParserSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.HTMLPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.Config",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.sitemesh.webapp.decorator",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.sitemesh.webapp.decorator.BaseWebAppDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.decorator.ExternalDispatchedDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.decorator.NoDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.decorator.DispatchedDecorator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.sitemesh.webapp",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.sitemesh.webapp.ContentBufferingResponse$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.SiteMeshFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.ContentBufferingResponse$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/opensymphony/sitemesh/webapp/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.SiteMeshWebAppContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.ContainerTweaks",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.webapp.ContentBufferingResponse",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.sitemesh",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.sitemesh.SiteMeshContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.ContentProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.DecoratorSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.Content",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.Decorator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.sitemesh.compatability",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.sitemesh.compatability.PageParser2ContentProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.compatability.OldDecorator2NewDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/opensymphony/sitemesh/compatability/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.compatability.DecoratorMapper2DecoratorSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.compatability.Content2HTMLPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.sitemesh.compatability.HTMLPage2Content",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.velocity",
+         "packageMembers": {
+            "name": "com.opensymphony.module.sitemesh.velocity.VelocityDecoratorServlet",
+            "type": "CLASS"
+         },
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.util",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.util.OutputConverter$ResinWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.util.FastByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.util.ClassLoaderUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.util.CharArrayReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.util.OutputConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.util.CharArrayWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.util.Container",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.tapestry",
+         "packageMembers": [
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/sitemesh.library",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Head.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.tapestry.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Body.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Title.jwc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.tapestry.Title",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.tapestry.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Title.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Property.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Head.jwc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Body.jwc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/tapestry/Property.jwc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.tapestry.SiteMeshBase",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.taglib.page",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.page.ParamTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.page.ApplyDecoratorTag$ApplyDecoratorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.page.ApplyDecoratorTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.taglib.decorator",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.HeadTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.UsePageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.UseHTMLPageTEI",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.BodyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.PropertyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.TitleTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.taglib.decorator.UsePageTEI",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.taglib",
+         "packageMembers": {
+            "name": "com.opensymphony.module.sitemesh.taglib.AbstractTag",
+            "type": "CLASS"
+         },
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.parser",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.HTMLPageParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.AbstractPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.FastPageParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.FastPageParser$Tag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.FastPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.AbstractHTMLPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.PageRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.FastPageParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.parser.TokenizedHTMLPage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.multipass",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.MultipassFilter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.MultipassReplacementPageParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.DivExtractingPageParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.ExtractPropertyTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.MultipassFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.MultipassReplacementPageParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.multipass.DivExtractingPageParser$TopLevelDivExtractingRule",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.mapper",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.SessionDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.FrameSetDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.PathMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.OSDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.InlineDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.AgentDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.DefaultDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.LanguageDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.NullDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.LanguageDecoratorMapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.CookieDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.ConfigDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.RobotDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.PageDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.EnvEntryDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.ParameterDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.PrintableDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.AgentDecoratorMapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.FileDecoratorMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.ConfigLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.mapper.AbstractDecoratorMapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.html.util",
+         "packageMembers": {
+            "name": "com.opensymphony.module.sitemesh.html.util.CharArray",
+            "type": "CLASS"
+         },
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.html.tokenizer",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.html.tokenizer.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.tokenizer.Lexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.tokenizer.TokenHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.tokenizer.Parser$ReusableToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.tokenizer.TagTokenizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.html.rules",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.MSOfficeDocumentPropertiesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.TitleExtractingRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.FramesetRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.ParameterExtractingRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.PageBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.HtmlAttributesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.RegexReplacementTextFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.HeadExtractingRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.BodyTagRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.MetaTagRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.ContentBlockExtractingRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.rules.TagReplaceRule",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.html",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.html.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.CustomTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.StateChangeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.TagRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.StateTransitionRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.BasicRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.BlockExtractingRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.TextFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.HTMLProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.HTMLProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.HTMLProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.HTMLProcessorContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.State",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.html.Tag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.freemarker",
+         "packageMembers": {
+            "name": "com.opensymphony.module.sitemesh.freemarker.FreemarkerDecoratorServlet",
+            "type": "CLASS"
+         },
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.filter",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.RoutableServletOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.Buffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.RoutablePrintWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.RequestDispatcherWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageRequestWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.TextEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.Buffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.DebugResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.RoutableServletOutputStream$DestinationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.RoutablePrintWriter$NullWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.RoutablePrintWriter$DestinationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.HttpContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.filter.PageResponseWrapper$3",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.3.0"
+      },
+      {
+         "name": "com.opensymphony.module.sitemesh.factory",
+         "packageMembers": [
+            {
+               "name": "com.opensymphony.module.sitemesh.factory.DefaultFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.factory.FactoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.opensymphony.module.sitemesh.factory.BaseFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/opensymphony/module/sitemesh/factory/sitemesh-default.xml",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.3.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.servlet",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.context",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tapestry.valid",
+         "optional": true,
+         "versionRange": "[4.1.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tapestry.request",
+         "optional": true,
+         "versionRange": "[4.1.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tapestry",
+         "optional": true,
+         "versionRange": "[4.1.5, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "freemarker.template",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "freemarker.ext.servlet",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.opensymphony.sitemesh",
+   "version": "2.3.0"
+}}

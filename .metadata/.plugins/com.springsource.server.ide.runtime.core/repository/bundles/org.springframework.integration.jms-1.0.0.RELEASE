@@ -1,0 +1,194 @@
+{"bundle": {
+   "dateAdded": "2008-11-26 18:05:27.0",
+   "moduleName": "org.springframework.integration.jms",
+   "name": "Spring Integration JMS Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.jms",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.jms.JmsHeaderMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.ChannelPublishingJmsMessageListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.AbstractJmsTemplateBasedAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.JmsSendingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.JmsOutboundGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.DefaultJmsHeaderMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.HeaderMappingMessageConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.JmsHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.JmsDestinationPollingSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.JmsMessageDrivenEndpoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.jms.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.jms.config.JmsOutboundGatewayParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.config.JmsAdapterParserUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/jms/config/spring-integration-jms-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.jms.config.JmsOutboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.config.JmsNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.config.JmsMessageDrivenEndpointParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.jms.config.JmsInboundChannelAdapterParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.jms.support.destination",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.support.converter",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.listener",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.core",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.connection",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.handler",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.endpoint",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.channel",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.integration.adapter",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.0.1)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.6, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.jms",
+   "version": "1.0.0.RELEASE"
+}}

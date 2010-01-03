@@ -1,0 +1,749 @@
+{"bundle": {
+   "dateAdded": "2008-11-14 17:24:17.0",
+   "moduleName": "org.springframework.binding",
+   "name": "Spring Binding",
+   "notes": "",
+   "organisationName": "org.springframework.webflow",
+   "packageExports": [
+      {
+         "name": "org.springframework.binding.method",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.method.MethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.method.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.method.InvalidMethodKeyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.method.MethodSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.method.Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/method/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.method.MethodInvoker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.method.MethodInvocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.method.MethodKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.validation",
+         "packageMembers": {
+            "name": "org.springframework.binding.validation.ValidationContext",
+            "type": "CLASS"
+         },
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.collection",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$EntrySetEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.MapAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.SharedMapDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.SharedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/collection/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$AbstractSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.MapAdaptable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter$ValuesIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.CompositeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.collection.StringKeyedMapAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.message",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.message.DefaultMessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageContextErrors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.DefaultMessageResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageContextErrors$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.DefaultMessageContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageBuilder$ResolvableArgument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/message/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.message.StateManageableMessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.Message",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.DefaultMessageContext$DefaultTextFallbackMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.Severity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageContextErrors$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.message.MessageContextErrors$PropertyErrorMappingResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.mapping.results",
+         "packageMembers": [
+            {
+               "name": "org/springframework/binding/mapping/results/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.mapping.results.TargetAccessError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.results.SourceAccessError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.results.TypeConversionError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.results.Success",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.results.AbstractMappingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.results.RequiredError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.mapping.impl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.mapping.impl.DefaultMappingResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.impl.DefaultMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.impl.DefaultMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/mapping/impl/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.mapping.impl.DefaultMappingContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.mapping",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.mapping.Mapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.MappingResultsCriteria",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.Mapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/mapping/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.mapping.MappingResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.mapping.MappingResults",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.format",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.format.AbstractNumberFormatFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.format.PercentNumberFormatFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.format.CurrencyNumberFormatFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.format.DefaultNumberFormatFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.format.IntegerNumberFormatFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.format.NumberFormatFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/format/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.expression.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.expression.support.CompositeStringExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/expression/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.NullParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.FluentParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.AbstractGetValueExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.LiteralExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.StaticExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.CollectionAddingExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.support.AbstractExpressionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.expression.ognl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.expression.ognl.OgnlExpression$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.ognl.OgnlExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/expression/ognl/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.expression.ognl.OgnlExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.expression.el",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.expression.el.MapAdaptableELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.ELExpressionParser$VariableMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.DefaultElContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/expression/el/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.BindingValueExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.DefaultELContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.ELExpressionParser$ParserELContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.ELContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.ELExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.DefaultELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.ELExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.el.DefaultExpressionFactoryUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.expression.beanwrapper",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.expression.beanwrapper.BeanWrapperExpressionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.beanwrapper.BeanWrapperExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.beanwrapper.BeanWrapperExpression$PropertyEditorConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.expression",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.expression.PropertyNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.ParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/expression/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.expression.ExpressionVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.ValueCoercionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.ParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.EvaluationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.expression.ExpressionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.convert.service",
+         "packageMembers": [
+            {
+               "name": "org/springframework/binding/convert/service/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.convert.service.GenericConversionService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.service.StaticConversionExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.service.RuntimeBindingConversionExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.service.NoOpConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.service.DefaultConversionService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.convert.converters",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.convert.converters.StringToObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToLong",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToDouble",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/convert/converters/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToFloat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToShort",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.ArrayToCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToLocale",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToBigInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.NumberToNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.InvalidFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToCharacter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToBigDecimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.ReverseConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToLabeledEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToByte",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToEnum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.ArrayToArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.ObjectToCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.PropertyEditorConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.TwoWayConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.StringToDate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.ObjectToArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.Converter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.converters.FormattedStringToNumber",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      },
+      {
+         "name": "org.springframework.binding.convert",
+         "packageMembers": [
+            {
+               "name": "org.springframework.binding.convert.ConversionExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.ConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.ConversionExecutorNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/binding/convert/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.binding.convert.ConversionService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.binding.convert.ConversionExecutionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.5.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.validation",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.style",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.enums",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.i18n",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.jboss.el",
+         "optional": true,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "ognl",
+         "optional": true,
+         "versionRange": "[2.6.9, 3.0.0)"
+      },
+      {
+         "name": "javax.el",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.binding",
+   "version": "2.0.5.RELEASE"
+}}

@@ -1,0 +1,749 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:24:10.0",
+   "moduleName": "com.springsource.org.apache.geronimo.kernel",
+   "name": "Apache Geronimo Kernel",
+   "notes": "",
+   "organisationName": "org.apache.geronimo",
+   "packageExports": [
+      {
+         "name": "org.apache.geronimo.kernel.management",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.management.StateManageable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.management.State",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.management.NotificationType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.proxy",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.proxy.ProxyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.proxy.GeronimoManagedBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.proxy.DeadProxyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.proxy.ProxyCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.proxy.ProxyFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.repository",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.repository.MissingDependencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.repository.WriteableRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.repository.Repository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.repository.FileWriteMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.repository.ListableRepository",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.gbean",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.gbean.GBeanQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.ReferenceCollectionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GAttributeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.ReferenceCollectionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.DynamicGOperationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.ReferenceMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.ReferenceCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GOperationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GBeanLifecycle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GNotificationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.DynamicGBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.DynamicGAttributeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GBeanInfoBuilder$RefInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GReferenceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GBeanData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.WaitingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GConstructorInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GBeanInfoBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.DynamicGBeanDelegate$Operation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.DynamicGBeanDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.ReferenceMap$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.InvalidConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GBeanName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.GOperationSignature",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.log",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.log.BootstrapLogFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.log.BootstrapLog4jLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.log.GeronimoLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.log.BootstrapJdk14Log",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.log.GeronimoLogging",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.log.GeronimoLogFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.lifecycle",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.lifecycle.LifecycleAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.lifecycle.LifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.lifecycle.LifecycleMonitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.jmx",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$GetObjectNameInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$GetStartTimeInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$StartRecursiveInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.MBeanServerDelegate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$StopInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.MBeanServerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$EqualsInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$GetStateInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$ToStringInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.KernelDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$GetStateInstanceInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$HashCodeInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.jmx.JMXProxyMethodInterceptor$StartInvoke",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.config",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.config.MultiParentClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.EditableConfigurationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.EditableConfigurationManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.NoSuchStoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.InvalidConfigException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationParent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.PersistentConfigurationList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.NoSuchConfigException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationManagerImpl$ShutdownHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ConfigurationModuleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.MultiParentClassLoader$FilteringParentCL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.config.ManageableAttributeStore",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.basic",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicKernel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicLifecycleMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.KernelOperationInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$GetStateInstanceInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicProxyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$GetStartTimeInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$HashCodeInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicProxyMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.KernelSetAttributeInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.RawOperationInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$ToStringInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicDependencyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$GetStateInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicProxyManager$ManagedProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicDependencyManager$DependencyManagerLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicProxyMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.KernelGetAttributeInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$StartInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$StartRecursiveInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicProxyMap$ReferenceEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$EqualsInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicLifecycleMonitor$RawLifecycleBroadcaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicDependencyManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.RawGetAttributeInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.LifecycleMonitorFlyweight",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$GetObjectNameInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.RawSetAttributeInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicKernelFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.BasicRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor$StopInvoke",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.basic.ProxyMethodInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.kernel",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.kernel.KernelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.KernelRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.KernelFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.KernelFactoryError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.GBeanNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.NoSuchAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.ClassLoaderReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.GBeanAlreadyExistsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.ClassLoading",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.NoSuchOperationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.KernelRegistry$KernelReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.ObjectInputStreamExt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.InternalKernelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.KernelGBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.DependencyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.StoredObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.InvalidGBeanException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.kernel.Kernel",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "org.apache.geronimo.gbean.runtime",
+         "packageMembers": [
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanDependency$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.ProxyCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.ProxyCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.ProxyCollection$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanOperation$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanCollectionReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanAttribute$DynamicSetterMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanInstanceState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanCollectionReference$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.LifecycleBroadcaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanAttribute$DynamicGetterMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanSingleReference$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.FastMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanDependency",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanSingleReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.MethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.RawInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.AbstractGBeanReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanInstanceState$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.geronimo.gbean.runtime.GBeanReference",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.log4j",
+         "optional": true,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging.impl",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.reflect",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.core",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.asm",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "javax.management.loading",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.geronimo.kernel",
+   "version": "1.0.0"
+}}

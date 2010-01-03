@@ -1,0 +1,457 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:00:04.0",
+   "moduleName": "com.springsource.org.jboss.el",
+   "name": "JBoss Expression Language",
+   "notes": "",
+   "organisationName": "org.jboss.el",
+   "packageExports": [
+      {
+         "name": "org.jboss.el",
+         "packageMembers": [
+            {
+               "name": "org.jboss.el.ExpressionFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.ValueExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.TypeResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.Closure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.ValueExpressionLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.MethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.MethodExpressionLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.MethodExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jboss/el/Messages.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.GA"
+      },
+      {
+         "name": "org.jboss.el.util",
+         "packageMembers": [
+            {
+               "name": "org.jboss.el.util.ReferenceCache$SoftReferenceFactory$SoftReferenceKey$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$ReferenceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$ReferenceValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$WeakReferenceFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$SoftReferenceFactory$SoftReferenceKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.MessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$StrongReferenceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$WeakReferenceFactory$WeakReferenceKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$ReferenceQueueRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$SoftReferenceFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$StrongReferenceFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$WeakReferenceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReflectionUtil$MethodCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$SoftReferenceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReflectionUtil$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$WeakReferenceFactory$WeakReferenceKey$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$ReferenceKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ConcurrentCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReferenceCache$StrongReferenceFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.util.ReflectionUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.GA"
+      },
+      {
+         "name": "org.jboss.el.parser",
+         "packageMembers": [
+            {
+               "name": "org.jboss.el.parser.AstInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstDeferredExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstFloatingPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParserTreeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstNotEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstBracketSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstValue$Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstGreaterThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstOr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstPropertySuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstNegative",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstFalse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstMult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.JJTELParserState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstLessThanEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstClosure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstPlus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.SimpleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ValueSuffixNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstClosureSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstEmpty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstMinus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstDiv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.NodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstDotSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstCompositeExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstClosure$ClosureVariableMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstMod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstLiteralExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstGreaterThanEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstAnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstLessThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ELParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstClosureSuffix$ClosureList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstChoice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.ArithmeticNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.BooleanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstMethodSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.parser.AstDynamicExpression",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.GA"
+      },
+      {
+         "name": "org.jboss.el.lang",
+         "packageMembers": [
+            {
+               "name": "org.jboss.el.lang.ELArithmetic$BigDecimalDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.ELSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.VariableMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.ELArithmetic$LongDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.VariableMapperFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.FunctionMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.ELArithmetic",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.FunctionMapperImpl$Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.EvaluationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.ELArithmetic$BigIntegerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.ExpressionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.FunctionMapperFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jboss.el.lang.ELArithmetic$DoubleDelegate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.GA"
+      }
+   ],
+   "packageImports": {
+      "name": "javax.el",
+      "optional": false,
+      "versionRange": "[1.0.0, 2.0.0)"
+   },
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.org.jboss.el",
+   "version": "2.0.0.GA"
+}}

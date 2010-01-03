@@ -1,0 +1,445 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:12:19.0",
+   "moduleName": "com.springsource.org.apache.bsf",
+   "name": "Apache Bean Scripting Framework",
+   "notes": "",
+   "organisationName": "org.apache.bsf",
+   "packageExports": [
+      {
+         "name": "org.apache.bsf",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.BSFDeclaredBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/bsf/Languages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.Main$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.BSFManager$4",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.util.type",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertorRegistry$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertorRegistry$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertorRegistry$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertorRegistry$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertorRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.type.TypeConvertorRegistry$3",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.util.event.generator",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.util.event.generator.EventAdapterGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.generator.ByteUtility",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.generator.AdapterClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.generator.Bytecode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.util.event.adapters",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_TextAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_beans_VetoableChangeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_beans_PropertyChangeAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_ComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_AdjustmentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_WindowAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_ItemAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_ActionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_ContainerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_KeyAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_MouseAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_FocusAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.adapters.java_awt_event_MouseMotionAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.util.event",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.util.event.EventAdapterRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.EventAdapterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.EventAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.event.EventProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.util.cf",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.util.cf.CodeFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.cf.CFDriver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.util.BSFEventProcessorReturningEventInfos",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.BSFFunctions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.EngineUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.ScriptSymbolTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.ObjInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.BSFClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.BSFEventProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.MethodUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.MethodUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.IndentWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.ObjectRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.Bean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.BSFEngineImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.MethodUtils$MoreSpecific",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.ReflectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.CodeBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.util.JavaUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.engines.jacl",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.engines.jacl.BSFCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.engines.jacl.JaclEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.engines.javascript",
+         "packageMembers": {
+            "name": "org.apache.bsf.engines.javascript.JavaScriptEngine",
+            "type": "CLASS"
+         },
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.engines.jython",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.engines.jython.JythonEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.engines.jython.JythonEngine$BSFPythonInterpreter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.engines.xslt",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.engines.xslt.XSLTResultNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.engines.xslt.XSLTEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      },
+      {
+         "name": "org.apache.bsf.engines.netrexx",
+         "packageMembers": [
+            {
+               "name": "org.apache.bsf.engines.netrexx.NetRexxEngine$GeneratedFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.engines.netrexx.NetRexxEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.bsf.engines.netrexx.NetRexxEngine$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.4.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "tcl.lang",
+         "optional": true,
+         "versionRange": "[1.4.1, 2.0.0)"
+      },
+      {
+         "name": "org.python.util",
+         "optional": true,
+         "versionRange": "[2.2.1, 3.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.python.core",
+         "optional": true,
+         "versionRange": "[2.2.1, 3.0.0)"
+      },
+      {
+         "name": "org.mozilla.javascript.debug",
+         "optional": true,
+         "versionRange": "[1.7.0.R1, 2.0.0)"
+      },
+      {
+         "name": "org.mozilla.javascript",
+         "optional": true,
+         "versionRange": "[1.7.0.R1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.xpath.objects",
+         "optional": true,
+         "versionRange": "[2.7.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "netrexx.lang",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "COM.ibm.netrexx.process",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.bsf",
+   "version": "2.4.0"
+}}

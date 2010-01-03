@@ -1,0 +1,2778 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:19:08.0",
+   "moduleName": "org.springframework.security",
+   "name": "Spring Security Core",
+   "notes": "",
+   "organisationName": "org.springframework.security",
+   "packageExports": [
+      {
+         "name": "org.springframework.security",
+         "packageMembers": [
+            {
+               "name": "org/springframework/security/messages_es_ES.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.ConfigAttributeDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/messages_zh_CN.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.GrantedAuthoritiesContainerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ConfigAttributeEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/messages_de.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/security/messages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.SpringSecurityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.RunAsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AuthenticationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AccountExpiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/messages_pl.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.AuthenticationTrustResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.SecurityConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AfterInvocationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/messages_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.SpringSecurityMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AccessDeniedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.MockAuthenticationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AuthenticationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.InsufficientAuthenticationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AuthenticationCredentialsNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ConfigAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.DisabledException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/messages_it.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.AuthenticationTrustResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.BadCredentialsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.Authentication",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.GrantedAuthority",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AuthenticationServiceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.LockedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.GrantedAuthorityImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AccountStatusException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AuthorizationServiceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.CredentialsExpiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.MutableGrantedAuthoritiesContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AbstractAuthenticationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.AccessDecisionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/messages_cs_CZ.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.GrantedAuthoritiesContainer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.wrapper",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.wrapper.SavedRequestAwareWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.wrapper.SecurityContextHolderAwareRequestWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.vote",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.vote.LabelParameterStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.UnanimousBased",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.ConsensusBased",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.RoleHierarchyVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.AuthenticatedVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.InterfaceBasedLabelParameterStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.AbstractAclVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.AccessDecisionVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.BasicAclEntryVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.LabelBasedAclVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.AbstractAccessDecisionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.AffirmativeBased",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.RoleVoter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.vote.LabeledData",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.util",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.util.UrlMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.TextUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FilterChainProxy$VirtualFilterChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.AntUrlPathMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FieldUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.ThrowableAnalyzer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.AuthorityUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.InMemoryResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.StringSplitUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.InMemoryXmlApplicationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FilterChainProxy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.EncryptionUtils$EncryptionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.PortResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.Sha512DigestUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.SessionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.RegexUrlPathMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.ThrowableCauseExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.ThrowableAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.RedirectUrlBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.PortMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.ThrowableAnalyzer$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.PortResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.UrlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FilterToBeanProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.EncryptionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.MethodInvocationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.SimpleMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FilterInvocationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.PortMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FilterChainProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.RedirectUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.ThrowableAnalyzer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.util.FilterInvocationUtils$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.userdetails.memory",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.userdetails.memory.UserMapEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.memory.UserAttributeEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.memory.InMemoryDaoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.memory.UserAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.memory.UserMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.userdetails.ldap",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.userdetails.ldap.InetOrgPerson$Essence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsManager$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.Person$Essence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsManager$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.Person",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsManager$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.InetOrgPersonContextMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.InetOrgPerson",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.PersonContextMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsImpl$Essence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.UserDetailsContextMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.ldap.LdapUserDetailsManager$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.userdetails.jdbc",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcDaoImpl$AuthoritiesByUsernameMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcDaoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcDaoImpl$UsersByUsernameMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcDaoImpl$GroupAuthoritiesByUsernameMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.jdbc.JdbcUserDetailsManager$7",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.userdetails.hierarchicalroles",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.userdetails.hierarchicalroles.RoleHierarchyImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.hierarchicalroles.UserDetailsServiceWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.hierarchicalroles.UserDetailsWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.hierarchicalroles.RoleHierarchy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.hierarchicalroles.CycleInRoleHierarchyException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.userdetails.checker",
+         "packageMembers": {
+            "name": "org.springframework.security.userdetails.checker.AccountStatusUserDetailsChecker",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.x509",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.x509.X509ProcessingFilterEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.x509.X509ProcessingFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.userdetails",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.userdetails.UserDetailsByNameServiceWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.AuthenticationUserDetailsService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.UsernameNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.UserDetailsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.UserDetailsChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.UserDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.GroupManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.User",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.userdetails.UserDetailsService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.switchuser",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.switchuser.SwitchUserAuthorityChanger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.switchuser.SwitchUserProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.switchuser.SwitchUserGrantedAuthority",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.webapp",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.webapp.AuthenticationProcessingFilterEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.webapp.DefaultLoginPageGeneratingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.webapp.AuthenticationProcessingFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.session",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.session.HttpSessionEventPublisher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.session.HttpSessionCreatedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.session.HttpSessionApplicationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.session.HttpSessionDestroyedEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.savedrequest",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.savedrequest.FastHttpDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.savedrequest.SavedCookie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.savedrequest.Enumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.savedrequest.SavedRequest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.rememberme",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.rememberme.JdbcTokenRepositoryImpl$InsertToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.JdbcTokenRepositoryImpl$UpdateToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.JdbcTokenRepositoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.JdbcTokenRepositoryImpl$TokensBySeriesMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.RememberMeAuthenticationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.JdbcTokenRepositoryImpl$RemoveUserTokens",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.PersistentTokenBasedRememberMeServices",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.PersistentRememberMeToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.PersistentTokenRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.InvalidCookieException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.RememberMeServices",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.AbstractRememberMeServices",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.CookieTheftException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.RememberMeProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.InMemoryTokenRepositoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.TokenBasedRememberMeServices",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.rememberme.NullRememberMeServices",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.preauth.x509",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.preauth.x509.X509PreAuthenticatedProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.x509.X509PrincipalExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.x509.SubjectDnX509PrincipalExtractor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.preauth.websphere",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.preauth.websphere.WebSpherePreAuthenticatedWebAuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.websphere.WebSpherePreAuthenticatedProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.websphere.WebSphere2SpringSecurityPropagationInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.websphere.WebSpherePreAuthenticatedAuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.websphere.WASSecurityHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.preauth.j2ee",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.preauth.j2ee.AbstractPreAuthenticatedAuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.j2ee.WebXmlMappableAttributesRetriever",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.j2ee.J2eeBasedPreAuthenticatedWebAuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.j2ee.J2eePreAuthenticatedProcessingFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.preauth.header",
+         "packageMembers": {
+            "name": "org.springframework.security.ui.preauth.header.RequestHeaderPreAuthenticatedProcessingFilter",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.preauth",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.preauth.PreAuthenticatedGrantedAuthoritiesAuthenticationDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.PreAuthenticatedGrantedAuthoritiesWebAuthenticationDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.AbstractPreAuthenticatedProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.PreAuthenticatedProcessingFilterEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.preauth.PreAuthenticatedCredentialsNotFoundException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.logout",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.logout.SecurityContextLogoutHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.logout.LogoutHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.logout.LogoutFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.digestauth",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.digestauth.DigestProcessingFilterEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.digestauth.NonceExpiredException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.digestauth.DigestProcessingFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui.basicauth",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.basicauth.BasicProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.basicauth.BasicProcessingFilterEntryPoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ui",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ui.AccessDeniedHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ExceptionTranslationFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.TargetUrlResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.AuthenticationDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ExceptionTranslationFilter$DefaultThrowableAnalyzer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.TargetUrlResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.AuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.AuthenticationDetailsSourceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.WebAuthenticationDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.AbstractProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ExceptionTranslationFilter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.WebAuthenticationDetailsSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.SpringSecurityFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.AccessDeniedHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.ExceptionTranslationFilter$DefaultThrowableAnalyzer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.FilterChainOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.AuthenticationEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ui.SessionFixationProtectionFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.token",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.token.KeyBasedPersistenceTokenService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.token.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.token.SecureRandomFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.token.TokenService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.token.DefaultToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.securechannel",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.securechannel.RetryWithHttpEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.AbstractRetryEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.RetryWithHttpsEntryPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.ChannelProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.ChannelDecisionManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.SecureChannelProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.InsecureChannelProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.ChannelDecisionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.ChannelProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.securechannel.ChannelEntryPoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.runas",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.runas.RunAsUserToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.runas.NullRunAsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.runas.RunAsImplAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.runas.RunAsManagerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.x509.populator",
+         "packageMembers": {
+            "name": "org.springframework.security.providers.x509.populator.DaoX509AuthoritiesPopulator",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.x509.cache",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.x509.cache.EhCacheBasedX509UserCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.x509.cache.NullX509UserCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.x509",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.x509.X509UserCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.x509.X509AuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.x509.X509AuthoritiesPopulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.x509.X509AuthenticationToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.rememberme",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.rememberme.RememberMeAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.rememberme.RememberMeAuthenticationProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.rcp",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.rcp.RemoteAuthenticationManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.rcp.RemoteAuthenticationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.rcp.RemoteAuthenticationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.rcp.RemoteAuthenticationProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.preauth",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.preauth.PreAuthenticatedGrantedAuthoritiesUserDetailsService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.preauth.PreAuthenticatedAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.preauth.PreAuthenticatedAuthenticationToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.ldap",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.ldap.LdapAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.LdapAuthenticationProvider$NullAuthoritiesPopulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.LdapAuthenticationProvider$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.LdapAuthenticationProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.ldap.authenticator",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.ldap.authenticator.BindAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.authenticator.AbstractLdapAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.authenticator.LdapShaPasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.authenticator.PasswordComparisonAuthenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ldap.authenticator.BindAuthenticator$BindWithSpecificDnContextSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.jaas.event",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.jaas.event.JaasAuthenticationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.event.JaasAuthenticationSuccessEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.event.JaasAuthenticationFailedEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.jaas",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.jaas.SecurityContextLoginModule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasPasswordCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasAuthenticationProvider$InternalCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasNameCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.LoginExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasGrantedAuthority",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasAuthenticationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.JaasAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.DefaultLoginExceptionResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.jaas.AuthorityGranter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.encoding",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.encoding.MessageDigestPasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.BasePasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.Md4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.ShaPasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.Md5PasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.PlaintextPasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.PasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.BaseDigestPasswordEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.encoding.Md4PasswordEncoder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.dao.salt",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.dao.salt.SystemWideSaltSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.salt.ReflectionSaltSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.dao.cache",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.dao.cache.NullUserCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.cache.EhCacheBasedUserCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.dao",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.dao.SaltSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.DaoAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.AbstractUserDetailsAuthenticationProvider$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.UserCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.AbstractUserDetailsAuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.AbstractUserDetailsAuthenticationProvider$DefaultPreAuthenticationChecks",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.dao.AbstractUserDetailsAuthenticationProvider$DefaultPostAuthenticationChecks",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers.anonymous",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.anonymous.AnonymousAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.anonymous.AnonymousProcessingFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.anonymous.AnonymousAuthenticationProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.providers",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.providers.ProviderManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.ProviderNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.UsernamePasswordAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.AuthenticationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.providers.AbstractAuthenticationToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ldap.search",
+         "packageMembers": {
+            "name": "org.springframework.security.ldap.search.FilterBasedLdapUserSearch",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ldap.populator",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ldap.populator.UserDetailsServiceLdapAuthoritiesPopulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.populator.DefaultLdapAuthoritiesPopulator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.ldap",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityLdapTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapDataAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.DefaultLdapUsernameToDnMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.InitialDirContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapUsernameToDnMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapAuthoritiesPopulator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.NamingExceptionTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityAuthenticationSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityLdapTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.DefaultInitialDirContextFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapUserSearch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.DefaultSpringSecurityContextSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapEntryMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.LdapCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityLdapTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityLdapTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.ldap.SpringSecurityLdapTemplate$1LdapCompareCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.intercept.web",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.intercept.web.WebInvocationPrivilegeEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.FilterSecurityInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.FilterInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.DefaultFilterInvocationDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.FIDSToFilterChainMapConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.FilterInvocationDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.RequestKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.web.FilterInvocationDefinitionSourceEditor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.intercept.method.aspectj",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.intercept.method.aspectj.AspectJAnnotationCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.aspectj.AspectJSecurityInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.aspectj.AspectJAnnotationSecurityInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.aspectj.AspectJCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.intercept.method.aopalliance",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.intercept.method.aopalliance.MethodDefinitionSourceAdvisor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.aopalliance.MethodDefinitionSourceAdvisor$MethodDefinitionSourcePointcut",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.aopalliance.MethodDefinitionSourceAdvisor$InternalMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.intercept.method",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.intercept.method.MethodInvocationPrivilegeEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.MethodDefinitionAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.ProtectPointcutPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.AbstractMethodDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.MethodDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.AbstractFallbackMethodDefinitionSource$DefaultCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.MethodDefinitionSourceEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.AbstractFallbackMethodDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.MapBasedMethodDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.DelegatingMethodDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.method.MapBasedMethodDefinitionSource$RegisteredMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.intercept",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.intercept.ObjectDefinitionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.AbstractSecurityInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.intercept.InterceptorStatusToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.event.authorization",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.event.authorization.AbstractAuthorizationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authorization.AuthenticationCredentialsNotFoundEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authorization.PublicInvocationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authorization.LoggerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authorization.AuthorizedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authorization.AuthorizationFailureEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.event.authentication",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.event.authentication.LoggerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationSwitchUserEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureExpiredEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureLockedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationSuccessEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.InteractiveAuthenticationSuccessEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureBadCredentialsEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureProxyUntrustedEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureConcurrentLoginEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureProviderNotFoundEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureServiceExceptionEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AbstractAuthenticationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AbstractAuthenticationFailureEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureCredentialsExpiredEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.event.authentication.AuthenticationFailureDisabledEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.context.rmi",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.context.rmi.ContextPropagatingRemoteInvocationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.rmi.ContextPropagatingRemoteInvocation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.context.httpinvoker",
+         "packageMembers": {
+            "name": "org.springframework.security.context.httpinvoker.AuthenticationSimpleHttpInvokerRequestExecutor",
+            "type": "CLASS"
+         },
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.context.ThreadLocalSecurityContextHolderStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.SecurityContextHolderStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.SecurityContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.GlobalSecurityContextHolderStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.InheritableThreadLocalSecurityContextHolderStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.HttpSessionContextIntegrationFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.HttpSessionContextIntegrationFilter$OnRedirectUpdateSessionResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.SecurityContextHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.context.SecurityContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.config.PortMappingsBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.FilterInvocationDefinitionSourceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.AbstractUserDetailsServiceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/spring-security-2.0.1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.SecurityConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.Elements",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.PasswordEncoderParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.EntryPointInjectionBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.ConfigUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.FilterChainMapBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.SessionRegistryInjectionBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.LdapConfigUtils$ContextSourceSettingPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.LdapServerBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.ConfigUtils$FilterChainList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.LdapProviderBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.JdbcUserServiceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.InterceptMethodsBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/spring-security.xsl",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.CustomAuthenticationProviderBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.ApacheDSContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/spring-security-2.0.2.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.LdapConfigUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.OrderedFilterBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.MethodSecurityInterceptorPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.BeanIds",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.HttpSecurityBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.CachingUserDetailsService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.RememberMeBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.AuthenticationProviderBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.UserServiceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.SecurityNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.UserDetailsServiceInjectionBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/spring-security-2.0.4.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.InternalInterceptMethodsBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.FilterChainProxyPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.LogoutBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.FormLoginBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.AuthenticationProviderBeanDefinitionParser$AuthenticationProviderCacheResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.SaltSourceBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/spring-security-2.0.4.rnc",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.AuthenticationManagerBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.OrderedFilterBeanDefinitionDecorator$OrderedFilterDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.ConcurrentSessionsBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.AnonymousBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.NamespaceAuthenticationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.X509BeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/catalog.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.BasicAuthenticationBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/config/spring-security-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.config.GlobalMethodSecurityBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.CustomAfterInvocationProviderBeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.RememberMeServicesInjectionBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.config.LdapUserServiceBeanDefinitionParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.concurrent.SessionRegistryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.NullConcurrentSessionController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.SessionRegistryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.ConcurrentSessionFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.SessionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.SessionAlreadyUsedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.SessionIdentifierAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.ConcurrentLoginException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.SessionInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.ConcurrentSessionControllerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.concurrent.ConcurrentSessionController",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.authoritymapping",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.authoritymapping.XmlMappableAttributesRetriever$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.XmlMappableAttributesRetriever",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.Attributes2GrantedAuthoritiesMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.SimpleAttributes2GrantedAuthoritiesMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.XmlMappableAttributesRetriever$IgnoreCloseInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.MappableAttributesRetriever",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.XmlMappableAttributesRetriever$MyEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.MapBasedAttributes2GrantedAuthoritiesMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.authoritymapping.SimpleMappableAttributesRetriever",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.afterinvocation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.afterinvocation.BasicAclEntryAfterInvocationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.CollectionFilterer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.BasicAclEntryAfterInvocationCollectionFilteringProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.AfterInvocationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.ArrayFilterer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.Filterer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.afterinvocation.AfterInvocationProviderManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.adapters",
+         "packageMembers": [
+            {
+               "name": "org/springframework/security/adapters/adaptertest-valid.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.adapters.AuthByAdapterProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.adapters.AbstractAdapterAuthenticationToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.adapters.HttpRequestIntegrationFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/adapters/adaptertest-invalid.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/security/adapters/acegisecurity.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.adapters.AuthByAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.adapters.PrincipalSpringSecurityUserToken",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.acl.basic.jdbc",
+         "packageMembers": [
+            {
+               "name": "org/springframework/security/acl/basic/jdbc/acegi-acl-postgres.sql",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcDaoImpl$AclsByObjectIdentityMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/acl/basic/jdbc/acegi-acl-derby.sql",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/security/acl/basic/jdbc/acegi-acl-mysql.sql",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl$AclPermissionUpdate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcDaoImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl$AclObjectIdentityDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcDaoImpl$ObjectPropertiesMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/security/acl/basic/jdbc/acegi-acl-hsql.sql",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcDaoImpl$AclDetailsHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl$AclObjectIdentityInsert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl$LookupPermissionIdMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl$AclPermissionDelete",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.jdbc.JdbcExtendedDaoImpl$AclPermissionInsert",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.acl",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acl.AclProviderManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.AclManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.AclProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.AclEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.acl.basic",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acl.basic.AclObjectIdentityAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.EffectiveAclsResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.BasicAclDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.BasicAclExtendedDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.NamedEntityObjectIdentity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.BasicAclEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.AbstractBasicAclEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.GrantedAuthorityEffectiveAclsResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.BasicAclEntryCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.BasicAclProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.SimpleAclEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.AclObjectIdentity",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      },
+      {
+         "name": "org.springframework.security.acl.basic.cache",
+         "packageMembers": [
+            {
+               "name": "org.springframework.security.acl.basic.cache.NullAclEntryCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.cache.BasicAclEntryHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.security.acl.basic.cache.EhCacheBasedAclEntryCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.4.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web.context.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.web.context",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.ldap",
+         "optional": true,
+         "versionRange": "[1.2.1.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ldap.core",
+         "optional": true,
+         "versionRange": "[1.2.1.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.ldap.core.support",
+         "optional": true,
+         "versionRange": "[1.2.1.A, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.metadata",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.mock.web",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.remoting.httpinvoker",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.remoting.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.object",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.i18n",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.config",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.jaxen.dom",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.aop",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.jaxen",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.weaver.tools",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang.reflect",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.protocol.shared.store",
+         "optional": true,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.jndi",
+         "optional": true,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.core.configuration",
+         "optional": true,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.core",
+         "optional": true,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.configuration",
+         "optional": true,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.iterators",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0]"
+      },
+      {
+         "name": "org.apache.commons.codec.digest",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.codec.binary",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache",
+         "optional": true,
+         "versionRange": "[1.4.1, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.security.auth.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.login",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.callback",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.ldap",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.security",
+   "version": "2.0.4.A"
+}}

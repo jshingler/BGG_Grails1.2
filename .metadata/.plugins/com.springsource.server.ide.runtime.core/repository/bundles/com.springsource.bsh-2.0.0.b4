@@ -1,0 +1,1021 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:49:55.0",
+   "moduleName": "com.springsource.bsh",
+   "name": "BeanShell (bsh)",
+   "notes": "",
+   "organisationName": "org.beanshell",
+   "packageExports": [
+      {
+         "name": "bsh",
+         "packageMembers": [
+            {
+               "name": "bsh.ReflectError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ReturnControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHTryStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHFormalParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.JavaCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Parser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.XThis",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ExternalNameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHBinaryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.NameSource$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.SimpleNode$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHEnhancedForStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHTypedVariableDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassPathException",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHArrayDimensions",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Interpreter",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHType",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Primitive$Special",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BshClassManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.TargetError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHCastExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ReflectManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHFormalComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Remote",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHReturnType",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ConsoleInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BlockNameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ParserTreeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.EvalError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BshIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BshMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHIfStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Types",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHArguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHTernaryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.LHS",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHSwitchStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHSwitchLabel",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHStatementExpressionList",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassGeneratorImpl$ClassNodeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.This",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.StringUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.CollectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Parser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHPrimitiveType",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHPrimarySuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHClassDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.NameSpace",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHWhileStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHAssignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHPrimaryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.SimpleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.UtilEvalError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHPackageDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BshClassManager$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Interpreter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHBlock$NodeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHFormalParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BshClassManager$SignatureKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Capabilities$Unavailable",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHMethodDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.CollectionManager$BasicBshIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.JJTParserState",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Reflect",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassGeneratorUtil$ConstructorArgs",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Modifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.CallStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.UtilTargetError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHAmbiguousName",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHThrowStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassGeneratorUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.XThis$Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHArrayInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHMethodInvocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Console",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Variable",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.CollectionManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Capabilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHImportDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHUnaryExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHReturnStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.DelayedEvalBshMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.InterpreterError",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.NameSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHVariableDeclarator",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHForStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.Primitive",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.ClassGeneratorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.BSHAllocationExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.CommandLineReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.util.lib",
+         "packageMembers": [
+            {
+               "name": "bsh/util/lib/splash.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/small_bean_shell.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/icon.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/script.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/remote.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/eye.jpg",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/workspace.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/jconsole.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/util/lib/awtconsole.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.util",
+         "packageMembers": [
+            {
+               "name": "bsh.util.ClassBrowser$PackageTree",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.AWTConsole$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.HttpdConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.ClassBrowser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.Httpd",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.NameCompletion",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JDemoApplet",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.ClassBrowser$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.SessiondConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.AWTDemoApplet",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.GUIConsoleInterface",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole$BlockingPipedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.AWTConsole",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.Sessiond",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.ClassBrowser",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JRemoteApplet",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.NameCompletionTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.JConsole$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.AWTRemoteApplet",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.BshCanvas",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.util.BeanShellBSFEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.servlet",
+         "packageMembers": [
+            {
+               "name": "bsh/servlet/result.template",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/servlet/page.template",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh.servlet.SimpleTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.servlet.BshServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh/servlet/error.template",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/servlet/getVersion.bsh",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.reflect",
+         "packageMembers": {
+            "name": "bsh.reflect.ReflectManagerImpl",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.org.objectweb.asm",
+         "packageMembers": [
+            {
+               "name": "bsh.org.objectweb.asm.ClassWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.ClassVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.Item",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.CodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.Edge",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.CodeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.Label",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.org.objectweb.asm.ByteVector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.commands",
+         "packageMembers": [
+            {
+               "name": "bsh/commands/bind.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/importObject.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/setAccessibility.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/unset.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/getResource.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/mv.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/cp.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/pwd.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/print.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/server.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/setNameCompletion.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/error.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/workspaceEditor.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/fontMenu.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/bg.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/addClassPath.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/getBshPrompt.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/setNameSpace.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/getClassPath.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/frame.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/importCommands.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/desktop.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/sourceRelative.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/editor.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/save.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/printBanner.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/run.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/exit.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/makeWorkspace.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/source.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/browseClass.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/extend.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/setClassPath.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/setFont.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/debug.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/javap.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/cd.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/cat.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/dirname.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/which.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/eval.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/pathToFile.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/reloadClasses.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/getClass.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/thinBorder.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/object.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/setStrictJava.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/classBrowser.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/getSourceFileInfo.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/rm.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/clear.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh.commands.dir",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh/commands/load.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/show.bsh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "bsh/commands/exec.bsh",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.collection",
+         "packageMembers": [
+            {
+               "name": "bsh.collection.CollectionManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.collection.CollectionIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b4"
+      },
+      {
+         "name": "bsh.classpath",
+         "packageMembers": [
+            {
+               "name": "bsh.classpath.BshClassPath$JarClassSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath$UnqualifiedNameTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath$DirClassSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath$ClassSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath$GeneratedClassSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.DiscreteFilesClassLoader$ClassSourceMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.ClassPathListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath$AmbiguousName",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.BshClassPath$MappingFeedback",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.DiscreteFilesClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "bsh.classpath.ClassManagerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.b4"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.bsf",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.bsf.util",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.swing.tree",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.text",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.plaf.basic",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.plaf",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.event",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing.border",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.swing",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.bsh",
+   "version": "2.0.0.b4"
+}}

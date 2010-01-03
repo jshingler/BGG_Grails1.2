@@ -1,0 +1,860 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 16:29:54.0",
+   "moduleName": "org.springframework.batch.core",
+   "name": "Spring Batch - Core",
+   "notes": "",
+   "organisationName": "org.springframework.batch",
+   "packageExports": [
+      {
+         "name": "org.springframework.batch.core.step.skip",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.step.skip.SkipLimitExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.skip.ItemSkipPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.skip.NeverSkipItemSkipPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.skip.LimitCheckingItemSkipPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.skip.AlwaysSkipItemSkipPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.step.tasklet",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.step.tasklet.Tasklet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.tasklet.TaskletStep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.tasklet.TaskletAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.StepExecution",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.ChunkListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.Step",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.ItemWriteListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.BatchStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobParametersBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.UnexpectedJobExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.StepExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.StepContribution",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.ItemReadListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.SkipListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.StartLimitExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.StepListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.Job",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobInterruptedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.JobExecution",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.step.item",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.step.item.BatchListenerFactoryHelper$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SimpleRetryExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.TransactionInterceptorValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SkipLimitStepFactoryBean$StatefulRetryItemHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SkipLimitStepFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.BatchListenerFactoryHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.RepeatOperationsStepFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SkipLimitStepFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SimpleItemHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.BatchListenerFactoryHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemOrientedStep$ExceptionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SkipLimitStepFactoryBean$StatefulRetryItemHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemOrientedStep$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.StatefulRetryStepFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SimpleStepFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemSkipPolicyItemHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemOrientedStep$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.DefaultItemFailureHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.SkipLimitStepFactoryBean$StatefulRetryItemHandler$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemOrientedStep",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.BatchListenerFactoryHelper$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.ItemSkipPolicyItemHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.item.AbstractStepFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.step",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.step.StepExecutionSynchronizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.StepExecutionSynchronizerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.AbstractStep$FatalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.NoWorkFoundStepExecutionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.BackportConcurrentStepExecutionSynchronizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.ThreadStepInterruptionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.StepInterruptionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.JdkConcurrentStepExecutionSynchronizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.step.AbstractStep",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.resource",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.resource.StepExecutionSimpleCompletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.resource.StepExecutionResourceProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.resource.StepExecutionPreparedStatementSetter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.repository.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.repository.support.MapJobRepositoryFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.support.AbstractJobRepositoryFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.support.SimpleJobRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.support.JobRepositoryFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.repository.dao",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcJobInstanceDao$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JobExecutionDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.AbstractJdbcBatchMetadataDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcExecutionContextDao$AttributeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcJobInstanceDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcExecutionContextDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcJobExecutionDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.StepExecutionDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.NoSuchObjectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcStepExecutionDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcJobExecutionDao$JobExecutionRowMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.MapJobInstanceDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.MapJobExecutionDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcExecutionContextDao$ExecutionContextRowCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcExecutionContextDao$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JobInstanceDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcJobInstanceDao$ParameterType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcStepExecutionDao$StepExecutionRowMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.MapStepExecutionDao",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.dao.JdbcExecutionContextDao$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.repository",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.DuplicateJobException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.JobRestartException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.JobExecutionAlreadyRunningException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.NoSuchJobException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.repository.JobRepository",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.listener",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.listener.CompositeExecutionJobListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.SkipListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.CompositeSkipListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.MulticasterBatchListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.StepExecutionListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.StepListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.JobExecutionListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.CompositeItemWriteListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.ItemListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.ChunkListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.CompositeItemReadListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.OrderedComposite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.CompositeChunkListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.listener.CompositeStepExecutionListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.launch.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.launch.support.SimpleJvmExitCodeMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.SimpleExportedJobLauncher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.CommandLineJobRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.SimpleJobLauncher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.ScheduledJobParametersFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.SystemExiter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.JvmSystemExiter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.ExportedJobLauncher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.ExitCodeMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.launch.support.SimpleJobLauncher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.launch",
+         "packageMembers": {
+            "name": "org.springframework.batch.core.launch.JobLauncher",
+            "type": "CLASS"
+         },
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.job",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.job.AbstractJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.job.SimpleJob",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.configuration",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.configuration.JobLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.ListableJobRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.JobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.JobRegistry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.converter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.converter.JobParametersConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.converter.DefaultJobParametersConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.core.configuration.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.core.configuration.support.ReferenceJobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.support.ClassPathXmlApplicationContextJobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.support.JobRegistryBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.support.MapJobRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.core.configuration.support.ClassPathXmlApplicationContextJobFactory$ContextClosingJob",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.1.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.interceptor",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.support.lob",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.support.incrementer",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.batch.support.transaction",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.retry.support",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.support",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.retry.policy",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.retry.listener",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.retry.callback",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.retry.backoff",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.retry",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.repeat.support",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.item.adapter",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.item.database.support",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.item.support",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.item.validator",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.repeat",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.repeat.exception",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.repeat.listener",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.batch.repeat.policy",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.batch.item",
+         "optional": false,
+         "versionRange": "[1.1.1.RELEASE, 1.1.1.RELEASE]"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.batch.core",
+   "version": "1.1.1.RELEASE"
+}}

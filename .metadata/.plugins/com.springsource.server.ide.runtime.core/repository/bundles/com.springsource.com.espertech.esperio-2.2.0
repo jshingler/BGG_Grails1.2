@@ -1,0 +1,442 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:17:52.0",
+   "moduleName": "com.springsource.com.espertech.esperio",
+   "name": "Esper CEP engine for Java - Input Output Adapters",
+   "notes": "",
+   "organisationName": "com.espertech",
+   "packageExports": [
+      {
+         "name": "com.espertech.esperio",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.SendableEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.Adapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AdapterStateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AbstractSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AdapterCoordinatorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.CoordinatedAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.DirectSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AdapterCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.SpringContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AbstractCoordinatedAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AbstractSendableEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AbstractCoordinatedAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.SendableMapEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AdapterState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.InputAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AdapterInputSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.SpringContextLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.IllegalStateTransitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.AdapterSPI",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.SendableEventComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.SendableBeanEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.OutputAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "com.espertech.esperio.subscription",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.subscription.BaseSubscription",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.subscription.Subscription",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "com.espertech.esperio.representation.axiom",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomConfigurationParserXML",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomEventRepresentation",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.ConfigurationEventTypeAxiom$XPathPropertyDesc",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxionEventSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomXPathNamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomEventTypeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.ConfigurationEventTypeAxiom",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomXMLEventType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomEventBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxionEventBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.representation.axiom.AxiomXPathPropertyGetter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "com.espertech.esperio.message.fix",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.message.fix.FixMsgMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.message.fix.FixMsgInvalidException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.message.fix.FixMsgUnrecognizableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.message.fix.FixMsgParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.message.fix.FixMsgParserException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "com.espertech.esperio.jms",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.jms.SpringJMSTemplateInputAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.SpringJMSTemplateOutputAdapter$SpringMessageCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSSubscription",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSInputAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSDefaultAnyMessageUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSFixProtocolTextMessageMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSDefaultMapMessageMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.SpringJMSTemplateOutputAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSMessageMarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSOutputAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.SpringJMSTemplateOutputAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSFixProtocolTextMessageUnmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.jms.JMSMessageUnmarshaller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "com.espertech.esperio.ext",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.ext.SenderThreadPool$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.ext.BasicTypeCoercerDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.ext.SenderThreadPool$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.ext.SenderThreadPool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      },
+      {
+         "name": "com.espertech.esperio.csv",
+         "packageMembers": [
+            {
+               "name": "com.espertech.esperio.csv.CSVSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.csv.BasicTypeCoercer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.csv.CSVInputAdapterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.csv.AbstractTypeCoercer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.csv.CSVInputAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.csv.CSVReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.espertech.esperio.csv.CSVPropertyOrderHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.context.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.core",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 3.0.0)"
+      },
+      {
+         "name": "org.jaxen",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om.xpath",
+         "optional": false,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om",
+         "optional": false,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.reflect",
+         "optional": false,
+         "versionRange": "[2.1.3, 3.0.0)"
+      },
+      {
+         "name": "javax.xml.xpath",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.util",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.schedule",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.plugin",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.pattern",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.filter",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.event.xml",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.event",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.epl.metric",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.core",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.client",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "com.espertech.esper.client.time",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.espertech.esperio",
+   "version": "2.2.0"
+}}

@@ -1,0 +1,2507 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:05:16.0",
+   "moduleName": "com.springsource.org.castor",
+   "name": "Castor Data Binding Framework",
+   "notes": "",
+   "organisationName": "org.codehaus.castor",
+   "packageExports": [
+      {
+         "name": "org.exolab.castor.xml.util",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.util.SAX2ANY",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.DOMEventProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLContainerElementFieldDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.SAX2DOMHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.JDOClassDescriptorResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLFieldDescriptors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.DefaultNaming",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.DocumentHandlerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.ResolverClassCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLClassDescriptorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.ResolverPackageCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.ContainerElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.AnyNode2SAX2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.AlwaysTrueRegExpEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.AttributeSetImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLClassDescriptorResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.AttributeSetImpl$Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLClassDescriptorResolverImpl$DescriptorCacheImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLParserUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.AnyNode2SAX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLClassDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.ResolverStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.ResolverStrategy$ResolverResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.AttributeListWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.XMLFieldDescriptorImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.util.resolvers",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.AbstractResolverPackageCommand",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.CastorXMLStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.ByPackageMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.ByDescriptorClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.ByIntrospection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.ByMappingLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.ResolveHelpers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.ByCDR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.util.resolvers.AbstractResolverClassCommand",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.validators",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.validators.FloatValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.DoubleValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.PatternValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.IdRefValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.DurationValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.ShortValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.IntValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.IdRefsValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.NameValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.ValidationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.SimpleTypeValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.BooleanValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.BigIntegerValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.IdValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.LongValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.DateTimeValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.PatternValidator$DefaultRegExpEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.StringValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.ByteValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.ClassValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.IntegerValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.validators.DecimalValidator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.wls8",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.wls8.WeblogicXercesOutputFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.wls8.WeblogicXercesImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.wls8.WeblogicXercesXMLSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.wls8.WeblogicXercesSerializer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor",
+         "packageMembers": {
+            "name": "org/castor/messages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.handlers",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.handlers.CollectionFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.SQLTimeFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.DefaultFieldHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.EnumFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.DateFieldHandler$ParseOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.ValueOfFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.ToStringFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.ContainerFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.DateFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.handlers.SQLTimestampFieldHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.location",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.location.Location",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.location.XPathLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.location.FileLocation",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml.descriptors",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.descriptors.PrimitivesClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.EnumerationDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.RootArrayDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.SQLTimestampClassDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.SQLTimestampClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.ListClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.LocaleDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.ListClassDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.LocaleDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.SQLTimeClassDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.VectorClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.StringClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.CoreDescriptors",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.SQLDateClassDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.LocaleDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.DateClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.BaseDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.VectorClassDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.SQLDateClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.SQLTimeClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.EnumerationDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.RootArrayDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.descriptors.DateClassDescriptor$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.xml",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.xml.XMLContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.OutputFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.DebugHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLFieldDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Namespaces$NamespaceEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.UnmarshalHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XercesJDK5OutputFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.CastorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLClassDescriptorResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.UnmarshalHandler$ElementInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ValidationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.MarshalFramework$InheritanceMatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.UnmarshalHandler$ArrayHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Validator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Introspector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ClassDescriptorResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.AbstractXMLNaming",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.MarshalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.TypeValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.UnmarshalState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.IDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Serializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.AttributeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Marshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.UnmarshalHandler$Arguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLMappingLoader$IdentityConvertor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.MarshalFramework$InternalXMLClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Introspector$IdentityConvertor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Marshaller$MarshalState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XercesOutputFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ReferenceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.IDResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ResolverException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.MarshalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.MarshalFramework",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XercesJDK5XMLSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.UnmarshalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XercesXMLSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.IntrospectedXMLClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Marshaller$NilObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Marshaller$WrapperInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Unmarshaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ProcessingInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.NodeType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.SAX2EventProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Namespaces$Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.Introspector$MethodSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.ClassDescriptorResolverFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XercesJDK5Serializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLMappingLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLSerializerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.FieldValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XMLContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.AccessRights",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.DescriptorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.XercesSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.xml.EventProducer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.util.resources",
+         "packageMembers": [
+            {
+               "name": "org/exolab/castor/util/resources/datatypes.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/util/resources/SimpleTypes.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/util/resources/structures.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/util/resources/structures.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/util/resources/SimpleTypesMapping.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.util.dialog",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.util.dialog.Dialog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.dialog.ConsoleDialog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.util",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.util.OrderedHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.DefaultObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.JakartaRegExpEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.IteratorEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.NestedIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.JakartaOroEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.ChangeLog2XML$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.ReflectionUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.CommandLineOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.ChangeLog2XML$Changelog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.ChangeLog2XML$Release",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.EventListenerList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.DTDResolver$DTDInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.XercesRegExpEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.CmdLineOption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.DTDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.RegExpEvaluator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.SafeStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.util.ChangeLog2XML",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.types",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.types.GMonthDescriptor$GMonthFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.MonthDescriptor$MonthFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.RecurringDurationDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.Time",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DateDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GMonthDayDescriptor$GMonthDayFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GYearMonthDescriptor$GYearMonthFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GDay",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DateTimeDescriptor$DateTimeFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimeInstant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimePeriod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GYearMonthDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GMonth",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GDayDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimeDurationDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.YearDescriptor$YearFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GYear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DurationDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.RecurringDuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.Duration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GYearMonth",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GDayDescriptor$GDayFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GYearDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DateDescriptor$DateFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GMonthDayDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DateTimeBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GMonthDay",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.BaseDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimeDuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DateTimeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.RecurringDurationDescriptor$RecurringDurationFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DurationDescriptor$DurationFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.AnyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.MonthDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.DateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GYearDescriptor$GYearFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimePeriodDescriptor$TimePeriodFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.EnumeratedTypeAccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimeDurationDescriptor$TimeDurationFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.YearDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.Century",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimePeriodDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.GMonthDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.Date",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.CenturyDescriptor$CenturyFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.RecurringDurationBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.Year",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.Month",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.TimeDescriptor$TimeFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.types.CenturyDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.tools",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.tools.MappingTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.tools.MappingToolMappingLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.net.util",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.net.util.URIUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.net.util.URILocationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.net.util.URIResolverImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.net",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.net.URILocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.net.URIResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.net.URIException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping.xml.types.descriptors",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.xml.types.descriptors.ClassMappingAccessTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.descriptors.SqlDirtyTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.descriptors.FieldMappingCollectionTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.descriptors.BindXmlAutoNamingTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.descriptors.BindXmlNodeTypeDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping.xml.types",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.xml.types.FieldMappingCollectionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.SqlDirtyTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.BindXmlNodeTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.ClassMappingAccessTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.BindXmlAutoNamingTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.FieldMappingCollectionTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.BindXmlAutoNamingType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.SqlDirtyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.ClassMappingAccessType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.types.BindXmlNodeType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping.xml.descriptors",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassChoiceDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MappingRootDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldHandlerDefDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldHandlerDefDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassChoiceDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ParamDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MappingRootDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.PropertyTypeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.KeyGeneratorDefDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.QueryHintDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.NamedQueryDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.LdapDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.PropertyTypeDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MappingRootDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.QueryHintDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.NamedQueryDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassChoiceDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.QueryHintDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.IncludeDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.KeyGeneratorDefDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.CacheTypeMappingDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.CacheTypeMappingDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.KeyGeneratorDefDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.CacheTypeMappingDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.CacheTypeMappingDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.NamedQueryDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ParamDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.PropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ParamDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.KeyGeneratorDefDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MapToDescriptor$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.SqlDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.NamedQueryDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.CacheTypeMappingDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MappingRootDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MappingRootDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.LdapDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ContainerDescriptor$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.PropertyTypeDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldMappingDescriptor$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldHandlerDefDescriptor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.IncludeDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.BindXmlDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.FieldHandlerDefDescriptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.ClassMappingDescriptor$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.descriptors.MappingRootDescriptor$4",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping.xml",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.xml.MapTo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.NamedQuery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.Container",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.KeyGeneratorDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.QueryHint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.Sql",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.Include",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.CacheTypeMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.ClassMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.Param",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.MappingRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.PropertyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.FieldMapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.Ldap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.FieldHandlerDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.BindXml",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.xml.ClassChoice",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping.loader",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.loader.FieldHandlerFriend",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.CollectionHandlers$EmptyEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.AbstractMappingLoader2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.Types$TypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J1CollectionHandlers$ArrayEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.AbstractFieldDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.ExtendedFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.CollectionHandlers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$SortedMapCollectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.AbstractMappingLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.Types",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.FieldHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.CollectionHandlers$Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.TypeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J1CollectionHandlers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J1CollectionHandlers$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.FieldDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$SortedSetCollectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.AbstractMappingLoader$TypeInfoReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.ClassDescriptorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J1CollectionHandlers$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J1CollectionHandlers$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers$IteratorEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J2CollectionHandlers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.loader.J1CollectionHandlers$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping.handlers",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.handlers.J2MapHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.handlers.MapHandlers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.handlers.TransientFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.handlers.J2MapHandler$IteratorEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.handlers.EnumFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.handlers.J1MapHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.mapping",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.mapping.MappingRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.AbstractFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.GeneralizedFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/exolab/castor/mapping/mapping.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.exolab.castor.mapping.FieldDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/exolab/castor/mapping/mapping.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.exolab.castor.mapping.ClassDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/exolab/castor/mapping/mapping-binding.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.exolab.castor.mapping.CollectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.MapHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.MappingLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.AccessMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.ExtendedFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.TypeConvertor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.Mapping",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.ConfigurableFieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.MapItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.GeneralizedFieldHandler$GFHConverterEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.ValidityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.FieldHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.FieldHandlerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.mapping.MappingException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.dsml.tools",
+         "packageMembers": {
+            "name": "org.exolab.castor.dsml.tools.PrintImportListener",
+            "type": "CLASS"
+         },
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.dsml.schema",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.dsml.schema.DTDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/exolab/castor/dsml/schema/dsml-import.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/dsml/schema/dsml.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/dsml/schema/dsml-search.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/exolab/castor/dsml/schema/dsml.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.exolab.castor.dsml.schema.DTDResolver$DTD",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.dsml.mozilla",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.dsml.mozilla.MozillaExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.mozilla.MozillaEntryConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.mozilla.MozillaImporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.mozilla.MozillaProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.mozilla.MozillaConsumer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.dsml.jndi",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.dsml.jndi.JNDIConsumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.jndi.JNDIImporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.jndi.JNDIExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.jndi.JNDIProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.jndi.JNDIEntryConsumer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.dsml",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.dsml.ImportDescriptor$Names",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.Producer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Schema$Elements",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.SearchDescriptor$Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Schema$Attributes$Types",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Entries$Elements",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.SearchDescriptor$Names$Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportExportException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Schema$Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.SearchDescriptor$Names",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Schema",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Entries",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Entries$Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportDescriptor$Policy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportDescriptor$Names$Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.Consumer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.SearchDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.Importer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportDescriptor$DN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.SearchDescriptor$Names$Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.ImportDescriptor$Names$Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.Exporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.dsml.XML$Entries$Attributes$Encodings",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor.core.exceptions",
+         "packageMembers": [
+            {
+               "name": "org.exolab.castor.core.exceptions.CastorIllegalStateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.exolab.castor.core.exceptions.CastorException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.exolab.castor",
+         "packageMembers": {
+            "name": "org/exolab/castor/castor.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.xml",
+         "packageMembers": [
+            {
+               "name": "org/castor/xml/castor.xml.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.castor.xml.JavaNaming",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.xml.BackwardCompatibilityContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.xml.AbstractInternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.xml.JavaNamingImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.xml.InternalContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.xml.XMLConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.xml.XMLNaming",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.util.concurrent",
+         "packageMembers": [
+            {
+               "name": "org.castor.util.concurrent.WriterPreferenceReadWriteLock$Signaller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.WriterPreferenceReadWriteLock$ReaderLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$Segment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.WriterPreferenceReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ReentrantWriterPreferenceReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.WriterPreferenceReadWriteLock$WriterLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ReaderPreferenceReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.concurrent.ConcurrentHashMap$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.util",
+         "packageMembers": [
+            {
+               "name": "org.castor.util.IdentitySet$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.IdentityMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.HexDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.Base64Decoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.MessageKeys",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.EnumerationIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.IdentitySet$IdentityIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.StringUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.IdentityMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.CycleBreaker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.Base64Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.Messages$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.Messages$EmptyResourceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.util.IdentitySet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.mapping",
+         "packageMembers": [
+            {
+               "name": "org.castor.mapping.MappingLoaderRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.BindingType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.XMLMappingLoaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.MappingLoaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.AbstractMappingLoaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.MappingUnmarshaller$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.MappingSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.MappingUnmarshallListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.JDOMappingLoaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.MappingUnmarshallIDResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.mapping.MappingUnmarshaller",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.core.util",
+         "packageMembers": [
+            {
+               "name": "org.castor.core.util.CastorConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.core.util.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.castor.core.util.Configuration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.core.exceptions",
+         "packageMembers": {
+            "name": "org.castor.core.exceptions.CastorRuntimeException",
+            "type": "CLASS"
+         },
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.castor.core",
+         "packageMembers": [
+            {
+               "name": "org.castor.core.CoreConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/castor/core/castor.core.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.xml.serialize",
+         "optional": true,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.regexp",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.oro.text.regex",
+         "optional": true,
+         "versionRange": "[2.0.8, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "netscape.ldap",
+         "optional": true,
+         "versionRange": "[4.18.0, 5.0.0)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.castor",
+   "version": "1.2.0"
+}}

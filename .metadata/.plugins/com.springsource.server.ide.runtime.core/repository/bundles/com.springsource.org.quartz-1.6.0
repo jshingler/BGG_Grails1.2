@@ -1,0 +1,1220 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:36:56.0",
+   "moduleName": "com.springsource.org.quartz",
+   "name": "Open Symphony Quartz Scheduler",
+   "notes": "",
+   "organisationName": "com.opensymphony.quartz",
+   "packageExports": [
+      {
+         "name": "org.quartz",
+         "packageMembers": [
+            {
+               "name": "org.quartz.JobDetail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SchedulerContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.UnableToInterruptJobException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SchedulerConfigException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SchedulerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.JobExecutionContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.Job",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.TriggerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/quartz/quartz.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.quartz.NthIncludedDayTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SchedulerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SchedulerMetaData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.CronExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.JobPersistenceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.JobExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.JobListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.CronTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.TriggerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.JobDataMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.Calendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SimpleTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ValueSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.Trigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.Scheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.CriticalSchedulerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.SchedulerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ObjectAlreadyExistsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.StatefulJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.InterruptableJob",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.xml",
+         "packageMembers": [
+            {
+               "name": "org.quartz.xml.ValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/quartz/xml/job_scheduling_data_1_5.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor$CalendarRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor$SimpleConverterRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor$TimeZoneConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor$MisfireInstructionRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor$DateConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/quartz/xml/job_scheduling_data_1_5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.quartz.xml.JobSchedulingDataProcessor$TriggerRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.xml.CalendarBundle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.utils.weblogic",
+         "packageMembers": {
+            "name": "org.quartz.utils.weblogic.WeblogicConnectionProvider",
+            "type": "CLASS"
+         },
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.utils",
+         "packageMembers": [
+            {
+               "name": "org.quartz.utils.DirtyFlagMap$DirtyFlagIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DirtyFlagMap$DirtyFlagSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.ExceptionHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.StringKeyDirtyFlagMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DirtyFlagMap$DirtyFlagMapEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.Pair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DirtyFlagMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.JNDIConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.PoolingConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DirtyFlagMap$DirtyFlagMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DirtyFlagMap$DirtyFlagMapEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.PropertiesParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.ConnectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.TriggerStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DBConnectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.utils.DirtyFlagMap$DirtyFlagCollection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.spi",
+         "packageMembers": [
+            {
+               "name": "org.quartz.spi.InstanceIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.SchedulerPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.ClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.JobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.SchedulerSignaler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.TriggerFiredBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.ThreadPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.JobStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.spi.TimeBroker",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.simpl",
+         "packageMembers": [
+            {
+               "name": "org.quartz.simpl.HostnameInstanceIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.TriggerWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.TriggerComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.SimpleThreadPool$WorkerThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.CascadingClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.JobWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.RAMJobStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.SimpleTimeBroker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.ThreadContextClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.LoadingLoaderClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.SimpleThreadPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.InitThreadContextClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.PropertySettingJobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.SimpleInstanceIdGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.SimpleClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.simpl.SimpleJobFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.plugins.xml",
+         "packageMembers": [
+            {
+               "name": "org.quartz.plugins.xml.JobInitializationPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.plugins.xml.JobInitializationPluginMultiple",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.plugins.xml.JobInitializationPlugin$JobFile",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.plugins.history",
+         "packageMembers": [
+            {
+               "name": "org.quartz.plugins.history.LoggingJobHistoryPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.plugins.history.LoggingTriggerHistoryPlugin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.plugins.management",
+         "packageMembers": [
+            {
+               "name": "org.quartz.plugins.management.ShutdownHookPlugin$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.plugins.management.ShutdownHookPlugin",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.plugins",
+         "packageMembers": {
+            "name": "org.quartz.plugins.SchedulerPluginWithUserTransactionSupport",
+            "type": "CLASS"
+         },
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.listeners",
+         "packageMembers": [
+            {
+               "name": "org.quartz.listeners.FilterAndBroadcastTriggerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.listeners.JobChainingJobListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.listeners.FilterAndBroadcastJobListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.listeners.SchedulerListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.listeners.JobListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.listeners.TriggerListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.listeners.BroadcastSchedulerListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.jobs.ee.mail",
+         "packageMembers": [
+            {
+               "name": "org.quartz.jobs.ee.mail.SendMailJob$MailInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.ee.mail.SendMailJob",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.jobs.ee.jmx",
+         "packageMembers": {
+            "name": "org.quartz.jobs.ee.jmx.JMXInvokerJob",
+            "type": "CLASS"
+         },
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.jobs.ee.jms",
+         "packageMembers": [
+            {
+               "name": "org.quartz.jobs.ee.jms.SendTopicMessageJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.ee.jms.SendQueueMessageJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.ee.jms.JmsJobException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.ee.jms.JmsMessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.ee.jms.SendDesitnationMessageJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.ee.jms.JmsHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.jobs.ee.ejb",
+         "packageMembers": {
+            "name": "org.quartz.jobs.ee.ejb.EJBInvokerJob",
+            "type": "CLASS"
+         },
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.jobs",
+         "packageMembers": [
+            {
+               "name": "org.quartz.jobs.NativeJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.NoOpJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.FileScanListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.FileScanJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.jobs.NativeJob$StreamConsumer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.impl.jdbcjobstore.oracle.weblogic",
+         "packageMembers": {
+            "name": "org.quartz.impl.jdbcjobstore.oracle.weblogic.WebLogicOracleDelegate",
+            "type": "CLASS"
+         },
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.impl.jdbcjobstore.oracle",
+         "packageMembers": {
+            "name": "org.quartz.impl.jdbcjobstore.oracle.OracleDelegate",
+            "type": "CLASS"
+         },
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.impl.jdbcjobstore",
+         "packageMembers": [
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$37",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$26",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.StdJDBCDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.PointbaseDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$33",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.MSSQLDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.LockException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreCMT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.SchedulerStateRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JTANonClusteredSemaphore$SemaphoreSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.DB2v7Delegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.DBSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.NoSuchDelegateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$38",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.HSQLDBDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$35",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$31",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.DB2v8Delegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.CloudscapeDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.Semaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.InvalidConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$32",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreTX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$40",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$27",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$28",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.WebLogicDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.TablePrefixAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$VoidTransactionCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.StdJDBCConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.DriverDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$RecoverMisfiredJobsResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$29",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$30",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.PostgreSQLDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.FiredTriggerRecord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.DB2v6Delegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$36",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$TransactionCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JTANonClusteredSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.SimpleSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$39",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$34",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.JobStoreSupport$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.UpdateLockRowSemaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.jdbcjobstore.StdRowLockSemaphore",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.impl.calendar",
+         "packageMembers": [
+            {
+               "name": "org.quartz.impl.calendar.AnnualCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.CalendarComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.DailyCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.BaseCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.WeeklyCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.HolidayCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.CronCalendar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.calendar.MonthlyCalendar",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.impl",
+         "packageMembers": [
+            {
+               "name": "org.quartz.impl.StdSchedulerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.QuartzServer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.RemoteMBeanScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.RemoteScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.DirectSchedulerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.SchedulerRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.StdScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.impl.StdJobRunShellFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.helpers",
+         "packageMembers": [
+            {
+               "name": "org.quartz.helpers.TriggerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.helpers.VersionPrinter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.ee.servlet",
+         "packageMembers": [
+            {
+               "name": "org.quartz.ee.servlet.QuartzInitializerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ee.servlet.QuartzInitializerServlet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.ee.jta",
+         "packageMembers": [
+            {
+               "name": "org.quartz.ee.jta.UserTransactionHelper$UserTransactionWithContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ee.jta.JTAJobRunShell",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ee.jta.JTAJobRunShellFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ee.jta.UserTransactionHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.ee.jmx.jboss",
+         "packageMembers": [
+            {
+               "name": "org.quartz.ee.jmx.jboss.JBoss4RMIRemoteMBeanScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ee.jmx.jboss.QuartzServiceMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.ee.jmx.jboss.QuartzService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      },
+      {
+         "name": "org.quartz.core",
+         "packageMembers": [
+            {
+               "name": "org.quartz.core.RemotableQuartzScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.ExecutingJobsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.SchedulingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.JobRunShellFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.QuartzScheduler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.QuartzSchedulerThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.QuartzScheduler_Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.QuartzScheduler_Skel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.JobRunShell",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/quartz/core/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.quartz.core.JobRunShell$VetoedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.ErrorLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.QuartzSchedulerResources",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.quartz.core.SchedulerSignalerImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.6.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "weblogic.jdbc.vendor.oracle",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "weblogic.jdbc.jts",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jboss.system",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jboss.naming",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jboss.logging",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.commons.modeler",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.digester",
+         "optional": true,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.dbcp",
+         "optional": true,
+         "versionRange": "[1.2.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "oracle.sql",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 10.3.0.0]"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.rmi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.ejb",
+         "optional": true,
+         "versionRange": "[3.0.0, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.quartz",
+   "version": "1.6.0"
+}}

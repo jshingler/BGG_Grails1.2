@@ -1,0 +1,1262 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:47:38.0",
+   "moduleName": "com.springsource.org.apache.velocity",
+   "name": "Apache Velocity Engine",
+   "notes": "",
+   "organisationName": "org.apache.velocity",
+   "packageExports": [
+      {
+         "name": "org.apache.velocity.texen",
+         "packageMembers": {
+            "name": "org.apache.velocity.texen.Generator",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.texen.ant",
+         "packageMembers": {
+            "name": "org.apache.velocity.texen.ant.TexenTask",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.texen.defaults",
+         "packageMembers": {
+            "name": "org/apache/velocity/texen/defaults/texen.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.texen.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.texen.util.PropertiesUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.texen.util.FileUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.util.StringUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.ExceptionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.TemplateNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.ArrayIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.SimplePool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.RuntimeServicesAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.EnumerationIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.ContextAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.ClassUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.util.introspection",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.util.introspection.IntrospectionCacheData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.MethodMap$AmbiguousException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.ClassMap$MethodCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.SecureUberspector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.VelPropertyGet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.VelPropertySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.IntrospectorCacheImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.UberspectImpl$VelGetterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.IntrospectorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.Introspector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.ClassMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.UberspectImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.Uberspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.UberspectImpl$VelSetterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.ClassMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.IntrospectorCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.SecureIntrospectorImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.MethodMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.UberspectLoggable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.ClassMap$MethodCache$CacheMiss",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.SecureIntrospectorControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.IntrospectorCacheListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.util.introspection.VelMethod",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.VelocityContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.Template",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.servlet",
+         "packageMembers": {
+            "name": "org.apache.velocity.servlet.VelocityServlet",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.visitor",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.visitor.NodeViewMode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.visitor.VMReferenceMungeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.visitor.BaseVisitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.log",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.log.Log",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.RuntimeLoggerLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.AvalonLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.HoldingLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.LogChuteSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.JdkLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.AvalonLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.NullLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.PrimordialLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.LogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.LogManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.SystemLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.LogDisplayWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.Log4JLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.SimpleLog4JLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.LogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.NullLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.Log4JLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.log.VelocityFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.parser",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.TemplateParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.ParserVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.ParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.CharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.Parser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.VelocityCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.Parser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.JJTParserState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.ParserTreeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.ParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.Parser$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.parser.node",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTElseIfStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTObjectArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.GetExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTNotNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTSubtractNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.SetPropertyExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTIntegerLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTWord",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.SimpleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTSetDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTModNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTFalse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTDivNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.PutExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTAssignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTComment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.MathUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTOrNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.PropertyExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTEscape",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTStop",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.AbstractExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.SetExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTNENode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTLTNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.NodeUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTMethod$MethodCacheKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTGTNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTStringLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTLENode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTIncludeStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTprocess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTDirective",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTVariable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTIntegerRange",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTGENode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTAddNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTAndNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTFloatingPointLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTMulNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.MapGetExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTIfStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.MapSetExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTElseStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTEQNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.parser.node.ASTEscapedDirective",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.resource.ResourceManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.ResourceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.ResourceCacheImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.Resource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.ContentResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.ResourceCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.ResourceFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource.loader",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.JarResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.StringResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.StringResourceLoader$RepositoryFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.JarHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.ResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.URLResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.loader.FileResourceLoader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.resource.util.StringResourceRepository",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.util.StringResourceRepositoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.resource.util.StringResource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.directive",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.directive.Directive",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Include",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Foreach",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Foreach$NullHolderContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.DirectiveConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Macro",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.VelocimacroProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.VMProxyArg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Foreach$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.MacroParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Parse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.InputBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.directive.Literal",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime.defaults",
+         "packageMembers": [
+            {
+               "name": "org/apache/velocity/runtime/defaults/velocity.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/velocity/runtime/defaults/directive.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.runtime",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.runtime.VelocimacroManager$MacroEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.ParserPoolImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.VelocimacroManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.RuntimeSingleton",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.RuntimeLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.Runtime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.RuntimeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.VelocimacroManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.VelocimacroFactory$Twonk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.VelocimacroFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.VelocimacroFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.RuntimeInstance",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.RuntimeServices",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.runtime.ParserPool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.io",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.io.UnicodeInputStream$UnicodeBOM",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.io.UnicodeInputStream$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.io.UnicodeInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.io.VelocityWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.exception",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.exception.ExtendedParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.exception.ResourceNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.exception.MethodInvocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.exception.VelocityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.exception.TemplateInitException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.exception.ParseErrorException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.convert",
+         "packageMembers": {
+            "name": "org.apache.velocity.convert.WebMacro",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.context.InternalHousekeepingContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.InternalEventContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.AbstractContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.InternalContextBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.VMContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.InternalWrapperContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.InternalContextAdapterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.context.InternalContextAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.app.tools",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.app.tools.VelocityFormatter$VelocityAutoAlternator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.tools.VelocityFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.app.event.implement",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.app.event.implement.EscapeSqlReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.EscapeXmlReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.EscapeReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.EscapeJavaScriptReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.IncludeRelativePath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.InvalidReferenceInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.PrintExceptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.IncludeNotFound",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.ReportInvalidReferences",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.implement.EscapeHtmlReference",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.app.event",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.app.event.InvalidReferenceEventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.NullSetEventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.EventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.IncludeEventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.ReferenceInsertionEventHandler$referenceInsertExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.EventHandlerUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.NullSetEventHandler$ShouldLogOnNullSetExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.MethodExceptionEventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.EventCartridge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.InvalidReferenceEventHandler$InvalidSetMethodExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.MethodExceptionEventHandler$MethodExceptionExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.IncludeEventHandler$IncludeEventExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.ReferenceInsertionEventHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.EventHandlerMethodExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.InvalidReferenceEventHandler$InvalidGetMethodExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.event.InvalidReferenceEventHandler$InvalidMethodExecutor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.app",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.app.VelocityEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.Velocity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.app.FieldMethodizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.apache.velocity.anakia",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.anakia.TreeWalker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.AnakiaElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.AnakiaJDOMFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.OutputWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.NodeList$AttributeXMLOutputter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.NodeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.AnakiaTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.NodeList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.XPathTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.XPathCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.AnakiaTask$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.anakia.Escape",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.jdom.output",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom.input",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant.taskdefs",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.jdom",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.oro.text.perl",
+         "optional": true,
+         "versionRange": "[2.0.8, 3.0.0)"
+      },
+      {
+         "name": "org.apache.log4j",
+         "optional": true,
+         "versionRange": "[1.2.15, 2.0.0)"
+      },
+      {
+         "name": "org.apache.log.output.io",
+         "optional": true,
+         "versionRange": "[1.0.1, 1.0.1]"
+      },
+      {
+         "name": "org.apache.log.format",
+         "optional": true,
+         "versionRange": "[1.0.1, 1.0.1]"
+      },
+      {
+         "name": "org.apache.log",
+         "optional": true,
+         "versionRange": "[1.0.1, 1.0.1]"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": false,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections.map",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.werken.xpath",
+         "optional": true,
+         "versionRange": "[0.9.4, 1.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.velocity",
+   "version": "1.5.0"
+}}

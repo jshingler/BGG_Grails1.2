@@ -1,0 +1,98 @@
+{"bundle": {
+   "dateAdded": "2008-12-17 19:27:03.0",
+   "moduleName": "org.springframework.integration.stream",
+   "name": "Spring Integration Stream Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.stream",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.stream.CharacterStreamReadingMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.stream.ByteStreamWritingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.stream.CharacterStreamWritingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.stream.ByteStreamReadingMessageSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.stream.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.stream.config.ConsoleOutboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.stream.config.ConsoleInboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.stream.config.StreamNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/stream/config/spring-integration-stream-1.0.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.1.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.stream",
+   "version": "1.0.1.RELEASE"
+}}

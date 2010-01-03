@@ -1,0 +1,1575 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:21:03.0",
+   "moduleName": "com.springsource.com.sun.faces",
+   "name": "Sun JSF Reference Implementation",
+   "notes": "",
+   "organisationName": "com.sun.faces",
+   "packageExports": [
+      {
+         "name": "com.sun.faces",
+         "packageMembers": [
+            {
+               "name": "com/sun/faces/web-facesconfig_1_1.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/standard-html-renderkit.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/sunjsf.js",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/web-facesconfig_1_2.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/web-facesconfig_1_0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/javaee_web_services_1_2.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/jsf1_0-1_1toSchema.xsl",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/javaee_web_services_client_1_2.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/javaee_5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.faces.RIConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/faces/datatypes.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/XMLSchema.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/xml.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/LogStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/jsf-ri-runtime.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com/sun/faces/web-facesconfig_1_1.dtd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "javax.faces",
+         "packageMembers": [
+            {
+               "name": "javax/faces/Messages_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/faces/Messages_de.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/faces/Messages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/faces/Messages_en.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "javax/faces/Messages_es.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.vendor",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.vendor.Jetty6InjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.vendor.GlassFishInjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.vendor.Tomcat6InjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.vendor.WebContainerInjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.vendor.GlassFishInjectionProvider$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.util",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.util.FacesLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.Timer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.HtmlUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.ConstantMethodBinding",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.RequestStateManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.DebugUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.MessageFactory$BindingFacesMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.ReflectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.LRUMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.MessageUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.MessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.TypedCollections",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.HtmlUtils$MyByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.Util$TreeTraversalCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.util.ReflectionUtils$MetaData",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.taglib.jsf_core",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValueChangeListenerTag$BindingValueChangeListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ParameterTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ConverterTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.AbstractValidatorTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.SelectItemsTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.AbstractConverterTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ActionListenerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.SelectItemTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.PhaseListenerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ConvertDateTimeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.MaxMinValidatorTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValidatorTag$BindingValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.SetPropertyActionListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ConverterTag$BindingConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.SubviewTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ViewTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValidateLengthTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.CoreValidator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.LoadBundleTag$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.AttributeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.PhaseListenerTag$BindingPhaseListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.IdTagParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValueChangeListenerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValidatorTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.CoreValidator$CoreValidatorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.LoadBundleTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ActionListenerTag$BindingActionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.SetPropertyActionListenerTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.CoreValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ConvertNumberTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.VerbatimTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.ValidateLongRangeTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.LoadBundleTag$LoadBundleComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.jsf_core.CoreTagParserImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.taglib.html_basic",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.taglib.html_basic.FormTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectManyCheckboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.HtmlBasicValidator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectManyListboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.InputHiddenTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.PanelGridTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.CommandTagParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.InputSecretTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.InputTextareaTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.HtmlBasicValidator$HtmlBasicValidatorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.OutputLabelTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.HtmlBasicValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.CommandButtonTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.OutputTextTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectOneListboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.InputTextTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.OutputLinkTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.GraphicImageTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectManyMenuTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.MessagesTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectOneMenuTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.DataTableTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.ColumnTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.OutputFormatTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.SelectOneRadioTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.PanelGroupTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.CommandLinkTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.html_basic.MessageTag",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.taglib",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.taglib.ValidatorInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.FacesValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.taglib.TagParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.spi",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.spi.SerializationProviderFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.SerializationProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.SerializationProviderFactory$JavaSerializationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.InjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.ManagedBeanFactoryWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.InjectionProviderFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.InjectionProviderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.DiscoverableInjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.InjectionProviderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.ManagedBeanFactory$Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.SerializationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.InjectionProviderFactory$NoopInjectionProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.spi.ManagedBeanFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.resources",
+         "packageMembers": {
+            "name": "com/sun/faces/resources/Resources.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.renderkit.html_basic",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.renderkit.html_basic.SelectManyCheckboxListRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.BaseTableRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.LinkRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.OutputMessageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.HtmlBasicInputRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.ListboxRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.BaseTableRenderer$TableMetaInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.FormRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.LabelRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.GridRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.HtmlBasicRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.GroupRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.RadioRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.MenuRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.ImageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.MessagesRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.CommandLinkRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.TableRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.TextRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.MessageRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.SecretRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.HiddenRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.HtmlResponseWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.ButtonRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.HtmlBasicRenderer$Param",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.TextareaRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.CheckboxRenderer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.html_basic.OutputLinkRenderer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.renderkit",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.renderkit.ByteArrayGuard",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.AttributeManager$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.RenderKitFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.RenderKitImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.AttributeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.ResponseStateManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.JsfJsResourcePhaseListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.ApplicationObjectInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.RenderKitImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.renderkit.RenderKitUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.mgbean",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.mgbean.BeanBuilder$Expression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanPreProcessingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder$BakedProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager$ScopeManager$ScopeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanPreProcessingException$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder$BakedListProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedListBeanBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanInfo$ListEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager$ScopeManager$RequestScopeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager$ScopeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder$BakedMapProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ErrorBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder$BakedBeanProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanInfo$MapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager$ScopeManager$ApplicationScopeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedMapBeanBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder$PropertyType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager$ScopeManager$SessionScopeHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.ManagedBeanInfo$ManagedProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.mgbean.BeanManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.lifecycle",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.lifecycle.UpdateModelValuesPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.ProcessValidationsPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.Phase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.LifecycleImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.ApplyRequestValuesPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.InvokeApplicationPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.RestoreViewPhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.RenderResponsePhase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.LifecycleFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.lifecycle.ELResolverInitPhaseListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.io",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.io.FastStringWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.io.Base64OutputStreamWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.io.Base64InputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.el",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.el.FacesCompositeELResolver$ELResolverChainType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ImplicitObjectELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ChainAwareVariableResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.VariableResolverChainWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.FacesResourceBundleELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELContextListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.PropertyResolverChainWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.DummyPropertyResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELContextImpl$VariableMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.VariableResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.PropertyResolverImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ManagedBeanELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ScopedAttributeELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELContextImpl$NoopFunctionMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.FacesCompositeELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ImplicitObjectELResolverForJsp",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.el.ELUtils$Scope",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.context",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.context.BaseContextMap$BaseSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$BaseIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$ValueCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.FacesContextFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.ExternalContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestHeaderMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestCookieMap$CookieArrayEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.SessionMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.ExternalContextImpl$LocalesIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestParameterValuesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.InitParameterMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.FacesContextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.StringArrayValuesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.ExternalContextImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.BaseContextMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestCookieMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.RequestHeaderValuesMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.context.ApplicationMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.config.processor",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.config.processor.FactoryConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.ApplicationConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.ValidatorConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.RenderKitConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.ManagedBeanConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.LifecycleConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.AbstractConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.ConverterConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.ConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.ComponentConfigProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.processor.NavigationConfigProcessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.config",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.config.JSFVersionTracker",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.InitFacesContext$ServletContextAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.InitFacesContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigureListener$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigManager$URLTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.DbfFactory$FacesSchema",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.DbfFactory$Input",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.DbfFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigureListener$WebXmlProcessor$WebXmlHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.InitFacesContext$ApplicationMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.WebConfiguration$WebContextInitParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.WebConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigureListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.JSFVersionTracker$Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.DbfFactory$FacesEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.DbfFactory$FacesErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.DbfFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.Verifier$ObjectType",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.InitFacesContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.WebConfiguration$WebEnvironmentEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigureListener$WebXmlProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.ConfigManager$ParseTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.JSFVersionTracker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.WebConfiguration$BooleanWebContextInitParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.JSFVersionTracker$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.config.configprovider",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.config.configprovider.MetaInfResourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.configprovider.WebResourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.configprovider.RIConfigResourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.config.configprovider.ConfigurationResourceProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      },
+      {
+         "name": "com.sun.faces.application",
+         "packageMembers": [
+            {
+               "name": "com.sun.faces.application.ByteArrayWebOutputStream$DirectByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.StateManagerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ApplicationAssociate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.MethodExpressionMethodBindingAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.WebPrintWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.NavigationHandlerImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ByteArrayWebOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.WebPrintWriter$NoOpWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ViewHandlerResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.StateManagerImpl$FacetNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ApplicationAssociate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFactory$ClassTemplateInfo$Utf8InfoRef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ApplicationResourceBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ActionListenerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ValueExpressionValueBindingAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ValueBindingValueExpressionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ByteArrayWebOutputStream$NoOpOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.InterweavingResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConfigNavigationCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFactory$DisposableClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ViewHandlerPortletResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ApplicationAssociate$SortIt",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ViewHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ViewHandlerImpl$WriteBehindStateWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.WebappLifecycleListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ApplicationFactoryImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFactory$ClassTemplateInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFactory$ClassTemplateInfo$Utf8InfoReplacement",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ConverterPropertyEditorFor_XXXX",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.NavigationHandlerImpl$CaseStruct",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.ApplicationImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.MethodBindingMethodExpressionAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.NavigationHandlerImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.faces.application.StateManagerImpl$TreeNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0.08"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.ls",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.mortbay.jetty.annotations",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.mortbay.jetty.plus.annotation",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.xpath",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.validation",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.jstl.core",
+         "optional": true,
+         "versionRange": "[1.1.2, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.portlet",
+         "optional": true,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.el",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.annotation",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "com.sun.faces.config.beans",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.enterprise.deployment",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.enterprise",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.sun.faces",
+   "version": "1.2.0.08"
+}}

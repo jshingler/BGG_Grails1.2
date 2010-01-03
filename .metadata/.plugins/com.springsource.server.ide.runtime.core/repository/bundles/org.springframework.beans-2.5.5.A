@@ -1,0 +1,1381 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:37:43.0",
+   "moduleName": "org.springframework.beans",
+   "name": "Spring Beans",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.beans.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.support.PropertyComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.ResourceEditorRegistrar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.RefreshablePagedListHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.PagedListSourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.PagedListHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.ArgumentConvertingMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.SortDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.support.MutableSortDefinition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.NullValueInNestedPathException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.TypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanMetadataAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.NotReadablePropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.DirectFieldAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyBatchUpdateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyAccessorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.MutablePropertyValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.TypeConverterDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.DirectFieldAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanWrapperImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanMetadataAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyEditorRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.InvalidPropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.TypeMismatchException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanInstantiationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanMetadataElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyEditorRegistrySupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.GenericTypeAwarePropertyDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanWrapperImpl$PropertyTokenHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyMatches",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.CachedIntrospectionResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.Mergeable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.AbstractPropertyAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyEditorRegistrySupport$CustomEditorHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyAccessorUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyEditorRegistrySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.FatalBeanException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanWrapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.NotWritablePropertyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyEditorRegistrar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeanUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.MethodInvocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyValuesEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.BeansException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.PropertyAccessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.SimpleTypeConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.ConfigurablePropertyAccessor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.propertyeditors",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.propertyeditors.ByteArrayPropertyEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CustomCollectionEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.StringTrimmerEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.FileEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CustomDateEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.ClassEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CharacterEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.URIEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.PropertiesEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.ClassArrayEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CharArrayPropertyEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.InputStreamEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.URLEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.StringArrayPropertyEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CustomBooleanEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.LocaleEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CustomNumberEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CustomMapEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.PatternEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.CharsetEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.propertyeditors.ResourceBundleEditor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$PropertyPathBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.AbstractSimpleBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.PluggableSchemaResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.XmlBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$SetBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.DocumentDefaultsDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$PropertiesBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$ConstantBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.ParserContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.DefaultDocumentLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.DelegatingEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.XmlBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-util-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.BeanDefinitionParserDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.DocumentLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$ListBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.BeansDtdResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-beans-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.BeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.XmlReaderContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.AbstractBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.NamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.NamespaceHandlerResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.ResourceEntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-tool-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.BeanDefinitionDocumentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-beans-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.UtilNamespaceHandler$MapBeanDefinitionParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.BeanDefinitionDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-beans-2.0.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.XmlBeanDefinitionReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.NamespaceHandlerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-tool-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-util-2.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/springframework/beans/factory/xml/spring-beans.dtd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.wiring",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.wiring.ClassNameBeanWiringInfoResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.wiring.BeanWiringInfoResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.wiring.BeanWiringInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.wiring.BeanConfigurerSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.support.ManagedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy$CglibSubclassCreator$CallbackFilterImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AutowireCandidateResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.FactoryBeanRegistrySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionReaderUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.PropertiesBeanDefinitionReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AutowireUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.SimpleInstantiationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ManagedProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.SimpleAutowireCandidateResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionDefaults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy$CglibSubclassCreator$LookupOverrideMethodInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.InstantiationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.DefaultSingletonBeanRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanNameGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractBeanDefinitionReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.DefaultBeanNameGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.MethodOverrides",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AutowireCandidateQualifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.RootBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ConstructorResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ChildBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy$CglibSubclassCreator$ReplaceOverrideMethodInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.DisposableBeanAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ReplaceOverride",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ConstructorResolver$ArgumentsHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ManagedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.LookupOverride",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ConstructorResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionValueResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.MethodOverride",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.StaticListableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy$CglibSubclassCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AutowireUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ConstructorResolver$AutowiredArgumentMarker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.SimpleBeanDefinitionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.ManagedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractBeanFactory$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.MethodReplacer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionResource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.FactoryBeanRegistrySupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.DefaultListableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.BeanDefinitionReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.GenericBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.AbstractBeanFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy$CglibSubclassCreator$CglibIdentitySupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.serviceloader",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.serviceloader.ServiceFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.serviceloader.AbstractServiceLoaderBasedFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.serviceloader.ServiceLoaderFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.serviceloader.ServiceListFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.generic",
+         "packageMembers": {
+            "name": "org.springframework.beans.factory.generic.GenericBeanFactoryAccessor",
+            "type": "CLASS"
+         },
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.parsing.CompositeComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.Problem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.EmptyReaderEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.BeanEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ParseState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.BeanComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ReaderContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ConstructorArgumentEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.AbstractComponentDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.NullSourceExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ReaderEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.DefaultsDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.Location",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ImportDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.SourceExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.QualifierEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.PropertyEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ParseState$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.BeanDefinitionParsingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.ProblemReporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.PassThroughSourceExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.AliasDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.parsing.FailFastProblemReporter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ConfigurableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.RuntimeBeanReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanDefinitionHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.SetFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PropertyPlaceholderConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.MapFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ServiceLocatorFactoryBean$ServiceLocatorInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.MethodInvokingFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ServiceLocatorFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.CustomScopeConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ServiceLocatorFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PropertyResourceConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanDefinitionVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ListFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.AbstractFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PropertiesFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.CommonsLogFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.AbstractFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.SingletonBeanRegistry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.CustomEditorConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.TypedStringValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanReferenceFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.RuntimeBeanNameReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ConstructorArgumentValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.FieldRetrievingFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.AutowireCapableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PropertyPathFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ConstructorArgumentValues$ValueHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ConfigurableListableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.PropertyOverrideConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.BeanFactoryPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.config.DependencyDescriptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.annotation",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.annotation.Required",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.Configurable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AnnotatedBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.InjectionMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.Autowired",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.Qualifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.CustomAutowireConfigurer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.AnnotationBeanWiringInfoResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.annotation.Autowire",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.access.el",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.access.el.SpringBeanELResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.el.SimpleSpringBeanELResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory.access",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.access.SingletonBeanFactoryLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.BeanFactoryReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.BootstrapException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.SingletonBeanFactoryLocator$BeanFactoryGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.BeanFactoryLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.SingletonBeanFactoryLocator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.access.SingletonBeanFactoryLocator$CountingBeanFactoryReference",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.BeanFactoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.NoSuchBeanDefinitionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.HierarchicalBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.DisposableBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.FactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanNameAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanCurrentlyInCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.FactoryBeanNotInitializedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.InitializingBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanNotOfRequiredTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.SmartFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanDefinitionStoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanCreationNotAllowedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.ObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanInitializationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanIsAbstractException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanClassLoaderAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.NamedBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.CannotLoadBeanClassException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.UnsatisfiedDependencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.ListableBeanFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanIsNotAFactoryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.BeanFactoryAware",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.beans.annotation",
+         "packageMembers": {
+            "name": "org.springframework.beans.annotation.AnnotationBeanUtils",
+            "type": "CLASS"
+         },
+         "version": "2.5.5.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util.xml",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.type",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "net.sf.cglib.proxy",
+         "optional": true,
+         "versionRange": "[2.1.3, 2.2.0)"
+      },
+      {
+         "name": "javax.el",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.beans",
+   "version": "2.5.5.A"
+}}

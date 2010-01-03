@@ -1,0 +1,569 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:14:20.0",
+   "moduleName": "com.springsource.nu.xom",
+   "name": "XML Object Model",
+   "notes": "",
+   "organisationName": "nu.xom",
+   "packageExports": [
+      {
+         "name": "nu.xom",
+         "packageMembers": [
+            {
+               "name": "nu/xom/compositions.dat",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "nu.xom.Builder$ValidityRequired",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ValidityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Serializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Nodes",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Namespaces",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Node$EmptyNamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin5Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin8Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XPathContext$JaxenNamespaceContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Verifier$EmptyReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin2Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.JaxenConnector",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.NonVerifyingHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu/xom/characters.dat",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "nu.xom.UnavailableCharacterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.NamespaceConflictException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.WellformednessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.UnicodeWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Verifier$URICache",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin6Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.JaxenNavigator",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.JaxenNavigator$ChildIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin9Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Namespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XOMHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XML1_0Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ISOArabicWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.IllegalDataException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ParentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin3Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XMLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.URIUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Builder",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ParsingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Element$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Document",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.NoSuchChildException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Verifier$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Elements",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.CDATASection",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.MalformedURIException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.NodeFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.TextWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.URIUtil$ParsedURI",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.DocumentFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ISOCyrillicWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.NoSuchAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.UCSWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ISOGreekWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ProcessingInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ASCIIWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.IllegalCharacterDataException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.JDK15XML1_0Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XPathTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ISOThaiWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Builder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.CycleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.TextWriterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.IllegalTargetException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin7Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Node$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.EBCDICWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin10Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin4Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XPathException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XPathContext$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.MultipleParentException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Attribute$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.IllegalNameException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Builder$NamespaceWellformednessRequired",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.UnicodeUtil$UnicodeString",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.DocType",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.ISOHebrewWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.JaxenNavigator$NamedChildIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.UnsynchronizedBufferedWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Latin1Writer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.UnicodeUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.IllegalAddException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.XPathContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.GenericWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "nu.xom.xslt",
+         "packageMembers": [
+            {
+               "name": "nu.xom.xslt.XSLTransform",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XSLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XOMSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XSLTransform$FatalListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XSLTHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XOMInputSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XOMResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XOMReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xslt.XSLTransform$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "nu.xom.xinclude",
+         "packageMembers": [
+            {
+               "name": "nu.xom.xinclude.EncodingHeuristics",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.NoIncludeLocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.BadHrefAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.BadHTTPHeaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.XIncluder",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.XIncludeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.XPointerSyntaxException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.BadEncodingAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.MisplacedFallbackException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.XPointerResourceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.XPointer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.BadParseAttributeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.XPointerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.xinclude.InclusionLoopException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "nu.xom.tests",
+         "packageMembers": {
+            "name": "nu.xom.tests.XOMTestCase",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "nu.xom.converters",
+         "packageMembers": [
+            {
+               "name": "nu.xom.converters.DOMConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.converters.SAXConverter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "nu.xom.canonical",
+         "packageMembers": [
+            {
+               "name": "nu.xom.canonical.Canonicalizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.canonical.Canonicalizer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.canonical.Canonicalizer$AttributeComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.canonical.Canonicalizer$CanonicalXMLSerializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "nu.xom.canonical.CanonicalizationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.ext",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.xerces.xni.parser",
+         "optional": true,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.parsers",
+         "optional": true,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xerces.impl",
+         "optional": true,
+         "versionRange": "[2.8.1, 3.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.xml.transform.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.nu.xom",
+   "version": "1.1.0"
+}}

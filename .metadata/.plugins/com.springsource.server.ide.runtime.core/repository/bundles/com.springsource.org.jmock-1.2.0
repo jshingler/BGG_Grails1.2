@@ -1,0 +1,945 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:06:03.0",
+   "moduleName": "com.springsource.org.jmock",
+   "name": "JMock Core",
+   "notes": "",
+   "organisationName": "org.jmock",
+   "packageExports": [
+      {
+         "name": "org.jmock",
+         "packageMembers": [
+            {
+               "name": "org.jmock.MockObjectTestCase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.MockObjectTestCase$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/MockObjectTestCase.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.MockObjectTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.MockObjectTestCase$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/Mock.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.Mock",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.util",
+         "packageMembers": [
+            {
+               "name": "org/jmock/util/Verifier.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/util/NotImplementedException.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.util.Dummy$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.util.Dummy$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/util/PropertyUtil.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.util.Verifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/util/Dummy.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.util.NotImplementedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.util.Dummy$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.util.PropertyUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.util.Dummy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.expectation",
+         "packageMembers": [
+            {
+               "name": "org/jmock/expectation/ExpectationCollection.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.AbstractExpectationCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationSegment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/ReturnValues.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationSet.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/AbstractExpectationCollection.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/MockObject.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/MapEntry.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ReturnObjectMap$CallCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/ReturnValue.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ReturnObjectMap.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationCounter.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/VoidReturnValues.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.ReturnObjectList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/ExceptionalReturnValue.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.Expectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ExceptionalReturnValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/Null.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationDoubleValue.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.MapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ReturnObjectBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationMap.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.MockObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationSegment.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ReturnValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/AbstractExpectation.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.AssertMo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ReturnValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/ReturnObjectList.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ReturnObjectBag.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationValue.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/expectation/ExpectationList.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.ExpectationDoubleValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.ReturnObjectMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/Expectation.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.expectation.VoidReturnValues",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.AbstractExpectation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.expectation.Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/expectation/AssertMo.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.core.stub",
+         "packageMembers": [
+            {
+               "name": "org.jmock.core.stub.StubSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/stub/StubSequence.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.stub.CustomStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.stub.ReturnStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/stub/ReturnIteratorStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.stub.ThrowStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.stub.DefaultResultStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.stub.ReturnIteratorStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.stub.DoAllStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.stub.TestFailureStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/stub/DefaultResultStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/stub/VoidStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/stub/CustomStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/stub/TestFailureStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/stub/ReturnStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/stub/ThrowStub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.stub.VoidStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/stub/DoAllStub.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.core.matcher",
+         "packageMembers": [
+            {
+               "name": "org/jmock/core/matcher/InvokedRecorder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/matcher/InvokeOnceMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.matcher.InvokedAfterMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.MethodNameMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.InvokeAtMostOnceMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/matcher/NoArgumentsMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.matcher.InvokeCountMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/matcher/AnyArgumentsMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.matcher.InvokeAtLeastOnceMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.TestFailureMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.InvokedRecorder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.MethodNameMatcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/matcher/MethodNameMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.matcher.ArgumentsMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/matcher/InvokedAfterMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.matcher.NoArgumentsMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.StatelessInvocationMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.matcher.InvokeOnceMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/matcher/InvokeCountMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/matcher/InvokeAtMostOnceMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/matcher/InvokeAtLeastOnceMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/matcher/StatelessInvocationMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/matcher/TestFailureMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/matcher/ArgumentsMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.matcher.AnyArgumentsMatcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.core.constraint",
+         "packageMembers": [
+            {
+               "name": "org.jmock.core.constraint.IsGreaterThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.HasPropertyWithValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.And",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsSame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsAnything",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/StringStartsWith.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.StringContains",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsSame.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsAnything.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsGreaterThan.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/StringEndsWith.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.HasProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsCompatibleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/SubstringConstraint.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsEventFrom",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/HasPropertyWithValue.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/HasProperty.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsNot.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/Or.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsCollectionContaining",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.Or",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.SubstringConstraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsMapContaining",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.StringStartsWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsNothing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsIn.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsCollectionContaining.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsNothing.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/HasToString.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsInstanceOf.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsArrayContaining.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/StringContains.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.StringEndsWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsMapContaining.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsArrayContaining",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsCompatibleType.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsLessThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsNull.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsEventFrom.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsInstanceOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.constraint.HasToString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsLessThan.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsEqual.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsCloseTo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/And.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.constraint.IsEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/constraint/IsCloseTo.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.core",
+         "packageMembers": [
+            {
+               "name": "org/jmock/core/CoreMock.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/Constraint.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/InvocationDispatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/AbstractInvocationDispatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/AbstractDynamicMock.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.MockObjectSupportTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.InvocationMocker$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.LIFOInvocationDispatcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.DynamicMockError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.Invokable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.SelfDescribing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/StubMatchersCollection.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.AbstractDynamicMock$HashCodeStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.VerifyingTestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/InvocationMatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.Invocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.LIFOInvocationDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/InvocationMocker.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.MockObjectSupportTestCase$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/DynamicMock.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/VerifyingTestCase.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/FIFOInvocationDispatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/MockObjectSupportTestCase.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.InvocationDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/Formatting.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.InvocationMocker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.Verifiable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.InvocationMocker$Describer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.FIFOInvocationDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/DynamicMockError.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/LIFOInvocationDispatcher.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.DynamicMock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.StubMatchersCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.AbstractDynamicMock$IsSameAsProxyStub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.CoreMock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/SelfDescribing.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/Verifiable.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/core/Invocation.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.AbstractInvocationDispatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.AbstractDynamicMock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.Constraint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.core.AbstractDynamicMock$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/Invokable.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.Formatting",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/core/Stub.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.core.InvocationMatcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.jmock.builder",
+         "packageMembers": [
+            {
+               "name": "org.jmock.builder.ArgumentsMatchBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.builder.InvocationMockerDescriber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/builder/BuilderNamespace.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.builder.MatchBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/builder/StubBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.builder.BuilderNamespace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/builder/IdentityBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/builder/NameMatchBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/builder/InvocationMockerDescriber.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/jmock/builder/ArgumentsMatchBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.builder.StubBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/builder/InvocationMockerBuilder.java",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.jmock.builder.InvocationMockerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.builder.NameMatchBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.jmock.builder.IdentityBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/jmock/builder/MatchBuilder.java",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "packageImports": {
+      "name": "junit.framework",
+      "optional": true,
+      "versionRange": "[3.8.2, 4.0.0)"
+   },
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.jmock",
+   "version": "1.2.0"
+}}

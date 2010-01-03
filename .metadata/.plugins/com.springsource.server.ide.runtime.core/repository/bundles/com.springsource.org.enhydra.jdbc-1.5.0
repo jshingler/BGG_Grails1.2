@@ -1,0 +1,287 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:19:00.0",
+   "moduleName": "com.springsource.org.enhydra.jdbc",
+   "name": "Open Source XA Pool",
+   "notes": "",
+   "organisationName": "com.experlog.xapool",
+   "packageExports": [
+      {
+         "name": "org.enhydra.jdbc.util",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.util.LRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.util.JdbcUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.util.Logger",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.core",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.core.CorePreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.core.JdbcThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.core.CoreCallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.core.CoreStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.core.CoreDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.core.CoreConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.sybase",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.sybase.SybaseXADataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.sybase.SybaseConnectionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.sybase.SybaseXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.sybase.SybaseXAStatefulConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.sybase.SybasePooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.sybase.SybaseConnectionPoolDataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.standard",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXAStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.PreparedStatementCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardPooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXADataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXAStatefulConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXACallableStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXAConnectionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardConnectionPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardXAPreparedStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.standard.StandardConnectionHandle",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.pool",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.pool.StandardXAPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.pool.PoolHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.pool.GenericPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.pool.StandardPoolDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.pool.PoolKeeper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.pool.GenerationObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.oracle",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.oracle.OracleXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.oracle.OracleXADataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.instantdb",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.instantdb.IdbDataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.instantdb.IdbXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.instantdb.IdbXADataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "org.enhydra.jdbc.informix",
+         "packageMembers": [
+            {
+               "name": "org.enhydra.jdbc.informix.InformixXADataSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.informix.InformixXAConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.informix.InformixXAStatefulConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.informix.InformixConnectionHandle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.informix.InformixPooledConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.enhydra.jdbc.informix.InformixConnectionPoolDataSource",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.enhydra.instantdb.jdbc",
+         "optional": true,
+         "versionRange": "[3.1.4, 4.0.0)"
+      },
+      {
+         "name": "oracle.jdbc.xa.client",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0.0)"
+      },
+      {
+         "name": "oracle.jdbc.xa",
+         "optional": true,
+         "versionRange": "[10.2.0.2, 11.0.0.0)"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.transaction",
+         "optional": true,
+         "versionRange": "[1.0.1, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.enhydra.jdbc",
+   "version": "1.5.0"
+}}

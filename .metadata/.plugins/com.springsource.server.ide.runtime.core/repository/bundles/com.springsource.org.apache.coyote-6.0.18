@@ -1,0 +1,1721 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:07:20.0",
+   "moduleName": "com.springsource.org.apache.coyote",
+   "name": "Apache Tomcat/Coyote",
+   "notes": "",
+   "organisationName": "org.apache.coyote",
+   "packageExports": [
+      {
+         "name": "org.apache.coyote",
+         "packageMembers": [
+            {
+               "name": "org.apache.coyote.Processor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.RequestInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ProtocolHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.RequestGroupInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ActionCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ActionHook",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.OutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.Adapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.InputBuffer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.threads.res",
+         "packageMembers": {
+            "name": "org/apache/tomcat/util/threads/res/LocalStrings.properties",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.threads",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.threads.ThreadPool$ThreadPoolListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.threads.ThreadPoolRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.threads.ThreadPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.threads.ThreadWithAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.threads.ThreadPool$ControlRunnable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.res",
+         "packageMembers": {
+            "name": "org.apache.tomcat.util.res.StringManager",
+            "type": "CLASS"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.net.res",
+         "packageMembers": {
+            "name": "org/apache/tomcat/util/net/res/LocalStrings.properties",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.net.jsse.res",
+         "packageMembers": {
+            "name": "org/apache/tomcat/util/net/jsse/res/LocalStrings.properties",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.net.jsse",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSESupport$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSEFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSESocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSEKeyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSEImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSESupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.jsse.JSSESupport$Listener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.net",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$Sendfile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioBlockingSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.JIoEndpoint$WorkerStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.TcpConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$PollerEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.BaseEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.LeaderFollowerWorkerThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$Acceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.ServerSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.JIoEndpoint$Acceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.JIoEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.JIoEndpoint$Worker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$KeyAttachment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$WorkerStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioSelectorPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$SocketProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$Acceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$SendfileData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$Handler$SocketState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$Worker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$TaskThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.JIoEndpoint$Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$Handler$SocketState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SecureNioChannel$ApplicationBufferHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$SocketEventProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SSLSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.DefaultServerSocketFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$Poller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.URL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SSLImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SocketProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.TcpConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$Poller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$TaskQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SocketStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$SendfileData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SSLSupport$CipherData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SecureNioChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$Worker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$WorkerStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.SecureNioChannel$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.PoolTcpEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$NioBufferHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$SocketWithOptionsProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.AprEndpoint$Handler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.NioEndpoint$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.net.MasterSlaveWorkerThread",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.modeler.modules",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsSerSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.ModelerSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsDOMSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsDigesterSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsIntrospectionSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.MbeansSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.modules.MbeansSourceMBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.modeler",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.modeler.FeatureInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.BaseModelMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.ManagedBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.OperationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.BaseAttributeFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.FixedNotificationFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.BaseModelMBean$MethodKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.BaseNotificationBroadcaster",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.NotificationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.BaseNotificationBroadcasterEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.ConstructorInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.RegistryMBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.ParameterInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.AttributeInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/tomcat/util/modeler/mbeans-descriptors.dtd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.tomcat.util.modeler.Registry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.log",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.log.SystemLogHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.log.CaptureLog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.http.res",
+         "packageMembers": {
+            "name": "org/apache/tomcat/util/http/res/LocalStrings.properties",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.http.mapper",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.http.mapper.Mapper$Context",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.mapper.Mapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.mapper.Mapper$Host",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.mapper.Mapper$ContextList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.mapper.Mapper$MapElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.mapper.MappingData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.mapper.Mapper$Wrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.http.fileupload",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileItemFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileUploadBase$InvalidContentTypeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileUploadBase$UnknownSizeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileUpload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.MultipartStream$MalformedStreamException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.DiskFileUpload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileUploadBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.DefaultFileItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.DeferredFileOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileItem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.ThresholdingOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.DefaultFileItemFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.MultipartStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.MultipartStream$IllegalBoundaryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.fileupload.FileUploadException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.collections",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.collections.SimplePool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.Queue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.MultiMap$Field",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.MultiMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.EmptyEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.SimpleHashtable$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.LRUCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.SimpleHashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.MultiMapValuesEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.MultiMapNamesEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.collections.LRUCache$CacheNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.digester",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.digester.Digester$SystemPropertySource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.CallMethodRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.SetPropertiesRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.Rules",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.SetRootRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.XercesParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.ObjectCreateRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.SetTopRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.NodeCreateRule$NodeBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.RuleSetBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.PathCallParamRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.Digester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.NodeCreateRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.CallParamRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.AbstractObjectCreationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.WithDefaultsRulesWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.FactoryCreateRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.GenericParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.RulesBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.ObjectCreationFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.RuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.AbstractRulesImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.SetNextRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.ParserFeatureSetterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.ObjectParamRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.SetPropertyRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.ArrayStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.digester.Digester$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.http",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.http.HttpMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.ServerCookie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.BaseRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.FastHttpDateFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.ContentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.MimeHeaderField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.ValuesEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.MimeHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.MimeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.Cookies",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.NamesEnumerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.http.AcceptLanguage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.buf.res",
+         "packageMembers": {
+            "name": "org/apache/tomcat/util/buf/res/LocalStrings.properties",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util.buf",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.buf.CharChunk$CharInputChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.CharChunk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.B2CConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.UDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.ByteChunk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.UEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.MessageBytes$MessageBytesFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.CharChunk$CharOutputChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.IntermediateOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.Ascii",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.C2BConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.ReadConvertor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.WriteConvertor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.ByteChunk$ByteOutputChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.MessageBytes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.ByteChunk$ByteInputChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.TimeStamp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.StringCache$ByteEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.StringCache$CharEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.DateTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.StringCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.UTF8Decoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.HexUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.IntermediateInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.buf.Base64",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.util.IntrospectionUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.DomUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.IntrospectionUtils$PropertySource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.MutableInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.IntrospectionUtils$AttributeHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.IntrospectionUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.util.DomUtil$NullResolver",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.tomcat.jni",
+         "packageMembers": [
+            {
+               "name": "org.apache.tomcat.jni.BIOCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Global",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Lock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Procattr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Shm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.SSLSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.FileInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.File",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.SSL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Time",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Error",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Local",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Address",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Directory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Sockaddr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.User",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.ProcErrorCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Proc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Stdlib",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Pool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Mmap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Socket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.PoolCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.SSLContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.OS",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Poll",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Multicast",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.PasswordCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Registry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.tomcat.jni.Library",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.jk.server",
+         "packageMembers": [
+            {
+               "name": "org.apache.jk.server.JkMain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.server.JkCoyoteHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.jk.core",
+         "packageMembers": [
+            {
+               "name": "org.apache.jk.core.WorkerEnv",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.core.JkChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.core.JkHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.core.MsgContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.core.Msg",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.jk.config",
+         "packageMembers": [
+            {
+               "name": "org.apache.jk.config.NSConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.WebXml2Jk",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.GeneratorJk1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.ApacheConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.WebXml2Jk$NullResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.BaseJkConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.GeneratorJk2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.IISConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.WebXml2Jk$MappingGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.config.GeneratorApache2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.jk.common",
+         "packageMembers": [
+            {
+               "name": "org.apache.jk.common.WorkerDummy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelNioSocket$SocketInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.AjpConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.AprAcceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelNioSocket$Poller",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.Shm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelSocket$SocketAcceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelUn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelNioSocket$SocketOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelShm",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelJni",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.JkMX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.HandlerDispatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelSocket$SocketConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.HandlerRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.AprConnection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.MsgAjp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.JniHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.JkInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelNioSocket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.Shm14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.common.ChannelNioSocket$SocketConnection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.jk.apr",
+         "packageMembers": [
+            {
+               "name": "org.apache.jk.apr.TomcatStarter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.jk.apr.AprImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.jk",
+         "packageMembers": {
+            "name": "org/apache/jk/mbeans-descriptors.xml",
+            "type": "RESOURCE"
+         },
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.coyote.memory",
+         "packageMembers": [
+            {
+               "name": "org.apache.coyote.memory.MemoryProtocolHandler$ByteChunkInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.memory.MemoryProtocolHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.memory.MemoryProtocolHandler$ByteChunkOutputBuffer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.coyote.http11.filters",
+         "packageMembers": [
+            {
+               "name": "org.apache.coyote.http11.filters.GzipOutputFilter$FakeOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.ChunkedOutputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.GzipOutputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.SavedRequestInputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.IdentityOutputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.IdentityInputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.BufferedInputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.VoidOutputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.ChunkedInputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.filters.VoidInputFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.coyote.http11",
+         "packageMembers": [
+            {
+               "name": "org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalAprOutputBuffer$SocketOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalOutputBuffer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.OutputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InputFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioInputBuffer$HeaderParsePosition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalOutputBuffer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalAprInputBuffer$SocketInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11Processor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11NioProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11NioProtocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/coyote/http11/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11AprProtocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalAprInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalAprOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalOutputBuffer$OutputStreamOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioInputBuffer$SocketInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalInputBuffer$InputStreamInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11Processor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioOutputBuffer$SocketOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11Protocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11AprProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioInputBuffer$HeaderParseStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.InternalNioInputBuffer$HeaderParseData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.coyote.ajp",
+         "packageMembers": [
+            {
+               "name": "org.apache.coyote.ajp.AjpProcessor$SocketInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpAprProcessor$SocketOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpAprProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpAprProcessor$SocketInputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpAprProtocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpAprProtocol$AjpConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/coyote/ajp/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpProtocol$AjpConnectionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpAprProtocol$AjpConnectionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpProcessor$SocketOutputBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.coyote.ajp.AjpProtocol",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.juli.logging",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.xml.sax.helpers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.catalina",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.catalina.deploy",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "javax.xml.transform.stream",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.parsers",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.5.0, 3.0.0)"
+      },
+      {
+         "name": "javax.security.cert",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.modelmbean",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management.loading",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.coyote",
+   "version": "6.0.18"
+}}

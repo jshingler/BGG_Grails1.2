@@ -1,0 +1,5726 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:31:43.0",
+   "moduleName": "com.springsource.org.bouncycastle.jce",
+   "name": "The Bouncy Castle Crypto APIs",
+   "notes": "",
+   "organisationName": "org.bouncycastle",
+   "packageExports": [
+      {
+         "name": "org.bouncycastle",
+         "packageMembers": {
+            "name": "org.bouncycastle.LICENSE",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.x509.util",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.x509.util.StreamParsingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.util.StreamParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.util.LDAPStoreHelper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.x509.examples",
+         "packageMembers": {
+            "name": "org.bouncycastle.x509.examples.AttrCertExample",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.x509.extension",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.x509.extension.X509ExtensionUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.extension.AuthorityKeyIdentifierStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.extension.SubjectKeyIdentifierStructure",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.x509",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.x509.ExtCertificateEncodingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/bouncycastle/x509/CertPathReviewerMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509AttributeCertStoreSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509Store",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509V3CertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/bouncycastle/x509/CertPathReviewerMessages_de.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509V2CRLGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.NoSuchParserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509StoreParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509V2AttributeCertificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.ExtendedPKIXParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.NoSuchStoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509AttributeCertificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.PKIXAttrCertChecker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509CRLStoreSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509CertificatePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.ExtendedPKIXBuilderParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.AttributeCertificateIssuer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509StoreSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509CertStoreSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.AttributeCertificateHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.CertPathReviewerException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509CollectionStoreParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509V2AttributeCertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509Util$Implementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509StreamParserSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509V1CertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509StreamParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509CertPairStoreSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.x509.X509V2CRLGenerator$ExtCRLException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.voms",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.voms.VOMSAttribute$FQAN",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.voms.VOMSAttribute",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.util.test",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.util.test.SimpleTestResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.SimpleTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.NumberParsing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.FixedSecureRandom",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.UncloseableOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.TestFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.test.TestResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.util.io",
+         "packageMembers": {
+            "name": "org.bouncycastle.util.io.Streams",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.util.encoders",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.util.encoders.BufferedEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.BufferedDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.UrlBase64Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.Hex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.Base64Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.UrlBase64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.HexTranslator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.HexEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.Translator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.encoders.Base64",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.util",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.util.IPAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.StreamParsingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.Selector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.StreamParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.Store",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.Strings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.Arrays",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.StoreException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.CollectionStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.IPTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.AllTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.util.BigIntegers",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.openssl",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.openssl.PEMReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.openssl.PEMUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.openssl.PEMWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.openssl.PasswordFinder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.ocsp",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.ocsp.RevokedStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.Req",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.BasicOCSPRespGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPRespGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPResp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.RespID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.RespData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.BasicOCSPRespGenerator$ResponseObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.UnknownStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.BasicOCSPResp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPReq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.CertificateStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.SingleResp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPReqGenerator$RequestObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.CertificateID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPRespStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.ocsp.OCSPReqGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.mozilla",
+         "packageMembers": {
+            "name": "org.bouncycastle.mozilla.SignedPublicKeyAndChallenge",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.math.ec",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.math.ec.ReferenceMultiplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECFieldElement$Fp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.SimpleBigDecimal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.FpNafMultiplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.WNafPreCompInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.WTauNafMultiplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.PreCompInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECCurve$Fp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.WTauNafPreCompInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECPoint$Fp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.IntArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECCurve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECCurve$F2m",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECFieldElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECPoint$F2m",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECFieldElement$F2m",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.Tnaf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.WNafMultiplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECAlgorithms",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ECMultiplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.math.ec.ZTauElement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.spec",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.jce.spec.GOST3410PrivateKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ECParameterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ECPublicKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ElGamalPublicKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ElGamalParameterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.GOST28147ParameterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ElGamalKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.GOST3410PublicKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ECNamedCurveParameterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.IESParameterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.IEKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.GOST3410ParameterSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ECPrivateKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.GOST3410PublicKeyParameterSetSpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ElGamalPrivateKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ECKeySpec",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.spec.ElGamalGenParameterSpec",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.provider.symmetric",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$KeyGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED$AlgParamGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Noekeon$AlgParamGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$KeyGen128",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5$CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEEDMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Noekeon$ECB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Noekeon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$KeyGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$KeyGen256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$KeyGen128",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$AlgParamGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$CFB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5Mappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5$AlgParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$OFB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.NoekeonMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$RFC3211Wrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$ECB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$RFC3211Wrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED$ECB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$KeyGen192",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5$ECB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$AlgParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED$KeyGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED$Wrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AESMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5$AlgParamGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$Wrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$ECB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$KeyGen192",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CamelliaMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED$AlgParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$AlgParamGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Noekeon$KeyGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia$AlgParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.CAST5$KeyGen",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Camellia",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$KeyGen256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.SEED$CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.Noekeon$AlgParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.symmetric.AES$Wrap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.provider",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$SHA512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecDSA512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSAPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecDSA256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$DESedeCBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreCertCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$RIPEMD256WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKECDSAAlgParameters$SigAlgParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher$PKCS1v1_5Padding_PublicOnly",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEDHKeyAgreement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$noneDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenPBE$Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RC4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner$SHA512withRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$MD5HMAC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$GenericBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$MD2WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHAAndTwofish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEECPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.AnnotatedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RC6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$DESede",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$GOST3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HMACSHA384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHAAndDES3Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$RC6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$GOST3411",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$ECDHC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithRIPEMD160",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKISOSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd256BitAESBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXPolicyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HMACSHA256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.GOST3410Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$PBEWithSHA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509CertificateObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEIESCipher$ECIES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEDHPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithMD5AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$MD2HMAC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$Twofish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenPBE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD2AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BouncyCastleProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$SHA1WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$Twofish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$DES_OFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecNR256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHA256And192BitAESBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$ElGamal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$Serpent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$PBEWithTiger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner$SHA1withRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$RIPEMD128WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RIPEMD128HMAC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$DESede_CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$IES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreCRLCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$DESede_OFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$GOST28147",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSAPrivateCrtKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$SHA224",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAndIDEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEElGamalCipher$PKCS1v1_5Padding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$PBEWithSHAAnd40BitRC4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.WrapCipherSpi$RFC3211DESedeWrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKISOSignature$RIPEMD160WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKGOST3410Signer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$RC5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509LDAPCertStoreSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$IDEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXCertPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$VMPCKSA3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HC256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHAAnd40BitRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXCertPathBuilderSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$GOST3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$CAST6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$ElGamal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPKCS12KeyStore$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$ECDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$RC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEECDHKeyAgreement$DHC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$VMPC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.OldPKCS12ParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$VMPCKSA3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$RC5CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEPBEKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$SHA512WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd192BitAESBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEDigestUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$AEADGenericBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$Blowfish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$RC2CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher$OAEPPadding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher$OldPBEWithSHAAndTwofish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.WrapCipherSpi$RC2Wrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEDHPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.ECUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyStore$BouncyCastleStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$MD2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHAAndIDEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHA1AndRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$RIPEMD160",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHA1AndRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$GOST28147",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$DES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEElGamalPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$Serpent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$IDEA_OFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$dsa256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEECDHKeyAgreement$DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$AES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$MD5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHA1AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.ProviderUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.MultiCertStoreSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.CertStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$OldSHA384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreLDAPCertPairs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKGOST3410PublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$stdDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$XTEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$RSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$IDEACBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$SHA256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$DESede3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD5And192BitAESCBCOpenSSL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$XTEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$SHA1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithTiger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHAAnd128BitRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher$BrokePBEWithSHAAndDES3Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithAESCBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.RFC3281CertPathUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$ECDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPKCS12KeyStore$DefPKCS12KeyStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.CertStoreCollectionSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXAttrCertPathValidatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.WrapCipherSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKCS12BagAttributeCarrierImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$SHA256WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$DES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreLDAPCerts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Skipjack_OFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$OldSHA512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DESede64",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyStore$StoreEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecDSA384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEECPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$RC2AlgorithmParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DESede64with7816d4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$dsa384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$DES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenKDF2BytesGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$RIPEMD256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$RC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$Whirlpool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$DSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HC128",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$DESede",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$Skipjack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Blowfish_CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$HC128",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner$SHA256withRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreAttrCertCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$IVAlgorithmParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecNR224",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKISOSignature$MD5WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$GOST28147cbc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$RC5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAndDES2Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$Skipjack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$EC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$RC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$SHA384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$AESCBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509CRLEntryObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.WrapCipherSpi$DESEDEWrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$GOST3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$PBEWithSHAAnd128BitRC4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$PKCS12PBE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$RC2CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$AESOFB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKISOSignature$SHA1WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner$SHA224withRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.ElGamalUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$MD4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$CAST6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher$BrokePBEWithMD5AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKGOST3410PrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEIESCipher$BrokenECIES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSAPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509CRLParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$SHA384WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEIESCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$ECDHC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHA1AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$DES_CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$RIPEMD160",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$MD5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RIPEMD160HMAC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithMD5AndRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HMACTIGER",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$BufferedGenericBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$IDEAAlgorithmParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$MD4HMAC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher$BrokePBEWithSHAAndDES2Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$SHA224WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD5AndRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PBE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$DSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.DSAUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAndDES3Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd40BitRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecDSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$CAST5AlgorithmParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$IDEA_CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HMACSHA512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$MD4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$IDEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher$NoPadding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$Tiger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd40BitRC4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$Salsa20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecNR512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEElGamalPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEECDHKeyAgreement$DHwithSHA1KDF",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DESede",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$IDEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$VMPC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$ECDH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$ElGamal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$RIPEMD160WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$DESede",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecNR384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RC564",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$SkipjackCFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEIESCipher$IES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXCertPathValidatorSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd128BitAESBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Twofish_CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$Rijndael",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD5AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPKCS12KeyStore$IgnoresCaseHashtable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.DHUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHA256And256BitAESBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner$SHA384withRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$IDEACFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$Skipjack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$DES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$PBEWithSHAAndDES2Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$SHA1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$CAST5CBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEIESCipher$BrokenIES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$PBEWithRIPEMD160",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$NullDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKGOST3410Signer$ecgost3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$DSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$SHA224",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DES9797Alg3with7816d4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXAttrCertPathBuilderSpi",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher$BrokePBEWithSHA1AndDES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPKCS12KeyStore$BCPKCS12KeyStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PEMUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecDSARipeMD160",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$RSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$DSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$ECDH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd128BitRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$dsa512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HMACSHA224",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$dsa224",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$HC256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$MD4WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher$PKCS1v1_5Padding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DESedeCFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$RIPEMD320",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher$ISO9796d1Padding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.RSAUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$RIPEMD128",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$EC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreCertPairCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKMessageDigest$RIPEMD128",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.BrokenJCEBlockCipher$OldPBEWithSHAAndDES3Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDigestSignature$MD5WithRSAEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$PSS",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509CRLObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSAPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509CertParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKX509CertificateFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPKCS12KeyStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$IDEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DES9797Alg3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAnd128BitRC4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$GOST28147",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEECDHKeyAgreement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$RC5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD5And128BitAESCBCOpenSSL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PBE$Util",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$HMACSHA1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Blowfish_OFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEElGamalCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$Tiger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecDSA224",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEElGamalCipher$NoPadding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.CertPathValidatorUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCERSACipher$PKCS1v1_5Padding_PrivateOnly",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPSSSigner$PSSwithRSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509SignatureUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$AESCFB",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$RC4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DES",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Salsa20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509AttrCertParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXNameConstraintValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$VMPC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHA256And128BitAESBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreLDAPCRLs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD5And256BitAESCBCOpenSSL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$TEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$SHA384",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$DESPBEKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509StoreLDAPAttrCerts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$ECGOST3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.X509CertPairParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSAPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Twofish_OFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKECDSAAlgParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithMD2AndRC2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.RFC3280CertPathUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$Blowfish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$X509",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.ExtCRLException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$RC564",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$CAST5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyPairGenerator$ECGOST3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKGOST3410Signer$gost3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKKeyFactory$ElGamal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCESecretKeyFactory$PBEWithSHAAndTwofish",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.PKIXNameConstraintValidatorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$DESCBC",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$SHA512",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$Rijndael",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.ReasonsMask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEStreamCipher$Skipjack_CFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKDSASigner$ecNR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameterGenerator$DH",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEBlockCipher$SEED",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEKeyGenerator$TEA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKPKCS12KeyStore$CertId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$SHA256",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JDKAlgorithmParameters$GOST3410",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$DESCFB8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.provider.JCEMac$MD2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.netscape",
+         "packageMembers": {
+            "name": "org.bouncycastle.jce.netscape.NetscapeCertRequest",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.interfaces",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.jce.interfaces.GOST3410PrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ConfigurableProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ECPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ElGamalPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.GOST3410Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ElGamalPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ECKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ECPointEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.IESKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.BCKeyStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.GOST3410Params",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ECPrivateKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.PKCS12BagAttributeCarrier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.ElGamalKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.interfaces.GOST3410PublicKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.exception",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.jce.exception.ExtCertPathValidatorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.exception.ExtException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.exception.ExtCertificateEncodingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.exception.ExtCertPathBuilderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.exception.ExtIOException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce.examples",
+         "packageMembers": {
+            "name": "org.bouncycastle.jce.examples.PKCS12Example",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.jce",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.jce.ProviderConfigurationPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.ECNamedCurveTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509Principal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.PrincipalUtil",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.PKCS7SignedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.ECGOST3410NamedCurveTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.PKCS10CertificationRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509V1CertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.MultiCertStoreParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509V3CertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509LDAPCertStoreParameters$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509LDAPCertStoreParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509KeyUsage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509LDAPCertStoreParameters$Builder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.jce.X509V2CRLGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.i18n.filter",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.i18n.filter.SQLFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.filter.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.filter.TrustedInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.filter.UntrustedUrlInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.filter.UntrustedInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.filter.HTMLFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.i18n",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.i18n.LocaleString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.MessageBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.LocalizedMessage$FilteredArguments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.LocalizedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.ErrorBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.LocalizedMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.TextBundle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.i18n.MissingEntryException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.util",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.util.PublicKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.util.PrivateKeyFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.tls",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsBlockCipherCipherSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsNullCipherSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsOuputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.AlwaysValidVerifyer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.Certificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.RecordStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.CertificateVerifyer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsCipherSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.CombinedHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsCipherSuiteManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.ByteQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsProtocolHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsRuntimeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.tls.TlsInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.signers",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.signers.PSSSigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.ISO9796d2Signer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.ECDSASigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.ISO9796d2PSSSigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.RSADigestSigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.GOST3410Signer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.ECNRSigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.DSASigner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.signers.ECGOST3410Signer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.prng",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.prng.DigestRandomGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.prng.ThreadedSeedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.prng.VMPCRandomGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.prng.ThreadedSeedGenerator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.prng.ReversedWindowGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.prng.ThreadedSeedGenerator$SeedGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.prng.RandomGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.params",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.params.RSAKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DHKeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ECPublicKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.KeyParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DESParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DSAKeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.RC5Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DSAPublicKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ElGamalParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ECPrivateKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.GOST3410Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DHValidationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.GOST3410KeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ParametersWithIV",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.CCMParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.NaccacheSternKeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.MGFParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.RSAKeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ElGamalPublicKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DESedeParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.AEADParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.GOST3410ValidationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ElGamalPrivateKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.IESWithCipherParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ECKeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.NaccacheSternPrivateKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ISO18033KDFParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ElGamalKeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.RC2Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.AsymmetricKeyParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DHPublicKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.GOST3410PublicKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DHKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DSAParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DSAValidationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DSAPrivateKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ParametersWithSalt",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ParametersWithSBox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DHParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.IESParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.RSAPrivateCrtKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.GOST3410KeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ECDomainParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.GOST3410PrivateKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.KDFParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.RSABlindingParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ElGamalKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DSAKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.NaccacheSternKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ECKeyParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.ParametersWithRandom",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.params.DHPrivateKeyParameters",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.paddings",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.paddings.ZeroBytePadding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.PaddedBufferedBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.TBCPadding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.PKCS7Padding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.ISO10126d2Padding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.ISO7816d4Padding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.BlockCipherPadding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.paddings.X923Padding",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.modes",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.modes.GOFBBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.AEADBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.SICBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.CFBBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.EAXBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.CCMBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.CTSBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.CBCBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.PaddedBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.OFBBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.OpenPGPCFBBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.modes.PGPCFBBlockCipher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.macs",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.macs.VMPCMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.GOST28147Mac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.BlockCipherMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.HMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.ISO9797Alg3Mac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.CMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.MacCFBBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.CFBBlockCipherMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.OldHMac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.macs.CBCBlockCipherMac",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.io",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.io.DigestOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.io.MacOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.io.MacInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.io.DigestInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.generators",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.generators.KDF1BytesGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DSAKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.GOST3410KeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.PKCS12ParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DESKeyGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DHParametersHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.PKCS5S1ParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.ECKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.ElGamalParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DSAParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DHKeyGeneratorHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DHBasicKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.MGF1BytesGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.OpenSSLPBEParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.NaccacheSternKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.BaseKDFBytesGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.GOST3410ParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.ElGamalKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DHKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.RSABlindingFactorGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DHParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.RSAKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.KDF2BytesGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.PKCS5S2ParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.generators.DESedeKeyGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.examples",
+         "packageMembers": {
+            "name": "org.bouncycastle.crypto.examples.DESExample",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.engines",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.engines.DESedeEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.DESEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RSAEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.NaccacheSternEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.SerpentEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.CAST5Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RC6Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.HC256Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.CamelliaEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.BlowfishEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.AESLightEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.GOST28147Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.SEEDEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.DESedeWrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.CamelliaWrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.VMPCKSA3Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RSABlindingEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RC564Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.VMPCEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RFC3394WrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RC4Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.AESEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RC2WrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.TEAEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.AESWrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.NullEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.Salsa20Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.IESEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.NoekeonEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RFC3211WrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.AESFastEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RSACoreEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.SEEDWrapEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RC2Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.SkipjackEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.ISAACEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.HC128Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RC532Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RSABlindedEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.ElGamalEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.IDEAEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.RijndaelEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.TwofishEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.CAST6Engine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.engines.XTEAEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.encodings",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.encodings.PKCS1Encoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.encodings.PKCS1Encoding$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.encodings.ISO9796d1Encoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.encodings.OAEPEncoding",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.digests",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.digests.WhirlpoolDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.SHA256Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.RIPEMD256Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.RIPEMD320Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.RIPEMD128Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.TigerDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.GOST3411Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.RIPEMD160Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.SHA384Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.ShortenedDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.SHA512Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.SHA1Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.LongDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.GeneralDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.MD5Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.MD2Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.SHA224Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.digests.MD4Digest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.agreement.kdf",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.agreement.kdf.DHKDFParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.agreement.kdf.ECDHKEKGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.agreement.kdf.DHKEKGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto.agreement",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.agreement.DHBasicAgreement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.agreement.DHAgreement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.agreement.ECDHCBasicAgreement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.agreement.ECDHBasicAgreement",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.crypto",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.crypto.RuntimeCryptoException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.DSA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.KeyGenerationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.Signer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.CryptoException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.Mac",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.CipherParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.BlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.Digest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.StreamCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.DataLengthException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.BufferedAsymmetricBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.SignerWithRecovery",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.StreamBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.DerivationParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.MaxBytesExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.PBEParametersGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.CipherKeyGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.BasicAgreement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.AsymmetricCipherKeyPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.BufferedBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.Wrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.ExtendedDigest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.DerivationFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.AsymmetricCipherKeyPairGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.AsymmetricBlockCipher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.crypto.InvalidCipherTextException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x9",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.x9.X9FieldElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9FieldID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9Curve",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9ECParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9ECParametersHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9IntegerConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.OtherInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X962NamedCurves$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9ObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.KeySpecificInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x9.X9ECPoint",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x509.sigi",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.x509.sigi.PersonalData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.sigi.SigIObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.sigi.NameOrPseudonym",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x509.qualified",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.RFC3739QCObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.QCStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.TypeOfBiometricData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.SemanticsInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.BiometricData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.Iso4217CurrencyCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.MonetaryValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.qualified.ETSIQCObjectIdentifiers",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x509",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.x509.PolicyMappings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.NameConstraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AccessDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TBSCertList$CRLEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CRLNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AttributeCertificateInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.SubjectPublicKeyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509Name",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.DistributionPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509ObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AuthorityKeyIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.ExtendedKeyUsage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509NameEntryConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.UserNotice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509Extension",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.GeneralName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.IssuingDistributionPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509NameTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.SubjectKeyIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TBSCertList$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.ReasonFlags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CertificatePair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.Targets",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.DigestInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.IssuerSerial",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TBSCertList$EmptyEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.Holder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.KeyPurposeId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509ExtensionsGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509CertificateStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.GeneralNames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CertPolicyId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TBSCertificateStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.Time",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.PolicyInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.KeyUsage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.SubjectDirectoryAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509Extensions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.GeneralSubtree",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.DisplayText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CertificateList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AttCertIssuer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.X509DefaultEntryConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.BasicConstraints",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AlgorithmIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CertificatePolicies",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.ObjectDigestInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.PolicyQualifierId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.V2AttributeCertificateInfoGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CRLDistPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AttributeCertificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.V1TBSCertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.IetfAttrSyntax",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TargetInformation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AuthorityInformationAccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.CRLReason",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.NoticeReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.DSAParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.V2TBSCertListGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.V2Form",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.PolicyQualifierInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.PrivateKeyUsagePeriod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.V3TBSCertificateGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TBSCertList$RevokedCertificatesEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.AttCertValidityPeriod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.RSAPublicKeyStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.DistributionPointName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.TBSCertList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.x509.RoleSyntax",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.x500",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.x500.DirectoryString",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.util",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.util.ASN1Dump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.util.DERDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.util.Dump",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.tsp",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.tsp.Accuracy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.tsp.MessageImprint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.tsp.TSTInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.tsp.TimeStampReq",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.tsp.TimeStampResp",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.teletrust",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.teletrust.TeleTrusTNamedCurves$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.smime",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.smime.SMIMECapabilitiesAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.smime.SMIMECapabilityVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.smime.SMIMECapability",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.smime.SMIMECapabilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.smime.SMIMEEncryptionKeyPreferenceAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.smime.SMIMEAttributes",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.sec",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$16",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$31",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$28",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$18",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$29",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$33",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$25",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$24",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$14",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$19",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$27",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$15",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$30",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$32",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$22",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$17",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$20",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$23",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.ECPrivateKeyStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$13",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$21",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.sec.SECNamedCurves$26",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.pkcs",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.pkcs.Pfx",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.KeyDerivationFunc",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.PKCS12PBEParams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.MacData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.PBKDF2Params",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.CertificationRequestInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.SignerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.DHParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.SafeBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.PrivateKeyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.RSAPrivateKeyStructure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.IssuerAndSerialNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.ContentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.CertificationRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.PBES2Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.RSASSAPSSparams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.RSAESOAEPparams",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.EncryptedPrivateKeyInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.EncryptionScheme",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.RC2CBCParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.PBES2Algorithms",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.SignedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.EncryptedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.CertBag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.AuthenticatedSafe",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.pkcs.PKCSObjectIdentifiers",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.oiw",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.oiw.ElGamalParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.oiw.OIWObjectIdentifiers",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.ocsp",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.ocsp.ServiceLocator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.SingleResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.OCSPObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.OCSPResponseStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.ResponseData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.OCSPResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.CrlID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.CertID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.ResponderID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.Signature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.OCSPRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.CertStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.ResponseBytes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.RevokedInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.TBSRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ocsp.BasicOCSPResponse",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.ntt",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.ntt.NTTObjectIdentifiers",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.nist",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.nist.NISTNamedCurves",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.nist.NISTObjectIdentifiers",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.mozilla",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.mozilla.PublicKeyAndChallenge",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.misc",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.misc.NetscapeCertType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.misc.VerisignCzagExtension",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.misc.MiscObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.misc.NetscapeRevocationURL",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.misc.IDEACBCPar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.misc.CAST5CBCParameters",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.microsoft",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.microsoft.MicrosoftObjectIdentifiers",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.kisa",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.kisa.KISAObjectIdentifiers",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.isismtt.x509",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.ProfessionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.Admissions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.MonetaryLimit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.AdditionalInformationSyntax",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.AdmissionSyntax",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.Restriction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.ProcurationSyntax",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.NamingAuthority",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.x509.DeclarationOfMajority",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.isismtt",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.isismtt.ISISMTTObjectIdentifiers",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.isismtt.ocsp",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.isismtt.ocsp.CertHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.isismtt.ocsp.RequestedCertificate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.icao",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.icao.ICAOObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.icao.DataGroupHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.icao.LDSSecurityObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.iana",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.iana.IANAObjectIdentifiers",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.gnu",
+         "packageMembers": {
+            "name": "org.bouncycastle.asn1.gnu.GNUObjectIdentifiers",
+            "type": "CLASS"
+         },
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.ess",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.ess.OtherSigningCertificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.ContentHints",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.SigningCertificateV2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.ESSCertIDv2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.ContentIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.SigningCertificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.OtherCertID",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ess.ESSCertID",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.esf",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.esf.SignerLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.CommitmentTypeIndication",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.CommitmentTypeIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SigPolicyQualifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SignerAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.OtherHashAlgAndValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SignaturePolicyIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.CommitmentTypeQualifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SigPolicyQualifierInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SPuri",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SPUserNotice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.ESFAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.esf.SignaturePolicyId",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.cryptopro",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.GOST3410NamedParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.GOST28147Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.ECGOST3410ParamSetParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.GOST3410ParamSetParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.CryptoProObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.GOST3410PublicKeyAlgParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cryptopro.ECGOST3410NamedCurves",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.crmf",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.crmf.PKIPublicationInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.CertTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.AttributeTypeAndValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.CertId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.CertReqMsg",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.POPOPrivKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.EncryptedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.CertRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.ProofOfPossession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.SinglePubInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.OptionalValidity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.POPOSigningKeyInput",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.CertReqMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.POPOSigningKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.crmf.Controls",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.cms",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.cms.OriginatorInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.RecipientInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.CompressedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.KeyAgreeRecipientInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.SignedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.EnvelopedDataParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.EncryptedContentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.Time",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.ContentInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.RecipientEncryptedKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.KEKIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.OtherKeyAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.AttributeTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.KeyAgreeRecipientIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.SignerIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.PasswordRecipientInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.SignerInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.IssuerAndSerialNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.CompressedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.KeyTransRecipientInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.OtherRecipientInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.OriginatorPublicKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.EncryptedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.OriginatorIdentifierOrKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.CMSAttributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.SignedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.KEKRecipientInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.RecipientIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.EncryptedContentInfoParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.ContentInfoParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.CMSObjectIdentifiers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.RecipientKeyIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cms.EnvelopedData",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1.cmp",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.cmp.PollRepContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.ProtectedPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.POPODecKeyChallContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CertifiedKeyPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIConfirmContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CertRepMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.RevRepContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.KeyRecRepContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIFailureInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.OOBCertHash",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.GenRepContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.RevAnnContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CertConfirmContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PollReqContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CertResponse",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.GenMsgContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIFreeText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CMPCertificate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.POPODecKeyRespContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.InfoTypeAndValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.Challenge",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CertOrEncCert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CAKeyUpdAnnContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CertStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIMessages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.RevReqContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PKIStatusInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.CRLAnnContent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.PBMParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.RevDetails",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.cmp.ErrorMsgContent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      },
+      {
+         "name": "org.bouncycastle.asn1",
+         "packageMembers": [
+            {
+               "name": "org.bouncycastle.asn1.BEROctetStringGenerator$BufferedBEROctetStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERSequenceParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERConstructedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DEROctetStringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERT61String",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERSequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BEROutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DEREncodableVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERTaggedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Set",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1TaggedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1SetParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERIA5String",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1OctetStringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERConstructedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERTaggedObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERUTCTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1ObjectParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Set$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1OctetString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BEROctetStringParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERSetParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Sequence$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DEROutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.LazyDERConstructionEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERBMPString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1OutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERSequenceParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERConstructedOctetString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERGeneralString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Generator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERConstructedSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERSetParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Encodable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Null",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1SequenceParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERVisibleString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DefiniteLengthInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERTags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERBitString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DEREncodable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERInputStream$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERTaggedObjectParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ConstructedOctetStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERUniversalString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERUnknownTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERGeneralizedTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DEROctetString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1StreamParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.OIDTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Object",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Sequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERPrintableString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1TaggedObjectParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1Choice",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERApplicationSpecific",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.IndefiniteLengthInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BERNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1EncodableVector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DEREnumerated",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERUTF8String",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERSequenceGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERNumericString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.BEROctetStringGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.DERObjectIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.LazyDERSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.ASN1InputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.bouncycastle.asn1.LimitedInputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.39.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "junit.textui",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.security.auth.x500",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.interfaces",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.bouncycastle.jce",
+   "version": "1.39.0"
+}}

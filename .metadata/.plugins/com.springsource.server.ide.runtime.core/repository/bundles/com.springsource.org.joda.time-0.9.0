@@ -1,0 +1,2144 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:06:30.0",
+   "moduleName": "com.springsource.org.joda.time",
+   "name": "Joda-Time - Java date and time API",
+   "notes": "",
+   "organisationName": "org.joda",
+   "packageExports": [
+      {
+         "name": "org.joda.time",
+         "packageMembers": [
+            {
+               "name": "org.joda.time.MutableDateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeFieldProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeZone",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeZone$UTCProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeZone$Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.ReadableInstant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.MutableDateTimeFieldProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.AbstractDateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.Instant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.AbstractInstant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.ReadWritableInstant",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.ReadableDateTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.DateTimeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.Chronology",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Indian",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Indian/Mauritius",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Antananarivo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Maldives",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Cocos",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Kerguelen",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Comoro",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Chagos",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Mahe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Reunion",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Mayotte",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Indian/Christmas",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Pacific",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Pacific/Guadalcanal",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Rarotonga",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Easter",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Saipan",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Guam",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Fiji",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Auckland",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Kiritimati",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Enderbury",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Chatham",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Majuro",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Fakaofo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Tarawa",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Niue",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Efate",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Pitcairn",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Kosrae",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Tahiti",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Tongatapu",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Gambier",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Marquesas",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Nauru",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Pago_Pago",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Midway",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Norfolk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Palau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Galapagos",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Funafuti",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Kwajalein",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Noumea",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Ponape",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Apia",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Honolulu",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Yap",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Truk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Port_Moresby",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Wake",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Johnston",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Pacific/Wallis",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Etc",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-5",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-13",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+10",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+8",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+3",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+7",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-3",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-12",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/UTC",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+2",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+9",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-4",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-6",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-10",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-2",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+4",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-14",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+11",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/UCT",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-1",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-9",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+1",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+5",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+12",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-8",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT+6",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-11",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Etc/GMT-7",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Europe",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Europe/Berlin",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Samara",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Chisinau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Athens",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Moscow",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Vaduz",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Warsaw",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Istanbul",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Uzhgorod",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Andorra",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Prague",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Amsterdam",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Vilnius",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Riga",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Monaco",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Lisbon",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Madrid",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Sofia",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Dublin",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/London",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Helsinki",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Belfast",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Kiev",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Gibraltar",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Vienna",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Luxembourg",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Zaporozhye",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Minsk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Stockholm",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Copenhagen",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Bucharest",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Rome",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Belgrade",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Tirane",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Tallinn",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Simferopol",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Malta",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Zurich",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Paris",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Budapest",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Brussels",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Kaliningrad",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Europe/Oslo",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Australia",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Australia/Sydney",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Hobart",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Perth",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Broken_Hill",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Brisbane",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Darwin",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Adelaide",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Melbourne",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Lord_Howe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Australia/Lindeman",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Atlantic",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Stanley",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Madeira",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/St_Helena",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Cape_Verde",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Azores",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Bermuda",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/South_Georgia",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Faeroe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Canary",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Atlantic/Reykjavik",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Asia",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Asia/Riyadh87",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Aqtau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Riyadh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Brunei",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Baghdad",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Macau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Choibalsan",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Qatar",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Amman",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Aden",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Tbilisi",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Jerusalem",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Makassar",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Almaty",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Seoul",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Dubai",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Karachi",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Kuching",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Krasnoyarsk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Singapore",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Harbin",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Kamchatka",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Manila",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Ashgabat",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Muscat",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Yerevan",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Katmandu",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Beirut",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Kuala_Lumpur",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Samarkand",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Gaza",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Colombo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Hong_Kong",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Damascus",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Baku",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Calcutta",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Tashkent",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Urumqi",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Dhaka",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Qyzylorda",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Ulaanbaatar",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Thimphu",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Novosibirsk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Vientiane",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Irkutsk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Shanghai",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Taipei",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Bangkok",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Magadan",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Vladivostok",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Bishkek",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Chongqing",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Omsk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Kashgar",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Dushanbe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Oral",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Rangoon",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Hovd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Pontianak",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Phnom_Penh",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Riyadh88",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Sakhalin",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Anadyr",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Nicosia",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Pyongyang",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Kuwait",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Saigon",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Aqtobe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Jayapura",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Tokyo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Dili",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Tehran",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Riyadh89",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Yekaterinburg",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Yakutsk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Jakarta",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Kabul",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Asia/Bahrain",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Antarctica",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Rothera",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/McMurdo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/DumontDUrville",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Vostok",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Palmer",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Mawson",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Syowa",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Davis",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Antarctica/Casey",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.America.Kentucky",
+         "packageMembers": {
+            "name": "org/joda/time/tz/data/America/Kentucky/Monticello",
+            "type": "RESOURCE"
+         },
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.America.North_Dakota",
+         "packageMembers": {
+            "name": "org/joda/time/tz/data/America/North_Dakota/Center",
+            "type": "RESOURCE"
+         },
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.America.Indiana",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/America/Indiana/Marengo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Indiana/Knox",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Indiana/Vevay",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.America",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/America/Rainy_River",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Adak",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Boa_Vista",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Pangnirtung",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Danmarkshavn",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Nipigon",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Nassau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Dawson",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Tegucigalpa",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Montserrat",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/La_Paz",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Port_of_Spain",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Grand_Turk",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Tortola",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Santo_Domingo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Manaus",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Swift_Current",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Boise",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Iqaluit",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Montreal",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Winnipeg",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Eirunepe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/St_Thomas",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Port-au-Prince",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Godthab",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Noronha",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Yakutat",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Mexico_City",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Indianapolis",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Guyana",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Guatemala",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/New_York",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/St_Johns",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Dawson_Creek",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Antigua",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Asuncion",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Monterrey",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Panama",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Catamarca",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Sao_Paulo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Guadeloupe",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Rankin_Inlet",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Grenada",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Martinique",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Anguilla",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Paramaribo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Cayenne",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/St_Vincent",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Chicago",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Bogota",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Miquelon",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Guayaquil",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Chihuahua",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Belem",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Jamaica",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Cordoba",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Louisville",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Aruba",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Caracas",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Cancun",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Maceio",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Montevideo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Edmonton",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Havana",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Yellowknife",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Anchorage",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Cayman",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Scoresbysund",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Thunder_Bay",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Dominica",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Cuiaba",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Phoenix",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Fortaleza",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Glace_Bay",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Rio_Branco",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Recife",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Goose_Bay",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Juneau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Inuvik",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Denver",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Cambridge_Bay",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Puerto_Rico",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Regina",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/St_Lucia",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Vancouver",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Santiago",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Lima",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Mazatlan",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Tijuana",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/El_Salvador",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Araguaina",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Costa_Rica",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Whitehorse",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Menominee",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Halifax",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Hermosillo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Mendoza",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Buenos_Aires",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Nome",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Detroit",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Barbados",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Belize",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Porto_Velho",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Jujuy",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Merida",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Thule",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/St_Kitts",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Curacao",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Los_Angeles",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/America/Managua",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data.Africa",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/Africa/Bamako",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Timbuktu",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Mogadishu",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Mbabane",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Kampala",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Libreville",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/El_Aaiun",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Lome",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Abidjan",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Malabo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Douala",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Nairobi",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Brazzaville",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Dakar",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Bissau",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Freetown",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Blantyre",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Banjul",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Dar_es_Salaam",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Porto-Novo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Gaborone",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Khartoum",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Algiers",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Asmera",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Harare",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Ouagadougou",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Niamey",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Bujumbura",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Johannesburg",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Ceuta",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Djibouti",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Kinshasa",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Kigali",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Tunis",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Conakry",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Monrovia",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Lagos",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Lusaka",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Tripoli",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Ndjamena",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Windhoek",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Maputo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Maseru",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Casablanca",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Accra",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Addis_Ababa",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Bangui",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Nouakchott",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Luanda",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Cairo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Lubumbashi",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/Africa/Sao_Tome",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz.data",
+         "packageMembers": [
+            {
+               "name": "org/joda/time/tz/data/EET",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/ZoneInfoMap",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/WET",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/CET",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/joda/time/tz/data/MET",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.tz",
+         "packageMembers": [
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.FixedDateTimeZone",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.ZoneInfoCompiler$RuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.ZoneInfoCompiler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$OfYear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.ZoneInfoProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$RuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DefaultNameProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.CachedDateTimeZone$Info",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.ZoneInfoCompiler$DateTimeOfYear",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.ZoneInfoCompiler$Zone",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$Transition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.Provider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.CachedDateTimeZone",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.ZoneInfoCompiler$Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.NameProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.tz.DateTimeZoneBuilder$Recurrence",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.format",
+         "packageMembers": [
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeParserBucket$SavedField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormat$FParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$StringLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$UnpaddedNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffsetFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.ISODateTimeFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormat$FPrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimePrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$Fraction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$TimeZonePrinter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$AbstractFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$MatchingParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$Composite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeParserBucket$SavedState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeFormatterBuilder$TextField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.DateTimeParserBucket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.FormatUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.format.AbstractDateTimeFormatter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.chrono.iso",
+         "packageMembers": {
+            "name": "org.joda.time.chrono.iso.ISOChronology",
+            "type": "CLASS"
+         },
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.chrono.gj",
+         "packageMembers": [
+            {
+               "name": "org.joda.time.chrono.gj.GJChronology$Stub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJDayOfYearDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJDayOfWeekDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJWeekyearDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.JulianChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GregorianChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJWeekOfWeekyearDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.ProlepticChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.CutoverChronology$CutoverVarField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.ProlepticChronology$HalfdayField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJMonthOfYearDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJEraDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJChronology$Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.JulianWithYearZeroChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJZonedChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJYearDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJDayOfMonthDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.JulianChronology$NoWeekyearZeroField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJCenturyChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJLocaleSymbols",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.CutoverChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.JulianChronology$NoYearZeroField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.GJYearOfEraDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.CutoverChronology$CutoverField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.gj.ProlepticChronology$YearInfo",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.chrono.buddhist",
+         "packageMembers": [
+            {
+               "name": "org.joda.time.chrono.buddhist.BuddhistEraDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.buddhist.BuddhistChronology",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.0"
+      },
+      {
+         "name": "org.joda.time.chrono",
+         "packageMembers": [
+            {
+               "name": "org.joda.time.chrono.ZonedChronology$ZonedDateField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.LimitDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.FractionalDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.DelegateDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.RemainderDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.NonZeroDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.ZonedChronology$ZonedTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.DelegateChronology",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.DividedDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.OffsetDateTimeField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.joda.time.chrono.ZonedChronology",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.9.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.joda.time",
+   "version": "0.9.0"
+}}

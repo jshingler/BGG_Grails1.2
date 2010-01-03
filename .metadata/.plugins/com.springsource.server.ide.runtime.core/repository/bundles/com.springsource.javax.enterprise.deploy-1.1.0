@@ -1,0 +1,186 @@
+{"bundle": {
+   "dateAdded": "2008-12-12 15:10:47.0",
+   "moduleName": "com.springsource.javax.enterprise.deploy",
+   "name": "JSR 88 Java EE Application Deployment",
+   "notes": "",
+   "organisationName": "javax.enterprise.deploy",
+   "packageExports": [
+      {
+         "name": "javax.enterprise.deploy.spi",
+         "packageMembers": [
+            {
+               "name": "javax.enterprise.deploy.spi.DConfigBeanRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.DConfigBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.DeploymentConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.DeploymentManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.TargetModuleID",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.Target",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.spi.exceptions",
+         "packageMembers": [
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.DConfigBeanVersionUnsupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.DeploymentManagerCreationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.InvalidModuleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.ClientExecuteException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.TargetException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.BeanNotFoundException",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.exceptions.OperationUnsupportedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.spi.factories",
+         "packageMembers": {
+            "name": "javax.enterprise.deploy.spi.factories.DeploymentFactory",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.spi.status",
+         "packageMembers": [
+            {
+               "name": "javax.enterprise.deploy.spi.status.ClientConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.status.ProgressObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.status.ProgressEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.status.DeploymentStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.spi.status.ProgressListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.model",
+         "packageMembers": [
+            {
+               "name": "javax.enterprise.deploy.model.XpathListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.model.DeployableObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.model.XpathEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.model.J2eeApplicationObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.model.DDBeanRoot",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.model.DDBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.model.exceptions",
+         "packageMembers": {
+            "name": "javax.enterprise.deploy.model.exceptions.DDBeanCreateException",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.shared.factories",
+         "packageMembers": {
+            "name": "javax.enterprise.deploy.shared.factories.DeploymentFactoryManager",
+            "type": "CLASS"
+         },
+         "version": "1.1.0"
+      },
+      {
+         "name": "javax.enterprise.deploy.shared",
+         "packageMembers": [
+            {
+               "name": "javax.enterprise.deploy.shared.ModuleType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.shared.DConfigBeanVersionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.shared.CommandType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.shared.StateType",
+               "type": "CLASS"
+            },
+            {
+               "name": "javax.enterprise.deploy.shared.ActionType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.1.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.javax.enterprise.deploy",
+   "version": "1.1.0"
+}}

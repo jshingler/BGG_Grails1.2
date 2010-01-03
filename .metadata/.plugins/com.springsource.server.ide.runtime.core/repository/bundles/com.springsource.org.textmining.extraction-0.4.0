@@ -1,0 +1,502 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:32:41.0",
+   "moduleName": "com.springsource.org.textmining.extraction",
+   "name": "TextMining.org tm-extractors",
+   "notes": "",
+   "organisationName": "org.textmining",
+   "packageExports": [
+      {
+         "name": "org.apache.poi.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.util.LittleEndianConsts",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.BitField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IntList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.FixedField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LittleEndian$BufferUnderrunException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LongField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IOUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.ShortField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.HexDump",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.LittleEndian",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.IntegerField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.util.ByteField",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.textmining.text.extraction",
+         "packageMembers": [
+            {
+               "name": "org.textmining.text.extraction.WordExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.textmining.text.extraction.FastSavedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.textmining.text.extraction.WordTextBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.textmining.text.extraction.Word6Extractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.textmining.text.extraction.PasswordProtectedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.textmining.text.extraction.chp",
+         "packageMembers": {
+            "name": "org.textmining.text.extraction.chp.Word6CHPBinTable",
+            "type": "CLASS"
+         },
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.textmining.text.extraction.sprm",
+         "packageMembers": [
+            {
+               "name": "org.textmining.text.extraction.sprm.SprmOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.textmining.text.extraction.sprm.SprmIterator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hdf.model.hdftypes",
+         "packageMembers": {
+            "name": "org.apache.poi.hdf.model.hdftypes.HDFType",
+            "type": "CLASS"
+         },
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.poifs.storage",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.storage.PropertyBlock$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.HeaderBlockWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallBlockTableReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BATBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.ListManagedBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.RawDataBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BigBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockAllocationTableWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.HeaderBlockReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallDocumentBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.DocumentBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallBlockTableWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.PropertyBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockListImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockWritable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.RawDataBlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.SmallDocumentBlockList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.BlockAllocationTableReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.storage.HeaderBlockConstants",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.poifs.filesystem",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocument$BigBlockStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSWriterListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.BATManaged",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.EntryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DirectoryNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSFileSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocumentPath",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DocumentInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSWriterEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.POIFSDocument$SmallBlockStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.filesystem.DirectoryEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.poifs.property",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.poifs.property.DirectoryProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.DocumentProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.Child",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.Parent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.RootProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.DirectoryProperty$PropertyComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.DirectoryProperty$$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.PropertyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.poifs.property.PropertyTable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.poifs.dev",
+         "packageMembers": {
+            "name": "org.apache.poi.poifs.dev.POIFSViewable",
+            "type": "CLASS"
+         },
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hwpf.usermodel",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hwpf.usermodel.CharacterProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.usermodel.ShadingDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.usermodel.BorderCode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.usermodel.DropCapSpecifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.usermodel.LineSpacingDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.usermodel.ParagraphProperties",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.usermodel.DateAndTime",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hwpf.sprm",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hwpf.sprm.SprmIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.sprm.CharacterSprmUncompressor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.sprm.SprmOperation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.sprm.SprmBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.sprm.ParagraphSprmUncompressor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.sprm.SprmUncompressor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hwpf.model.types",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hwpf.model.types.PAPAbstractType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.types.CHPAbstractType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hwpf.model.io",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hwpf.model.io.HWPFOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.io.HWPFFileSystem",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hpsf",
+         "packageMembers": {
+            "name": "org.apache.poi.hpsf.ClassID",
+            "type": "CLASS"
+         },
+         "version": "0.4.0"
+      },
+      {
+         "name": "org.apache.poi.hwpf.model",
+         "packageMembers": [
+            {
+               "name": "org.apache.poi.hwpf.model.UPX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.CHPX",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.PlexOfCps",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.StyleDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.StyleSheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.HDFType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.GenericPropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.PieceDescriptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.TextPiece",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.CHPBinTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.PropertyNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.TextPieceTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.ComplexFileTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.FormattedDiskPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.CHPFormattedDiskPage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.poi.hwpf.model.CachedPropertyNode",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.4.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.textmining.extraction",
+   "version": "0.4.0"
+}}

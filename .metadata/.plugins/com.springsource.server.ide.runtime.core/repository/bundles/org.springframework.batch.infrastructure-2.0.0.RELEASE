@@ -1,0 +1,1618 @@
+{"bundle": {
+   "dateAdded": "2009-04-30 10:33:39.0",
+   "moduleName": "org.springframework.batch.infrastructure",
+   "name": "Spring Batch Infrastructure",
+   "notes": "",
+   "organisationName": "org.springframework.batch",
+   "packageExports": [
+      {
+         "name": "org.springframework.batch",
+         "packageMembers": {
+            "name": "org/springframework/batch/package.html",
+            "type": "RESOURCE"
+         },
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry.policy",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.retry.policy.SoftReferenceMapRetryContextCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.SimpleRetryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.SimpleRetryPolicy$SimpleRetryContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/retry/policy/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.AlwaysRetryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.MapRetryContextCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.CompositeRetryPolicy$CompositeRetryContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.TimeoutRetryPolicy$TimeoutRetryContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.RetryCacheCapacityExceededException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.RetryContextCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.CompositeRetryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.NeverRetryPolicy$NeverRetryContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.TimeoutRetryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.NeverRetryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.ExceptionClassifierRetryPolicy$ExceptionClassifierRetryContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.policy.ExceptionClassifierRetryPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.support.transaction",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.support.transaction.TransactionAwareProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.transaction.ResourcelessTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.transaction.TransactionAwareBufferedWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/support/transaction/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.support.transaction.TransactionAwareProxyFactory$TargetSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.transaction.FlushFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.transaction.TransactionAwareProxyFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.transaction.TransactionAwareBufferedWriter$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.support.annotation",
+         "packageMembers": {
+            "name": "org.springframework.batch.support.annotation.Classifier",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.retry.support.RetrySynchronizationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.support.DefaultRetryState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.support.RetryTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/retry/support/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.support.IntArrayPropertyEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.MethodInvokerUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.MethodInvokerUtils$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.MethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.SimpleMethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.AnnotationMethodResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.PatternMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.MethodInvokerUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.AnnotationMethodResolver$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.DatabaseType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.DefaultPropertyEditorRegistrar",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.LastModifiedResourceComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.PropertiesConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.MethodInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.PatternMatcher$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.support.SystemPropertyInitializer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.support.MethodInvokerUtils$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry.listener",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.retry.listener.RetryListenerSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/retry/listener/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.retry.interceptor.StatefulRetryOperationsInterceptor$ItemRecovererCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.RetryOperationsInterceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.RetryOperationsInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.StatefulRetryOperationsInterceptor$MethodInvocationRetryCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.NewMethodArgumentsIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.MethodArgumentsKeyGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.MethodInvocationRecoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/retry/interceptor/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.retry.interceptor.StatefulRetryOperationsInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.retry.context.RetryContextSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/retry/context/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry.backoff",
+         "packageMembers": [
+            {
+               "name": "org/springframework/batch/retry/backoff/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.StatelessBackOffPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.Sleeper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.ExponentialBackOffPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.ExponentialBackOffPolicy$ExponentialBackOffContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.ObjectWaitSleeper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.BackOffPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.NoBackOffPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.FixedBackOffPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.BackOffInterruptedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.backoff.BackOffContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.retry",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.retry.RetryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.ExhaustedRetryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.TerminatedRetryException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RecoveryCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryStatistics",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.retry.RetryContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/retry/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.support.ThrottleLimitResultQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.TaskExecutorRepeatTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.ResultHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.RepeatInternalStateSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.RepeatSynchronizationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.RepeatInternalState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.TaskExecutorRepeatTemplate$ResultQueueInternalState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.ResultQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.TaskExecutorRepeatTemplate$ExecutingRunnable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.support.RepeatTemplate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.policy",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.policy.SimpleCompletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.CompositeCompletionPolicy$CompositeBatchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.TimeoutTerminationPolicy$TimeoutBatchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.CountingCompletionPolicy$CountingBatchContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.TimeoutTerminationPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.DefaultResultCompletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.CompletionPolicySupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.SimpleCompletionPolicy$SimpleTerminationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.CompositeCompletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/policy/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.policy.CountingCompletionPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.listener",
+         "packageMembers": [
+            {
+               "name": "org/springframework/batch/repeat/listener/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.listener.CompositeRepeatListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.listener.RepeatListenerSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.interceptor",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.interceptor.RepeatOperationsInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.interceptor.RepeatOperationsInterceptor$RepeatOperationsInterceptorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.interceptor.RepeatOperationsInterceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/interceptor/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.interceptor.RepeatOperationsInterceptor$ResultHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.exception",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.exception.RethrowOnThresholdExceptionHandler$IntegerHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.LogOrRethrowExceptionHandler$Level",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/exception/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.ExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.CompositeExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.RethrowOnThresholdExceptionHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.DefaultExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.SimpleLimitExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.RethrowOnThresholdExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.exception.LogOrRethrowExceptionHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.context",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.context.SynchronizedAttributeAccessor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/context/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.context.SynchronizedAttributeAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.context.RepeatContextCounter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.context.RepeatContextSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.RepeatCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.repeat.RepeatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.RepeatOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.RepeatStatus",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.RepeatContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.CompletionPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.repeat.RepeatListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.repeat.callback",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.repeat.callback.NestedRepeatCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/repeat/callback/package.html",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.xml.stax",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.xml.stax.FragmentEventReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.stax.AbstractEventReaderWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.stax.DefaultFragmentEventReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.stax.NoStartEndDocumentStreamWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.stax.AbstractEventWriterWrapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.xml",
+         "packageMembers": [
+            {
+               "name": "org/springframework/batch/item/xml/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.StaxEventItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.StaxEventItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.xml.StaxWriterCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.validator",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.validator.ValidatingItemProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.validator.SpringValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.validator.ValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/validator/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.validator.Validator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.util",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.util.ExecutionContextUserSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.util.FileUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.support.PassThroughItemProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.AbstractItemStreamItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/support/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.support.CompositeItemProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.CompositeItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.ListItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.CompositeItemStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.AbstractItemStreamItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.ClassifierCompositeItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.support.AbstractItemCountingItemStreamItemReader",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.jms",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.jms.JmsNewMethodArgumentsIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.jms.JmsItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.jms.JmsMethodArgumentsKeyGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.jms.JmsMethodInvocationRecoverer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.jms.JmsItemWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.file.transform",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.file.transform.ConversionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.IncorrectLineLengthException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.IncorrectTokenCountException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.RangeArrayPropertyEditor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.Alignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.DefaultFieldSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.LineAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/file/transform/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.DelimitedLineTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.PassThroughFieldExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.FormatterLineAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.PassThroughLineAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.BeanWrapperFieldExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.DelimitedLineAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.LineTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.FlatFileFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.Range",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.RecursiveCollectionLineAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.PatternMatchingCompositeLineTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.FixedLengthTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.FieldSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.FieldSetFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.ExtractorLineAggregator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.AbstractLineTokenizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.RangeArrayPropertyEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.FieldExtractor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.transform.DefaultFieldSetFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.file.separator",
+         "packageMembers": [
+            {
+               "name": "org/springframework/batch/item/file/separator/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.file.separator.SimpleRecordSeparatorPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.separator.RecordSeparatorPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.separator.SuffixRecordSeparatorPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.separator.DefaultRecordSeparatorPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.file.mapping",
+         "packageMembers": [
+            {
+               "name": "org/springframework/batch/item/file/mapping/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.BindingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.PatternMatchingCompositeLineMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.FieldSetMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.PropertyMatches",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.PassThroughFieldSetMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.PassThroughLineMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.mapping.DefaultLineMapper",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.file",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.file.SimpleResourceSuffixCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.MultiResourceItemReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.FlatFileItemWriter$OutputState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.LineMapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.FlatFileHeaderCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.MultiResourceItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.FlatFileFooterCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.MultiResourceItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.FlatFileParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.ResourceAwareItemReaderItemStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/file/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.file.LineCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.MultiResourceItemReader$MultiResourceIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.FlatFileItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.ResourceSuffixCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.ResourceAwareItemWriterItemStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.file.FlatFileItemWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.database.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.database.support.HsqlPagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.DefaultDataFieldMaxValueIncrementerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.OraclePagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.DataFieldMaxValueIncrementerFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.PostgresPagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.Db2PagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.SqlPagingQueryProviderFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.SqlPagingQueryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.SqlWindowingPagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.SqlServerPagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.MySqlPagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.ColumnMapItemPreparedStatementSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.SybasePagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.DerbyPagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.support.AbstractSqlPagingQueryProvider",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.database",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.database.PagingQueryProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcPagingItemReader$PagingRowCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcPagingItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcBatchItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.HibernateItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JpaItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.AbstractPagingItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.ExtendedConnectionDataSourceProxy$CloseSuppressingInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.ItemPreparedStatementSetter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.IbatisBatchItemWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/database/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcPagingItemReader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JpaPagingItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.ExtendedConnectionDataSourceProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcParameterUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.HibernateCursorItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.IbatisPagingItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcBatchItemWriter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcPagingItemReader$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.ItemSqlParameterSourceProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.JdbcCursorItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.database.IbatisBatchItemWriter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item.adapter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.adapter.ItemWriterAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/adapter/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.adapter.PropertyExtractingDelegatingItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.adapter.ItemReaderAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.adapter.DynamicMethodInvocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.adapter.AbstractMethodInvokingDelegator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.item",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.item.ItemStreamSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.WriterNotOpenException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemStreamException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ReaderNotOpenException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.WriteFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemStreamReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/batch/item/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.batch.item.UnexpectedInputException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemReaderException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemWriterException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ItemWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.item.ExecutionContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      },
+      {
+         "name": "org.springframework.batch.classify",
+         "packageMembers": [
+            {
+               "name": "org.springframework.batch.classify.SubclassClassifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.BackToBackPatternClassifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.PatternMatchingClassifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.ClassifierSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.Classifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.BinaryExceptionClassifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.ClassifierAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.batch.classify.SubclassClassifier$ClassComparator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.orm.hibernate3",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.orm.ibatis",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.orm.jpa",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.oxm",
+         "optional": true,
+         "versionRange": "[1.5.5, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.validation",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.xml.transform",
+         "optional": true,
+         "versionRange": "[1.5.5, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.jms.core",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jms",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.support.incrementer",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.support",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.datasource",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core.simple",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core.namedparam",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc.core",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.jdbc",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": true,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.enums",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.annotation",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.aop",
+         "optional": false,
+         "versionRange": "[2.5.5, 3.0.0)"
+      },
+      {
+         "name": "org.hibernate.classic",
+         "optional": true,
+         "versionRange": "[3.2.5.ga, 3.3.0.ga)"
+      },
+      {
+         "name": "org.hibernate",
+         "optional": true,
+         "versionRange": "[3.2.5.ga, 3.3.0.ga)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang.builder",
+         "optional": true,
+         "versionRange": "[2.1.0, 3.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.aop",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.transform",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream.events",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.stream",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.persistence",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.engine.execution",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "com.ibatis.sqlmap.client",
+         "optional": true,
+         "versionRange": "[2.3.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.batch.infrastructure",
+   "version": "2.0.0.RELEASE"
+}}

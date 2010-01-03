@@ -1,0 +1,598 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:08:26.0",
+   "moduleName": "com.springsource.org.apache.catalina.tribes",
+   "name": "Apache Tomcat Catalina Tribes",
+   "notes": "",
+   "organisationName": "org.apache.catalina",
+   "packageExports": [
+      {
+         "name": "org.apache.catalina.tribes.transport.bio.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.util.SingleRemoveSynchronizedAddLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.util.FastQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.util.LinkObject",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.transport.nio",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.NioReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.ParallelNioSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.NioReplicationTask$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.NioReplicationTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.PooledParallelSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.NioReplicationTask$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.nio.NioSender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.util",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.util.Arrays",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.util.StringManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.util.Logs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.util.UUIDGenerator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.ByteMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.Heartbeat",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.RemoteProcessException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelInterceptor$InterceptorEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.Member",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/tribes/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/catalina/tribes/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.tribes.MembershipListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.UniqueId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.Channel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.MembershipService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.MessageListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelException$FaultyMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ManagedChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.ChannelSender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.transport.bio",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.MultipointBioSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.BioSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.BioReplicationTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.BioReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.bio.PooledMultiSender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.transport",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.transport.PooledSender$SenderQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.ReceiverBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.AbstractRxTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.AbstractSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.PooledSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.SenderState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.RxTaskPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/tribes/transport/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/catalina/tribes/transport/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.ReplicationTransmitter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.MultiPointSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.RxTaskPool$TaskCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.transport.DataSender",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.tipis",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapOwner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.LazyReplicatedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.ReplicatedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.Streamable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.ReplicatedMapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.tipis.AbstractReplicatedMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.membership",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.membership.StaticMember",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.Membership$MbrEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.Membership$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.MemberImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/tribes/membership/mbeans-descriptors.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.Membership",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.Constants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl$ReceiverThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.Membership$MemberComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/catalina/tribes/membership/LocalStrings.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.io",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.io.ReplicationStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.DirectByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.ObjectReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.BufferPool15Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.BufferPool14Impl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.ChannelData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.BufferPool$BufferPoolAPI",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.BufferPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.XByteBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.io.ListenCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.group.interceptors",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator$CoordinationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.TwoPhaseCommitInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.MessageDispatch15Interceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.OrderInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.OrderInterceptor$Counter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.FragmentationInterceptor$FragCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.FragmentationInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.DomainFilterInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator$CoordinationMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.OrderInterceptor$MessageOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.TwoPhaseCommitInterceptor$MapEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.TcpFailureDetector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.MessageDispatch15Interceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.GzipInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.TcpPingInterceptor$PingThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.TcpPingInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.interceptors.FragmentationInterceptor$FragKey",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      },
+      {
+         "name": "org.apache.catalina.tribes.group",
+         "packageMembers": [
+            {
+               "name": "org.apache.catalina.tribes.group.InterceptorPayload",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.ChannelCoordinator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.RpcCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.GroupChannel$InterceptorIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.RpcMessage$NoRpcChannelReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.ChannelInterceptorBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.RpcChannel$RpcCollectorKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.GroupChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.RpcChannel$RpcCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.AbsoluteOrder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.Response",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.RpcChannel",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.RpcMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.AbsoluteOrder$AbsoluteComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.catalina.tribes.group.GroupChannel$HeartbeatThread",
+               "type": "CLASS"
+            }
+         ],
+         "version": "6.0.18"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.juli.logging",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      },
+      {
+         "name": "org.apache.catalina.ha.session",
+         "optional": false,
+         "versionRange": "[6.0.18, 6.0.18]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.catalina.tribes",
+   "version": "6.0.18"
+}}

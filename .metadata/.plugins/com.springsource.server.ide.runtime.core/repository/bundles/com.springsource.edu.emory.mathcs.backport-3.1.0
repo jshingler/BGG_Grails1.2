@@ -1,0 +1,998 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:38:18.0",
+   "moduleName": "com.springsource.edu.emory.mathcs.backport",
+   "name": "Backport Util Concurrent",
+   "notes": "",
+   "organisationName": "edu.emory.mathcs.backport",
+   "packageExports": [
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent.locks",
+         "packageMembers": [
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.CondVar",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.FIFOCondVar$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.Condition",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.Lock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.FIFOCondVar",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantReadWriteLock$Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantLock$Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.CondVar$ExclusiveLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantLock$NonfairSync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantLock$FairSync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantReadWriteLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util",
+         "packageMembers": [
+            {
+               "name": "edu.emory.mathcs.backport.java.util.NavigableMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.NavigableSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.LinkedList$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$NavigableSubMap$SubEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$ReverseComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractSequentialList",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Arrays",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$AscendingKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedList$ListItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeSet$IOIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeSet$MapIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$DescendingKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractList",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.ArrayDeque$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.PriorityQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Queue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.ArrayDeque",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$SetFromMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.PriorityQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$NavigableSubMap$SubEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$IteratorNoClassException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractMap$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractMap$SimpleEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractMap$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedCollection$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedSortedSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$AsLifoQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$DescendingSubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Deque",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$SubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$NavigableSubMap$SubKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$DescendingKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$AscendingSubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.ArrayDeque$DeqIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$DescendingEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.LinkedList$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$IteratorIOException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.ArrayDeque$DescendingIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedMap$EntrySetView",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$DescendingEntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$NavigableSubMap$SubKeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedMap$EntryView",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$NavigableSubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$ValueSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.Collections$CheckedSortedMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.LinkedList",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$BaseEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractMap$SimpleImmutableEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.LinkedList$DescItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$DescendingValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.TreeMap$IOIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.AbstractCollection",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers",
+         "packageMembers": [
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.ThreadHelpers",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.NanoTimer",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.FIFOWaitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.ThreadHelpers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.WaitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.WaitQueue$WaitNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.ThreadHelpers$UncaughtExceptionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.Utils",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.Utils$MillisProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.Utils$SunPerfProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.WaitQueue$QueuedSync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.Utils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.helpers.Utils$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic",
+         "packageMembers": [
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicStampedReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicMarkableReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicStampedReference$ReferenceIntegerPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicMarkableReference$ReferenceBooleanPair",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicReferenceArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicIntegerArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicLongArray",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicLong",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "edu.emory.mathcs.backport.java.util.concurrent",
+         "packageMembers": [
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$DiscardOldestPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$HashEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CopyOnWriteArraySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CopyOnWriteArrayList$COWIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.SynchronousQueue$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Semaphore$NonfairSync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$DefaultThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.FutureTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentNavigableMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.SynchronousQueue$EmptyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentLinkedQueue$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.AbstractExecutorService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$Worker",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$SubMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$AbortPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.RunnableFuture",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.PriorityBlockingQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CyclicBarrier",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$HashIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ScheduledThreadPoolExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingDeque",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapEntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$DelegatedExecutorService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentLinkedQueue$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Semaphore$FairSync$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.SynchronousQueue$FifoWaitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CountDownLatch",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$PrivilegedCallable",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Future",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$EntrySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Delayed",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$HeadIndex",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CopyOnWriteArrayList$COWSubIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$Segment",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.PriorityBlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$FinalizableDelegatedExecutorService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$KeySet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.RunnableScheduledFuture",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.DelayQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$ComparableUsingComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executor",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapIter",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CancellationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ArrayBlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Callable",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$DelegatedScheduledExecutorService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CopyOnWriteArrayList",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$DiscardPolicy",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapKeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ScheduledFuture",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CompletionService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$EntryIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.BlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.RejectedExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Semaphore",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CyclicBarrier$Generation",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$SerializableLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ExecutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.RejectedExecutionHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Semaphore$FairSync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$KeyIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$Values",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.SynchronousQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.BrokenBarrierException",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Semaphore$Sync",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ExecutorCompletionService$QueueingFuture",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$PrivilegedThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingDeque$Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ArrayBlockingQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingDeque$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Exchanger",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingDeque$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$PrivilegedCallableUsingCurrentClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$ValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$Iter",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ExecutorService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap$WriteThroughEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.TimeUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.DelayQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingDeque$DescendingItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentLinkedQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentLinkedQueue$SerializableLock",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CopyOnWriteArrayList$COWSubList",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.Executors$RunnableAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ExecutorCompletionService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.SynchronousQueue$LifoWaitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.BlockingDeque",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentSkipListMap$Index",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.SynchronousQueue$WaitQueue",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ScheduledExecutorService",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingDeque$AbstractItr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ConcurrentLinkedQueue$Itr",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.CyclicBarrier$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "edu.emory.mathcs.backport.java.util.concurrent.ThreadPoolExecutor$CallerRunsPolicy",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.edu.emory.mathcs.backport",
+   "version": "3.1.0"
+}}

@@ -1,0 +1,113 @@
+{"bundle": {
+   "dateAdded": "2008-04-29 15:23:17.0",
+   "moduleName": "org.springframework.aspects",
+   "name": "Spring Aspects",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.beans.factory.aspectj",
+         "packageMembers": [
+            {
+               "name": "org.springframework.beans.factory.aspectj.AbstractBeanConfigurerAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.aspectj.ConfigurableObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.3.A"
+      },
+      {
+         "name": "org.springframework.transaction.aspectj",
+         "packageMembers": [
+            {
+               "name": "org.springframework.transaction.aspectj.AnnotationTransactionAspect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.transaction.aspectj.AbstractTransactionAspect",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.3.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.beans.factory.wiring",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.transaction.annotation",
+         "optional": true,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.transaction.interceptor",
+         "optional": true,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.annotation",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.3.A, 2.5.3.A]"
+      },
+      {
+         "name": "org.aspectj.lang.reflect",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang.annotation",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.lang",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.aspectj.internal.lang.annotation",
+         "optional": true,
+         "versionRange": "[1.5.4, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.aspects",
+   "version": "2.5.3.A"
+}}

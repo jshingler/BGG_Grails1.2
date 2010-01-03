@@ -1,0 +1,440 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:06:26.0",
+   "moduleName": "com.springsource.org.picocontainer",
+   "name": "PicoContainer",
+   "notes": "",
+   "organisationName": "org.picocontainer",
+   "packageExports": [
+      {
+         "name": "org.picocontainer",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.ComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoRegistrationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.Parameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoInstantiationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.LifecycleManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoVerificationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.Disposable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.Startable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.MutablePicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoLifecycleException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.ComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoIntrospectionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.PicoInitializationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.monitors",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.monitors.ConsoleComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.monitors.LifecycleComponentMonitor$LifecycleFailuresException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.monitors.DefaultComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.monitors.AbstractComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.monitors.WriterComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.monitors.LifecycleComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.monitors.NullComponentMonitor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.alternatives",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.alternatives.ImplementationHidingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.ImplementationHidingCachingPicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.AbstractDelegatingMutablePicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.ImmutablePicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.ImplementationHidingPicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.ImplementationHidingComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.EmptyPicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.alternatives.CachingPicoContainer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      },
+      {
+         "name": "org.picocontainer.defaults",
+         "packageMembers": [
+            {
+               "name": "org.picocontainer.defaults.UnsatisfiableDependenciesException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ImplementationHidingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SynchronizedComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstructorInjectionComponentAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstructorInjectionComponentAdapter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.BeanPropertyComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstantParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SetterInjectionComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.BeanPropertyComponentAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.LifecycleVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.MonitoringComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DelegatingComponentMonitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.PicoInvocationTargetInitializationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DefaultPicoContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.MethodCallingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ImplementationHidingComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.InstanceComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.AmbiguousComponentResolutionException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CyclicDependencyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SetterInjectionComponentAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CustomPermissionsURLClassLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SimpleReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstructorInjectionComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DuplicateComponentKeyRegistrationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.InstantiatingComponentAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ObjectReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CachingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.VerifyingVisitor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DefaultPicoContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SetterInjectionComponentAdapter$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.AbstractComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.AbstractPicoVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DefaultLifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstructorInjectionComponentAdapter$Guard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SetterInjectionComponentAdapter$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstructorInjectionComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ComponentParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CachingComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.InstantiatingComponentAdapter$Guard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SetterInjectionComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ComponentMonitorStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DefaultComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CustomPermissionsURLClassLoader$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.LifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ImmutablePicoContainerProxyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.InstantiatingComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.PicoVisitorTraversalException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.BeanPropertyComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.TooManySatisfiableConstructorsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.AssignabilityRegistrationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SynchronizedComponentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.VerifyingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.MonitoringComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.AbstractPicoVisitor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CyclicDependencyGuard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.MapFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.VerifyingVisitor$ComponentAdapterCollector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ImplementationHidingComponentAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ConstructorInjectionComponentAdapter$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.BasicComponentParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.SetterInjectionComponentAdapter$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DecoratingComponentAdapterFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.NotConcreteRegistrationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.TraversalCheckingVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.AbstractMonitoringLifecycleStrategy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.CollectionComponentParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DefaultPicoContainer$OrderedComponentAdapterLifecycleManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.ThreadLocalCyclicDependencyGuard",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.picocontainer.defaults.DecoratingComponentAdapter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.2.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.picocontainer",
+   "version": "1.2.0"
+}}

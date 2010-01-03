@@ -1,0 +1,167 @@
+{"bundle": {
+   "dateAdded": "2009-04-01 00:30:51.0",
+   "moduleName": "org.springframework.integration.file",
+   "name": "Spring Integration File Adapters",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.file",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.file.AcceptOnceFileListFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.AbstractFileListFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.FileListFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.FileHeaders",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.FileWritingMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.DefaultFileNameGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.FileNameGenerator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.PatternMatchingFileListFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.FileReadingMessageSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.CompositeFileListFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.file.transformer",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.file.transformer.AbstractFilePayloadTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.transformer.FileToStringTransformer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.transformer.FileToByteArrayTransformer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      },
+      {
+         "name": "org.springframework.integration.file.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.file.config.FileOutboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.config.FileInboundChannelAdapterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.config.AbstractFilePayloadTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.config.FileToByteArrayTransformerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/file/config/spring-integration-file-1.0.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.integration.file.config.FileNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.file.config.FileToStringTransformerParser",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.RELEASE"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.integration.transformer",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.message",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.integration.config.xml",
+         "optional": false,
+         "versionRange": "[1.0.1, 1.0.2)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.file",
+   "version": "1.0.2.RELEASE"
+}}

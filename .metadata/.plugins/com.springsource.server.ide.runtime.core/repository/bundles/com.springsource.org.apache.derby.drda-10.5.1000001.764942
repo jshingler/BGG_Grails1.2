@@ -1,0 +1,576 @@
+{"bundle": {
+   "dateAdded": "2009-05-15 14:48:41.0",
+   "moduleName": "com.springsource.org.apache.derby.drda",
+   "name": "Derby Network Server",
+   "notes": "",
+   "organisationName": "org.apache.derby",
+   "packageExports": [
+      {
+         "name": "org.apache.derby.drda",
+         "packageMembers": [
+            {
+               "name": "org/apache/derby/drda/server.policy",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.derby.drda.NetServlet$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.drda.NetworkServerControl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.drda.NetServlet$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.drda.NetServlet",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.mbeans.drda",
+         "packageMembers": {
+            "name": "org.apache.derby.mbeans.drda.NetworkServerMBean",
+            "type": "CLASS"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.loc.drda",
+         "packageMembers": [
+            {
+               "name": "org/apache/derby/loc/drda/messages_de_DE.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_pl.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_es.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_zh_TW.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_hu.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_en.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_pl.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_zh_TW.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_ru.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_ru.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_zh_CN.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_en.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_cs.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_hu.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_zh_CN.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_pt_BR.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_ko_KR.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_ja_JP.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_pt_BR.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_ko_KR.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_es.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_fr.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_it.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_cs.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_de_DE.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/messages_it.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/apache/derby/loc/drda/servlet_ja_JP.properties",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.loc",
+         "packageMembers": {
+            "name": "org/apache/derby/loc/sysinfoMessages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.info",
+         "packageMembers": {
+            "name": "org/apache/derby/info/net.properties",
+            "type": "RESOURCE"
+         },
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.impl.drda",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.impl.drda.DRDAConnThread$PublicBufferOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.XADatabase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DssTrace$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DecryptionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.EXTDTAInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.AppRequester",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAStatement$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.CharacterEncodings",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.LayerBStreamedEXTDTAReaderInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.SignedBinary",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DDMWriter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAXAProtocol",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAString",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAProtocolExceptionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.Pkgnamcsn$StatementKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAStatement$DrdaParamState",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DDMReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.FdocaConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.CcsidManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.ClientThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAProtocolException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAStatement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerMBeanImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.EXTDTAReaderInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.Pkgnamcsn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NaiveTrustManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.ReEncodedInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.Database",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.Pkgnamcsn$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.PiggyBackedSessionData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAConnThread",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.Session",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.ClientThread$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DssTrace",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAResultSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.ConsistencyToken",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DssTrace$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.SQLTypes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.CodePoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDASocketTimeoutException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.EbcdicCcsidManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.DRDAXid",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.CodePointNameTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.NetworkServerControlImpl$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.StandardEXTDTAReaderInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.ReEncodedInputStream$PublicBufferOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.drda.memCheck",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      },
+      {
+         "name": "org.apache.derby.impl.tools.sysinfo",
+         "packageMembers": [
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.Main",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.derby.impl.tools.sysinfo.ZipInfoProperties",
+               "type": "CLASS"
+            }
+         ],
+         "version": "10.5.1000001.764942"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.derby.impl.jdbc",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.jdbc",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.mbeans",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.security",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.tools.i18n",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.util",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.store.access.xa",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.stream",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.property",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.monitor",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.jmx",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.info",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.catalog",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.services.i18n",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.jdbc",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.error",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "org.apache.derby.iapi.db",
+         "optional": false,
+         "versionRange": "[10.5.1000001.764942, 10.5.1000001.764942]"
+      },
+      {
+         "name": "javax.transaction.xa",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.net.ssl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.net",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.interfaces",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.derby.drda",
+   "version": "10.5.1000001.764942"
+}}

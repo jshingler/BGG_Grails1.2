@@ -1,0 +1,1059 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 14:51:32.0",
+   "moduleName": "com.springsource.org.apache.batik.css",
+   "name": "Apache Batik CSS engine",
+   "notes": "",
+   "organisationName": "org.apache.batik",
+   "packageExports": [
+      {
+         "name": "org.apache.batik.css.parser",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$IntegerLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.ScannerUtilities",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultPseudoElementSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSSelectorList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultBeginHyphenAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.ExtendedParserWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$PredefinedFunctionLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultChildSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultDirectAdjacentSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultDocumentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultIdCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$DimensionLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.AbstractElementSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultAndCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultConditionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultElementSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultDescendantSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$SimpleLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultPseudoClassCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultClassCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.AbstractDescendantSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$FunctionLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultConditionalSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.ExtendedParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.AbstractAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.LexicalUnits",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.AbstractSiblingSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.Scanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultLangCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultSelectorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSSACMediaList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.DefaultOneOfAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$FloatLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.CSSLexicalUnit$StringLexicalUnit",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.parser.AbstractCombinatorCondition",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.parser.resources",
+         "packageMembers": {
+            "name": "org/apache/batik/css/parser/resources/Messages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.dom",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGStyleDeclaration$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMViewCSS",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$RedComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$RightComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$GreenComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$BlueComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMStyleDeclaration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGViewCSS",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$FloatComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$RedComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$FloatComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMComputedStyle$ComputedCSSValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$BottomComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMStyleDeclaration$ModificationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGComputedStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$ValueProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGComputedStyle$ComputedCSSColorValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGStyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMStyleDeclaration$StyleDeclarationValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$GreenComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGComputedStyle$ComputedCSSPaintValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMStyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$ValueProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$AbstractComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$AbstractModificationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGPaint$PaintModificationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$ListComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$ModificationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMStoredStyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMComputedStyle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$AbstractComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGStyleDeclaration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$TopComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$ModificationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$LeftComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$BlueComponent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMStyleDeclaration$ValueProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor$ColorNumber",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMValue$AbstractModificationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGStyleDeclaration$StyleDeclarationPaintValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGColor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGStyleDeclaration$StyleDeclarationColorValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGPaint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.dom.CSSOMSVGPaint$AbstractModificationHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value.svg12",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.engine.value.svg12.MarginLengthManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg12.MarginShorthandManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg12.SVG12ValueConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg12.LineHeightManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg12.TextAlignManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg12.LineHeightValue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value.svg",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.engine.value.svg.SVGColorManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ColorInterpolationFiltersManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.FilterManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.TextAnchorManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.KerningManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.BaselineShiftManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.SVGValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.StrokeLinejoinManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.StrokeLinecapManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.GlyphOrientationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.MaskManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.MarkerManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.SVGValueConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.DominantBaselineManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ColorRenderingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ICCColor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.PointerEventsManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.TextRenderingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.StrokeMiterlimitManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.OpacityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.StrokeWidthManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.EnableBackgroundManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ClipRuleManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ColorInterpolationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.StrokeDasharrayManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ColorManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.MarkerShorthandManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.SpacingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.WritingModeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.AlignmentBaselineManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ColorProfileManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ImageRenderingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.GlyphOrientationHorizontalManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ShapeRenderingManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.FillRuleManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.ClipPathManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.SVGPaintManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.GlyphOrientationVerticalManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.svg.StrokeDashoffsetManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.sac",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSConditionalSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.AbstractAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSClassCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.AbstractElementSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSSelectorFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSPseudoClassCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSChildSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSDescendantSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.ExtendedSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSPseudoElementSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.AbstractCombinatorCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSIdCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.AbstractDescendantSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSBeginHyphenAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSAndCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSOneOfAttributeCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.ExtendedCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSLangCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSElementSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSConditionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.CSSDirectAdjacentSelector",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.sac.AbstractSiblingSelector",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.engine.value.LengthManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.ValueConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.StringMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.ListValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.RectManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.URIValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.StringMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.AbstractValueFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.AbstractColorManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.ComputedValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.InheritValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.AbstractValueManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.RectValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.IdentifierManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.ShorthandManager$PropertyHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.FloatValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.ShorthandManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.StringValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.AbstractValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.RGBColorValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.ValueManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.Value",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value.css2",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.engine.value.css2.DisplayManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontVariantManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.VisibilityManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontFamilyManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.CursorManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.OverflowManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.ClipManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontStretchManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontSizeAdjustManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontWeightManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.UnicodeBidiManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.TextDecorationManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontShorthandManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.SrcManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontSizeManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.DirectionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.value.css2.FontStyleManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.value.resources",
+         "packageMembers": {
+            "name": "org/apache/batik/css/engine/value/resources/Messages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine",
+         "packageMembers": [
+            {
+               "name": "org.apache.batik.css.engine.Messages",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$DOMSubtreeModifiedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$DOMNodeInsertedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$StyleDeclarationDocumentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$DOMCharacterDataModifiedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$CSSNavigableDocumentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSNavigableDocument",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StyleSheet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngineListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngineUserAgent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$StyleDeclarationUpdateHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$StyleSheetDocumentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSStylableElement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StringIntMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.MediaRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StringIntMap$Entry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StyleDeclarationProvider",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.SVGCSSEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.ImportRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSNavigableNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StyleDeclaration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$MainPropertyReceiver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSNavigableDocumentListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$StyleDeclarationBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StyleRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$DOMAttrModifiedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSStyleSheetNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.StyleMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.Rule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.SVG12CSSEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.SystemColorSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$DocumentAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.FontFaceRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine$DOMNodeRemovedListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.batik.css.engine.CSSEngineEvent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.7.0"
+      },
+      {
+         "name": "org.apache.batik.css.engine.resources",
+         "packageMembers": {
+            "name": "org/apache/batik/css/engine/resources/Messages.properties",
+            "type": "RESOURCE"
+         },
+         "version": "1.7.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom.views",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.svg",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.events",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom.css",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.w3c.css.sac",
+         "optional": true,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.batik.util.io",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.util",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      },
+      {
+         "name": "org.apache.batik.i18n",
+         "optional": false,
+         "versionRange": "[1.7.0, 1.7.0]"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.batik.css",
+   "version": "1.7.0"
+}}

@@ -1,0 +1,524 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:40:28.0",
+   "moduleName": "org.springframework.context.support",
+   "name": "Spring Context Support",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.cache.ehcache",
+         "packageMembers": [
+            {
+               "name": "org.springframework.cache.ehcache.EhCacheManagerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.cache.ehcache.EhCacheFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.ui.velocity",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ui.velocity.CommonsLoggingLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.velocity.VelocityEngineFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.velocity.SpringResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.velocity.VelocityEngineFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.velocity.VelocityEngineUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.scheduling.commonj",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.commonj.TimerManagerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.commonj.DelegatingWork",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.commonj.WorkManagerTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.commonj.ScheduledTimerListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.commonj.DelegatingTimerListener",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.ui.jasperreports",
+         "packageMembers": {
+            "name": "org.springframework.ui.jasperreports.JasperReportsUtils",
+            "type": "CLASS"
+         },
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.ui.freemarker",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ui.freemarker.SpringTemplateLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.freemarker.FreeMarkerTemplateUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ui.freemarker.FreeMarkerConfigurationFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.scheduling.quartz",
+         "packageMembers": [
+            {
+               "name": "org.springframework.scheduling.quartz.ResourceLoaderClassLoadHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.SchedulerFactoryBean$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.JobMethodInvocationFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$StatefulMethodInvokingJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.LocalDataSourceJobStore$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.LocalDataSourceJobStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.SpringBeanJobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.QuartzJobBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.AdaptableJobFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.DelegatingJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.SimpleTriggerBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.JobDetailBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.LocalDataSourceJobStore$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.SchedulerFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.SimpleThreadPoolTaskExecutor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.CronTriggerBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.JobDetailAwareTrigger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.SchedulerContextAware",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.mail.javamail",
+         "packageMembers": [
+            {
+               "name": "org.springframework.mail.javamail.MimeMessageHelper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.JavaMailSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.MimeMessageHelper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.JavaMailSenderImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/mail/javamail/mime.types",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.mail.javamail.MimeMessagePreparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.SmartMimeMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.MimeMailMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.InternetAddressEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.javamail.ConfigurableMimeFileTypeMap",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.mail",
+         "packageMembers": [
+            {
+               "name": "org.springframework.mail.MailSender",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.MailAuthenticationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.MailPreparationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.MailMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.SimpleMailMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.MailException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.MailSendException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.mail.MailParseException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.scheduling",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.jndi",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.jdbc.datasource",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.io.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.quartz.xml",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.quartz.utils",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.quartz.spi",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.quartz.simpl",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.quartz.impl.jdbcjobstore",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.quartz.impl",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.quartz",
+         "optional": true,
+         "versionRange": "[1.6.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource.loader",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.log",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.exception",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.context",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.app",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": true,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": true,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine.export",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine.data",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.jasperreports.engine",
+         "optional": true,
+         "versionRange": "[2.0.5, 3.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache.store",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache.event",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache.constructs.blocking",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache.bootstrap",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "net.sf.ehcache",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "javax.sql",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.mail.internet",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.mail",
+         "optional": true,
+         "versionRange": "[1.4.0, 2.0.0)"
+      },
+      {
+         "name": "javax.activation",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "freemarker.template",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "freemarker.cache",
+         "optional": true,
+         "versionRange": "[2.3.12, 3.0.0)"
+      },
+      {
+         "name": "commonj.work",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "commonj.timers",
+         "optional": true,
+         "versionRange": "[1.1.0, 2.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.context.support",
+   "version": "2.5.5.A"
+}}

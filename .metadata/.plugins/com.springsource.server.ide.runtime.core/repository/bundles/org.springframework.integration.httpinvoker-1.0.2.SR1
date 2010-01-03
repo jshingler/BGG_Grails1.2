@@ -1,0 +1,95 @@
+{"bundle": {
+   "dateAdded": "2009-04-18 01:00:07.0",
+   "moduleName": "org.springframework.integration.httpinvoker",
+   "name": "Spring Integration HttpInvoker Support",
+   "notes": "",
+   "organisationName": "org.springframework.integration",
+   "packageExports": [
+      {
+         "name": "org.springframework.integration.httpinvoker",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.httpinvoker.HttpInvokerOutboundGateway",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.httpinvoker.HttpInvokerInboundGateway",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      },
+      {
+         "name": "org.springframework.integration.httpinvoker.config",
+         "packageMembers": [
+            {
+               "name": "org.springframework.integration.httpinvoker.config.HttpInvokerNamespaceHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.httpinvoker.config.HttpInvokerInboundGatewayParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.integration.httpinvoker.config.HttpInvokerOutboundGatewayParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/springframework/integration/httpinvoker/config/spring-integration-httpinvoker-1.0.xsd",
+               "type": "RESOURCE"
+            }
+         ],
+         "version": "1.0.2.SR1"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.web",
+         "optional": true,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.remoting.httpinvoker",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.integration.core",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      },
+      {
+         "name": "org.springframework.integration.adapter.config",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      },
+      {
+         "name": "org.springframework.integration.adapter",
+         "optional": false,
+         "versionRange": "[1.0.2, 1.0.3)"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.6.A, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": true,
+         "versionRange": "[2.4.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.integration.httpinvoker",
+   "version": "1.0.2.SR1"
+}}

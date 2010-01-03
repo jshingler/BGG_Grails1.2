@@ -1,0 +1,325 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:19:39.0",
+   "moduleName": "com.springsource.com.sun.el",
+   "name": "Sun Expression Language Reference Implementation",
+   "notes": "",
+   "organisationName": "com.sun.el",
+   "packageExports": [
+      {
+         "name": "com.sun.el",
+         "packageMembers": [
+            {
+               "name": "com.sun.el.MethodExpressionLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "com/sun/el/Messages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "com.sun.el.MethodExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.ValueExpressionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.ValueExpressionLiteral",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.ExpressionFactoryImpl",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.el.util",
+         "packageMembers": [
+            {
+               "name": "com.sun.el.util.MessageFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.util.ReflectionUtil",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.el.parser",
+         "packageMembers": [
+            {
+               "name": "com.sun.el.parser.ELParserTreeConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstAnd",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstLiteralExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstDotSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstNotEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstFloatingPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstMod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstDiv",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstValue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ELParser$JJCalls",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.NodeVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ArithmeticNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ELParserTokenManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstGreaterThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.Token",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.TokenMgrError",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstFunction",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ELParserConstants",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.JJTELParserState",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstIdentifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstEmpty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.BooleanNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstNegative",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstGreaterThanEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstLessThanEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.SimpleCharStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstCompositeExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ELParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ELParser$LookaheadSuccess",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstOr",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstTrue",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstMinus",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstDynamicExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstMult",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.SimpleNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstDeferredExpression",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstFalse",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.ELParser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstLessThan",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstChoice",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstPlus",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstValue$Target",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstBracketSuffix",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.parser.AstString",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      },
+      {
+         "name": "com.sun.el.lang",
+         "packageMembers": [
+            {
+               "name": "com.sun.el.lang.EvaluationContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ELArithmetic$BigIntegerDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ELArithmetic$BigDecimalDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ELArithmetic",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ExpressionBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.VariableMapperFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.VariableMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.FunctionMapperImpl$Function",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ELArithmetic$LongDelegate",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.FunctionMapperImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ELSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.FunctionMapperFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.sun.el.lang.ELArithmetic$DoubleDelegate",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.0"
+      }
+   ],
+   "packageImports": {
+      "name": "javax.el",
+      "optional": false,
+      "versionRange": "[1.0.0, 3.0.0)"
+   },
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.com.sun.el",
+   "version": "1.0.0"
+}}

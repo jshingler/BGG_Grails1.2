@@ -1,0 +1,836 @@
+{"bundle": {
+   "dateAdded": "2009-04-21 16:02:45.0",
+   "moduleName": "com.springsource.org.apache.velocity.tools.view",
+   "name": "Apache Velocity View Tools",
+   "notes": "",
+   "organisationName": "org.apache.velocity",
+   "packageExports": [
+      {
+         "name": "org.apache.velocity.tools",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.OldToolInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.ToolboxFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.Toolbox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.ToolManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.ClassUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.Scope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.ToolInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.ToolContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.ConversionUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.tools",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.view.tools.ViewResourceTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.BrowserSnifferTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.AbstractSearchTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.ContextTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.CookieTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.ViewRenderTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.LinkTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.AbstractPagerTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.ParameterParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.tools.ImportTool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.servlet",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.view.servlet.VelocityLayoutServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletToolInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.VelocityViewServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.WebappLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletToolboxRuleSet$XhtmlRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletToolboxRuleSet$BooleanConfigRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletToolboxRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletToolboxRuleSet$CreateSessionRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletToolboxManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.servlet.ServletLogger",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.jsp",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.view.jsp.VelocityViewTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.jsp.JspToolContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.i18n",
+         "packageMembers": {
+            "name": "org.apache.velocity.tools.view.i18n.MultiViewsTool",
+            "type": "CLASS"
+         },
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.view.context",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.view.context.ViewContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.context.ChainedContext",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.view",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.view.VelocityView",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.WebappResourceLoader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ParameterTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ToolInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/velocity/tools/view/velocity.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ToolboxRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.LinkTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.AbstractSearchTool$StoredResults",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.AbstractSearchTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ToolboxManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ImportTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ServletUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/velocity/tools/view/tools.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ViewContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.BrowserTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.VelocityLayoutServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ServletLogChute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.VelocityViewFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ServletUtils$SessionMutex",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ImportSupport$ImportResponseWrapper$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ServletUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ViewContextTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ToolboxRuleSet$ParameterRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.DataInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ImportSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ImportSupport$ImportResponseWrapper",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.VelocityViewServlet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.JeeConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ImportSupport$SafeClosingHttpURLConnectionReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.PagerTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ViewToolInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.MultiViewsTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ViewToolManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.CookieTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.ViewToolContext",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.view.XMLToolboxManager",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.generic.log",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.generic.log.CommonsLogLogSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.log.LogSystemCommonsLog",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.log.LogChuteCommonsLog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.generic",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.generic.IteratorTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/velocity/tools/generic/tools.xml",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ComparisonDateTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.NumberTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.SortTool$PropertiesComparator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$ActionCondition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.FormatConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$Condition",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ListTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LinkTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.AlternatorTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ConversionTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.FieldTool$FieldToolSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.Alternator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ResourceTool$Key",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ClassTool$FieldSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.FieldTool$MutableField",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$Action",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.AbstractLockConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.DisplayTool$Measurements",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.XmlTool$NodeIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ClassTool$CallableSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$SyncedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LocaleConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$ManagedIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ResourceTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ClassTool$MethodSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.EscapeTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/apache/velocity/tools/generic/times.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.SortTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ClassTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.DisplayTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ClassTool$ConstructorSub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.FieldTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ValueParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ClassTool$Sub",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$Equals",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.SafeConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.RenderTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.LoopTool$Comparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.MathTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ContextTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.DateTool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.ComparisonDateTool$Comparison",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.generic.XmlTool",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      },
+      {
+         "name": "org.apache.velocity.tools.config",
+         "packageMembers": [
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$XhtmlRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$ParameterRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ToolConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ConfigurationCleaner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.XmlFactoryConfigurationRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.XmlFactoryConfigurationRuleSet$PropertyAttributeRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Data$AutoConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.SkipSetters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Data$FieldConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.XmlFactoryConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$DeprecationRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.DefaultKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ToolboxConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$BooleanConfigRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.LogSupport",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.FileFactoryConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Data$Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ConfigurationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ToolConfiguration$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.XmlFactoryConfigurationRuleSet$DataValueInBodyRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$SetNextDataRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.EasyFactoryConfiguration$EasyData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.CompoundConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.FactoryConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.NullKeyException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ToolConfiguration$Status",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$CreateSessionRule",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Property",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.EasyFactoryConfiguration$EasyWrap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.EasyFactoryConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.InvalidScopeException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Data",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.PropertiesFactoryConfiguration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ValidScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.Data$NumberConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.ConfigurationUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.InvalidScope",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.velocity.tools.config.OldXmlFactoryConfigurationRuleSet$ScopeRule",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.0.0.beta3"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.dom4j",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.dom4j.io",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.xml.sax",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.velocity.util",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource.util",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource.loader",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.resource",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime.log",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.runtime",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.exception",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.io",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.context",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity.app",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.velocity",
+         "optional": false,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.lang",
+         "optional": false,
+         "versionRange": "[2.2.0, 3.0.0)"
+      },
+      {
+         "name": "org.apache.commons.digester",
+         "optional": false,
+         "versionRange": "[1.8.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.collections",
+         "optional": false,
+         "versionRange": "[3.2.0, 4.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils.converters",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.beanutils",
+         "optional": false,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp.tagext",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.jsp",
+         "optional": false,
+         "versionRange": "[2.0.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet.http",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      },
+      {
+         "name": "javax.servlet",
+         "optional": false,
+         "versionRange": "[2.3.0, 3.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.velocity.tools.view",
+   "version": "2.0.0.beta3"
+}}

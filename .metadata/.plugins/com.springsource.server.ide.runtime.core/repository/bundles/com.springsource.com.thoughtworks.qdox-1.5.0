@@ -1,0 +1,255 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:28:07.0",
+   "moduleName": "com.springsource.com.thoughtworks.qdox",
+   "name": "Thoughtworks QDox",
+   "notes": "",
+   "organisationName": "com.thoughtworks.qdox",
+   "packageExports": [
+      {
+         "name": "com.thoughtworks.qdox",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.JavaDocBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.JavaDocBuilder$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.Searcher",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.parser.structs",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.parser.structs.LocatedDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.structs.FieldDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.structs.TypeDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.structs.ClassDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.structs.TagDef",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.structs.MethodDef",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.parser.impl",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.parser.impl.JFlexLexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.impl.Parser$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.impl.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.impl.Parser$Value",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.parser",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.parser.ParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.Lexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.parser.Builder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.model.util",
+         "packageMembers": {
+            "name": "com.thoughtworks.qdox.model.util.TagParser",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.model",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.model.DocletTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.DocletTagFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaField",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.AbstractJavaEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.Member",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.ModelBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.DefaultDocletTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.IndentBuffer",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.Type",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaClassCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.AbstractInheritableJavaEntity",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaParameter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.BeanProperty",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.ClassLibrary",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.DefaultDocletTagFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.model.JavaClassParent",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.junit",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.junit.APITestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.junit.APITestCase$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.directorywalker",
+         "packageMembers": [
+            {
+               "name": "com.thoughtworks.qdox.directorywalker.SuffixFilter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.directorywalker.Filter",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.directorywalker.FileVisitor",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.directorywalker.DirectoryScanner",
+               "type": "CLASS"
+            },
+            {
+               "name": "com.thoughtworks.qdox.directorywalker.DirectoryScanner$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.0"
+      },
+      {
+         "name": "com.thoughtworks.qdox.ant",
+         "packageMembers": {
+            "name": "com.thoughtworks.qdox.ant.AbstractQdoxTask",
+            "type": "CLASS"
+         },
+         "version": "1.5.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.tools.ant.types",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.tools.ant",
+         "optional": true,
+         "versionRange": "[1.7.0, 2.0.0)"
+      },
+      {
+         "name": "junit.framework",
+         "optional": true,
+         "versionRange": "[3.8.2, 4.0.0)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.com.thoughtworks.qdox",
+   "version": "1.5.0"
+}}

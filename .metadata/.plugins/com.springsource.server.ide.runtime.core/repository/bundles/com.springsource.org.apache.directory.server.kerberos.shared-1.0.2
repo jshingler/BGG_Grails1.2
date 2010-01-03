@@ -1,0 +1,805 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 16:19:40.0",
+   "moduleName": "com.springsource.org.apache.directory.server.kerberos.shared",
+   "name": "Apache Directory Server Kerberos Shared",
+   "notes": "",
+   "organisationName": "org.apache.directory",
+   "packageExports": [
+      {
+         "name": "org.apache.directory.server.kerberos.shared.crypto.checksum",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.checksum.RsaMd5Checksum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.checksum.ChecksumType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.checksum.ChecksumEngine",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.checksum.Sha1Checksum",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.store.operations",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.GetAllPrincipals",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.PrincipalObjectFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.AddPrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.PrincipalStateFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.GetPrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.DeletePrincipal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.operations.ChangePassword",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.store",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.KerberosAttribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.JndiPrincipalStoreImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.PrincipalStore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.PrincipalStoreEntryModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.MultiBaseSearch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.PrincipalStoreEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.SingleBaseSearch",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.store.KerberosCatalog",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.service",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.service.VerifyAuthHeader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.service.LockBox",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.service.SessionKeyFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.service.VerifyTicket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.service.ErrorMessageHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.service.GetPrincipalStoreEntry",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.replay",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.replay.ReplayCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.replay.InMemoryReplayCache$ReplayCacheEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.replay.InMemoryReplayCache",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.messages.value",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.RequestBodyModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.EncryptedTimeStamp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.KrbCredInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.PrincipalName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.EncryptionTypeInfoEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.KdcOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.SamType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.EncryptedDataModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.PreAuthenticationDataType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.HostAddresses",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.AuthorizationData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.EncryptedData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.AuthorizationDataEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.PrincipalNameModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.RequestBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.LastRequestType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.ApOptions",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.HostAddress",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.Checksum",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.EncryptedTimeStampModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.TransitedEncodingType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.EncryptionKey",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.AuthorizationType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.HostAddressType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.LastRequestEntry",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.Options",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.PreAuthenticationDataModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.TicketFlags",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.PrincipalNameType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.LastRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.KerberosTime",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.PreAuthenticationData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.TransitedEncoding",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.value.KerberosPrincipalModifier",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.messages.components",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncKrbCredPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncKrbPrivPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncTicketPartModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.Authenticator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncKdcRepPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.TicketModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.Ticket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncKrbPrivPartModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncApRepPartModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncAsRepPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.AuthenticatorModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncTicketPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.MessageComponentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncApRepPart",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.components.EncTgsRepPart",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.messages.application",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.application.SafeMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.application.PrivateMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.application.ApplicationReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.application.SafeBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.application.CredentialMessage",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.messages",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.ErrorMessageModifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.KdcRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.ErrorMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.Encodable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.ApplicationRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.KerberosMessage",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.AuthenticationReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.KdcReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.TicketGrantReply",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.messages.MessageType",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.io.decoder",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.DecoderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.AuthorizationDataDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.EncryptedTimestampDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.TicketDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.PrincipalNameDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.HostAddressDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.EncKrbPrivPartDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.ApplicationRequestDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.KerberosTimeDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.PreAuthenticationDataDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.KdcRequestDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.EncryptionTypeDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.EncTicketPartDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.AuthenticatorDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.LastRequestDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.PrivateMessageDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.Decoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.EncryptedDataDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.ChecksumDecoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.decoder.EncryptionKeyDecoder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.io.encoder",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncTicketPartEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncoderFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncKrbPrivPartEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.LastRequestEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.ApplicationReplyEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.ChecksumEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.ErrorMessageEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.KdcReqBodyEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncryptedTimestampEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.PrincipalNameEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.PrivateMessageEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.Encoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.HostAddressesEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncAsRepPartEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.KdcReplyEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.AuthorizationDataEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncryptionTypeEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncryptedDataEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncTgsRepPartEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncryptionKeyEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.TicketEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncApRepPartEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.KerberosTimeEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.TransitedEncodingEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncryptionTypeInfoEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.EncKdcRepPartEncoder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.io.encoder.PreAuthenticationDataEncoder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.jaas",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.jaas.CallbackHandlerBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.jaas.Krb5LoginConfiguration",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.crypto.encryption",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.Des3CbcEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.Des3CbcMd5Encryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.EncryptionType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.DesCbcEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.CipherType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.NullEncryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.DesCbcMd5Encryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.Des3CbcSha1Encryption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.EncryptionEngineFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.crypto.encryption.EncryptionEngine",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      },
+      {
+         "name": "org.apache.directory.server.kerberos.shared.exceptions",
+         "packageMembers": [
+            {
+               "name": "org.apache.directory.server.kerberos.shared.exceptions.ErrorType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.directory.server.kerberos.shared.exceptions.KerberosException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.2"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.apache.mina.handler.chain",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.shared.ldap.util",
+         "optional": false,
+         "versionRange": "[0.9.5.5, 1.0.0)"
+      },
+      {
+         "name": "org.apache.directory.shared.ldap.name",
+         "optional": false,
+         "versionRange": "[0.9.5.5, 1.0.0)"
+      },
+      {
+         "name": "org.apache.directory.shared.ldap.message",
+         "optional": false,
+         "versionRange": "[0.9.5.5, 1.0.0)"
+      },
+      {
+         "name": "org.apache.directory.shared.asn1.der",
+         "optional": false,
+         "versionRange": "[0.9.5.5, 1.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.protocol.shared.chain.impl",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.protocol.shared.store",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.protocol.shared.chain",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.protocol.shared.catalog",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.protocol.shared",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.directory.server.core.configuration",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "javax.security.auth.login",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.kerberos",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.callback",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.spi",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming.directory",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto.spec",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.directory.server.kerberos.shared",
+   "version": "1.0.2"
+}}

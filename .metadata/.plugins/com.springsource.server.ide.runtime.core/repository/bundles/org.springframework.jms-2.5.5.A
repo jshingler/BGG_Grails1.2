@@ -1,0 +1,768 @@
+{"bundle": {
+   "dateAdded": "2008-10-20 15:53:47.0",
+   "moduleName": "org.springframework.jms",
+   "name": "Spring JMS",
+   "notes": "",
+   "organisationName": "org.springframework",
+   "packageExports": [
+      {
+         "name": "org.springframework.jms.support.destination",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.support.destination.BeanFactoryDestinationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.destination.CachingDestinationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.destination.JmsDestinationAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.destination.DynamicDestinationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.destination.DestinationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.destination.JndiDestinationResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.destination.DestinationResolutionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.MessageNotReadableException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.ResourceAllocationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.InvalidClientIDException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.InvalidSelectorException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.JmsSecurityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.TransactionInProgressException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.UncategorizedJmsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.TransactionRolledBackException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.JmsException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.MessageFormatException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.IllegalStateException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.InvalidDestinationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.MessageEOFException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.MessageNotWriteableException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.support.JmsAccessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.JmsUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.support.converter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.support.converter.SimpleMessageConverter102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.converter.MessageConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.converter.SimpleMessageConverter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.support.converter.MessageConversionException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.remoting",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.remoting.JmsInvokerServiceExporter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.remoting.JmsInvokerClientInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.remoting.JmsInvokerProxyFactoryBean",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.listener.serversession",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.listener.serversession.SimpleServerSessionFactory$SimpleServerSession",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.ServerSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.ServerSessionMessageListenerContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.SimpleServerSessionFactory$SimpleServerSession$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.AbstractPoolingServerSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.SimpleServerSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.CommonsPoolServerSessionFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.ListenerSessionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.ServerSessionMessageListenerContainer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.CommonsPoolServerSessionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.ServerSessionMessageListenerContainer102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.ServerSessionMessageListenerContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.AbstractPoolingServerSessionFactory$PoolableServerSession$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.serversession.AbstractPoolingServerSessionFactory$PoolableServerSession",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.listener.endpoint",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsMessageEndpointFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsMessageEndpointFactory$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsMessageEndpointManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsMessageEndpointFactory$JmsResourceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.StandardJmsActivationSpecFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsActivationSpecConfig",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsMessageEndpointFactory$JmsMessageEndpoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.endpoint.JmsActivationSpecFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.listener.adapter",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.listener.adapter.ListenerExecutionFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.adapter.MessageListenerAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.adapter.MessageListenerAdapter102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.adapter.MessageListenerAdapter$DestinationNameHolder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.listener",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.DefaultMessageListenerContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractPollingMessageListenerContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractJmsListeningContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractPollingMessageListenerContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.SimpleMessageListenerContainer$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.SimpleMessageListenerContainer102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.DefaultMessageListenerContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.LocallyExposedJmsResourceHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.SimpleMessageListenerContainer$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.DefaultMessageListenerContainer102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractMessageListenerContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.SimpleMessageListenerContainer$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.SimpleMessageListenerContainer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.SessionAwareMessageListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractMessageListenerContainer$MessageRejectedWhileStoppingException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractPollingMessageListenerContainer$MessageListenerContainerResourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.listener.AbstractMessageListenerContainer$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.core.support",
+         "packageMembers": {
+            "name": "org.springframework.jms.core.support.JmsGatewaySupport",
+            "type": "CLASS"
+         },
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.core",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$8",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.MessageCreator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$JmsTemplateResourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.MessagePostProcessor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$12",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$10",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.ProducerCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$9",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsOperations",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$11",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.SessionCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.JmsTemplate$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.core.BrowserCallback",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.config",
+         "packageMembers": [
+            {
+               "name": "org/springframework/jms/config/spring-jms-2.5.xsd",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.springframework.jms.config.JmsListenerContainerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.config.JcaListenerContainerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.config.AbstractListenerContainerParser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.config.JmsNamespaceHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      },
+      {
+         "name": "org.springframework.jms.connection",
+         "packageMembers": [
+            {
+               "name": "org.springframework.jms.connection.SingleConnectionFactory$InternalChainedExceptionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ConnectionFactoryUtils$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.SessionProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.SingleConnectionFactory$SharedConnectionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.JmsResourceHolder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.CachingConnectionFactory$CachedSessionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.JmsTransactionManager102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.SmartConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.SingleConnectionFactory102",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.SynchedLocalTransactionFailedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.CachedMessageProducer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter$JmsUserCredentials",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ConnectionFactoryUtils$JmsResourceSynchronization",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.JmsTransactionManager$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ConnectionFactoryUtils$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ConnectionFactoryUtils",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.TransactionAwareConnectionFactoryProxy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ConnectionFactoryUtils$ResourceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.SingleConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.TransactionAwareConnectionFactoryProxy$CloseSuppressingSessionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.DelegatingConnectionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.JmsTransactionManager$JmsTransactionObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.TransactionAwareConnectionFactoryProxy$TransactionAwareConnectionInvocationHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.JmsTransactionManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ConnectionFactoryUtils$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.ChainedExceptionListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.jms.connection.CachingConnectionFactory",
+               "type": "CLASS"
+            }
+         ],
+         "version": "2.5.5.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.scheduling",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.transaction.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.scheduling.timer",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.transaction",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.remoting.support",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.remoting",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.jndi",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.jca.endpoint",
+         "optional": true,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.context",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.core.task",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.xml",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.parsing",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory.config",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.aop.support",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.springframework.aop.framework",
+         "optional": false,
+         "versionRange": "[2.5.5.A, 2.5.5.A]"
+      },
+      {
+         "name": "org.apache.commons.pool.impl",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.pool",
+         "optional": true,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.aopalliance.intercept",
+         "optional": false,
+         "versionRange": "[1.0.0, 2.0.0)"
+      },
+      {
+         "name": "javax.resource.spi.endpoint",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "javax.resource.spi",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "javax.resource",
+         "optional": true,
+         "versionRange": "[1.5.0, 2.0.0)"
+      },
+      {
+         "name": "javax.jms",
+         "optional": false,
+         "versionRange": "[1.1.0, 2.0.0)"
+      },
+      {
+         "name": "javax.naming",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.jms",
+   "version": "2.5.5.A"
+}}

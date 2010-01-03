@@ -1,0 +1,614 @@
+{"bundle": {
+   "dateAdded": "2008-11-18 12:31:11.0",
+   "moduleName": "org.springframework.ws.soap.security",
+   "name": "Spring Web Services SOAP Security",
+   "notes": "",
+   "organisationName": "org.springframework.ws",
+   "packageExports": [
+      {
+         "name": "org.springframework.ws.soap.security",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.WsSecurityValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.AbstractWsSecurityInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.WsSecurityException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.WsSecuritySecurementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.WsSecurityFaultException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.xwss.callback.jaas",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandler$JaasPlainTextPasswordValidator$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandler$JaasCertificateValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.AbstractJaasValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasCertificateValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.jaas.JaasPlainTextPasswordValidationCallbackHandler$JaasPlainTextPasswordValidator",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.xwss.callback",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.MockValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.XwssCallbackHandlerChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.DefaultTimestampValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.XwssCallbackHandlerChain$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandler$SpringSecurityPlainTextPasswordValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandler$SimplePlainTextPasswordValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.XwssCallbackHandlerChain$CertificateValidatorChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.MockValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandler$KeyStoreCertificateValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SimpleUsernamePasswordCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringCertificateValidationCallbackHandler$SpringSecurityCertificateValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.MockValidationCallbackHandler$MockPasswordValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.MockValidationCallbackHandler$MockCertificateValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringDigestPasswordValidationCallbackHandler$SpringSecurityDigestPasswordValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SimplePasswordValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.CryptographyCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringPlainTextPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.XwssCallbackHandlerChain$TimestampValidatorChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.KeyStoreCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.SpringUsernamePasswordCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.XwssCallbackHandlerChain$PasswordValidatorChain",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.xwss.callback.acegi",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiCertificateValidationCallbackHandler$AcegiCertificateValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiCertificateValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiDigestPasswordValidationCallbackHandler$AcegiDigestPasswordValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiPlainTextPasswordValidationCallbackHandler$AcegiPlainTextPasswordValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiDigestPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiPlainTextPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiUsernamePasswordCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiDigestPasswordValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiPlainTextPasswordValidationCallbackHandler$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.callback.acegi.AcegiCertificateValidationCallbackHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.xwss",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.xwss.XwsSecuritySecurementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.XwsSecurityInterceptor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.XwsSecurityValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.xwss.XwsSecurityFaultException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.wss4j.support",
+         "packageMembers": {
+            "name": "org.springframework.ws.soap.security.wss4j.support.CryptoFactoryBean",
+            "type": "CLASS"
+         },
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.wss4j.callback.acegi",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.acegi.AcegiPlainTextPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.acegi.AcegiDigestPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.wss4j.callback",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.AbstractWsPasswordCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.KeyStoreCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.UsernameTokenPrincipalCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.SimplePasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.SpringPlainTextPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.callback.SpringDigestPasswordValidationCallbackHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.wss4j",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.Wss4jSecurityFaultException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.Wss4jSecurityValidationException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.Wss4jHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.Wss4jSecuritySecurementException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.wss4j.Wss4jSecurityInterceptor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.support",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.support.KeyStoreFactoryBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.support.KeyStoreUtils",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      },
+      {
+         "name": "org.springframework.ws.soap.security.callback",
+         "packageMembers": [
+            {
+               "name": "org.springframework.ws.soap.security.callback.CleanupCallback",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.callback.CallbackHandlerChain",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.springframework.ws.soap.security.callback.AbstractCallbackHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.5.2.A"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.w3c.dom",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "org.springframework.ws.soap.server",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.soap.soap11",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.soap.axiom.support",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.soap.saaj",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.soap.axiom",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.soap",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.context",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.client.support.interceptor",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws.client",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.ws",
+         "optional": false,
+         "versionRange": "[1.5.2.A, 1.5.2.A]"
+      },
+      {
+         "name": "org.springframework.util",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.userdetails",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers.x509",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers.dao",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers.dao.cache",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.providers",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security.context",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.security",
+         "optional": false,
+         "versionRange": "[2.0.0.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.dao",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.core.io",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.springframework.beans.factory",
+         "optional": false,
+         "versionRange": "[2.5.4.A, 3.0.0)"
+      },
+      {
+         "name": "org.apache.xml.security.utils",
+         "optional": true,
+         "versionRange": "[1.0.5.D2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.ws.security.util",
+         "optional": true,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.apache.ws.security.message.token",
+         "optional": true,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.apache.ws.security.handler",
+         "optional": true,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.apache.ws.security.components.crypto",
+         "optional": true,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.apache.ws.security",
+         "optional": true,
+         "versionRange": "[1.5.3, 2.0.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.soap",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.apache.axiom.om",
+         "optional": true,
+         "versionRange": "[1.2.5, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.userdetails",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.providers.x509",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.providers.dao.cache",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.providers.dao",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.providers",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity.context",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "org.acegisecurity",
+         "optional": true,
+         "versionRange": "[1.0.7, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.soap",
+         "optional": false,
+         "versionRange": "[1.3.0, 2.0.0)"
+      },
+      {
+         "name": "javax.xml.namespace",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.x500",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.login",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth.callback",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.security.auth",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "javax.crypto",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.xml.wss.impl.callback",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.xml.wss.impl",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      },
+      {
+         "name": "com.sun.xml.wss",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.springframework.ws.soap.security",
+   "version": "1.5.2.A"
+}}

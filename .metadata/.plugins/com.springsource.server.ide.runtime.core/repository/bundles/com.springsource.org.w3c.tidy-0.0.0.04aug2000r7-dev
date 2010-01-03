@@ -1,0 +1,514 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 18:33:32.0",
+   "moduleName": "com.springsource.org.w3c.tidy",
+   "name": "JTidy HTML Syntax Checker and Pretty Printer",
+   "notes": "",
+   "organisationName": "org.w3c.tidy",
+   "packageExports": [
+      {
+         "name": "org.w3c.dom",
+         "packageMembers": [
+            {
+               "name": "org.w3c.dom.DOMImplementation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.CDATASection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Document",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.DocumentType",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.DocumentFragment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Attr",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.NamedNodeMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.ProcessingInstruction",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Notation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.EntityReference",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.DOMException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.CharacterData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Text",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Element",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.Comment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.dom.NodeList",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.04aug2000r7-dev"
+      },
+      {
+         "name": "org.xml.sax",
+         "packageMembers": [
+            {
+               "name": "org.xml.sax.Attributes",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.DTDHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.SAXException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.SAXNotRecognizedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.SAXParseException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.SAXNotSupportedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.ContentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.ErrorHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.Locator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.EntityResolver",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.AttributeList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.InputSource",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.HandlerBase",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.DocumentHandler",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.XMLReader",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.xml.sax.XMLFilter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.04aug2000r7-dev"
+      },
+      {
+         "name": "org.w3c.tidy",
+         "packageMembers": [
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParsePre",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Parser",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttributeTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMDocumentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseRow",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckMap",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Tidy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMCDATASectionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMNodeListByTagNameImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMTextImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Node",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMElementImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMCharacterDataImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/w3c/tidy/TidyMessages.properties",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.w3c.tidy.MutableInteger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/w3c/tidy/tidy.gif",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.IStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.StreamInImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.OutImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Lexer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.MutableObject",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckValign",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseHead",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.TagTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseBlock",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Report",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckLINK",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckBool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckAnchor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.TidyBeanInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Out",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckName",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckTABLE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckIMG",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseRowGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Lexer$W3CVersionInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseSelect",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.EntityTable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseTableTag",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.StyleProp",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseDefList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckUrl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMAttrImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMProcessingInstructionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Attribute",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Clean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMExceptionImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckTableCell",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseFrameSet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckHR",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseColGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMAttrMapImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckSTYLE",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMCommentImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseTitle",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckSCRIPT",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheck",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.StreamIn",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMNodeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Entity",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseNoFrames",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckId",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseOptGroup",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseText",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMNodeListImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.MutableBoolean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseInline",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.PPrint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttVal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckAREA",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Style",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckHTML",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseBody",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.CheckAttribsImpl$CheckCaption",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.DOMDocumentTypeImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.AttrCheckImpl$CheckAlign",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseScript",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.Dict",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.w3c.tidy.ParserImpl$ParseHTML",
+               "type": "CLASS"
+            }
+         ],
+         "version": "0.0.0.04aug2000r7-dev"
+      }
+   ],
+   "sourceAvailable": false,
+   "symbolicName": "com.springsource.org.w3c.tidy",
+   "version": "0.0.0.04aug2000r7-dev"
+}}

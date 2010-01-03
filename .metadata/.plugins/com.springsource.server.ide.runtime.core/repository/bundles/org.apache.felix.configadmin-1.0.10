@@ -1,0 +1,118 @@
+{"bundle": {
+   "dateAdded": "2009-04-24 17:04:53.0",
+   "moduleName": "com.springsource.org.apache.geronimo.kernel",
+   "name": "Apache Felix Configuration Admin Service",
+   "notes": "",
+   "organisationName": "org.apache.geronimo",
+   "packageExports": [
+      {
+         "name": "org.apache.felix.cm",
+         "packageMembers": {
+            "name": "org.apache.felix.cm.PersistenceManager",
+            "type": "CLASS"
+         },
+         "version": "1.0.10"
+      },
+      {
+         "name": "org.osgi.service.cm",
+         "packageMembers": [
+            {
+               "name": "org.osgi.service.cm.ConfigurationPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationPlugin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/osgi/service/cm/packageinfo",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org/osgi/service/cm/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationPermissionCollection$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationAdmin",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationPermissionCollection",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ManagedService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationEvent",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ManagedServiceFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.Configuration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.osgi.service.cm.ConfigurationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.10"
+      },
+      {
+         "name": "org.apache.felix.cm.file",
+         "packageMembers": [
+            {
+               "name": "org.apache.felix.cm.file.FilePersistenceManager$DictionaryEnumeration",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.felix.cm.file.FilePersistenceManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.felix.cm.file.ConfigurationHandler",
+               "type": "CLASS"
+            }
+         ],
+         "version": "1.0.10"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.osgi.service.cm",
+         "optional": false,
+         "versionRange": "[1.2.0, infinity)"
+      },
+      {
+         "name": "org.osgi.framework",
+         "optional": false,
+         "versionRange": "[1.3.0, infinity)"
+      },
+      {
+         "name": "org.apache.felix.cm.file",
+         "optional": false,
+         "versionRange": "[1.0.0, infinity)"
+      },
+      {
+         "name": "org.apache.felix.cm",
+         "optional": false,
+         "versionRange": "[1.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "org.apache.felix.configadmin",
+   "version": "1.0.10"
+}}

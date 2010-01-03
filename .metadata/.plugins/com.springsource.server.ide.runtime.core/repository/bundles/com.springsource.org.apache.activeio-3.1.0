@@ -1,0 +1,352 @@
+{"bundle": {
+   "dateAdded": "2009-02-04 15:53:30.0",
+   "moduleName": "com.springsource.org.apache.activeio",
+   "name": "Apache ActiveIO",
+   "notes": "",
+   "organisationName": "org.apache.activemq",
+   "packageExports": [
+      {
+         "name": "org.apache.activeio.adapter",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.adapter.PacketByteArrayOutputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.adapter.PacketInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.adapter.PacketToInputStream",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.adapter.PacketOutputStream",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.xnet.hba",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.xnet.hba.ExactIPAddressPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.ServiceAccessController",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.StartWithIPAddressPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.IPAddressPermissionEditor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.IPAddressPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.FactorizedIPAddressPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.IPAddressPermissionFactory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.NetmaskIPv6AddressPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.ExactIPv6AddressPermission",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.hba.NetmaskIPAddressPermission",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.xnet",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.xnet.ServicePool$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.SocketService",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServicePool$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServicePool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServiceLogger",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.StandardServiceStackGBean",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServiceDaemon$SocketListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServiceException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServiceDaemon",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServicePool$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.StandardServiceStack",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.xnet.ServerService",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.packet",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.packet.ByteSequence",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.ByteBufferPacketPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.AppendedPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.ByteArrayPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.EOSPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.Packet",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.ByteBufferPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.PacketData",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.FilterPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.PacketPool",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.PacketPool$PooledPacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.BytePacket",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.packet.EmptyPacket",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.oneport",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.oneport.ProtocolRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.oneport.UnknownRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.oneport.IIOPRecognizer",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.oneport.HttpRecognizer",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.journal.howl",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.journal.howl.LongRecordLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.howl.HowlJournal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.howl.HowlJournal$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.journal.active",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.journal.active.LogFileManager",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalImpl$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.LogFileNode",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalImpl",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.Record",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalImpl$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalImpl$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.Location",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.BatchedWrite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.RecordInfo",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalLockedException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.LogFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalImpl$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.ControlFile",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.active.JournalImpl$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      },
+      {
+         "name": "org.apache.activeio.journal",
+         "packageMembers": [
+            {
+               "name": "org.apache.activeio.journal.Journal",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.JournalEventListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.RecordLocation",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.apache.activeio.journal.InvalidRecordLocationException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "3.1.0"
+      }
+   ],
+   "packageImports": [
+      {
+         "name": "org.objectweb.howl.log",
+         "optional": false,
+         "versionRange": "[1.0.2, 2.0.0)"
+      },
+      {
+         "name": "org.apache.geronimo.kernel.jmx",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.1.0)"
+      },
+      {
+         "name": "org.apache.geronimo.kernel",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.1.0)"
+      },
+      {
+         "name": "org.apache.geronimo.gbean",
+         "optional": false,
+         "versionRange": "[1.0.0, 1.1.0)"
+      },
+      {
+         "name": "org.apache.commons.logging",
+         "optional": false,
+         "versionRange": "[1.1.1, 2.0.0)"
+      },
+      {
+         "name": "javax.management",
+         "optional": false,
+         "versionRange": "[0.0.0, infinity)"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.apache.activeio",
+   "version": "3.1.0"
+}}

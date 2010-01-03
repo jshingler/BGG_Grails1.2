@@ -1,0 +1,924 @@
+{"bundle": {
+   "dateAdded": "2009-04-24 17:40:46.0",
+   "moduleName": "com.springsource.org.junit",
+   "name": "JUnit",
+   "notes": "",
+   "organisationName": "org.junit",
+   "packageExports": [
+      {
+         "name": "junit.extensions",
+         "packageMembers": [
+            {
+               "name": "junit.extensions.TestSetup$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.extensions.TestDecorator",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.extensions.ActiveTestSuite$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.extensions.RepeatedTest",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.extensions.ActiveTestSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.extensions.TestSetup",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.runners.model",
+         "packageMembers": [
+            {
+               "name": "org.junit.runners.model.Statement",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.model.FrameworkMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.model.FrameworkMethod$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.model.InitializationError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.model.RunnerBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.model.TestClass",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.runners",
+         "packageMembers": [
+            {
+               "name": "org.junit.runners.JUnit4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.Parameterized$Parameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.ParentRunner$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.BlockJUnit4ClassRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.Suite",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.AllTests",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.Suite$SuiteClasses",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.ParentRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.BlockJUnit4ClassRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.ParentRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.Parameterized$TestClassRunnerForParameters",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runners.Parameterized",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.runner.manipulation",
+         "packageMembers": [
+            {
+               "name": "org.junit.runner.manipulation.Sorter",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.manipulation.Sorter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.manipulation.Sortable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.manipulation.NoTestsRemainException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.manipulation.Filter$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.manipulation.Filterable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.manipulation.Filter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.runner.notification",
+         "packageMembers": [
+            {
+               "name": "org.junit.runner.notification.StoppedByUserException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$SafeNotifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$5",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$4",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$7",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.Failure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$6",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.notification.RunNotifier$2",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.runner",
+         "packageMembers": [
+            {
+               "name": "org.junit.runner.Result",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Description",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Request$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Request$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Request",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.JUnitCore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.RunWith",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Result$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Runner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Result$Listener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.runner.Describable",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.matchers",
+         "packageMembers": {
+            "name": "org.junit.matchers.JUnitMatchers",
+            "type": "CLASS"
+         },
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal.runners.statements",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.runners.statements.FailOnTimeout",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.statements.FailOnTimeout$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.statements.Fail",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.statements.ExpectException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.statements.InvokeMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.statements.RunBefores",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.statements.RunAfters",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal.runners.model",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.runners.model.MultipleFailureException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.model.ReflectiveCallable",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.model.EachTestNotifier",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal.runners",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.runners.TestClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.MethodRoadie$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.MethodRoadie$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.MethodRoadie$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.SuiteMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.JUnit4ClassRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.MethodRoadie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.TestMethod",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.FailedBefore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.JUnit4ClassRunner$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.ClassRoadie",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.MethodValidator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.JUnit38ClassRunner$OldTestClassAdaptingListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.JUnit38ClassRunner$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.JUnit38ClassRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.JUnit4ClassRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.ErrorReportingRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.runners.InitializationError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal.requests",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.requests.FilterRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.requests.SortingRequest",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.requests.ClassRequest",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal.matchers",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.matchers.IsCollectionContaining",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.matchers.SubstringMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.matchers.CombinableMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.matchers.StringContains",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.matchers.Each",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.matchers.TypeSafeMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.matchers.Each$1",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal.builders",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.builders.AnnotatedBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.IgnoredClassRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.JUnit4Builder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.NullBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.JUnit3Builder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.AllDefaultPossibilitiesBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.SuiteMethodBuilder",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.builders.IgnoredBuilder",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.internal",
+         "packageMembers": [
+            {
+               "name": "org.junit.internal.ArrayComparisonFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.RealSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.TextListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.JUnitSystem",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.internal.AssumptionViolatedException",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.experimental.theories.suppliers",
+         "packageMembers": [
+            {
+               "name": "org.junit.experimental.theories.suppliers.TestedOnSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.suppliers.TestedOn",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.experimental.theories.internal",
+         "packageMembers": [
+            {
+               "name": "org.junit.experimental.theories.internal.Assignments",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.internal.ParameterizedAssertionError",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.internal.AllMembersSupplier$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.internal.AllMembersSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.internal.AllMembersSupplier$MethodParameterValue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.experimental.runners",
+         "packageMembers": {
+            "name": "org.junit.experimental.runners.Enclosed",
+            "type": "CLASS"
+         },
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.experimental.theories",
+         "packageMembers": [
+            {
+               "name": "org.junit.experimental.theories.ParameterSignature",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.ParametersSuppliedBy",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.Theories$TheoryAnchor$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.DataPoints",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.PotentialAssignment",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.Theories$TheoryAnchor$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.ParameterSupplier",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.DataPoint",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.Theory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.Theories$TheoryAnchor$1$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.Theories",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.PotentialAssignment$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.theories.Theories$TheoryAnchor",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit.experimental.results",
+         "packageMembers": [
+            {
+               "name": "org.junit.experimental.results.ResultMatchers$2",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.results.ResultMatchers$3",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.results.FailureList",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.results.ResultMatchers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.results.ResultMatchers$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.experimental.results.PrintableResult",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.junit",
+         "packageMembers": [
+            {
+               "name": "org.junit.Assume",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.ComparisonFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.Test$None",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.Ignore",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.Before",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.AfterClass",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.After",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.ComparisonFailure$ComparisonCompactor",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.Assert",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.junit.BeforeClass",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.hamcrest.internal",
+         "packageMembers": [
+            {
+               "name": "org.hamcrest.internal.SelfDescribingValueIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.internal.ArrayIterator",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.internal.SelfDescribingValue",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.hamcrest.core",
+         "packageMembers": [
+            {
+               "name": "org.hamcrest.core.Is",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.AnyOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.AllOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.IsNull",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.IsInstanceOf",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/hamcrest/core/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.hamcrest.core.IsSame",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.IsNot",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.IsEqual",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.DescribedAs",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.core.IsAnything",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "org.hamcrest",
+         "packageMembers": [
+            {
+               "name": "org.hamcrest.SelfDescribing",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.CoreMatchers",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.Factory",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.Matcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.BaseMatcher",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.BaseDescription",
+               "type": "CLASS"
+            },
+            {
+               "name": "org/hamcrest/package.html",
+               "type": "RESOURCE"
+            },
+            {
+               "name": "org.hamcrest.Description",
+               "type": "CLASS"
+            },
+            {
+               "name": "org.hamcrest.StringDescription",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "junit.textui",
+         "packageMembers": [
+            {
+               "name": "junit.textui.TestRunner",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.textui.ResultPrinter",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "junit.runner",
+         "packageMembers": [
+            {
+               "name": "junit.runner.Version",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.runner.TestRunListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.runner.BaseTestRunner",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      },
+      {
+         "name": "junit.framework",
+         "packageMembers": [
+            {
+               "name": "junit.framework.TestResult$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.JUnit4TestAdapterCache$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.TestSuite$1",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.TestResult",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.ComparisonCompactor",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.ComparisonFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.Test",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.TestCase",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.TestFailure",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.JUnit4TestAdapterCache",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.JUnit4TestCaseFacade",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.TestSuite",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.Assert",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.Protectable",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.TestListener",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.JUnit4TestAdapter",
+               "type": "CLASS"
+            },
+            {
+               "name": "junit.framework.AssertionFailedError",
+               "type": "CLASS"
+            }
+         ],
+         "version": "4.5.0"
+      }
+   ],
+   "sourceAvailable": true,
+   "symbolicName": "com.springsource.org.junit",
+   "version": "4.5.0"
+}}
