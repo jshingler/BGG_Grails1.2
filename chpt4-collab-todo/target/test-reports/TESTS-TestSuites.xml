@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="1" hostname="james-shinglers-macbook-pro.local" id="0" name="TodoTests" package="" tests="2" time="1.663" timestamp="2010-01-03T02:44:14">
+      <properties />
+
+      <testcase classname="TodoTests" name="testPersist" time="1.138">
+          <error message="No property found for name [name] for class [class Todo]" type="org.codehaus.groovy.grails.exceptions.InvalidPropertyException">org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [name] for class [class Todo]
+	at TodoTests.testPersist(TodoTests.groovy:21)
+	at junit.framework.Test$run.call(Unknown Source)
+	at TestApp$_run_closure4.doCall(TestApp:262)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:221)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:181)
+	at TestApp$_run_closure1.doCall(TestApp:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</error>
+
+      </testcase>
+
+      <testcase classname="TodoTests" name="testToString" time="0.019">
+          <failure message="toString() on value: Todo : null expected:&lt;Pickup laundry&gt; but was:&lt;Todo : null&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: toString() on value: Todo : null expected:&lt;Pickup laundry&gt; but was:&lt;Todo : null&gt;
+	at TodoTests.testToString(TodoTests.groovy:28)
+	at junit.framework.Test$run.call(Unknown Source)
+	at TestApp$_run_closure4.doCall(TestApp:262)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:221)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:181)
+	at TestApp$_run_closure1.doCall(TestApp:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testPersist--
+--Output from testToString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testPersist--
+--Output from testToString--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

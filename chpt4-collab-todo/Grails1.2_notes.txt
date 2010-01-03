@@ -1,0 +1,13 @@
+Notes:
+
+page 82
+
+Refers to grails automatically creating integration tests for Domain Objects.  
+Grails now creates unit tests to test the gorm methods, you must use an 
+integration test.
+
+Therefore, Delete to Todo unit test and run the following command to create
+an integration test.
+
+grails create-integration-test Todo
+
