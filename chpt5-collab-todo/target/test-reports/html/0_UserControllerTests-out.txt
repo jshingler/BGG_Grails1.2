@@ -1,0 +1,17 @@
+--Output from testHandleLogin2--
+handleLogin User1
+User: User1LN, User1FN
+xRedirect2: null
+xRedirect: null
+--Output from testHandleLogin--
+handleLogin User1
+User: User1LN, User1FN
+Redirect: org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@f9ad60
+Redirect: null
+Redirect2: null
+Redirect: <org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@f9ad60 outputStreamAccessAllowed=true writerAccessAllowed=true characterEncoding=ISO-8859-1 content= outputStream=org.springframework.mock.web.MockHttpServletResponse$ResponseServletOutputStream@e93196 writer=null contentLength=0 contentType=null bufferSize=4096 committed=false locale=en_US cookies=[] headers=[:] status=200 errorMessage=null redirectedUrl=null forwardedUrl=null includedUrl=null>
+--Output from testHandleLoginInvalidUser--
+handleLogin INVALID_USER_NAME
+User: null
+--Output from testLogout--
+

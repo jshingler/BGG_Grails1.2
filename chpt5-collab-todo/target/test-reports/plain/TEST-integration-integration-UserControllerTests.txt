@@ -1,0 +1,54 @@
+Testsuite: UserControllerTests
+Tests run: 4, Failures: 1, Errors: 0, Time elapsed: 1.903 sec
+------------- Standard Output ---------------
+--Output from testHandleLogin2--
+handleLogin User1
+User: User1LN, User1FN
+xRedirect2: null
+xRedirect: null
+--Output from testHandleLogin--
+handleLogin User1
+User: User1LN, User1FN
+Redirect: org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@f9ad60
+Redirect: null
+Redirect2: null
+Redirect: <org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@f9ad60 outputStreamAccessAllowed=true writerAccessAllowed=true characterEncoding=ISO-8859-1 content= outputStream=org.springframework.mock.web.MockHttpServletResponse$ResponseServletOutputStream@e93196 writer=null contentLength=0 contentType=null bufferSize=4096 committed=false locale=en_US cookies=[] headers=[:] status=200 errorMessage=null redirectedUrl=null forwardedUrl=null includedUrl=null>
+--Output from testHandleLoginInvalidUser--
+handleLogin INVALID_USER_NAME
+User: null
+--Output from testLogout--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testHandleLogin2--
+--Output from testHandleLogin--
+--Output from testHandleLoginInvalidUser--
+--Output from testLogout--
+------------- ---------------- ---------------
+
+Testcase: testHandleLogin2 took 1.303 sec
+	FAILED
+expected:</todo> but was:<null>
+junit.framework.ComparisonFailure: expected:</todo> but was:<null>
+	at UserControllerTests.testHandleLogin2(UserControllerTests.groovy:46)
+	at junit.framework.Test$run.call(Unknown Source)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:262)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:221)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:181)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+
+Testcase: testHandleLogin took 0.041 sec
+Testcase: testHandleLoginInvalidUser took 0.015 sec
+Testcase: testLogout took 0.019 sec

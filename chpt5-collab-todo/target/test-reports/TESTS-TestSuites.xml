@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="james-shinglers-macbook-pro.local" id="0" name="UserControllerTests" package="" tests="4" time="1.903" timestamp="2010-01-14T03:52:18">
+      <properties />
+
+      <testcase classname="UserControllerTests" name="testHandleLogin2" time="1.304">
+          <failure message="expected:&lt;/todo&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;/todo&gt; but was:&lt;null&gt;
+	at UserControllerTests.testHandleLogin2(UserControllerTests.groovy:46)
+	at junit.framework.Test$run.call(Unknown Source)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:262)
+	at _GrailsTest_groovy$_run_closure4.call(_GrailsTest_groovy)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:221)
+	at _GrailsTest_groovy$_run_closure1_closure21.doCall(_GrailsTest_groovy:181)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:168)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:102)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</failure>
+
+      </testcase>
+
+      <testcase classname="UserControllerTests" name="testHandleLogin" time="0.041" />
+
+      <testcase classname="UserControllerTests" name="testHandleLoginInvalidUser" time="0.015" />
+
+      <testcase classname="UserControllerTests" name="testLogout" time="0.019" />
+
+      <system-out><![CDATA[--Output from testHandleLogin2--
+handleLogin User1
+User: User1LN, User1FN
+xRedirect2: null
+xRedirect: null
+--Output from testHandleLogin--
+handleLogin User1
+User: User1LN, User1FN
+Redirect: org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@f9ad60
+Redirect: null
+Redirect2: null
+Redirect: <org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@f9ad60 outputStreamAccessAllowed=true writerAccessAllowed=true characterEncoding=ISO-8859-1 content= outputStream=org.springframework.mock.web.MockHttpServletResponse$ResponseServletOutputStream@e93196 writer=null contentLength=0 contentType=null bufferSize=4096 committed=false locale=en_US cookies=[] headers=[:] status=200 errorMessage=null redirectedUrl=null forwardedUrl=null includedUrl=null>
+--Output from testHandleLoginInvalidUser--
+handleLogin INVALID_USER_NAME
+User: null
+--Output from testLogout--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testHandleLogin2--
+--Output from testHandleLogin--
+--Output from testHandleLoginInvalidUser--
+--Output from testLogout--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
